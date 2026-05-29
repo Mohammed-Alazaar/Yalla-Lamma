@@ -1,0 +1,25 @@
+{
+  "name": "yalla-lamma",
+  "version": "0.0.0",
+  "private": true,
+  "description": "TriviaParty (Yalla-Lamma) — a web-only, phones-as-controllers trivia party game.",
+  "type": "module",
+  "packageManager": "pnpm@11.5.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel --filter \"./apps/*\" dev",
+    "dev:web": "pnpm --filter @yalla/web dev",
+    "dev:realtime": "pnpm --filter @yalla/realtime dev",
+    "build": "pnpm -r build",
+    "start": "pnpm --parallel --filter \"./apps/*\" start",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "db:generate": "pnpm --filter @yalla/db generate",
+    "db:migrate": "pnpm --filter @yalla/db migrate",
+    "db:seed": "pnpm --filter @yalla/db seed",
+    "db:import": "pnpm --filter @yalla/db import"
+  }
+}

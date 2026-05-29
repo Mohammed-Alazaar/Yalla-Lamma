@@ -1,0 +1,18 @@
+{
+  "name": "@yalla/db",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "generate": "prisma generate",
+    "migrate": "prisma migrate dev",
+    "migrate:deploy": "prisma migrate deploy",
+    "seed": "tsx src/seed.ts",
+    "import": "tsx src/import-csv.ts",
+    "studio": "prisma studio",
+    "typecheck": "tsc --noEmit"
+  }
+}
