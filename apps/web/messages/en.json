@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "title": "TriviaParty",
+    "description": "A web-only trivia party game — phones as controllers, no install."
+  },
+  "nav": {
+    "brand": "TriviaParty"
+  },
+  "landing": {
+    "tagline": "Trivia for your group, in any browser.",
+    "subtitle": "One screen to share, phones as controllers. No app, no account — just a 4-letter code.",
+    "createRoom": "Create Room",
+    "joinRoom": "Join Room",
+    "steps": {
+      "title": "How it works",
+      "one": "Open the game on a shared screen and create a room.",
+      "two": "Everyone scans the QR code or enters the 4-letter code on their phone.",
+      "three": "Answer fast, score big, and crown a winner."
+    }
+  },
+  "footer": {
+    "tagline": "Yalla, lamma — let's gather and play.",
+    "language": "Language"
+  }
+}
