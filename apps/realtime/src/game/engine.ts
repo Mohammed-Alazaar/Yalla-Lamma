@@ -3,7 +3,13 @@
 // unit-tested. The realtime flow layer (flow.ts) wraps these with the room
 // lock, persistence, timers, and broadcasts.
 
-import { scoreAnswer, type Player, type Question, type RoomState } from "@yalla/shared";
+import {
+  ANSWER_GRACE_MS,
+  scoreAnswer,
+  type Player,
+  type Question,
+  type RoomState,
+} from "@yalla/shared";
 
 export type AnswerRejection =
   | "wrong_phase"
@@ -62,7 +68,9 @@ export function recordAnswer(
 
   const elapsed = now - room.currentQuestionStartedAt;
   const timeLimitMs = room.settings.timeLimitSec * 1000;
-  if (elapsed > timeLimitMs) return { accepted: false, reason: "too_late" };
+  // Accept buzzer-beaters within the grace window; the speed bonus is already
+  // clamped to 0 once `elapsed` exceeds the nominal limit.
+  if (elapsed > timeLimitMs + ANSWER_GRACE_MS) return { accepted: false, reason: "too_late" };
 
   const isCorrect = choice === question.correctIdx;
   const pointsEarned = scoreAnswer({

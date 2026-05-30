@@ -87,6 +87,7 @@
     "correctCount": "{correct} of {total} got it right",
     "tapToAnswer": "Tap your answer",
     "answerLabel": "Answer {letter}",
+    "lockAnswer": "Lock answer",
     "lockedIn": "Locked in!",
     "answeredWaiting": "Waiting for the others…",
     "correct": "Correct!",

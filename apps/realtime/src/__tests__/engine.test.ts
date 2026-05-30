@@ -164,11 +164,18 @@ describe("recordAnswer", () => {
     });
   });
 
-  test("answers past the timer are rejected (no points)", () => {
-    const room = started(); // timeLimit 20s
-    const out = recordAnswer(room, "p1", "q1", 0, 20_001);
+  test("answers well past the timer are rejected (no points)", () => {
+    const room = started(); // timeLimit 20s, grace 750ms
+    const out = recordAnswer(room, "p1", "q1", 0, 22_000);
     expect(out).toEqual({ accepted: false, reason: "too_late" });
     expect(room.players.p1!.score).toBe(0);
+  });
+
+  test("a buzzer-beater within the grace window scores base points only", () => {
+    const room = started(); // timeLimit 20s, grace 750ms
+    const out = recordAnswer(room, "p1", "q1", 0, 20_500); // just past the buzzer
+    expect(out).toEqual({ accepted: true, isCorrect: true, pointsEarned: 500 });
+    expect(room.players.p1!.score).toBe(500);
   });
 
   test("unknown players are rejected", () => {

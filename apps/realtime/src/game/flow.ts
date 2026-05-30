@@ -4,6 +4,7 @@
 // timer-vs-early-end race safe.
 
 import {
+  ANSWER_GRACE_MS,
   ERROR_CODES,
   LEADERBOARD_MS,
   RECONNECT_GRACE_MS,
@@ -50,9 +51,13 @@ export function clearAllRoomTimers(): void {
 function autoAdvanceDelay(room: RoomState): number | null {
   switch (room.phase) {
     case "question":
-      // Remaining time from the authoritative start, so a resumed-after-pause
-      // question fires at the correct wall-clock moment (RECON-4).
-      return Math.max(0, room.settings.timeLimitSec * 1000 - (Date.now() - room.currentQuestionStartedAt));
+      // Remaining time (+ grace for last-moment auto-submits) from the
+      // authoritative start, so a resumed-after-pause question still fires at
+      // the correct wall-clock moment (RECON-4).
+      return Math.max(
+        0,
+        room.settings.timeLimitSec * 1000 + ANSWER_GRACE_MS - (Date.now() - room.currentQuestionStartedAt),
+      );
     case "reveal":
       return REVEAL_MS;
     case "leaderboard":

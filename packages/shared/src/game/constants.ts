@@ -36,7 +36,7 @@ export const PLAYER_COLORS = [
 
 /** Configurable game settings options (PRD LOB-3). */
 export const NUM_QUESTIONS_OPTIONS = [5, 10, 15, 20] as const;
-export const TIME_LIMIT_OPTIONS = [10, 20, 30] as const;
+export const TIME_LIMIT_OPTIONS = [10, 20, 30, 60] as const;
 export const CATEGORIES = [
   "General",
   "Science",
@@ -54,5 +54,14 @@ export const REVEAL_MS = 4_000;
 export const BASE_SCORE = 500;
 export const MAX_SPEED_BONUS = 500;
 export const FINAL_QUESTION_MULTIPLIER = 2;
+
+/**
+ * Slack past the nominal time limit during which a late-arriving answer (e.g. a
+ * buzzer-beater auto-submitted by a phone right as its countdown hits 0) is
+ * still accepted with a 0 speed bonus. The server holds the question open this
+ * long before revealing so those submissions land. Covers network latency +
+ * client/server clock skew.
+ */
+export const ANSWER_GRACE_MS = 750;
 
 export type CategoryName = (typeof CATEGORIES)[number];

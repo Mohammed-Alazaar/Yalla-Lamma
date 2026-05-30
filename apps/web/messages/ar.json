@@ -87,6 +87,7 @@
     "correctCount": "أجاب {correct} من {total} إجابة صحيحة",
     "tapToAnswer": "اختر إجابتك",
     "answerLabel": "الإجابة {letter}",
+    "lockAnswer": "ثبّت الإجابة",
     "lockedIn": "تم التثبيت!",
     "answeredWaiting": "في انتظار البقية…",
     "correct": "إجابة صحيحة!",

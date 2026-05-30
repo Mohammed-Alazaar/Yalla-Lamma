@@ -31,10 +31,13 @@ test("two players play a full game to the winner screen", async ({ browser }) =>
   await alice.getByRole("button", { name: /start game/i }).click();
 
   // ── Answer all 5 questions; the game auto-advances between them ───────────
+  // Players pick a choice (by its shape marker) then commit with "Lock answer".
+  // Each click auto-waits for the next question's answer pad to appear.
   for (let i = 0; i < 5; i++) {
-    // Each click auto-waits for the next question's answer pad to appear.
-    await alice.getByRole("button", { name: /answer a/i }).click();
-    await bob.getByRole("button", { name: /answer b/i }).click();
+    await alice.getByRole("button", { name: /▲/ }).click();
+    await alice.getByRole("button", { name: /lock answer/i }).click();
+    await bob.getByRole("button", { name: /◆/ }).click();
+    await bob.getByRole("button", { name: /lock answer/i }).click();
   }
 
   // ── Final screen on the host (winner or a tie) ───────────────────────────
