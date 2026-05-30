@@ -1,36 +1,4342 @@
 [
-  { "text": "ما عاصمة الجزائر؟", "choices": ["الجزائر العاصمة", "وهران", "قسنطينة", "عنابة"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
-  { "text": "ما العملة الرسمية في الجزائر؟", "choices": ["الدينار الجزائري", "الدرهم", "الريال", "الأوقية"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
-  { "text": "ما أكبر دولة أفريقية من حيث المساحة؟", "choices": ["الجزائر", "السودان", "ليبيا", "مصر"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما أشهر طبق جزائري يُحضّر من السميد؟", "choices": ["الكسكس", "المنسف", "الكبسة", "المقلوبة"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
-  { "text": "ما اللغة الرسمية في الجزائر إلى جانب العربية؟", "choices": ["الأمازيغية", "الفرنسية", "الإنجليزية", "الإيطالية"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "كم بلغ عدد ولايات الجزائر بعد تقسيم 2021؟", "choices": ["58", "48", "40", "52"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
-
-  { "text": "في أي عام نالت الجزائر استقلالها عن فرنسا؟", "choices": ["1962", "1956", "1958", "1965"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
-  { "text": "كم سنة دام الاستعمار الفرنسي للجزائر تقريباً؟", "choices": ["132 سنة", "100 سنة", "50 سنة", "80 سنة"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "من القائد الذي قاد المقاومة الجزائرية ضد الفرنسيين في القرن التاسع عشر؟", "choices": ["الأمير عبد القادر", "أحمد بن بلة", "هواري بومدين", "مصالي الحاج"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "في أي عام اندلعت الثورة الجزائرية التحريرية؟", "choices": ["1954", "1945", "1962", "1930"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "من أول رئيس للجزائر بعد الاستقلال؟", "choices": ["أحمد بن بلة", "هواري بومدين", "الشاذلي بن جديد", "عبد العزيز بوتفليقة"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
-  { "text": "ما المدينة التي شهدت مجازر 8 ماي 1945؟", "choices": ["سطيف", "الجزائر العاصمة", "وهران", "قسنطينة"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
-
-  { "text": "ما لقب المنتخب الجزائري لكرة القدم؟", "choices": ["محاربو الصحراء", "الفراعنة", "نسور قرطاج", "أسود الأطلس"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
-  { "text": "في أي عام فاز المنتخب الجزائري بكأس أمم أفريقيا للمرة الثانية؟", "choices": ["2019", "1990", "2004", "2014"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "من اللاعب الجزائري الفائز بدوري أبطال أوروبا مع مانشستر سيتي 2023؟", "choices": ["رياض محرز", "إسلام سليماني", "سفيان فيغولي", "يوسف بلايلي"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "أي منتخب كبير هزمته الجزائر في كأس العالم 1982؟", "choices": ["ألمانيا الغربية", "البرازيل", "إيطاليا", "فرنسا"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
-  { "text": "من توّج بطلاً لكأس العرب «فيفا» 2021؟", "choices": ["الجزائر", "تونس", "مصر", "قطر"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "كم عدد ألقاب الجزائر في كأس أمم أفريقيا؟", "choices": ["2", "1", "3", "4"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
-
-  { "text": "ما النوع الموسيقي الجزائري الشهير عالمياً الذي نشأ في وهران؟", "choices": ["الراي", "المالوف", "المقام", "الموشحات"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
-  { "text": "من الفنان الجزائري الملقّب بـ«ملك الراي»؟", "choices": ["الشاب خالد", "رشيد طه", "الشاب مامي", "فضيل"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما أشهر أغنية للشاب خالد انتشرت عالمياً؟", "choices": ["ديدي", "يا رايح", "زينة", "لمّوني"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "من الكاتب الجزائري صاحب رواية «نجمة»؟", "choices": ["كاتب ياسين", "مولود فرعون", "محمد ديب", "رشيد بوجدرة"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
-  { "text": "من الروائية الجزائرية أول عربية تُنتخب عضواً في الأكاديمية الفرنسية؟", "choices": ["آسيا جبار", "أحلام مستغانمي", "زهور ونيسي", "فضيلة الفاروق"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
-  { "text": "من الكاتبة الجزائرية صاحبة رواية «ذاكرة الجسد»؟", "choices": ["أحلام مستغانمي", "آسيا جبار", "زهور ونيسي", "ربيعة جلطي"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-
-  { "text": "ما أعلى قمة جبلية في الجزائر، وتقع بجبال الهقار؟", "choices": ["جبل تاهات", "جبل توبقال", "جبل الشعانبي", "جبل جرجرة"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
-  { "text": "ما أطول نهر في الجزائر؟", "choices": ["نهر الشلف", "نهر سيق", "نهر مجردة", "نهر سبو"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
-  { "text": "ما المورد الطاقي الذي تشتهر الجزائر بتصديره؟", "choices": ["الغاز الطبيعي", "الفحم", "اليورانيوم", "الذهب"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما أكبر صحراء حارّة في العالم وتغطي جنوب الجزائر؟", "choices": ["الصحراء الكبرى", "صحراء كالاهاري", "صحراء أتاكاما", "صحراء ثار"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
-  { "text": "ما سلسلة الجبال التي تمتد عبر شمال الجزائر؟", "choices": ["أطلس التل", "جبال الألب", "جبال الهملايا", "جبال الأنديز"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
-  { "text": "في أي قارة تقع الجزائر؟", "choices": ["أفريقيا", "آسيا", "أوروبا", "أمريكا الجنوبية"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "easy", "locale": "ar" }
+  {
+    "text": "ما عاصمة الجزائر؟",
+    "choices": [
+      "الجزائر العاصمة",
+      "وهران",
+      "قسنطينة",
+      "عنابة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما العملة الرسمية في الجزائر؟",
+    "choices": [
+      "الدينار الجزائري",
+      "الدرهم",
+      "الريال",
+      "الأوقية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أكبر دولة أفريقية من حيث المساحة؟",
+    "choices": [
+      "الجزائر",
+      "السودان",
+      "ليبيا",
+      "مصر"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أشهر طبق جزائري يُحضّر من السميد؟",
+    "choices": [
+      "الكسكس",
+      "المنسف",
+      "الكبسة",
+      "المقلوبة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اللغة الرسمية في الجزائر إلى جانب العربية؟",
+    "choices": [
+      "الأمازيغية",
+      "الفرنسية",
+      "الإنجليزية",
+      "الإيطالية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم بلغ عدد ولايات الجزائر بعد تقسيم 2021؟",
+    "choices": [
+      "58",
+      "48",
+      "40",
+      "52"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام نالت الجزائر استقلالها عن فرنسا؟",
+    "choices": [
+      "1962",
+      "1956",
+      "1958",
+      "1965"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "كم سنة دام الاستعمار الفرنسي للجزائر تقريباً؟",
+    "choices": [
+      "132 سنة",
+      "100 سنة",
+      "50 سنة",
+      "80 سنة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من القائد الذي قاد المقاومة الجزائرية ضد الفرنسيين في القرن التاسع عشر؟",
+    "choices": [
+      "الأمير عبد القادر",
+      "أحمد بن بلة",
+      "هواري بومدين",
+      "مصالي الحاج"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام اندلعت الثورة الجزائرية التحريرية؟",
+    "choices": [
+      "1954",
+      "1945",
+      "1962",
+      "1930"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من أول رئيس للجزائر بعد الاستقلال؟",
+    "choices": [
+      "أحمد بن بلة",
+      "هواري بومدين",
+      "الشاذلي بن جديد",
+      "عبد العزيز بوتفليقة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة التي شهدت مجازر 8 ماي 1945؟",
+    "choices": [
+      "سطيف",
+      "الجزائر العاصمة",
+      "وهران",
+      "قسنطينة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما لقب المنتخب الجزائري لكرة القدم؟",
+    "choices": [
+      "محاربو الصحراء",
+      "الفراعنة",
+      "نسور قرطاج",
+      "أسود الأطلس"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام فاز المنتخب الجزائري بكأس أمم أفريقيا للمرة الثانية؟",
+    "choices": [
+      "2019",
+      "1990",
+      "2004",
+      "2014"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من اللاعب الجزائري الفائز بدوري أبطال أوروبا مع مانشستر سيتي 2023؟",
+    "choices": [
+      "رياض محرز",
+      "إسلام سليماني",
+      "سفيان فيغولي",
+      "يوسف بلايلي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي منتخب كبير هزمته الجزائر في كأس العالم 1982؟",
+    "choices": [
+      "ألمانيا الغربية",
+      "البرازيل",
+      "إيطاليا",
+      "فرنسا"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من توّج بطلاً لكأس العرب «فيفا» 2021؟",
+    "choices": [
+      "الجزائر",
+      "تونس",
+      "مصر",
+      "قطر"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد ألقاب الجزائر في كأس أمم أفريقيا؟",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النوع الموسيقي الجزائري الشهير عالمياً الذي نشأ في وهران؟",
+    "choices": [
+      "الراي",
+      "المالوف",
+      "المقام",
+      "الموشحات"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من الفنان الجزائري الملقّب بـ«ملك الراي»؟",
+    "choices": [
+      "الشاب خالد",
+      "رشيد طه",
+      "الشاب مامي",
+      "فضيل"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أشهر أغنية للشاب خالد انتشرت عالمياً؟",
+    "choices": [
+      "ديدي",
+      "يا رايح",
+      "زينة",
+      "لمّوني"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من الكاتب الجزائري صاحب رواية «نجمة»؟",
+    "choices": [
+      "كاتب ياسين",
+      "مولود فرعون",
+      "محمد ديب",
+      "رشيد بوجدرة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من الروائية الجزائرية أول عربية تُنتخب عضواً في الأكاديمية الفرنسية؟",
+    "choices": [
+      "آسيا جبار",
+      "أحلام مستغانمي",
+      "زهور ونيسي",
+      "فضيلة الفاروق"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من الكاتبة الجزائرية صاحبة رواية «ذاكرة الجسد»؟",
+    "choices": [
+      "أحلام مستغانمي",
+      "آسيا جبار",
+      "زهور ونيسي",
+      "ربيعة جلطي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أعلى قمة جبلية في الجزائر، وتقع بجبال الهقار؟",
+    "choices": [
+      "جبل تاهات",
+      "جبل توبقال",
+      "جبل الشعانبي",
+      "جبل جرجرة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أطول نهر في الجزائر؟",
+    "choices": [
+      "نهر الشلف",
+      "نهر سيق",
+      "نهر مجردة",
+      "نهر سبو"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المورد الطاقي الذي تشتهر الجزائر بتصديره؟",
+    "choices": [
+      "الغاز الطبيعي",
+      "الفحم",
+      "اليورانيوم",
+      "الذهب"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أكبر صحراء حارّة في العالم وتغطي جنوب الجزائر؟",
+    "choices": [
+      "الصحراء الكبرى",
+      "صحراء كالاهاري",
+      "صحراء أتاكاما",
+      "صحراء ثار"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما سلسلة الجبال التي تمتد عبر شمال الجزائر؟",
+    "choices": [
+      "أطلس التل",
+      "جبال الألب",
+      "جبال الهملايا",
+      "جبال الأنديز"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي قارة تقع الجزائر؟",
+    "choices": [
+      "أفريقيا",
+      "آسيا",
+      "أوروبا",
+      "أمريكا الجنوبية"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي العاصمة الرسمية لدولة الجزائر؟",
+    "choices": [
+      "الجزائر العاصمة",
+      "وهران",
+      "قسنطينة",
+      "عنابة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي العملة الرسمية المتداولة في الجزائر؟",
+    "choices": [
+      "الدينار الجزائري",
+      "الدرهم",
+      "الدينار التونسي",
+      "الجنيه"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي قارة تقع دولة الجزائر؟",
+    "choices": [
+      "إفريقيا",
+      "آسيا",
+      "أوروبا",
+      "أمريكا الجنوبية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو البحر الذي يطل عليه الساحل الشمالي للجزائر؟",
+    "choices": [
+      "البحر الأبيض المتوسط",
+      "البحر الأحمر",
+      "المحيط الأطلسي",
+      "بحر العرب"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "تُعدّ الجزائر أكبر دولة من حيث المساحة في أي منطقة؟",
+    "choices": [
+      "إفريقيا",
+      "أوروبا",
+      "الشرق الأوسط فقط",
+      "أمريكا الشمالية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرمزان الموجودان في وسط العلم الجزائري؟",
+    "choices": [
+      "الهلال والنجمة",
+      "الشمس والنجمة",
+      "السيف والميزان",
+      "النخلة والنجمة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما لون الهلال والنجمة في العلم الجزائري؟",
+    "choices": [
+      "الأحمر",
+      "الأخضر",
+      "الأزرق",
+      "الأصفر"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اللونان اللذان يتكوّن منهما الخلفية المستطيلة للعلم الجزائري؟",
+    "choices": [
+      "الأخضر والأبيض",
+      "الأحمر والأبيض",
+      "الأخضر والأحمر",
+      "الأزرق والأبيض"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الطبق الشعبي المشهور في الجزائر والمكوّن أساساً من السميد؟",
+    "choices": [
+      "الكسكس",
+      "البيتزا",
+      "السوشي",
+      "الفلافل"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الصحراء الكبرى التي يقع فيها الجزء الجنوبي الأكبر من الجزائر؟",
+    "choices": [
+      "الصحراء الكبرى",
+      "صحراء كالاهاري",
+      "صحراء النقب",
+      "الصحراء العربية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي من المدن التالية تُعدّ ثاني أكبر مدينة جزائرية وميناءً مهماً غرب البلاد؟",
+    "choices": [
+      "وهران",
+      "تمنراست",
+      "بسكرة",
+      "الوادي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم سلسلة الجبال التي تمتد في شمال الجزائر بمحاذاة الساحل؟",
+    "choices": [
+      "جبال الأطلس",
+      "جبال الألب",
+      "جبال زاغروس",
+      "جبال الهيمالايا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي اللغة الرسمية الأولى في الجزائر؟",
+    "choices": [
+      "العربية",
+      "الفرنسية",
+      "الإنجليزية",
+      "الإسبانية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "إلى جانب العربية، أي لغة أصبحت لغة وطنية ورسمية في الجزائر؟",
+    "choices": [
+      "الأمازيغية",
+      "الإيطالية",
+      "التركية",
+      "البرتغالية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أعلى قمة جبلية في الجزائر والواقعة في الهقار جنوباً؟",
+    "choices": [
+      "جبل تاهات",
+      "جبل طارق",
+      "قمة توبقال",
+      "جبل الشعانبي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الدولة التي تشترك مع الجزائر في حدود برية من جهة الغرب؟",
+    "choices": [
+      "المغرب",
+      "مصر",
+      "ليبيا",
+      "النيجر"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي دولة تقع شرق الجزائر مباشرةً وتشترك معها في الحدود؟",
+    "choices": [
+      "تونس",
+      "المغرب",
+      "موريتانيا",
+      "مالي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الجزائرية المعروفة بجسورها المعلّقة وتُلقَّب بمدينة الجسور؟",
+    "choices": [
+      "قسنطينة",
+      "وهران",
+      "عنابة",
+      "سطيف"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الطبق الجزائري المكوّن من عجين رقيق محشو ومطوي ويُقلى أو يُخبز؟",
+    "choices": [
+      "البوراك",
+      "الكنافة",
+      "السمبوسك الهندي",
+      "التاكو"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحلوى الجزائرية الشهيرة المصنوعة من اللوز والعسل وتُقدَّم في الأعياد؟",
+    "choices": [
+      "البقلاوة",
+      "التيراميسو",
+      "المهلبية فقط",
+      "الكريم كراميل"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع نظام الحكم في الجزائر؟",
+    "choices": [
+      "جمهوري",
+      "ملكي",
+      "إمبراطوري",
+      "قبلي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المورد الطبيعي الذي يُعدّ من أهم صادرات الجزائر الاقتصادية؟",
+    "choices": [
+      "النفط والغاز",
+      "الذهب",
+      "الماس",
+      "البن"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الساحلية الواقعة في أقصى شرق الجزائر والمعروفة بميناء مهم؟",
+    "choices": [
+      "عنابة",
+      "تلمسان",
+      "الأغواط",
+      "غرداية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النبتة الشائعة في الواحات الصحراوية الجزائرية والتي تُنتج التمر؟",
+    "choices": [
+      "النخيل",
+      "الزيتون",
+      "التفاح",
+      "الكرز"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الجزائرية الواقعة في وادي ميزاب وتشتهر بعمارتها المميزة وأُدرجت في التراث العالمي؟",
+    "choices": [
+      "غرداية",
+      "البليدة",
+      "المدية",
+      "تيارت"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أكبر مدينة في جنوب الجزائر وبوابة الصحراء نحو الهقار؟",
+    "choices": [
+      "تمنراست",
+      "معسكر",
+      "الشلف",
+      "جيجل"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المشروب الساخن الأكثر ارتباطاً بالضيافة والمجالس في الجزائر؟",
+    "choices": [
+      "القهوة والشاي",
+      "الكاكاو فقط",
+      "عصير البرتقال",
+      "الحليب المكثّف"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرياضة الأكثر شعبية في الجزائر؟",
+    "choices": [
+      "كرة القدم",
+      "الكريكيت",
+      "الهوكي على الجليد",
+      "البيسبول"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الطبق الجزائري المكوّن من حساء غني بالطماطم والحمص يُقدَّم خاصةً في رمضان؟",
+    "choices": [
+      "الحريرة (الشربة)",
+      "الملوخية",
+      "المنسف",
+      "الكبسة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما العاصمة التاريخية للدولة الرستمية والمدينة الجزائرية القريبة من الحدود المغربية والمعروفة بآثارها الأندلسية؟",
+    "choices": [
+      "تلمسان",
+      "البويرة",
+      "خنشلة",
+      "تبسة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنطقة الجبلية الجزائرية المعروفة بكثافة سكانها الأمازيغ وتقع شرق العاصمة؟",
+    "choices": [
+      "منطقة القبائل",
+      "الهقار",
+      "الطاسيلي",
+      "وادي سوف"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحديقة الوطنية الصحراوية في جنوب الجزائر المشهورة بنقوشها الصخرية وأُدرجت في التراث العالمي؟",
+    "choices": [
+      "الطاسيلي ناجر",
+      "حديقة سيرينغيتي",
+      "حديقة كروجر",
+      "حديقة يلوستون"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو الدين الرسمي للدولة في الجزائر؟",
+    "choices": [
+      "الإسلام",
+      "المسيحية",
+      "اليهودية",
+      "البوذية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي من هذه المدن الجزائرية تقع على الهضاب العليا وتشتهر بمناخها البارد وثلوجها شتاءً؟",
+    "choices": [
+      "سطيف",
+      "مستغانم",
+      "القالة",
+      "تيزي وزو"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الطبق الجزائري المكوّن من قطع لحم أو دجاج مع البطاطس والزيتون في صلصة، ويُعدّ من المطبخ التقليدي؟",
+    "choices": [
+      "الطاجين",
+      "البايلا",
+      "الريزوتو",
+      "الغولاش"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الاسم الرسمي الكامل لدولة الجزائر؟",
+    "choices": [
+      "الجمهورية الجزائرية الديمقراطية الشعبية",
+      "المملكة الجزائرية",
+      "الإمارة الجزائرية",
+      "الاتحاد الجزائري"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي من هذه الأنهار يُعدّ من أطول الأنهار في الجزائر ويصبّ في البحر المتوسط؟",
+    "choices": [
+      "وادي الشلف",
+      "نهر النيل",
+      "نهر دجلة",
+      "نهر السنغال"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الخبز التقليدي الجزائري المسطّح الذي يُخبز غالباً على الصاج؟",
+    "choices": [
+      "المطلوع",
+      "الباغيت",
+      "التورتيلا",
+      "النان"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الجزائرية الواقعة في الجنوب الشرقي والمشهورة بكثبانها الرملية الذهبية وتُلقَّب بمدينة الألف قبة؟",
+    "choices": [
+      "الوادي",
+      "البيّض",
+      "النعامة",
+      "أدرار"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اللون الذي يميّز الجانب المرتبط بالنقاء والسلام في خلفية العلم الجزائري؟",
+    "choices": [
+      "الأبيض",
+      "الأسود",
+      "البنفسجي",
+      "البرتقالي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي من هذه الأطباق حلوى جزائرية مقلية تُغمس بالعسل وتُعدّ خاصةً في الأعراس والأعياد؟",
+    "choices": [
+      "المقروط",
+      "الدونات الأمريكية",
+      "التشوروس",
+      "البان كيك"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الزيّ التقليدي النسائي الجزائري المعروف خاصةً في العاصمة والمصنوع من قماش حريري مزركش؟",
+    "choices": [
+      "الكاراكو",
+      "الساري",
+      "الكيمونو",
+      "التنورة الاسكتلندية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما العملة الفرعية (الجزء الأصغر) من الدينار الجزائري؟",
+    "choices": [
+      "السنتيم",
+      "القرش",
+      "الهللة",
+      "الفلس"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي من هذه المدن الجزائرية مشهورة بإنتاج التمور خاصةً صنف دقلة نور في الجنوب؟",
+    "choices": [
+      "بسكرة",
+      "جيجل",
+      "تيبازة",
+      "الطارف"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الجزائرية الساحلية الواقعة غرب العاصمة والمعروفة بآثارها الرومانية المدرجة في التراث العالمي؟",
+    "choices": [
+      "تيبازة",
+      "باتنة",
+      "سعيدة",
+      "الجلفة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الموقع الأثري الروماني الشهير في شرق الجزائر والمعروف بأطلاله المحفوظة جيداً؟",
+    "choices": [
+      "تيمقاد",
+      "قرطاج",
+      "بعلبك",
+      "البتراء"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البحيرة المالحة (الشط) الكبيرة في شرق الجزائر قرب بسكرة وتعدّ من أكبر السبخات؟",
+    "choices": [
+      "شط ملغيغ",
+      "بحيرة فيكتوريا",
+      "بحيرة طبرية",
+      "البحيرة المرّة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي من هذه الألوان غير موجود في العلم الوطني الجزائري؟",
+    "choices": [
+      "الأزرق",
+      "الأخضر",
+      "الأبيض",
+      "الأحمر"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العملة الورقية والمعدنية الرسمية التي يصدرها بنك الجزائر؟",
+    "choices": [
+      "الدينار الجزائري",
+      "اليورو",
+      "الدولار",
+      "الريال"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الجزائرية الواقعة على الهضاب وتُعدّ مركزاً مهماً قرب جبال الأوراس وتشتهر بطبيعتها الجبلية؟",
+    "choices": [
+      "باتنة",
+      "الشلف",
+      "غليزان",
+      "تيارت"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الطبق الجزائري الحلو المكوّن من كسكس بالتمر أو السكر والزبدة ويُقدَّم أحياناً للعشاء؟",
+    "choices": [
+      "المسفوف",
+      "الجلاتو",
+      "الموس",
+      "البودينغ"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "كم تقريباً عدد الولايات (المقاطعات الإدارية) في الجزائر بعد التقسيم الإداري الحديث؟",
+    "choices": [
+      "ثمان وخمسون ولاية",
+      "عشر ولايات",
+      "خمس عشرة ولاية",
+      "مئة ولاية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو أعلى قمة جبلية في الجزائر؟",
+    "choices": [
+      "جبل تاهات",
+      "جبل لالة خديجة",
+      "جبل الشعانبي",
+      "جبل شيليا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي سلسلة جبلية تقع قمة جبل تاهات أعلى قمة في الجزائر؟",
+    "choices": [
+      "جبال الأهقار (الهقار)",
+      "جبال الأطلس التلي",
+      "جبال جرجرة",
+      "جبال الأوراس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو أطول نهر في الجزائر؟",
+    "choices": [
+      "وادي الشلف",
+      "وادي سوف",
+      "وادي ريغ",
+      "وادي الصومام"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي الصحراء الكبرى التي تغطي معظم مساحة الجزائر؟",
+    "choices": [
+      "الصحراء الكبرى الإفريقية",
+      "صحراء كالاهاري",
+      "صحراء النفود",
+      "صحراء ناميب"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو المورد الطبيعي الأبرز الذي تشتهر الجزائر بتصديره؟",
+    "choices": [
+      "الغاز الطبيعي والنفط",
+      "الذهب",
+      "الفحم الحجري",
+      "اليورانيوم"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "على ضفاف أي بحر تقع السواحل الشمالية للجزائر؟",
+    "choices": [
+      "البحر الأبيض المتوسط",
+      "البحر الأحمر",
+      "المحيط الأطلسي",
+      "الخليج العربي"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السلسلة الجبلية الشمالية الممتدة بمحاذاة الساحل في الجزائر؟",
+    "choices": [
+      "الأطلس التلي",
+      "الأطلس الصحراوي",
+      "جبال الهقار",
+      "جبال الطاسيلي"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي من المناطق التالية يُعرف بهضبة صحراوية ذات تشكيلات صخرية ورسوم صخرية أثرية في جنوب الجزائر؟",
+    "choices": [
+      "الطاسيلي ناجر",
+      "سهل متيجة",
+      "هضبة سطيف",
+      "سهل عنابة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع المناخ السائد في المناطق الساحلية الشمالية للجزائر؟",
+    "choices": [
+      "مناخ البحر الأبيض المتوسط",
+      "مناخ استوائي",
+      "مناخ قطبي",
+      "مناخ موسمي"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الرياح الحارة الجافة المحمَّلة بالغبار التي تهب من الصحراء نحو شمال الجزائر؟",
+    "choices": [
+      "السيروكو",
+      "الخماسين",
+      "الهبوب",
+      "المسترال"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم تبلغ مساحة الجزائر تقريباً مما يجعلها أكبر دولة إفريقية؟",
+    "choices": [
+      "نحو 2.38 مليون كم²",
+      "نحو 1.0 مليون كم²",
+      "نحو 3.5 مليون كم²",
+      "نحو 800 ألف كم²"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما ترتيب الجزائر من حيث المساحة بين دول العالم؟",
+    "choices": [
+      "العاشرة عالمياً",
+      "الأولى عالمياً",
+      "الخامسة والعشرون عالمياً",
+      "الثلاثون عالمياً"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أعلى قمة في سلسلة جبال جرجرة بمنطقة القبائل؟",
+    "choices": [
+      "لالة خديجة",
+      "تاهات",
+      "الشعانبي",
+      "شيليا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي سلسلة جبلية تقع قمة جبل الشعانبي أعلى قمة في الأطلس التلي الشرقي؟",
+    "choices": [
+      "جبال الأوراس",
+      "جبال جرجرة",
+      "جبال الهقار",
+      "جبال الونشريس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحقل الغازي العملاق الشهير في جنوب شرق الجزائر؟",
+    "choices": [
+      "حاسي الرمل",
+      "حقل الغوار",
+      "حقل برقان",
+      "حقل الشيبة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحقل النفطي الكبير الواقع في الصحراء الجزائرية؟",
+    "choices": [
+      "حاسي مسعود",
+      "حاسي الرمل",
+      "عين صالح",
+      "تين فوي"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أكبر شط (بحيرة ملحية) في الجزائر ويقع تحت مستوى سطح البحر؟",
+    "choices": [
+      "شط ملغيغ",
+      "شط الحضنة",
+      "شط الشرقي",
+      "سبخة وهران"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعدن الذي يُستخرج بكميات كبيرة من منجم غار جبيلات بولاية تندوف؟",
+    "choices": [
+      "الحديد",
+      "الذهب",
+      "الفوسفات",
+      "النحاس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المادة الخام التي يُعرف منجم جبل العنق بولاية تبسة باحتوائه عليها بوفرة؟",
+    "choices": [
+      "الفوسفات",
+      "الذهب",
+      "البوكسيت",
+      "القصدير"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أكبر مدينة وميناء في الغرب الجزائري على البحر المتوسط؟",
+    "choices": [
+      "وهران",
+      "عنابة",
+      "سكيكدة",
+      "جيجل"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي من المناطق التالية يقع في أقصى جنوب الجزائر وتشتهر بمناخها الصحراوي القاسي ومرتفعات بركانية؟",
+    "choices": [
+      "تمنراست",
+      "تيزي وزو",
+      "البليدة",
+      "تيبازة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع التضاريس الذي يميّز عرق الشاش وعرق إقيدي في الصحراء الجزائرية؟",
+    "choices": [
+      "كثبان رملية",
+      "سلاسل جبلية",
+      "سهول ساحلية",
+      "هضاب جليدية"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النطاق المرتفع الواقع بين الأطلس التلي والأطلس الصحراوي ويتسم بمناخ شبه جاف؟",
+    "choices": [
+      "الهضاب العليا",
+      "سهل متيجة",
+      "السهل الساحلي",
+      "حوض الشلف"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الظاهرة المناخية الشائعة في الهضاب العليا الجزائرية شتاءً؟",
+    "choices": [
+      "تساقط الثلوج والصقيع",
+      "الرطوبة الاستوائية",
+      "الأعاصير المدارية",
+      "الرياح الموسمية الماطرة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السد الكبير على وادي الشلف الذي يُعد من أكبر السدود في الجزائر؟",
+    "choices": [
+      "سد بني هارون",
+      "سد أسوان",
+      "سد النهضة",
+      "سد تابلة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي ولاية يقع سد بني هارون أكبر سد في الجزائر؟",
+    "choices": [
+      "ميلة",
+      "الجزائر العاصمة",
+      "بشار",
+      "ورقلة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الواحة الصحراوية الشهيرة جنوب الجزائر التي تُعرف بنخيلها وقصورها العتيقة؟",
+    "choices": [
+      "تيميمون",
+      "تيبازة",
+      "عنابة",
+      "شرشال"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المحصول الزراعي الأبرز في واحات الصحراء الجزائرية مثل بسكرة وورقلة؟",
+    "choices": [
+      "التمور",
+      "الأرز",
+      "الشاي",
+      "قصب السكر"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم نوع التمور الفاخر الذي تشتهر به منطقة بسكرة في الجزائر؟",
+    "choices": [
+      "دقلة نور",
+      "المجهول",
+      "الخلاص",
+      "البرحي"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو الحيوان البري المهدد بالانقراض الذي يعيش في مرتفعات الهقار وجبال الطاسيلي بالجزائر؟",
+    "choices": [
+      "الفهد الصحراوي",
+      "الباندا",
+      "النمر السيبيري",
+      "الكنغر"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع الغطاء النباتي الذي تشتهر به غابات منطقة القبائل الجبلية في الجزائر؟",
+    "choices": [
+      "غابات البلوط والأرز",
+      "غابات النخيل",
+      "غابات المانغروف",
+      "الغابات الاستوائية المطيرة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البوابة الصحراوية الشهيرة جنوب الجزائر التي تُعد مدخلاً نحو إفريقيا جنوب الصحراء؟",
+    "choices": [
+      "عين صالح",
+      "شرشال",
+      "دلس",
+      "القل"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الظاهرة البيئية التي تسعى الجزائر لمكافحتها عبر مشروع السد الأخضر منذ السبعينيات؟",
+    "choices": [
+      "التصحر وزحف الرمال",
+      "ارتفاع منسوب البحر",
+      "التلوث النووي",
+      "ذوبان الأنهار الجليدية"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الهدف الرئيس من مشروع السد الأخضر في الجزائر؟",
+    "choices": [
+      "إيقاف زحف الصحراء بزراعة حزام شجري",
+      "توليد الكهرباء المائية",
+      "تخزين مياه الشرب",
+      "استخراج الغاز"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أعلى قمة في الأطلس الصحراوي بالجزائر تقع ضمن جبال أولاد نايل والزاب؟",
+    "choices": [
+      "جبل عيسى",
+      "جبل تاهات",
+      "جبل لالة خديجة",
+      "جبل الشعانبي"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النوع الصخري البركاني الذي تتكوّن منه قمم الهقار العالية في الجزائر؟",
+    "choices": [
+      "صخور بركانية نارية",
+      "صخور رملية رسوبية",
+      "صخور جيرية بحرية",
+      "صخور جليدية متحوّلة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السهل الزراعي الخصب الواقع جنوب العاصمة الجزائرية ويُعد من أهم المناطق الفلاحية؟",
+    "choices": [
+      "سهل متيجة",
+      "سهل عنابة",
+      "سهل وهران",
+      "سهل بسكرة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو الخط الفلكي المداري الذي يمرّ تقريباً بجنوب الجزائر؟",
+    "choices": [
+      "مدار السرطان",
+      "مدار الجدي",
+      "خط الاستواء",
+      "الدائرة القطبية الشمالية"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الموسم الذي تسجَّل فيه أعلى درجات الحرارة في الصحراء الجزائرية متجاوزةً 45 درجة مئوية؟",
+    "choices": [
+      "الصيف",
+      "الشتاء",
+      "الخريف",
+      "نهاية الشتاء"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الوادي الموسمي الكبير الذي يصبّ في حوض شط ملغيغ بشرق الصحراء الجزائرية؟",
+    "choices": [
+      "وادي ريغ",
+      "وادي الصومام",
+      "وادي الشلف",
+      "وادي سيبوس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المحمية الطبيعية الجبلية الواقعة شرق الجزائر والمصنفة محمية محيط حيوي لدى اليونسكو وتشتهر بأشجار الأرز؟",
+    "choices": [
+      "محمية بلزمة",
+      "محمية تازا",
+      "محمية القالة",
+      "محمية القنطرة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع الأشجار النادر المهدد الذي يميّز غابات الأرز في جبال الأوراس والبابور بالجزائر؟",
+    "choices": [
+      "الأرز الأطلسي",
+      "أرز لبنان",
+      "الصنوبر الإسكندنافي",
+      "البتولا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنطقة الساحلية الشرقية المشهورة بمحميتها البحرية وغاباتها وبحيراتها قرب الحدود التونسية؟",
+    "choices": [
+      "القالة",
+      "تيبازة",
+      "شرشال",
+      "تنس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النهر الذي يمرّ بمدينة قسنطينة محدثاً أخاديد عميقة تشتهر بها المدينة؟",
+    "choices": [
+      "وادي الرمال",
+      "وادي الشلف",
+      "وادي سوف",
+      "وادي مينا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الظاهرة الجغرافية التي تشتهر بها مدينة قسنطينة؟",
+    "choices": [
+      "الجسور المعلقة فوق الأخاديد",
+      "الشلالات الجليدية",
+      "البراكين النشطة",
+      "الصحارى الرملية"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع الطاقة المتجددة الذي تمتلك الجزائر إمكانات هائلة فيه بسبب اتساع صحرائها؟",
+    "choices": [
+      "الطاقة الشمسية",
+      "الطاقة الكهرومائية",
+      "طاقة المد والجزر",
+      "الطاقة الجوفية الحرارية"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "بماذا تشتهر منطقة الطاسيلي ناجر عالمياً وأُدرجت لأجله ضمن قائمة التراث العالمي لليونسكو؟",
+    "choices": [
+      "الرسوم والنقوش الصخرية ما قبل التاريخ",
+      "أكبر مفاعل نووي إفريقي",
+      "أعلى شلال في العالم",
+      "أكبر حقل نفطي في إفريقيا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعدن النفيس الذي يُستخرج من منجم تيرك في أقصى جنوب الجزائر بمنطقة الهقار؟",
+    "choices": [
+      "الذهب",
+      "الفضة",
+      "الزنك",
+      "الكروم"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السلسلة الجبلية الواقعة غرب الجزائر بين تيارت وغليزان والمعروفة بكثافة غاباتها سابقاً؟",
+    "choices": [
+      "جبال الونشريس",
+      "جبال الأوراس",
+      "جبال الهقار",
+      "جبال البابور"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع التربة الزراعية الخصبة السائدة في سهل متيجة شمال الجزائر؟",
+    "choices": [
+      "تربة طينية رسوبية",
+      "تربة رملية صحراوية",
+      "تربة بركانية سوداء",
+      "تربة جبلية صخرية"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم عالم الفلك الجزائري المعاصر المتخصص في الفيزياء الفلكية والمعروف بكتاباته عن الكون والإسلام؟",
+    "choices": [
+      "نضال قسوم",
+      "أحمد زويل",
+      "فاروق الباز",
+      "علي مصطفى مشرفة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الإقليم النباتي الذي يميّز شمال الجزائر بأشجار الزيتون والبلوط الفليني والصنوبر الحلبي؟",
+    "choices": [
+      "إقليم البحر المتوسط",
+      "الإقليم الاستوائي",
+      "الإقليم القطبي",
+      "الإقليم المداري الموسمي"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أكبر صحراء رملية (عرق) في الجزائر تقع في الجنوب الغربي؟",
+    "choices": [
+      "العرق الغربي الكبير",
+      "صحراء النفود",
+      "الربع الخالي",
+      "صحراء تنيري"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي يوم وشهر يُحتفل بعيد استقلال الجزائر؟",
+    "choices": [
+      "5 يوليو",
+      "1 نوفمبر",
+      "19 مارس",
+      "8 مايو"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي تاريخ اندلعت الثورة الجزائرية ضد الاستعمار الفرنسي؟",
+    "choices": [
+      "1 نوفمبر 1954",
+      "5 يوليو 1962",
+      "8 مايو 1945",
+      "19 مارس 1962"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم سنة دام الاحتلال الفرنسي للجزائر تقريباً؟",
+    "choices": [
+      "132 سنة",
+      "100 سنة",
+      "75 سنة",
+      "150 سنة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام بدأ الاحتلال الفرنسي للجزائر؟",
+    "choices": [
+      "1830",
+      "1848",
+      "1871",
+      "1900"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو أول رئيس للجمهورية الجزائرية بعد الاستقلال؟",
+    "choices": [
+      "أحمد بن بلة",
+      "هواري بومدين",
+      "الشاذلي بن جديد",
+      "فرحات عباس"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو القائد الذي قاد المقاومة الجزائرية ضد الفرنسيين في القرن التاسع عشر وأسس الدولة الجزائرية الحديثة؟",
+    "choices": [
+      "الأمير عبد القادر",
+      "أحمد باي",
+      "المقراني",
+      "الشيخ بوعمامة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الاتفاقيات التي أنهت الحرب الجزائرية ومهدت للاستقلال عام 1962؟",
+    "choices": [
+      "اتفاقيات إيفيان",
+      "اتفاقيات الجزائر",
+      "اتفاقيات وهران",
+      "اتفاقيات باريس"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم جبهة التحرير التي قادت الثورة الجزائرية ضد الاستعمار؟",
+    "choices": [
+      "جبهة التحرير الوطني",
+      "الجبهة الشعبية",
+      "جبهة الإنقاذ",
+      "الجبهة الديمقراطية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة وقعت مجزرة الثامن من مايو 1945 الشهيرة؟",
+    "choices": [
+      "سطيف",
+      "الجزائر العاصمة",
+      "وهران",
+      "قسنطينة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العاصمة السياسية للجزائر؟",
+    "choices": [
+      "الجزائر",
+      "وهران",
+      "قسنطينة",
+      "عنابة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الرئيس الجزائري الذي حكم البلاد من عام 1965 إلى 1978؟",
+    "choices": [
+      "هواري بومدين",
+      "أحمد بن بلة",
+      "الشاذلي بن جديد",
+      "اليامين زروال"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المعركة الشهيرة التي خاضها الجزائريون في العاصمة عام 1957 ضد الجيش الفرنسي؟",
+    "choices": [
+      "معركة الجزائر",
+      "معركة سطيف",
+      "معركة وهران",
+      "معركة الأوراس"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هي المناضلة الجزائرية الشهيرة التي شاركت في معركة الجزائر ووضعت القنابل ضد الاستعمار؟",
+    "choices": [
+      "جميلة بوحيرد",
+      "حسيبة بن بوعلي",
+      "جميلة بوباشا",
+      "فاطمة نسومر"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم القبيلة أو الشعوب الأصلية التي سكنت شمال إفريقيا بما فيها الجزائر منذ القدم؟",
+    "choices": [
+      "الأمازيغ",
+      "الفينيقيون",
+      "الإغريق",
+      "القوط"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الزعيم الأمازيغي الذي قاوم الرومان وأسس مملكة نوميديا الموحدة؟",
+    "choices": [
+      "ماسينيسا",
+      "يوغرطة",
+      "يوبا الثاني",
+      "تاكفاريناس"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المملكة الأمازيغية القديمة التي قامت في أراضي الجزائر الحالية؟",
+    "choices": [
+      "نوميديا",
+      "قرطاج",
+      "موريتانيا الطنجية",
+      "صبراتة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الملك النوميدي الذي خاض حرباً طويلة ضد الرومان وأُسر في النهاية؟",
+    "choices": [
+      "يوغرطة",
+      "ماسينيسا",
+      "يوبا الأول",
+      "صيفاقس"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الدولة التي حكمت الجزائر قبل الاحتلال الفرنسي والتي كانت تابعة اسمياً للدولة العثمانية؟",
+    "choices": [
+      "إيالة الجزائر",
+      "الدولة الزيانية",
+      "الدولة الحمادية",
+      "الدولة الرستمية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحادثة التي اتخذها الفرنسيون ذريعة لاحتلال الجزائر عام 1830؟",
+    "choices": [
+      "حادثة المروحة",
+      "حادثة الميناء",
+      "حادثة القنصل",
+      "حادثة السفينة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هي البطلة الأمازيغية التي قاومت الاحتلال الفرنسي في منطقة القبائل في القرن التاسع عشر؟",
+    "choices": [
+      "لالة فاطمة نسومر",
+      "جميلة بوحيرد",
+      "حسيبة بن بوعلي",
+      "الكاهنة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هي الملكة الأمازيغية التي قاومت الفتح الإسلامي في شمال إفريقيا؟",
+    "choices": [
+      "الكاهنة",
+      "لالة فاطمة نسومر",
+      "ديهيا الصغرى",
+      "تين هينان"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الدولة الإسلامية التي أسسها عبد الرحمن بن رستم وعاصمتها تيهرت في الجزائر؟",
+    "choices": [
+      "الدولة الرستمية",
+      "الدولة الزيانية",
+      "الدولة الحمادية",
+      "الدولة الموحدية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الجزائرية التي كانت عاصمة الدولة الزيانية؟",
+    "choices": [
+      "تلمسان",
+      "بجاية",
+      "قسنطينة",
+      "تيهرت"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد المليون شهيد الذي تُحيي الجزائر ذكراهم نتيجة الثورة التحريرية؟",
+    "choices": [
+      "مليون ونصف",
+      "مليون",
+      "مليونان",
+      "نصف مليون"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الرئيس الجزائري الذي تولى الحكم في عام 1999 وبقي حتى عام 2019؟",
+    "choices": [
+      "عبد العزيز بوتفليقة",
+      "الشاذلي بن جديد",
+      "اليامين زروال",
+      "عبد المجيد تبون"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحركة الشعبية الجزائرية التي اندلعت عام 2019 وأطاحت بحكم بوتفليقة؟",
+    "choices": [
+      "الحراك",
+      "الثورة",
+      "الانتفاضة",
+      "النهضة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الرئيس الحالي للجزائر الذي انتُخب عام 2019؟",
+    "choices": [
+      "عبد المجيد تبون",
+      "عبد العزيز بوتفليقة",
+      "عبد القادر بن صالح",
+      "أحمد قايد صالح"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العالم والمصلح الجزائري الذي أسس جمعية العلماء المسلمين الجزائريين عام 1931؟",
+    "choices": [
+      "عبد الحميد بن باديس",
+      "الطيب العقبي",
+      "البشير الإبراهيمي",
+      "مبارك الميلي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الشعار الشهير الذي رفعه عبد الحميد بن باديس عن هوية الجزائر؟",
+    "choices": [
+      "الإسلام ديننا والعربية لغتنا والجزائر وطننا",
+      "الجزائر للجزائريين",
+      "الحرية والكرامة",
+      "لا إله إلا الله"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحزب السياسي الذي أسسه مصالي الحاج وكان من رواد الحركة الوطنية الجزائرية؟",
+    "choices": [
+      "حزب الشعب الجزائري",
+      "جبهة التحرير الوطني",
+      "حركة الانتصار",
+      "الاتحاد الديمقراطي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنطقة الجبلية التي انطلقت منها شرارة الثورة الجزائرية عام 1954؟",
+    "choices": [
+      "الأوراس",
+      "القبائل",
+      "الونشريس",
+      "الهقار"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النشيد الوطني الجزائري؟",
+    "choices": [
+      "قسماً",
+      "موطني",
+      "بلادي",
+      "فداء الجزائر"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الشاعر الذي كتب كلمات النشيد الوطني الجزائري \"قسماً\"؟",
+    "choices": [
+      "مفدي زكريا",
+      "أبو القاسم سعد الله",
+      "محمد العيد آل خليفة",
+      "مالك حداد"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام أجرت فرنسا أول تجربة نووية في الصحراء الجزائرية بمنطقة رقان؟",
+    "choices": [
+      "1960",
+      "1954",
+      "1962",
+      "1957"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الصحراوية الجزائرية التي أجريت فيها أولى التجارب النووية الفرنسية؟",
+    "choices": [
+      "رقان",
+      "تمنراست",
+      "ورقلة",
+      "غرداية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو القائد الذي قاد ثورة المقراني عام 1871 ضد الاستعمار الفرنسي؟",
+    "choices": [
+      "محمد المقراني",
+      "الأمير عبد القادر",
+      "أحمد باي",
+      "الشيخ بوعمامة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم آخر باي حكم قسنطينة وقاوم الاحتلال الفرنسي حتى سقوطها عام 1837؟",
+    "choices": [
+      "أحمد باي",
+      "حسن باي",
+      "صالح باي",
+      "علي باي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الأثرية الرومانية الشهيرة في الجزائر والمصنفة ضمن التراث العالمي؟",
+    "choices": [
+      "تيمقاد",
+      "تلمسان",
+      "بجاية",
+      "تيهرت"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم القائد الذي تولى قيادة جبهة التحرير الوطني ووقّع اتفاقيات إيفيان نيابة عنها؟",
+    "choices": [
+      "كريم بلقاسم",
+      "فرحات عباس",
+      "أحمد بن بلة",
+      "العربي بن مهيدي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو أول رئيس للحكومة المؤقتة للجمهورية الجزائرية عام 1958؟",
+    "choices": [
+      "فرحات عباس",
+      "أحمد بن بلة",
+      "بن يوسف بن خدة",
+      "كريم بلقاسم"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الميثاق الذي وحّد الحركة الوطنية وأعلن مبادئ الثورة الجزائرية عام 1956؟",
+    "choices": [
+      "ميثاق الصومام",
+      "ميثاق طرابلس",
+      "ميثاق الجزائر",
+      "بيان أول نوفمبر"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي وادٍ بمنطقة القبائل عُقد مؤتمر الصومام التاريخي للثورة الجزائرية عام 1956؟",
+    "choices": [
+      "وادي الصومام",
+      "وادي الشلف",
+      "وادي ميزاب",
+      "وادي سوف"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو القائد الذي ترأس مؤتمر الصومام وكان مهندس تنظيم الثورة الجزائرية؟",
+    "choices": [
+      "عبان رمضان",
+      "العربي بن مهيدي",
+      "كريم بلقاسم",
+      "ديدوش مراد"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الخط الدفاعي المكهرب الذي أقامته فرنسا على الحدود الجزائرية التونسية لمنع تسلل المجاهدين؟",
+    "choices": [
+      "خط موريس",
+      "خط شال",
+      "خط ماجينو",
+      "خط بارليف"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الرئيس الفرنسي الذي وقّع على استقلال الجزائر عام 1962؟",
+    "choices": [
+      "شارل ديغول",
+      "فرانسوا ميتران",
+      "جورج بومبيدو",
+      "رينيه كوتي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنظمة الفرنسية السرية المسلحة التي عارضت استقلال الجزائر بالعنف؟",
+    "choices": [
+      "منظمة الجيش السري",
+      "الجبهة الوطنية",
+      "القوة الثالثة",
+      "الحركى"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم القديس المسيحي الشهير الذي وُلد في مدينة طاغاست بالجزائر في القرن الرابع الميلادي؟",
+    "choices": [
+      "القديس أوغسطين",
+      "القديس كبريانوس",
+      "ترتليان",
+      "أرنوبيوس"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنطقة الجبلية التي قاد فيها الأمير عبد القادر مقاومته وأسس فيها دولته المتنقلة؟",
+    "choices": [
+      "الغرب الجزائري",
+      "الأوراس",
+      "القبائل",
+      "الهقار"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "إلى أي بلد نُفي الأمير عبد القادر بعد استسلامه للفرنسيين وقضى فيه أواخر حياته؟",
+    "choices": [
+      "سوريا",
+      "المغرب",
+      "تونس",
+      "مصر"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المعاهدة التي وقّعها الأمير عبد القادر مع الفرنسيين عام 1837 واعترفت بدولته؟",
+    "choices": [
+      "معاهدة تافنة",
+      "معاهدة دمياط",
+      "معاهدة إيفيان",
+      "معاهدة الجزائر"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العاصمة القديمة للدولة الحمادية في الجزائر؟",
+    "choices": [
+      "القلعة (قلعة بني حماد)",
+      "تلمسان",
+      "تيهرت",
+      "بجاية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو أصغر مفجري الثورة الجزائرية الذي استشهد في يناير 1955 ودُفن سراً؟",
+    "choices": [
+      "ديدوش مراد",
+      "العربي بن مهيدي",
+      "مصطفى بن بولعيد",
+      "كريم بلقاسم"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي الجزائري الذي كتب رواية «نجمة» الشهيرة؟",
+    "choices": [
+      "كاتب ياسين",
+      "مولود فرعون",
+      "محمد ديب",
+      "رشيد بوجدرة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفنانة الجزائرية الملقبة بـ«جدة الراي»؟",
+    "choices": [
+      "الشابة فضيلة",
+      "الشيخة الريميتي",
+      "وردة الجزائرية",
+      "بيونة"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نوع موسيقي جزائري نشأ في مدينة وهران ويُغنى بالعامية؟",
+    "choices": [
+      "الراي",
+      "المالوف",
+      "الشعبي",
+      "القوال"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المغني الجزائري الملقب بـ«ملك الراي»؟",
+    "choices": [
+      "الشاب مامي",
+      "الشاب خالد",
+      "رشيد طه",
+      "الشاب حسني"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما عنوان أشهر أغنية للشاب خالد التي حققت نجاحاً عالمياً عام 1992؟",
+    "choices": [
+      "عايشة",
+      "ديدي",
+      "واه واه",
+      "الهربة"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الكاتب الجزائري صاحب رواية «ابن الفقير»؟",
+    "choices": [
+      "مولود فرعون",
+      "مولود معمري",
+      "الطاهر وطار",
+      "واسيني الأعرج"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم نوع الموسيقى الأندلسية الكلاسيكية المنتشرة في مدينة قسنطينة الجزائرية؟",
+    "choices": [
+      "الغرناطي",
+      "المالوف",
+      "الصنعة",
+      "الحوزي"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هي المغنية الجزائرية الشهيرة صاحبة أغنية «بكتب اسمك يا بلادي»؟",
+    "choices": [
+      "وردة الجزائرية",
+      "الشابة فضيلة",
+      "نجاة عتابو",
+      "بيونة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما عنوان أول رواية للكاتب ياسين كتبها بالفرنسية؟",
+    "choices": [
+      "نجمة",
+      "رماد",
+      "المنبوذون",
+      "الجثة المطوقة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي فيلم جزائري فاز بالسعفة الذهبية في مهرجان كان عام 1975؟",
+    "choices": [
+      "معركة الجزائر",
+      "وقائع سنين الجمر",
+      "المخدوعون",
+      "ريح الأوراس"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المخرج الذي أخرج فيلم «وقائع سنين الجمر» الجزائري؟",
+    "choices": [
+      "محمد لخضر حامينة",
+      "أحمد راشدي",
+      "مرزاق علواش",
+      "عمار العسكري"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي الجزائري صاحب رواية «اللاز»؟",
+    "choices": [
+      "الطاهر وطار",
+      "نجيب محفوظ",
+      "عبد الحميد بن هدوقة",
+      "واسيني الأعرج"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الآلة الوترية التقليدية المستخدمة في موسيقى الراي والشعبي الجزائري؟",
+    "choices": [
+      "العود",
+      "القمبري",
+      "المندول",
+      "الكمنجة"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المغني الجزائري الشهير صاحب أغنية «يا الرايح» التي أعاد توزيعها رشيد طه؟",
+    "choices": [
+      "دحمان الحراشي",
+      "الهاشمي ڤروابي",
+      "عمر الزاهي",
+      "عبد القادر شاعو"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النوع الموسيقي الصحراوي الذي يشتهر به الطوارق في جنوب الجزائر؟",
+    "choices": [
+      "القناوة",
+      "الراي",
+      "التندي",
+      "الديوان"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي الجزائري الفائز بجائزة غونكور عام 2024 عن رواية «الحوريات»؟",
+    "choices": [
+      "كمال داود",
+      "ياسمينة خضرا",
+      "بوعلام صنصال",
+      "كاتب ياسين"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الزي النسائي التقليدي الجزائري المعروف في منطقة القبائل؟",
+    "choices": [
+      "القندورة القبائلية",
+      "الحايك",
+      "الكاراكو",
+      "الملحفة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم اللباس النسائي التقليدي الأبيض الذي كانت ترتديه المرأة الجزائرية في العاصمة لتغطية الجسد؟",
+    "choices": [
+      "الحايك",
+      "البرنوس",
+      "الجلابة",
+      "الكاراكو"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العباءة الصوفية التقليدية التي يرتديها الرجال في الجزائر وتُصنع غالباً من وبر الجمل؟",
+    "choices": [
+      "البرنوس",
+      "الحايك",
+      "القشابية",
+      "الجلابة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هي الممثلة الجزائرية الكوميدية الشهيرة الملقبة بـ«بيونة»؟",
+    "choices": [
+      "بهية راشدي",
+      "صونية",
+      "فطيمة بلحاج",
+      "شافية بوذراع"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المخرج الجزائري الذي أخرج فيلم «عمر قتلتو» عام 1976؟",
+    "choices": [
+      "مرزاق علواش",
+      "محمد لخضر حامينة",
+      "أحمد راشدي",
+      "الأخضر بن طوبال"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفيلم الجزائري الإيطالي الشهير عام 1966 الذي يصور حرب التحرير الجزائرية؟",
+    "choices": [
+      "معركة الجزائر",
+      "ريح الأوراس",
+      "الأفيون والعصا",
+      "حسن طيرو"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الطبق الشعبي الجزائري المشهور المصنوع من حبيبات السميد المفتولة يدوياً؟",
+    "choices": [
+      "الكسكسي",
+      "الشخشوخة",
+      "الرشتة",
+      "المحاجب"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النوع الموسيقي ذو الجذور الإفريقية الذي يُؤدى في طقوس روحية ويشتهر في الجزائر باسم «الديوان»؟",
+    "choices": [
+      "القناوة",
+      "الراي",
+      "المالوف",
+      "الحوزي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المغني الجزائري القبائلي الشهير الذي اغتيل عام 1998 وكان رمزاً للنضال الأمازيغي؟",
+    "choices": [
+      "معطوب الوناس",
+      "إيدير",
+      "آيت منقلات",
+      "الحسناوي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما عنوان أشهر أغنية للمغني الجزائري القبائلي إيدير التي اشتهرت عالمياً؟",
+    "choices": [
+      "آفافا إينوفا",
+      "واه واه",
+      "عايشة",
+      "يا الرايح"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الكاتب الجزائري الذي ألّف الثلاثية المكوّنة من «الدار الكبيرة» و«الحريق» و«النول»؟",
+    "choices": [
+      "محمد ديب",
+      "كاتب ياسين",
+      "مولود فرعون",
+      "رشيد بوجدرة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الكاتبة الجزائرية المعروفة التي كانت أول امرأة عربية تُنتخب عضواً في الأكاديمية الفرنسية؟",
+    "choices": [
+      "آسيا جبار",
+      "أحلام مستغانمي",
+      "زهور ونيسي",
+      "فضيلة الفاروق"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هي الكاتبة الجزائرية صاحبة الثلاثية الروائية «ذاكرة الجسد» و«فوضى الحواس» و«عابر سرير»؟",
+    "choices": [
+      "أحلام مستغانمي",
+      "آسيا جبار",
+      "زهور ونيسي",
+      "ربيعة جلطي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المغني الجزائري الشهير في موسيقى الشعبي الملقب بـ«شيخ الشعبي» وأستاذ هذا الفن؟",
+    "choices": [
+      "الحاج محمد العنقا",
+      "دحمان الحراشي",
+      "الهاشمي ڤروابي",
+      "عمر الزاهي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النوع الموسيقي الأندلسي الكلاسيكي المنتشر في مدينة تلمسان غرب الجزائر؟",
+    "choices": [
+      "الغرناطي",
+      "المالوف",
+      "الصنعة",
+      "الراي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي الجزائري الذي كتب رواية «اللعنة» و«تحت الياسمين في الليل»، ويكتب بالفرنسية والعربية؟",
+    "choices": [
+      "رشيد بوجدرة",
+      "الطاهر وطار",
+      "واسيني الأعرج",
+      "عبد الحميد بن هدوقة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفيلم الجزائري الذي أخرجه مرزاق علواش عام 1993 ويتناول الحياة في حي شعبي بالعاصمة؟",
+    "choices": [
+      "باب الواد سيتي",
+      "عمر قتلتو",
+      "ريح الأوراس",
+      "حراڤة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المطرب الجزائري للأغنية الوهرانية القديمة (الراي القديم) الملقب بـ«شيخ»، صاحب أغنية «القلب»؟",
+    "choices": [
+      "الشيخ حمادة",
+      "الشاب خالد",
+      "الشاب مامي",
+      "بلاوي الهواري"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحلوى الجزائرية التقليدية الشهيرة المحشوة بالتمر أو اللوز والمحضّرة في الأعياد؟",
+    "choices": [
+      "المقروط",
+      "الكسكسي",
+      "الشخشوخة",
+      "المحاجب"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي الجزائري الذي كتب رواية «ما تبقّى من سيرة لخضر حمروش» و«الزلزال»؟",
+    "choices": [
+      "الطاهر وطار",
+      "عبد الحميد بن هدوقة",
+      "رشيد بوجدرة",
+      "واسيني الأعرج"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الكاتب الجزائري واسع الشهرة الذي يكتب باسم مستعار «ياسمينة خضرا» وهو في الأصل ضابط سابق؟",
+    "choices": [
+      "محمد مولسهول",
+      "كمال داود",
+      "بوعلام صنصال",
+      "رشيد ميموني"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المهرجان السينمائي الدولي الذي يُقام في الجزائر لعرض الأفلام العربية؟",
+    "choices": [
+      "مهرجان وهران للفيلم العربي",
+      "مهرجان قرطاج",
+      "مهرجان مراكش",
+      "مهرجان دبي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الفنان الجزائري الراحل الذي أسس فرقة «راينا راي» الشهيرة في موسيقى الراي العصري؟",
+    "choices": [
+      "لطفي عطار",
+      "الشاب خالد",
+      "رشيد طه",
+      "فضيل"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الآلة الإيقاعية الفخارية التقليدية المستخدمة في الموسيقى الجزائرية؟",
+    "choices": [
+      "الدربوكة",
+      "المندول",
+      "القمبري",
+      "العود"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو مخرج الفيلم الجزائري «الأفيون والعصا»؟",
+    "choices": [
+      "أحمد راشدي",
+      "محمد لخضر حامينة",
+      "مرزاق علواش",
+      "الياس سالم"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الاحتفال الجزائري برأس السنة الأمازيغية الذي يُحتفل به في الثاني عشر من يناير؟",
+    "choices": [
+      "يناير",
+      "عاشوراء",
+      "الراس",
+      "المولد"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المغني الجزائري الشهير صاحب أغنية «عيني» و«ندير» في موسيقى الراي العالمية المعاصرة؟",
+    "choices": [
+      "الشاب مامي",
+      "الشاب خالد",
+      "فضيل",
+      "رضا تالياني"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الزي النسائي التقليدي الجزائري الفاخر المطرّز المعروف في مدينة قسنطينة؟",
+    "choices": [
+      "القندورة القسنطينية",
+      "الحايك",
+      "الكاراكو",
+      "الملحفة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي والشاعر الجزائري صاحب رواية «ريح الجنوب»؟",
+    "choices": [
+      "عبد الحميد بن هدوقة",
+      "الطاهر وطار",
+      "واسيني الأعرج",
+      "رشيد بوجدرة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الممثل والمخرج الجزائري الكوميدي الراحل المعروف بشخصية «الإنسبكتور طاهر»؟",
+    "choices": [
+      "حسن الحسني",
+      "رويشد",
+      "عبد القادر السكتو",
+      "الياس سالم"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفيلم الجزائري للمخرج رشيد بوشارب الذي تناول مشاركة الجنود الجزائريين في الحرب العالمية الثانية؟",
+    "choices": [
+      "أيام المجد",
+      "باب الواد سيتي",
+      "ريح الأوراس",
+      "معركة الجزائر"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الطبق الجزائري التقليدي الشهير عبارة عن حساء بالطماطم والحمّص يُقدّم غالباً في رمضان؟",
+    "choices": [
+      "الحريرة",
+      "الشوربة الفريك",
+      "الدوبارة",
+      "الجاري"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السجاد التقليدي الصوفي الشهير المصنوع يدوياً في منطقة غرداية بالجزائر؟",
+    "choices": [
+      "الزربية",
+      "الكليم",
+      "الحنبل",
+      "المرمة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المغني الجزائري الشهير في فن الشعبي صاحب لقب «عميد الأغنية الوهرانية»؟",
+    "choices": [
+      "بلاوي الهواري",
+      "دحمان الحراشي",
+      "الهاشمي ڤروابي",
+      "عمر الزاهي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المغني والموسيقي الجزائري الراحل رائد الأغنية القبائلية الحديثة وصاحب أغنية «آفافا إينوفا» العالمية؟",
+    "choices": [
+      "إيدير",
+      "معطوب الوناس",
+      "آيت منقلات",
+      "الحسناوي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفنانة التشكيلية الجزائرية الشهيرة المعروفة بلوحاتها الفطرية والألوان الزاهية؟",
+    "choices": [
+      "باية محي الدين",
+      "آسيا جبار",
+      "زهور ونيسي",
+      "فاطمة الزهراء"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الجزائرية التي تُعتبر عاصمة الموسيقى الأندلسية المالوف؟",
+    "choices": [
+      "قسنطينة",
+      "وهران",
+      "عنابة",
+      "بجاية"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحلوى الجزائرية التقليدية المصنوعة من عجين مقلي مغموس في العسل، وتُحضّر في الأعراس والأعياد؟",
+    "choices": [
+      "الزلابية",
+      "المقروط",
+      "البرادج",
+      "القطايف"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي الجزائري الذي كتب رواية عن الأمير عبد القادر بعنوان «كتاب الأمير»؟",
+    "choices": [
+      "واسيني الأعرج",
+      "رشيد بوجدرة",
+      "الطاهر وطار",
+      "عبد الحميد بن هدوقة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الرقصة الشعبية الجزائرية التي تُؤدّى في غرب البلاد على إيقاع البارود والخيل في الأعراس؟",
+    "choices": [
+      "الفانتازيا",
+      "العلاوي",
+      "الزرنة",
+      "أوراري"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الكاتب المسرحي والممثل الجزائري الراحل الذي يُعد رائد المسرح الجزائري وصاحب مسرحية «القوال»؟",
+    "choices": [
+      "عبد القادر علولة",
+      "رويشد",
+      "كاتب ياسين",
+      "مصطفى كاتب"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الأكلة الجزائرية التقليدية المصنوعة من عجين رقيق محشو باللحم أو البصل ويُطهى على صفيحة ساخنة؟",
+    "choices": [
+      "المحاجب",
+      "البوراك",
+      "الدوبارة",
+      "الرفيس"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الجزائرية التي تُعتبر مهد موسيقى الراي؟",
+    "choices": [
+      "وهران",
+      "الجزائر العاصمة",
+      "قسنطينة",
+      "تلمسان"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي الجزائري الفرنكوفوني الذي ألّف رواية «جبل الباووال» وتوفي اغتيالاً عام 1993؟",
+    "choices": [
+      "الطاهر جاووت",
+      "رشيد ميموني",
+      "مولود معمري",
+      "محمد ديب"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الممثل الجزائري العالمي الأصل الذي برز في أفلام هوليوود والسينما الفرنسية ومن أبرز أدواره في سلسلة «تاكسي»؟",
+    "choices": [
+      "سامي ناصري",
+      "روشدي زم",
+      "تشكي كاريو",
+      "جمال دبوز"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي الجزائري الذي كتب بالأمازيغية وجمع الأشعار القبائلية القديمة، ويُعد من أبرز الباحثين في الثقافة الأمازيغية؟",
+    "choices": [
+      "مولود معمري",
+      "مولود فرعون",
+      "الطاهر جاووت",
+      "رشيد ميموني"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفنان الجزائري الملقب بـ«ملك الراي الرومانسي» الذي اشتهر بالأغنية العاطفية الهادئة؟",
+    "choices": [
+      "الشاب حسني",
+      "الشاب خالد",
+      "الشاب مامي",
+      "فضيل"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم التقليد الاحتفالي الشعبي في الجزائر الذي تشارك فيه الخيل ويتضمّن استعراضات البارود والفروسية؟",
+    "choices": [
+      "الوعدة",
+      "التبوريدة",
+      "الزردة",
+      "الحضرة"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العادة التراثية الجزائرية التي تُوضع فيها الحنّاء على يدي العروس ليلة زفافها؟",
+    "choices": [
+      "ليلة الحنة",
+      "الوعدة",
+      "الصبوحي",
+      "العقيقة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المعلم التراثي الجزائري المصنّف ضمن التراث العالمي لدى اليونسكو والذي يُعد رمزاً للعمارة في العاصمة؟",
+    "choices": [
+      "قصبة الجزائر",
+      "قلعة بني حماد",
+      "تيمڤاد",
+      "جميلة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هي المغنية الجزائرية الراحلة الملقبة بـ«سيدة الأغنية الجزائرية» صاحبة الأغنية الوطنية الملتزمة؟",
+    "choices": [
+      "وردة الجزائرية",
+      "فلّة",
+      "نورالهدى",
+      "صباح"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم التقليد الاحتفالي الديني الشعبي الجزائري الذي يُقام عند أضرحة الأولياء الصالحين ويتضمّن الأكل والمديح؟",
+    "choices": [
+      "الوعدة",
+      "العرس",
+      "العقيقة",
+      "الصبوحي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المأكول الجزائري التقليدي المصنوع من عجينة رقيقة تُفرد وتُقطّع وتُطهى بالبخار ثم تُغمس بالمرق؟",
+    "choices": [
+      "الرشتة",
+      "الكسكسي",
+      "البركوكس",
+      "المحاجب"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي الجزائري الأول الفائز بجائزة البوكر العربية عام 2020 عن رواية «الديوان الإسبرطي»؟",
+    "choices": [
+      "عبد الوهاب عيساوي",
+      "واسيني الأعرج",
+      "بشير مفتي",
+      "أمين الزاوي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الكاتب والصحفي الجزائري صاحب رواية «معارضة الغريب» الفائزة بجائزة غونكور للرواية الأولى عام 2015؟",
+    "choices": [
+      "كمال داود",
+      "ياسمينة خضرا",
+      "بوعلام صنصال",
+      "واسيني الأعرج"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المغني الجزائري القبائلي الشهير الملقب بـ«أيت منقلات» صاحب الأغاني الملتزمة؟",
+    "choices": [
+      "لونيس أيت منقلات",
+      "إيدير",
+      "معطوب الوناس",
+      "سليمان عازم"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المغني الجزائري الشهير رائد فن القصبة العاصمي الملقب بـ«الحاج العنقا»؟",
+    "choices": [
+      "الحاج محمد العنقا",
+      "الهاشمي ڤروابي",
+      "دحمان الحراشي",
+      "بوجميعة العنقيس"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفن الغنائي الشعبي الجزائري الذي اشتهرت به منطقة الأوراس ويُغنّى باللغة الشاوية الأمازيغية؟",
+    "choices": [
+      "الراحابة",
+      "المالوف",
+      "الحوزي",
+      "القناوة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الصنف الموسيقي الأندلسي الفرعي الخفيف الذي يُغنّى بالعامية ويُعد فرعاً من الموسيقى التلمسانية؟",
+    "choices": [
+      "الحوزي",
+      "المالوف",
+      "القوال",
+      "الراي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام فازت الجزائر بكأس الأمم الأفريقية لكرة القدم لأول مرة في تاريخها؟",
+    "choices": [
+      "1990",
+      "1982",
+      "1988",
+      "2004"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أين أقيمت بطولة كأس الأمم الأفريقية 1990 التي توّجت بها الجزائر باللقب؟",
+    "choices": [
+      "مصر",
+      "الجزائر",
+      "تونس",
+      "المغرب"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي بلد توّج المنتخب الجزائري بكأس الأمم الأفريقية 2019؟",
+    "choices": [
+      "مصر",
+      "الكاميرون",
+      "الجزائر",
+      "غانا"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو هدّاف المنتخب الجزائري التاريخي بأكبر عدد من الأهداف الدولية؟",
+    "choices": [
+      "رياض محرز",
+      "إسلام سليماني",
+      "عبد المؤمن جابو",
+      "رفيق جابور"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من كان قائد المنتخب الجزائري عند التتويج بكأس الأمم الأفريقية 2019؟",
+    "choices": [
+      "رياض محرز",
+      "يوسف بلايلي",
+      "عيسى ماندي",
+      "رامي بن سبعيني"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نادٍ جزائري يحمل لقب «المولودية» ويتخذ من العاصمة مقراً له؟",
+    "choices": [
+      "شباب بلوزداد",
+      "مولودية الجزائر",
+      "اتحاد العاصمة",
+      "وفاق سطيف"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المدرب الذي قاد المنتخب الجزائري للفوز بكأس الأمم الأفريقية 2019؟",
+    "choices": [
+      "رابح ماجر",
+      "جمال بلماضي",
+      "عبد الحق بن شيخة",
+      "كريستيان غوركوف"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نادٍ جزائري فاز بدوري أبطال أفريقيا عام 2014؟",
+    "choices": [
+      "شباب بلوزداد",
+      "مولودية الجزائر",
+      "وفاق سطيف",
+      "اتحاد العاصمة"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي نادٍ إنجليزي لعب رياض محرز قبل انتقاله إلى مانشستر سيتي؟",
+    "choices": [
+      "ليستر سيتي",
+      "أرسنال",
+      "ليفربول",
+      "توتنهام"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "مع أي نادٍ توّج رياض محرز بلقب الدوري الإنجليزي الممتاز موسم 2015-2016؟",
+    "choices": [
+      "مانشستر سيتي",
+      "ليستر سيتي",
+      "تشيلسي",
+      "مانشستر يونايتد"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "بأي لقب اشتهر المنتخب الوطني الجزائري لكرة القدم؟",
+    "choices": [
+      "الفراعنة",
+      "الخضر",
+      "نسور قرطاج",
+      "أسود الأطلس"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام شارك المنتخب الجزائري في كأس العالم لأول مرة؟",
+    "choices": [
+      "1982",
+      "1986",
+      "1990",
+      "1978"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو حارس مرمى المنتخب الجزائري الأساسي في كأس الأمم الأفريقية 2019؟",
+    "choices": [
+      "رايس مبولحي",
+      "أزياد دوخة",
+      "عبد القادر سلحي",
+      "مالك أصلاني"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "إلى أي دور وصل المنتخب الجزائري في كأس العالم 2014 بالبرازيل؟",
+    "choices": [
+      "دور المجموعات",
+      "دور الثمانية",
+      "ثمن النهائي",
+      "نصف النهائي"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي منتخب أقصى الجزائر في ثمن نهائي كأس العالم 2014 بعد التمديد؟",
+    "choices": [
+      "ألمانيا",
+      "فرنسا",
+      "البرازيل",
+      "بلجيكا"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي ملعب جزائري يلعب المنتخب الوطني مبارياته الدولية الكبرى في العاصمة عادةً؟",
+    "choices": [
+      "ملعب 5 جويلية 1962",
+      "ملعب مصطفى تشاكر",
+      "ملعب نيلسون مانديلا",
+      "ملعب 19 ماي 1956"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد ألقاب كأس الأمم الأفريقية التي توّج بها المنتخب الجزائري حتى الآن؟",
+    "choices": [
+      "لقب واحد",
+      "لقبان",
+      "ثلاثة ألقاب",
+      "أربعة ألقاب"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في كأس الأمم الأفريقية 2019 من سجّل هدف الجزائر الوحيد في المباراة النهائية ضد السنغال؟",
+    "choices": [
+      "بغداد بونجاح",
+      "رياض محرز",
+      "عادل تاوريت",
+      "يوسف بلايلي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أمام أي منتخب فازت الجزائر في نهائي كأس الأمم الأفريقية 2019؟",
+    "choices": [
+      "نيجيريا",
+      "السنغال",
+      "كوت ديفوار",
+      "الكاميرون"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المدرب الذي قاد الجزائر للتأهل ولعب مونديال 2014 وبلوغ ثمن النهائي؟",
+    "choices": [
+      "جمال بلماضي",
+      "وحيد خليلوزيتش",
+      "رابح سعدان",
+      "كريستيان غوركوف"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نادٍ جزائري يُعرف بلقب «شباب بلوزداد» (CRB)؟",
+    "choices": [
+      "نادٍ من العاصمة الجزائر",
+      "نادٍ من وهران",
+      "نادٍ من قسنطينة",
+      "نادٍ من تلمسان"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو اللاعب الجزائري الذي سجّل في شباك بلجيكا في مونديال 2014 من ركلة جزاء؟",
+    "choices": [
+      "صفير تايدر",
+      "سفيان فيغولي",
+      "رفيق حليش",
+      "فوزي غلام"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الجنسية الإضافية التي يحملها العديد من لاعبي المنتخب الجزائري المولودين في أوروبا؟",
+    "choices": [
+      "الإسبانية",
+      "الفرنسية",
+      "الإيطالية",
+      "الألمانية"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو النجم الجزائري الذي لعب لمانشستر سيتي والأهلي السعودي وفاز بدوري أبطال أوروبا؟",
+    "choices": [
+      "إسلام سليماني",
+      "رياض محرز",
+      "سفيان فيغولي",
+      "نبيل بن طالب"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مدينة جزائرية تُنسب إليها أندية «مولودية وهران» و«جمعية وهران»؟",
+    "choices": [
+      "وهران",
+      "قسنطينة",
+      "عنابة",
+      "البليدة"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد مرات تأهل المنتخب الجزائري لنهائيات كأس العالم حتى مونديال 2014؟",
+    "choices": [
+      "مرتان",
+      "ثلاث مرات",
+      "أربع مرات",
+      "خمس مرات"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المهاجم الجزائري الذي لعب لسبورتنغ لشبونة وليستر سيتي وموناكو ولُقّب بالهدّاف؟",
+    "choices": [
+      "إسلام سليماني",
+      "بغداد بونجاح",
+      "هلال سوداني",
+      "عبد الرزاق حمد الله"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في كأس الأمم الأفريقية 2019 كان رياض محرز صاحب هدف قاتل في نصف النهائي أمام أي منتخب؟",
+    "choices": [
+      "نيجيريا",
+      "تونس",
+      "السنغال",
+      "كوت ديفوار"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام فاز المنتخب الجزائري بكأس العرب للمنتخبات (نسخة قطر)؟",
+    "choices": [
+      "2021",
+      "2019",
+      "2017",
+      "2012"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أين أقيمت بطولة كأس العرب 2021 التي فاز بها المنتخب الجزائري؟",
+    "choices": [
+      "السعودية",
+      "قطر",
+      "الإمارات",
+      "مصر"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في كأس العالم 2010 بجنوب أفريقيا في أي دور خرج المنتخب الجزائري؟",
+    "choices": [
+      "دور المجموعات",
+      "ثمن النهائي",
+      "ربع النهائي",
+      "نصف النهائي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نادٍ جزائري يُعرف اختصاراً بـ«USMA» ويتخذ من العاصمة مقراً له؟",
+    "choices": [
+      "اتحاد العاصمة",
+      "مولودية الجزائر",
+      "شباب بلوزداد",
+      "نصر حسين داي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الظهير الأيسر الجزائري الذي لعب طويلاً مع نابولي الإيطالي وشارك مع الخضر؟",
+    "choices": [
+      "فوزي غلام",
+      "رامي بن سبعيني",
+      "عيسى ماندي",
+      "مهدي عبيد"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو اللاعب الجزائري المدافع الذي لعب لريال بيتيس الإسباني وكان قائداً مساعداً في منتخب 2019؟",
+    "choices": [
+      "عيسى ماندي",
+      "عبد القادر بدران",
+      "جمال بلعمري",
+      "مهدي تحرات"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نادٍ جزائري عاصمي يُلقّب بـ«العميد» ويُعد من أعرق الأندية؟",
+    "choices": [
+      "مولودية الجزائر",
+      "اتحاد العاصمة",
+      "شباب بلوزداد",
+      "نصر حسين داي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المهاجم الجزائري المعروف بـ«بغداد بونجاح» الذي برز هدّافاً في الدوري القطري؟",
+    "choices": [
+      "مهاجم لعب للسد القطري",
+      "مدافع لعب للأهلي السعودي",
+      "حارس مرمى للترجي",
+      "لاعب وسط لمولودية الجزائر"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة جزائرية يقع ملعب «مصطفى تشاكر» الذي تلعب فيه الخضر أحياناً؟",
+    "choices": [
+      "البليدة",
+      "وهران",
+      "قسنطينة",
+      "عنابة"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نجم جزائري لعب لفالنسيا الإسباني وغلطة سراي التركي ولُقّب بصانع الألعاب؟",
+    "choices": [
+      "سفيان فيغولي",
+      "رياض محرز",
+      "يوسف بلايلي",
+      "صفير تايدر"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في كأس الأمم الأفريقية 2019 خاضت الجزائر دورها في المجموعات دون أي خسارة؛ كم نقطة جمعت في الدور الأول؟",
+    "choices": [
+      "تسع نقاط",
+      "سبع نقاط",
+      "ست نقاط",
+      "أربع نقاط"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نادٍ جزائري فاز بأول نسخة من دوري أبطال أفريقيا تحت اسمه القديم عام 1976؟",
+    "choices": [
+      "مولودية الجزائر",
+      "وفاق سطيف",
+      "اتحاد العاصمة",
+      "شبيبة القبائل"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نادٍ جزائري من منطقة القبائل يُعرف بـ«الكناري» وحقق ألقاباً قارية؟",
+    "choices": [
+      "شبيبة القبائل",
+      "شباب بلوزداد",
+      "وفاق سطيف",
+      "مولودية وهران"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم استمر المنتخب الجزائري في سلسلة لقاءات دولية دون هزيمة بقيادة بلماضي مسجّلاً رقماً عربياً قياسياً؟",
+    "choices": [
+      "35 مباراة",
+      "20 مباراة",
+      "28 مباراة",
+      "42 مباراة"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Algeria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النادي الجزائري الذي توّج بدوري أبطال أفريقيا عام 2014؟",
+    "choices": [
+      "وفاق سطيف",
+      "شبيبة القبائل",
+      "مولودية الجزائر",
+      "اتحاد العاصمة"
+    ],
+    "correctIdx": 0,
+    "difficulty": "hard",
+    "category": "Sports",
+    "country": "Algeria",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أول ناد جزائري يفوز بدوري أبطال أفريقيا، وكان ذلك عام 1981؟",
+    "choices": [
+      "شبيبة القبائل",
+      "وفاق سطيف",
+      "مولودية وهران",
+      "نصر حسين داي"
+    ],
+    "correctIdx": 0,
+    "difficulty": "hard",
+    "category": "Sports",
+    "country": "Algeria",
+    "locale": "ar"
+  },
+  {
+    "text": "من المدرب الذي قاد المنتخب الجزائري للتتويج بكأس أمم أفريقيا 2019؟",
+    "choices": [
+      "جمال بلماضي",
+      "رابح ماجر",
+      "عبد الحق بن شيخة",
+      "كريستيان غوركوف"
+    ],
+    "correctIdx": 0,
+    "difficulty": "medium",
+    "category": "Sports",
+    "country": "Algeria",
+    "locale": "ar"
+  },
+  {
+    "text": "من اللاعب الجزائري الشهير بهدف «كعب الله» مع بورتو في نهائي كأس أوروبا 1987؟",
+    "choices": [
+      "رابح ماجر",
+      "لخضر بلومي",
+      "جمال منجلي",
+      "نذير بلحاج"
+    ],
+    "correctIdx": 0,
+    "difficulty": "hard",
+    "category": "Sports",
+    "country": "Algeria",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي دولة أقيمت كأس أمم أفريقيا 1990 التي توّجت بها الجزائر؟",
+    "choices": [
+      "الجزائر",
+      "مصر",
+      "نيجيريا",
+      "تونس"
+    ],
+    "correctIdx": 0,
+    "difficulty": "medium",
+    "category": "Sports",
+    "country": "Algeria",
+    "locale": "ar"
+  },
+  {
+    "text": "كم مرة تأهّل المنتخب الجزائري إلى نهائيات كأس العالم؟",
+    "choices": [
+      "4 مرات",
+      "مرتان",
+      "3 مرات",
+      "5 مرات"
+    ],
+    "correctIdx": 0,
+    "difficulty": "medium",
+    "category": "Sports",
+    "country": "Algeria",
+    "locale": "ar"
+  }
 ]

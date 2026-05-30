@@ -1,36 +1,4370 @@
 [
-  { "text": "ما عاصمة سوريا؟", "choices": ["دمشق", "حلب", "حمص", "اللاذقية"], "correctIdx": 0, "category": "General", "country": "Syria", "difficulty": "easy", "locale": "ar" },
-  { "text": "ما المدينة السورية التي تُعدّ تاريخياً الأكبر سكاناً وتنافس دمشق؟", "choices": ["حلب", "حمص", "حماة", "درعا"], "correctIdx": 0, "category": "General", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما العملة الرسمية في سوريا؟", "choices": ["الليرة السورية", "الدينار", "الدرهم", "الجنيه"], "correctIdx": 0, "category": "General", "country": "Syria", "difficulty": "easy", "locale": "ar" },
-  { "text": "تُعدّ دمشق من أقدم العواصم المأهولة باستمرار في؟", "choices": ["العالم", "أوروبا فقط", "أفريقيا", "آسيا الوسطى"], "correctIdx": 0, "category": "General", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما النهر الذي يمرّ بمدينة دمشق؟", "choices": ["بردى", "الفرات", "العاصي", "دجلة"], "correctIdx": 0, "category": "General", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما المدينة السورية الساحلية الرئيسية على البحر المتوسط؟", "choices": ["اللاذقية", "حلب", "دير الزور", "الحسكة"], "correctIdx": 0, "category": "General", "country": "Syria", "difficulty": "easy", "locale": "ar" },
-
-  { "text": "ما المدينة الأثرية السورية المعروفة بأعمدتها وملكتها زنوبيا؟", "choices": ["تدمر", "إيبلا", "ماري", "أوغاريت"], "correctIdx": 0, "category": "History", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "من الملكة التي حكمت تدمر وتحدّت الرومان؟", "choices": ["زنوبيا", "شجرة الدر", "بلقيس", "كليوباترا"], "correctIdx": 0, "category": "History", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "كانت أول عاصمة للدولة الأموية في سوريا، وهي؟", "choices": ["دمشق", "حلب", "حمص", "الرقة"], "correctIdx": 0, "category": "History", "country": "Syria", "difficulty": "easy", "locale": "ar" },
-  { "text": "في أي مدينة سورية اكتُشفت أقدم أبجدية في العالم؟", "choices": ["أوغاريت", "تدمر", "إيبلا", "دورا أوروبوس"], "correctIdx": 0, "category": "History", "country": "Syria", "difficulty": "hard", "locale": "ar" },
-  { "text": "في أي عام نالت سوريا استقلالها عن فرنسا؟", "choices": ["1946", "1920", "1958", "1936"], "correctIdx": 0, "category": "History", "country": "Syria", "difficulty": "hard", "locale": "ar" },
-  { "text": "ماذا سُمّيت الوحدة بين سوريا ومصر بين عامي 1958 و1961؟", "choices": ["الجمهورية العربية المتحدة", "جامعة الدول العربية", "الاتحاد العربي", "الهلال الخصيب"], "correctIdx": 0, "category": "History", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-
-  { "text": "ما لقب المنتخب السوري لكرة القدم؟", "choices": ["نسور قاسيون", "الفراعنة", "الخُضر", "الأرز"], "correctIdx": 0, "category": "Sports", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما الرياضة الأكثر شعبية في سوريا؟", "choices": ["كرة القدم", "كرة السلة", "السباحة", "المصارعة"], "correctIdx": 0, "category": "Sports", "country": "Syria", "difficulty": "easy", "locale": "ar" },
-  { "text": "في أي قارة يخوض المنتخب السوري تصفيات كأس العالم؟", "choices": ["آسيا", "أفريقيا", "أوروبا", "أمريكا الجنوبية"], "correctIdx": 0, "category": "Sports", "country": "Syria", "difficulty": "easy", "locale": "ar" },
-  { "text": "ما المهاجم السوري الشهير الذي لعب لنادي الأهلي السعودي؟", "choices": ["عمر السومة", "فراس الخطيب", "عبد الفتاح آغا", "تامر حاج محمد"], "correctIdx": 0, "category": "Sports", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "من أي مدينة سورية نادي «الكرامة» لكرة القدم؟", "choices": ["حمص", "دمشق", "حلب", "اللاذقية"], "correctIdx": 0, "category": "Sports", "country": "Syria", "difficulty": "hard", "locale": "ar" },
-  { "text": "في أي عام وصل نادي الكرامة الحمصي إلى نهائي دوري أبطال آسيا؟", "choices": ["2006", "2010", "2018", "2001"], "correctIdx": 0, "category": "Sports", "country": "Syria", "difficulty": "hard", "locale": "ar" },
-
-  { "text": "ما نوع المسلسلات السورية التي تصوّر الحارة الدمشقية القديمة؟", "choices": ["البيئة الشامية", "الخيال العلمي", "الكرتون", "الوثائقي"], "correctIdx": 0, "category": "Pop Culture", "country": "Syria", "difficulty": "easy", "locale": "ar" },
-  { "text": "ما أشهر مسلسل سوري عن الحارة الشامية القديمة؟", "choices": ["باب الحارة", "رأس غليص", "صح النوم", "مرايا"], "correctIdx": 0, "category": "Pop Culture", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "من الفنان السوري الرائد في الكوميديا وصاحب شخصية «غوار الطوشة»؟", "choices": ["دريد لحام", "ياسر العظمة", "أيمن زيدان", "جمال سليمان"], "correctIdx": 0, "category": "Pop Culture", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما برنامج المنوّعات الساخر الطويل للفنان ياسر العظمة؟", "choices": ["مرايا", "بقعة ضوء", "صح النوم", "ضيعة ضايعة"], "correctIdx": 0, "category": "Pop Culture", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "من الشاعر السوري الملقّب بشاعر المرأة وصاحب «قالت لي السمراء»؟", "choices": ["نزار قباني", "أدونيس", "عمر أبو ريشة", "سليمان العيسى"], "correctIdx": 0, "category": "Pop Culture", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما الاسم الحقيقي للشاعر السوري الملقّب بـ«أدونيس»؟", "choices": ["علي أحمد سعيد إسبر", "نزار قباني", "بدر شاكر السياب", "محمد الماغوط"], "correctIdx": 0, "category": "Pop Culture", "country": "Syria", "difficulty": "hard", "locale": "ar" },
-
-  { "text": "في أي مدينة سورية اكتُشفت أقدم أبجدية في العالم؟", "choices": ["أوغاريت", "تدمر", "ماري", "دورا أوروبوس"], "correctIdx": 0, "category": "Science", "country": "Syria", "difficulty": "hard", "locale": "ar" },
-  { "text": "ما أطول نهر يخترق الأراضي السورية؟", "choices": ["الفرات", "بردى", "العاصي", "اليرموك"], "correctIdx": 0, "category": "Science", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما النهر السوري الذي يجري من الجنوب إلى الشمال ولذلك سُمّي «العاصي»؟", "choices": ["العاصي", "الفرات", "بردى", "دجلة"], "correctIdx": 0, "category": "Science", "country": "Syria", "difficulty": "hard", "locale": "ar" },
-  { "text": "ما سلسلة الجبال الممتدة على الساحل الغربي لسوريا؟", "choices": ["الجبال الساحلية", "جبال طوروس", "جبال زاغروس", "جبال الأطلس"], "correctIdx": 0, "category": "Science", "country": "Syria", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما المنطقة الزراعية الخصبة في شمال شرق سوريا والمعروفة بسلّة الخبز؟", "choices": ["الجزيرة السورية", "الغوطة", "وادي النيل", "تهامة"], "correctIdx": 0, "category": "Science", "country": "Syria", "difficulty": "hard", "locale": "ar" },
-  { "text": "في أي قارة تقع سوريا؟", "choices": ["آسيا", "أفريقيا", "أوروبا", "أمريكا"], "correctIdx": 0, "category": "Science", "country": "Syria", "difficulty": "easy", "locale": "ar" }
+  {
+    "text": "ما عاصمة سوريا؟",
+    "choices": [
+      "دمشق",
+      "حلب",
+      "حمص",
+      "اللاذقية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة السورية التي تُعدّ تاريخياً الأكبر سكاناً وتنافس دمشق؟",
+    "choices": [
+      "حلب",
+      "حمص",
+      "حماة",
+      "درعا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما العملة الرسمية في سوريا؟",
+    "choices": [
+      "الليرة السورية",
+      "الدينار",
+      "الدرهم",
+      "الجنيه"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "تُعدّ دمشق من أقدم العواصم المأهولة باستمرار في؟",
+    "choices": [
+      "العالم",
+      "أوروبا فقط",
+      "أفريقيا",
+      "آسيا الوسطى"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النهر الذي يمرّ بمدينة دمشق؟",
+    "choices": [
+      "بردى",
+      "الفرات",
+      "العاصي",
+      "دجلة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة السورية الساحلية الرئيسية على البحر المتوسط؟",
+    "choices": [
+      "اللاذقية",
+      "حلب",
+      "دير الزور",
+      "الحسكة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الأثرية السورية المعروفة بأعمدتها وملكتها زنوبيا؟",
+    "choices": [
+      "تدمر",
+      "إيبلا",
+      "ماري",
+      "أوغاريت"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من الملكة التي حكمت تدمر وتحدّت الرومان؟",
+    "choices": [
+      "زنوبيا",
+      "شجرة الدر",
+      "بلقيس",
+      "كليوباترا"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كانت أول عاصمة للدولة الأموية في سوريا، وهي؟",
+    "choices": [
+      "دمشق",
+      "حلب",
+      "حمص",
+      "الرقة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة سورية اكتُشفت أقدم أبجدية في العالم؟",
+    "choices": [
+      "أوغاريت",
+      "تدمر",
+      "إيبلا",
+      "دورا أوروبوس"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام نالت سوريا استقلالها عن فرنسا؟",
+    "choices": [
+      "1946",
+      "1920",
+      "1958",
+      "1936"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ماذا سُمّيت الوحدة بين سوريا ومصر بين عامي 1958 و1961؟",
+    "choices": [
+      "الجمهورية العربية المتحدة",
+      "جامعة الدول العربية",
+      "الاتحاد العربي",
+      "الهلال الخصيب"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما لقب المنتخب السوري لكرة القدم؟",
+    "choices": [
+      "نسور قاسيون",
+      "الفراعنة",
+      "الخُضر",
+      "الأرز"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرياضة الأكثر شعبية في سوريا؟",
+    "choices": [
+      "كرة القدم",
+      "كرة السلة",
+      "السباحة",
+      "المصارعة"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي قارة يخوض المنتخب السوري تصفيات كأس العالم؟",
+    "choices": [
+      "آسيا",
+      "أفريقيا",
+      "أوروبا",
+      "أمريكا الجنوبية"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المهاجم السوري الشهير الذي لعب لنادي الأهلي السعودي؟",
+    "choices": [
+      "عمر السومة",
+      "فراس الخطيب",
+      "عبد الفتاح آغا",
+      "تامر حاج محمد"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من أي مدينة سورية نادي «الكرامة» لكرة القدم؟",
+    "choices": [
+      "حمص",
+      "دمشق",
+      "حلب",
+      "اللاذقية"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام وصل نادي الكرامة الحمصي إلى نهائي دوري أبطال آسيا؟",
+    "choices": [
+      "2006",
+      "2010",
+      "2018",
+      "2001"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع المسلسلات السورية التي تصوّر الحارة الدمشقية القديمة؟",
+    "choices": [
+      "البيئة الشامية",
+      "الخيال العلمي",
+      "الكرتون",
+      "الوثائقي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أشهر مسلسل سوري عن الحارة الشامية القديمة؟",
+    "choices": [
+      "باب الحارة",
+      "رأس غليص",
+      "صح النوم",
+      "مرايا"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من الفنان السوري الرائد في الكوميديا وصاحب شخصية «غوار الطوشة»؟",
+    "choices": [
+      "دريد لحام",
+      "ياسر العظمة",
+      "أيمن زيدان",
+      "جمال سليمان"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما برنامج المنوّعات الساخر الطويل للفنان ياسر العظمة؟",
+    "choices": [
+      "مرايا",
+      "بقعة ضوء",
+      "صح النوم",
+      "ضيعة ضايعة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من الشاعر السوري الملقّب بشاعر المرأة وصاحب «قالت لي السمراء»؟",
+    "choices": [
+      "نزار قباني",
+      "أدونيس",
+      "عمر أبو ريشة",
+      "سليمان العيسى"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الاسم الحقيقي للشاعر السوري الملقّب بـ«أدونيس»؟",
+    "choices": [
+      "علي أحمد سعيد إسبر",
+      "نزار قباني",
+      "بدر شاكر السياب",
+      "محمد الماغوط"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أطول نهر يخترق الأراضي السورية؟",
+    "choices": [
+      "الفرات",
+      "بردى",
+      "العاصي",
+      "اليرموك"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النهر السوري الذي يجري من الجنوب إلى الشمال ولذلك سُمّي «العاصي»؟",
+    "choices": [
+      "العاصي",
+      "الفرات",
+      "بردى",
+      "دجلة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما سلسلة الجبال الممتدة على الساحل الغربي لسوريا؟",
+    "choices": [
+      "الجبال الساحلية",
+      "جبال طوروس",
+      "جبال زاغروس",
+      "جبال الأطلس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنطقة الزراعية الخصبة في شمال شرق سوريا والمعروفة بسلّة الخبز؟",
+    "choices": [
+      "الجزيرة السورية",
+      "الغوطة",
+      "وادي النيل",
+      "تهامة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي قارة تقع سوريا؟",
+    "choices": [
+      "آسيا",
+      "أفريقيا",
+      "أوروبا",
+      "أمريكا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي عاصمة سوريا؟",
+    "choices": [
+      "دمشق",
+      "حلب",
+      "حمص",
+      "اللاذقية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العملة الرسمية في سوريا؟",
+    "choices": [
+      "الليرة السورية",
+      "الدينار السوري",
+      "الدرهم السوري",
+      "الجنيه السوري"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي أكبر مدينة في سوريا من حيث عدد السكان تاريخياً؟",
+    "choices": [
+      "حلب",
+      "دمشق",
+      "حماة",
+      "دير الزور"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "على أي بحر تقع المدينة الساحلية السورية اللاذقية؟",
+    "choices": [
+      "البحر الأبيض المتوسط",
+      "البحر الأحمر",
+      "البحر الأسود",
+      "الخليج العربي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد النجوم التي ظهرت على العلم السوري المعتمد عام 2024؟",
+    "choices": [
+      "ثلاث نجوم",
+      "نجمتان",
+      "نجمة واحدة",
+      "أربع نجوم"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو النهر الرئيسي الذي يمر في مدينة حماة وتشتهر به نواعيرها؟",
+    "choices": [
+      "نهر العاصي",
+      "نهر الفرات",
+      "نهر بردى",
+      "نهر الخابور"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أطول نهر يجري في الأراضي السورية؟",
+    "choices": [
+      "نهر الفرات",
+      "نهر العاصي",
+      "نهر بردى",
+      "نهر اليرموك"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي دولة تقع إلى الجنوب من سوريا وتشترك معها في الحدود؟",
+    "choices": [
+      "الأردن",
+      "مصر",
+      "السعودية",
+      "اليمن"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو الطبق السوري الشهير المكوَّن من اللحم المفروم والبرغل ويُحضَّر في المناسبات؟",
+    "choices": [
+      "الكبة",
+      "المجدرة",
+      "الفتوش",
+      "المنسف"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي دولة تقع إلى الغرب من سوريا وتشترك معها في الحدود؟",
+    "choices": [
+      "لبنان",
+      "قبرص",
+      "اليونان",
+      "العراق"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الجبل الذي يُعد أعلى قمة في سوريا؟",
+    "choices": [
+      "جبل الشيخ",
+      "جبل قاسيون",
+      "جبل النصيرية",
+      "جبل العرب"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية الملقَّبة بـ«مدينة الياسمين»؟",
+    "choices": [
+      "دمشق",
+      "حلب",
+      "طرطوس",
+      "الرقة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي دولة تقع إلى الشمال من سوريا وتشترك معها في أطول حدود برية؟",
+    "choices": [
+      "تركيا",
+      "العراق",
+      "إيران",
+      "أرمينيا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحلوى السورية الشهيرة المصنوعة من العجين المقلي والمحشو بالقشطة أو الجوز في رمضان؟",
+    "choices": [
+      "القطايف",
+      "الكنافة",
+      "المعمول",
+      "البقلاوة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو المشروب الساخن الذي يُقدَّم تقليدياً مع الهيل ويُعد رمزاً للضيافة في سوريا؟",
+    "choices": [
+      "القهوة العربية",
+      "الشاي الأخضر",
+      "النعناع",
+      "الكركديه"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الصحراء الواسعة التي تغطي جزءاً كبيراً من شرق وجنوب سوريا؟",
+    "choices": [
+      "البادية السورية",
+      "الربع الخالي",
+      "النفود",
+      "صحراء سيناء"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة السورية الأثرية التي تُلقَّب بـ«عروس الصحراء» وتشتهر بآثارها الرومانية؟",
+    "choices": [
+      "تدمر",
+      "بصرى",
+      "أوغاريت",
+      "إيبلا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الجبل المطل على مدينة دمشق من جهتها الشمالية؟",
+    "choices": [
+      "جبل قاسيون",
+      "جبل الشيخ",
+      "جبل صافون",
+      "جبل سمعان"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النهر الذي يمر في مدينة دمشق وتاريخياً يُعد مصدر مياهها الرئيسي؟",
+    "choices": [
+      "بردى",
+      "العاصي",
+      "الفرات",
+      "الخابور"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية الساحلية التي تُعد ثاني أهم موانئ البلاد بعد اللاذقية؟",
+    "choices": [
+      "طرطوس",
+      "بانياس",
+      "جبلة",
+      "صافيتا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المسجد الأموي الشهير الذي يقع في مدينة دمشق؟",
+    "choices": [
+      "المسجد الأموي",
+      "الجامع الأزهر",
+      "جامع القرويين",
+      "المسجد الأقصى"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الطبق السوري المكوَّن من العدس والأرز أو البرغل مع البصل المقلي؟",
+    "choices": [
+      "المجدرة",
+      "المقلوبة",
+      "الكشري",
+      "الهريسة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي السلطة السورية المشهورة المكوَّنة من الخبز المحمَّص والخضار والسماق؟",
+    "choices": [
+      "الفتوش",
+      "التبولة",
+      "المتبل",
+      "الحمص"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو الطبق المُحضَّر من الباذنجان المهروس والطحينة ويُقدَّم كمقبِّلات شائعة في سوريا؟",
+    "choices": [
+      "المتبل",
+      "التبولة",
+      "الفول",
+      "الحمص بالطحينة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي دولة تقع إلى الشرق من سوريا وتشترك معها في الحدود؟",
+    "choices": [
+      "العراق",
+      "إيران",
+      "الكويت",
+      "تركيا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية التي تقع على نهر الفرات في الشمال الشرقي وتُعد مركزاً زراعياً مهماً؟",
+    "choices": [
+      "دير الزور",
+      "حمص",
+      "إدلب",
+      "درعا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم القلعة الأثرية الشهيرة التي تقع وسط مدينة حلب القديمة؟",
+    "choices": [
+      "قلعة حلب",
+      "قلعة الحصن",
+      "قلعة صلاح الدين",
+      "قلعة جعبر"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي اللغة الرسمية في سوريا؟",
+    "choices": [
+      "العربية",
+      "الكردية",
+      "التركية",
+      "الفارسية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السوق المسقوف الشهير في مدينة حلب القديمة والمدرج على لائحة التراث العالمي؟",
+    "choices": [
+      "سوق المدينة",
+      "سوق الحميدية",
+      "خان أسعد باشا",
+      "سوق البزورية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السوق التاريخي الأشهر في مدينة دمشق القديمة؟",
+    "choices": [
+      "سوق الحميدية",
+      "سوق المدينة",
+      "سوق الجمعة",
+      "سوق الحرير"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الهضبة الواقعة في جنوب غرب سوريا والمتنازع عليها مع إسرائيل؟",
+    "choices": [
+      "هضبة الجولان",
+      "هضبة حوران",
+      "جبل العرب",
+      "سهل الغاب"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم القلعة الصليبية الشهيرة قرب حمص والمدرجة على لائحة التراث العالمي لليونسكو؟",
+    "choices": [
+      "قلعة الحصن",
+      "قلعة حلب",
+      "قلعة دمشق",
+      "قلعة المرقب"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية الجنوبية التي تُعد مركزاً لمحافظة درعا وتشتهر بالقمح؟",
+    "choices": [
+      "درعا",
+      "السويداء",
+      "القنيطرة",
+      "الرقة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السهل الزراعي الخصب الذي يمتد على ضفاف نهر العاصي شمال غرب سوريا؟",
+    "choices": [
+      "سهل الغاب",
+      "سهل حوران",
+      "سهل البقاع",
+      "سهل عكار"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الأثرية في جنوب سوريا التي تشتهر بمسرحها الروماني المبني من الحجر الأسود؟",
+    "choices": [
+      "بصرى",
+      "تدمر",
+      "أفاميا",
+      "الرصافة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية المعروفة بزراعة الزيتون وصناعة الصابون قديماً؟",
+    "choices": [
+      "حلب",
+      "طرطوس",
+      "الحسكة",
+      "الرقة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحلوى السورية المصنوعة من السميد المحشو بالتمر أو الفستق وتُقدَّم في الأعياد؟",
+    "choices": [
+      "المعمول",
+      "الكنافة",
+      "القطايف",
+      "العوامة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو الطبق السوري المكوَّن من شرائح اللحم المطبوخة المحفوظة بدهنها وتُعد طعاماً تقليدياً؟",
+    "choices": [
+      "القاورما",
+      "الشاورما",
+      "الكفتة",
+      "السجق"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة السورية الواقعة على نهر الفرات والمعروفة باسمها التاريخي «الرافقة»؟",
+    "choices": [
+      "الرقة",
+      "دير الزور",
+      "الحسكة",
+      "منبج"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المحافظة السورية الواقعة في أقصى الشمال الشرقي للبلاد؟",
+    "choices": [
+      "الحسكة",
+      "درعا",
+      "طرطوس",
+      "القنيطرة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة السورية التي تُعد المركز الديني والثقافي للموحِّدين الدروز في الجنوب؟",
+    "choices": [
+      "السويداء",
+      "درعا",
+      "القنيطرة",
+      "حمص"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي البهارات الحمراء المطحونة الحامضة الطعم التي تُرشّ على الأطباق السورية كالفتوش؟",
+    "choices": [
+      "السماق",
+      "الزعتر",
+      "الكمون",
+      "الكركم"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم نوع الفستق الشهير المنسوب إلى مدينة حلب السورية؟",
+    "choices": [
+      "الفستق الحلبي",
+      "الفستق العجمي",
+      "البندق",
+      "اللوز"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المعجون الحار المصنوع من الفلفل الأحمر المطحون والمشهور في المطبخ الحلبي؟",
+    "choices": [
+      "دبس الفليفلة",
+      "الطحينة",
+      "المحمرة",
+      "الزعتر"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الموقع الأثري قرب اللاذقية حيث اكتُشِفت أقدم أبجدية في العالم؟",
+    "choices": [
+      "أوغاريت",
+      "تدمر",
+      "إيبلا",
+      "ماري"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المملكة القديمة التي اكتُشِفت آثارها في تل مرديخ جنوب حلب؟",
+    "choices": [
+      "إيبلا",
+      "أوغاريت",
+      "ماري",
+      "أفاميا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الخليفة الأموي الذي اتخذ من دمشق عاصمة لدولته؟",
+    "choices": [
+      "معاوية بن أبي سفيان",
+      "هارون الرشيد",
+      "المنصور",
+      "عمر بن الخطاب"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البحيرة الصناعية الكبرى التي تكوَّنت خلف سد الفرات في سوريا؟",
+    "choices": [
+      "بحيرة الأسد",
+      "بحيرة قطينة",
+      "بحيرة مزيريب",
+      "بحيرة طبرية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي العبارة المكتوبة على شعار سوريا الوطني ضمن طائر العقاب؟",
+    "choices": [
+      "الجمهورية العربية السورية",
+      "المملكة السورية",
+      "دولة سوريا",
+      "الاتحاد السوري"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو الطائر الذي يظهر رمزاً وطنياً في شعار سوريا الرسمي؟",
+    "choices": [
+      "العقاب",
+      "الصقر",
+      "النسر الذهبي",
+      "الحمامة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العشب البري المجفَّف الذي يُخلط بالسماق والسمسم ويُؤكل مع زيت الزيتون والخبز صباحاً في سوريا؟",
+    "choices": [
+      "الزعتر",
+      "الميرمية",
+      "البابونج",
+      "النعناع"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية الواقعة في وسط البلاد وتقع على نهر العاصي وتُعد من أكبر محافظاتها مساحةً؟",
+    "choices": [
+      "حمص",
+      "حماة",
+      "إدلب",
+      "طرطوس"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم نوع الخبز السوري الرقيق المستدير الذي يُخبز على صاج محدّب؟",
+    "choices": [
+      "خبز الصاج",
+      "الكماج",
+      "التنور",
+      "الفرنسي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الطبق الحلبي الشهير المكوَّن من قطع لحم وكبة مع صلصة الكرز الحامض؟",
+    "choices": [
+      "الكباب بالكرز",
+      "الكبة المقلية",
+      "المحاشي",
+      "اليبرق"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المحافظة السورية الواقعة في أقصى الجنوب الغربي والمدمَّرة معظم مدينتها بفعل النزاع مع إسرائيل؟",
+    "choices": [
+      "القنيطرة",
+      "درعا",
+      "السويداء",
+      "ريف دمشق"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المشروب الشعبي السوري المصنوع من العرق وبذور اليانسون ويتحول لونه إلى الأبيض عند إضافة الماء؟",
+    "choices": [
+      "العرق",
+      "التوت",
+      "الجلاب",
+      "قمر الدين"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم عصير المشمش المجفَّف المضغوط على شكل رقائق والمشهور بإنتاجه في سوريا خاصة في رمضان؟",
+    "choices": [
+      "قمر الدين",
+      "الجلاب",
+      "التمر الهندي",
+      "السوس"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الورق المحشو بالأرز واللحم والملفوف بأوراق العنب في المطبخ السوري؟",
+    "choices": [
+      "اليبرق",
+      "المحاشي",
+      "الشيش برك",
+      "الفتة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية المعروفة تاريخياً باسم «أفاميا» والتي تشتهر بأعمدتها الرومانية الطويلة؟",
+    "choices": [
+      "أفاميا",
+      "تدمر",
+      "بصرى",
+      "الرصافة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحلوى السورية المصنوعة من طبقات العجين الرقيق والفستق والمغمورة بالقطر؟",
+    "choices": [
+      "البقلاوة",
+      "الهريسة",
+      "البسبوسة",
+      "الغريبة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة السورية الواقعة في الشمال الغربي والتي اشتهرت بتربتها الزراعية وأشجار الزيتون وتعد مركز محافظة مستقلة؟",
+    "choices": [
+      "إدلب",
+      "حماة",
+      "الرقة",
+      "درعا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي من المدن السورية تُلقَّب بـ«الشهباء»؟",
+    "choices": [
+      "حلب",
+      "دمشق",
+      "حمص",
+      "اللاذقية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي أبرز الألوان الأفقية الثلاثة على العلم السوري المعتمد عام 2024؟",
+    "choices": [
+      "الأخضر والأبيض والأسود",
+      "الأحمر والأبيض والأسود",
+      "الأخضر والأبيض والأحمر",
+      "الأسود والأبيض والأحمر"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية الواقعة على سفح جبل قاسيون وتُعد من أقدم العواصم المأهولة باستمرار في العالم؟",
+    "choices": [
+      "دمشق",
+      "حلب",
+      "تدمر",
+      "بصرى"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المأكول السوري الشعبي المكوَّن من خبز مغمور بمرق الحمّص واللبن ويُؤكل على الإفطار؟",
+    "choices": [
+      "الفتة",
+      "الفتوش",
+      "المجدرة",
+      "الشاكرية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي الدولة الوحيدة التي تشترك مع سوريا في حدود بحرية فقط عبر البحر المتوسط؟",
+    "choices": [
+      "قبرص",
+      "اليونان",
+      "إيطاليا",
+      "مصر"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية الواقعة على نهر الخابور في الشمال الشرقي؟",
+    "choices": [
+      "الحسكة",
+      "دير الزور",
+      "الرقة",
+      "تدمر"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي أصغر محافظات سوريا مساحةً؟",
+    "choices": [
+      "القنيطرة",
+      "دمشق",
+      "طرطوس",
+      "السويداء"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحلوى السورية الدمشقية الشهيرة المصنوعة من الفستق والسكر وتُلفّ على شكل أصابع؟",
+    "choices": [
+      "البرازق",
+      "اللوكوم",
+      "الراحة",
+      "المشبك"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية الساحلية الواقعة بين اللاذقية وطرطوس والمعروفة بمسرحها الروماني؟",
+    "choices": [
+      "جبلة",
+      "بانياس",
+      "صافيتا",
+      "الدريكيش"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الجبل الساحلي الذي يمتد موازياً للساحل السوري ويفصل السهل الساحلي عن داخل البلاد؟",
+    "choices": [
+      "جبل النصيرية",
+      "جبل الشيخ",
+      "جبل العرب",
+      "جبل قاسيون"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي العملة المعدنية الصغرى التي تنقسم إليها الليرة السورية تاريخياً؟",
+    "choices": [
+      "القرش",
+      "الفلس",
+      "السنت",
+      "المليم"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو الطبق الدمشقي الشهير المكوَّن من قطع الدجاج والأرز مع اللبن المطبوخ؟",
+    "choices": [
+      "الشاكرية",
+      "المنسف",
+      "الفتة",
+      "الكبسة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية الساحلية التي تُعد مركز محافظة طرطوس؟",
+    "choices": [
+      "طرطوس",
+      "بانياس",
+      "صافيتا",
+      "الدريكيش"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي أعلى فئة ورقية من الليرة السورية طُرحت للتداول حتى عام 2021؟",
+    "choices": [
+      "خمسة آلاف ليرة",
+      "ألف ليرة",
+      "عشرة آلاف ليرة",
+      "مئتا ليرة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحلوى السورية المطاطية المصنوعة من النشا والسكر ويُرشّ عليها السكر الناعم، وتُعرف أيضاً باسم «اللوكوم»؟",
+    "choices": [
+      "الراحة",
+      "البرازق",
+      "الملبّس",
+      "الناطف"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي المدينة السورية التي تُعد مركز محافظة ريف دمشق؟",
+    "choices": [
+      "دوما",
+      "الزبداني",
+      "داريا",
+      "التل"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو أعلى جبل في سوريا؟",
+    "choices": [
+      "جبل الشيخ (حرمون)",
+      "جبل قاسيون",
+      "جبل صافون",
+      "جبل الدروز"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو أطول نهر يمر في الأراضي السورية؟",
+    "choices": [
+      "نهر العاصي",
+      "نهر بردى",
+      "نهر الفرات",
+      "نهر الخابور"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي أكبر بحيرة (خزان مائي) في سوريا؟",
+    "choices": [
+      "بحيرة قطينة",
+      "بحيرة الأسد",
+      "بحيرة مزيريب",
+      "بحيرة الجبول"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "على أي بحر تقع السواحل السورية؟",
+    "choices": [
+      "البحر الأحمر",
+      "البحر الأسود",
+      "البحر المتوسط",
+      "بحر قزوين"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النهر الذي يجري شمالاً من لبنان عبر حمص وحماة في سوريا؟",
+    "choices": [
+      "نهر بردى",
+      "نهر العاصي",
+      "نهر اليرموك",
+      "نهر السن"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو النهر الذي يغذي مدينة دمشق وغوطتها؟",
+    "choices": [
+      "نهر بردى",
+      "نهر الفرات",
+      "نهر الخابور",
+      "نهر البليخ"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنطقة الصحراوية الواسعة شرق وجنوب شرق سوريا؟",
+    "choices": [
+      "بادية الشام",
+      "صحراء النفود",
+      "الربع الخالي",
+      "صحراء سيناء"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الجبل المطل على مدينة دمشق من جهة الشمال؟",
+    "choices": [
+      "جبل قاسيون",
+      "جبل الشيخ",
+      "جبل صافون",
+      "جبل عبد العزيز"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم سلسلة الجبال الساحلية الممتدة بمحاذاة الساحل السوري؟",
+    "choices": [
+      "جبال طوروس",
+      "جبال الأنصارية (الساحلية)",
+      "جبال زاغروس",
+      "جبال لبنان الشرقية"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنطقة الجبلية البركانية في جنوب سوريا المعروفة بصخورها السوداء؟",
+    "choices": [
+      "جبل العرب (الدروز)",
+      "جبل الزاوية",
+      "جبل سمعان",
+      "جبل الأكراد"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النهر الذي يشكّل جزءاً من الحدود بين سوريا والأردن في الجنوب؟",
+    "choices": [
+      "نهر اليرموك",
+      "نهر بردى",
+      "نهر الساجور",
+      "نهر السن"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع المناخ السائد في الشريط الساحلي السوري؟",
+    "choices": [
+      "مناخ استوائي",
+      "مناخ متوسطي",
+      "مناخ قاري بارد",
+      "مناخ صحراوي جاف"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما السهل الزراعي الخصب الواقع جنوب دمشق والمعروف بزراعة القمح؟",
+    "choices": [
+      "سهل حوران",
+      "سهل الغاب",
+      "سهل عكار",
+      "سهل الجزيرة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما السهل المنخفض الخصب الواقع على نهر العاصي بين سلسلتي الجبال الساحلية؟",
+    "choices": [
+      "سهل الغاب",
+      "سهل حوران",
+      "سهل الزبداني",
+      "سهل الرستن"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنطقة الواقعة في أقصى شمال شرق سوريا بين نهري دجلة والفرات؟",
+    "choices": [
+      "الجزيرة السورية",
+      "حوران",
+      "الغوطة",
+      "البادية"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المورد الطبيعي الذي يُستخرج بكثرة من حقول شرق سوريا مثل العمر والتنك؟",
+    "choices": [
+      "النفط",
+      "الذهب",
+      "الفوسفات",
+      "الملح"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مورد معدني تشتهر سوريا باستخراجه قرب تدمر ويُستخدم في الأسمدة؟",
+    "choices": [
+      "الفوسفات",
+      "النحاس",
+      "الفحم الحجري",
+      "البوكسيت"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أكبر مدينة على ساحل سوريا والميناء الرئيسي فيها؟",
+    "choices": [
+      "اللاذقية",
+      "بانياس",
+      "طرطوس",
+      "جبلة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي بلد يجاور سوريا من جهة الشمال؟",
+    "choices": [
+      "تركيا",
+      "العراق",
+      "الأردن",
+      "لبنان"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي بلد يجاور سوريا من جهة الشرق؟",
+    "choices": [
+      "العراق",
+      "تركيا",
+      "لبنان",
+      "فلسطين"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الفصل الذي تتساقط فيه معظم الأمطار في سوريا؟",
+    "choices": [
+      "الصيف",
+      "الشتاء",
+      "أواخر الربيع",
+      "أوائل الخريف"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما السد الكبير الذي أُنشئ على نهر الفرات وأنتج بحيرة الأسد؟",
+    "choices": [
+      "سد الطبقة (الفرات)",
+      "سد الرستن",
+      "سد تشرين",
+      "سد 16 تشرين"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المحصول الزراعي الذي تشتهر به منطقة حلب وإدلب وله أشجار معمّرة؟",
+    "choices": [
+      "الزيتون",
+      "الموز",
+      "المطاط",
+      "قصب السكر"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي من هذه المدن السورية يُعدّ من أقدم المدن المأهولة باستمرار في العالم؟",
+    "choices": [
+      "دمشق",
+      "الرقة",
+      "دير الزور",
+      "الحسكة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنطقة الزراعية المحيطة بدمشق والمشهورة بالبساتين والمياه؟",
+    "choices": [
+      "الغوطة",
+      "الجزيرة",
+      "البادية",
+      "الجولان"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الهضبة الواقعة في جنوب غرب سوريا والمتنازع عليها مع إسرائيل؟",
+    "choices": [
+      "هضبة الجولان",
+      "هضبة حوران",
+      "هضبة حمص",
+      "هضبة تدمر"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرافد الذي يلتقي بنهر الفرات قرب مدينة جرابلس قادماً من تركيا؟",
+    "choices": [
+      "نهر الساجور",
+      "نهر بردى",
+      "نهر العاصي",
+      "نهر اليرموك"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرافد الذي يجري من رأس العين ويصب في نهر الفرات في الجزيرة السورية؟",
+    "choices": [
+      "نهر الخابور",
+      "نهر العاصي",
+      "نهر السن",
+      "نهر بردى"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرافد الذي ينبع قرب تل أبيض ويصب في الفرات قرب الرقة؟",
+    "choices": [
+      "نهر البليخ",
+      "نهر اليرموك",
+      "نهر السن",
+      "نهر بردى"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أعلى قمة في جبال الأنصارية (الساحلية) بسوريا؟",
+    "choices": [
+      "النبي يونس",
+      "قاسيون",
+      "صافون",
+      "عبد العزيز"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما طبيعة مناخ المناطق الداخلية والصحراوية في سوريا؟",
+    "choices": [
+      "حار جاف صيفاً وبارد شتاءً",
+      "استوائي ممطر طوال العام",
+      "معتدل رطب دائماً",
+      "قطبي متجمد"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الجبل الذي يقع غرب حلب وتنتشر فيه آثار المدن البيزنطية المنسية؟",
+    "choices": [
+      "جبل سمعان",
+      "جبل العرب",
+      "جبل الشيخ",
+      "جبل قاسيون"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي عنصر مناخي يجعل قمة جبل الشيخ مكسوة بالثلوج معظم العام؟",
+    "choices": [
+      "ارتفاعها الكبير",
+      "قربها من البحر الأحمر",
+      "انخفاضها تحت سطح البحر",
+      "موقعها الاستوائي"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما البحيرة الصناعية التي تكوّنت خلف سد تشرين على نهر الفرات؟",
+    "choices": [
+      "بحيرة تشرين",
+      "بحيرة الجبول",
+      "بحيرة قطينة",
+      "بحيرة مزيريب"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنطقة السورية التي تُعدّ سلة الغذاء بفضل زراعة القمح والقطن المروي؟",
+    "choices": [
+      "الجزيرة (الحسكة)",
+      "الساحل",
+      "الجولان",
+      "القلمون"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مادة خام أساسية لصناعة الإسمنت تتوافر بكثرة في الجبال السورية؟",
+    "choices": [
+      "الحجر الجيري",
+      "اليورانيوم",
+      "القصدير",
+      "الزئبق"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الواحة الصحراوية الشهيرة بنخيلها وآثارها في وسط البادية السورية؟",
+    "choices": [
+      "تدمر",
+      "صلنفة",
+      "الزبداني",
+      "عين الفيجة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المصدر المائي الطبيعي الذي يغذي نهر بردى ويزوّد دمشق بمياه الشرب؟",
+    "choices": [
+      "نبع الفيجة",
+      "بحيرة الأسد",
+      "نهر الفرات",
+      "بحيرة الجبول"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مرتفع جبلي يفصل سهل الغاب عن الساحل السوري من جهة الغرب؟",
+    "choices": [
+      "الجبال الساحلية (الأنصارية)",
+      "جبل العرب",
+      "جبل قاسيون",
+      "جبل عبد العزيز"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنتجع الجبلي الصيفي المعروف في الجبال الساحلية قرب اللاذقية؟",
+    "choices": [
+      "صلنفة",
+      "تدمر",
+      "الميادين",
+      "البوكمال"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الجبل المنفرد ذو السطح المستوي الواقع في الجزيرة السورية قرب الحسكة؟",
+    "choices": [
+      "جبل عبد العزيز",
+      "جبل قاسيون",
+      "جبل صافون",
+      "جبل الشيخ"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما السبب الرئيسي لخصوبة سهل الغاب الزراعي؟",
+    "choices": [
+      "جريان نهر العاصي وترسباته",
+      "قربه من الصحراء",
+      "ارتفاعه الشديد",
+      "ملوحة تربته"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي محصول صناعي يُزرع بكثرة على ضفاف الفرات في شرق سوريا ويُستخدم في صناعة النسيج؟",
+    "choices": [
+      "القطن",
+      "الكاكاو",
+      "الشاي",
+      "البن"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الظاهرة المناخية التي تتعرّض لها سوريا في السنوات الجافة وتؤثر على الزراعة؟",
+    "choices": [
+      "الجفاف وقلة الأمطار",
+      "الأعاصير المدارية",
+      "التسونامي",
+      "الفيضانات الموسمية الاستوائية"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "إلى أي مسطح مائي يصب نهر العاصي في نهاية مجراه؟",
+    "choices": [
+      "البحر المتوسط",
+      "البحر الأحمر",
+      "الخليج العربي",
+      "بحيرة طبريا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة السورية المعروفة بـ«مدينة النواعير» على نهر العاصي؟",
+    "choices": [
+      "حماة",
+      "حلب",
+      "الحسكة",
+      "درعا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نوع من الغطاء النباتي يغلب على الجبال الساحلية السورية؟",
+    "choices": [
+      "غابات الصنوبر والسنديان",
+      "غابات استوائية مطيرة",
+      "نباتات التندرا",
+      "أشجار المانغروف"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعدن الثمين الذي اكتُشفت احتياطيات منه في منطقة البادية شرق حمص (الكوم)؟",
+    "choices": [
+      "الفوسفات",
+      "الألماس",
+      "البلاتين",
+      "اليورانيوم عالي التركيز"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أدنى المناطق ارتفاعاً والأكثر حرارة صيفاً في سوريا؟",
+    "choices": [
+      "وادي الفرات والبادية الشرقية",
+      "الجبال الساحلية",
+      "قمة جبل الشيخ",
+      "هضبة الجولان"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اتجاه جريان نهر الفرات داخل الأراضي السورية بشكل عام؟",
+    "choices": [
+      "من الشمال الغربي إلى الجنوب الشرقي",
+      "من الجنوب إلى الشمال",
+      "من الشرق إلى الغرب نحو البحر",
+      "دائري حول دمشق"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الغاز الطبيعي الذي يُستخرج إلى جانب النفط ويُستخدم لتوليد الكهرباء في سوريا؟",
+    "choices": [
+      "الغاز الطبيعي (الميثان)",
+      "الهيليوم",
+      "الأوزون",
+      "النيون"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الساحلية السورية التي يقع فيها مرفأ نفطي مهم لتصدير المشتقات؟",
+    "choices": [
+      "بانياس",
+      "درعا",
+      "تدمر",
+      "السويداء"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مدينة سورية تُلقّب بـ«الشهباء» وتقع في الشمال الغربي من البلاد؟",
+    "choices": [
+      "حلب",
+      "حمص",
+      "دير الزور",
+      "القامشلي"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام نالت سوريا استقلالها التام وجلاء آخر جندي فرنسي عن أراضيها؟",
+    "choices": [
+      "1946",
+      "1943",
+      "1948",
+      "1936"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العيد الوطني الذي يحيي ذكرى خروج القوات الفرنسية من سوريا؟",
+    "choices": [
+      "عيد الجلاء",
+      "عيد الثورة",
+      "عيد الوحدة",
+      "عيد التحرير"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة السورية التي تُعدّ من أقدم المدن المأهولة باستمرار في العالم؟",
+    "choices": [
+      "دمشق",
+      "حمص",
+      "درعا",
+      "طرطوس"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المملكة القديمة التي ازدهرت في شمال سوريا واشتهرت بأرشيفها المسماري الضخم في تل مرديخ؟",
+    "choices": [
+      "إيبلا",
+      "ماري",
+      "أوغاريت",
+      "قطنا"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة سورية قديمة اكتُشفت أبجدية تُعدّ من أقدم الأبجديات في العالم؟",
+    "choices": [
+      "أوغاريت",
+      "تدمر",
+      "إيبلا",
+      "ماري"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هي ملكة تدمر التي قادت تمرداً ضد الإمبراطورية الرومانية في القرن الثالث الميلادي؟",
+    "choices": [
+      "زنوبيا",
+      "شجرة الدر",
+      "بلقيس",
+      "ديدو"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الأثرية الواقعة في بادية سوريا والمعروفة بأطلالها الرومانية وملكتها زنوبيا؟",
+    "choices": [
+      "تدمر",
+      "بصرى",
+      "أفاميا",
+      "الرصافة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي معركة فاصلة وقعت قرب نهر اليرموك عام 636م وأدت إلى فتح المسلمين لبلاد الشام؟",
+    "choices": [
+      "معركة اليرموك",
+      "معركة القادسية",
+      "معركة حطين",
+      "معركة ذات الصواري"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الدولة الإسلامية التي اتخذت دمشق عاصمة لها في القرن السابع الميلادي؟",
+    "choices": [
+      "الدولة الأموية",
+      "الدولة العباسية",
+      "الدولة الفاطمية",
+      "الدولة العثمانية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو مؤسس الدولة الأموية الذي اتخذ من دمشق عاصمة للخلافة؟",
+    "choices": [
+      "معاوية بن أبي سفيان",
+      "عبد الملك بن مروان",
+      "عمر بن عبد العزيز",
+      "الوليد بن عبد الملك"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الجامع الأموي الكبير الذي بُني في عهد الخليفة الوليد بن عبد الملك بدمشق؟",
+    "choices": [
+      "الجامع الأموي بدمشق",
+      "جامع قرطبة",
+      "الجامع الأزهر",
+      "المسجد الأقصى"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو القائد الزنكي الذي وحّد المسلمين في الشام وكان والياً على حلب ودمشق قبل صلاح الدين؟",
+    "choices": [
+      "نور الدين زنكي",
+      "عماد الدين زنكي",
+      "قطز",
+      "بيبرس"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في عهد أي قائد مسلم اتُّخذت حلب ودمشق منطلقاً لتحرير القدس عام 1187م؟",
+    "choices": [
+      "صلاح الدين الأيوبي",
+      "نور الدين زنكي",
+      "الظاهر بيبرس",
+      "سيف الدولة الحمداني"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو أمير حلب الحمداني الذي اشتهر ببلاطه الأدبي ومجالسة المتنبي؟",
+    "choices": [
+      "سيف الدولة الحمداني",
+      "ناصر الدولة",
+      "أبو فراس الحمداني",
+      "عضد الدولة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعركة التي انتصر فيها المماليك على المغول قرب فلسطين عام 1260م بعد سقوط دمشق بأيديهم؟",
+    "choices": [
+      "عين جالوت",
+      "حطين",
+      "اليرموك",
+      "مرج دابق"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعركة التي وقعت قرب حلب عام 1516م وأدت إلى سيطرة العثمانيين على سوريا؟",
+    "choices": [
+      "مرج دابق",
+      "الريدانية",
+      "عين جالوت",
+      "نهاوند"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "كم تقريباً دامت السيطرة العثمانية على سوريا قبل انتهائها مع الحرب العالمية الأولى؟",
+    "choices": [
+      "نحو أربعة قرون",
+      "نحو قرنين",
+      "نحو ستة قرون",
+      "نحو قرن واحد"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الزعيم العربي الذي دخل دمشق عام 1918م معلناً قيام حكم عربي بعد انسحاب العثمانيين؟",
+    "choices": [
+      "فيصل بن الحسين",
+      "عبد الله بن الحسين",
+      "الشريف حسين",
+      "ابن سعود"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المملكة العربية قصيرة العمر التي أُعلنت في دمشق عام 1920م برئاسة الملك فيصل؟",
+    "choices": [
+      "المملكة السورية العربية",
+      "المملكة الهاشمية",
+      "مملكة الشام الكبرى",
+      "الجمهورية العربية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعركة التي وقعت عام 1920م بين القوات الفرنسية والسورية وأدت إلى سقوط حكم الملك فيصل في دمشق؟",
+    "choices": [
+      "معركة ميسلون",
+      "معركة مرج دابق",
+      "معركة حطين",
+      "معركة الكرامة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو وزير الدفاع السوري الذي استشهد في معركة ميسلون عام 1920م مدافعاً عن دمشق؟",
+    "choices": [
+      "يوسف العظمة",
+      "سعد الله الجابري",
+      "شكري القوتلي",
+      "هاشم الأتاسي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "تحت أي نظام دولي وُضعت سوريا بعد الحرب العالمية الأولى بقرار من عصبة الأمم؟",
+    "choices": [
+      "الانتداب الفرنسي",
+      "الانتداب البريطاني",
+      "الحماية الإيطالية",
+      "الوصاية الأممية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الثورة الشعبية الكبرى التي اندلعت عام 1925م ضد الانتداب الفرنسي وامتدت في أنحاء سوريا؟",
+    "choices": [
+      "الثورة السورية الكبرى",
+      "ثورة العشرين",
+      "الثورة العرابية",
+      "ثورة الزنج"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو القائد الدرزي الذي تزعّم الثورة السورية الكبرى عام 1925م ضد الفرنسيين؟",
+    "choices": [
+      "سلطان باشا الأطرش",
+      "صالح العلي",
+      "إبراهيم هنانو",
+      "يوسف العظمة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الرئيس السوري الذي قاد البلاد عند الجلاء عام 1946م ويُلقّب بـ«أبو الاستقلال»؟",
+    "choices": [
+      "شكري القوتلي",
+      "هاشم الأتاسي",
+      "فارس الخوري",
+      "سعد الله الجابري"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الوحدة التي قامت بين سوريا ومصر عام 1958م؟",
+    "choices": [
+      "الجمهورية العربية المتحدة",
+      "الاتحاد العربي",
+      "جمهورية الشام",
+      "الوحدة العربية الكبرى"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام انفصلت سوريا عن الجمهورية العربية المتحدة عائدة دولة مستقلة؟",
+    "choices": [
+      "1961",
+      "1958",
+      "1963",
+      "1970"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الحزب الذي وصل إلى السلطة في سوريا إثر انقلاب الثامن من آذار عام 1963م؟",
+    "choices": [
+      "حزب البعث",
+      "الحزب الشيوعي",
+      "الحزب الوطني",
+      "الحزب القومي السوري"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المفكر الذي يُعدّ من أبرز مؤسسي حزب البعث العربي الاشتراكي؟",
+    "choices": [
+      "ميشيل عفلق",
+      "أنطون سعادة",
+      "ساطع الحصري",
+      "قسطنطين زريق"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الرئيس السوري الذي وصل إلى الحكم عام 1970م إثر ما سُمّي بالحركة التصحيحية؟",
+    "choices": [
+      "حافظ الأسد",
+      "صلاح جديد",
+      "نور الدين الأتاسي",
+      "أمين الحافظ"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الهضبة السورية التي احتلتها إسرائيل عام 1967م إبّان حرب الأيام الستة؟",
+    "choices": [
+      "هضبة الجولان",
+      "هضبة حوران",
+      "جبل الشيخ",
+      "جبل العرب"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي حرب شاركت سوريا عام 1973م في محاولة لاستعادة الجولان؟",
+    "choices": [
+      "حرب تشرين",
+      "حرب حزيران",
+      "حرب السويس",
+      "حرب لبنان"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحرب التي خاضتها سوريا ومصر ضد إسرائيل في تشرين الأول عام 1973م؟",
+    "choices": [
+      "حرب تشرين التحريرية",
+      "حرب النكبة",
+      "حرب الاستنزاف",
+      "حرب الخليج"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الرئيس السوري الذي تولى الحكم عام 2000م خلفاً لوالده؟",
+    "choices": [
+      "بشار الأسد",
+      "ماهر الأسد",
+      "باسل الأسد",
+      "رفعت الأسد"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام اندلعت الانتفاضة الشعبية في سوريا ضمن ما عُرف بالربيع العربي؟",
+    "choices": [
+      "2011",
+      "2008",
+      "2013",
+      "2009"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة السورية التي اعتُبرت أولى شرارات الاحتجاجات عام 2011م؟",
+    "choices": [
+      "درعا",
+      "حلب",
+      "حمص",
+      "اللاذقية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما القلعة الصليبية الشهيرة في وسط سوريا والمدرجة على لائحة التراث العالمي لليونسكو؟",
+    "choices": [
+      "قلعة الحصن",
+      "قلعة حلب",
+      "قلعة دمشق",
+      "قلعة صلاح الدين"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما القلعة الأثرية التي تتوسط مدينة حلب وتُعدّ من أبرز معالمها التاريخية؟",
+    "choices": [
+      "قلعة حلب",
+      "قلعة الحصن",
+      "قلعة شيزر",
+      "قلعة المرقب"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الرومانية السورية الشهيرة بمسرحها الضخم في جنوب البلاد؟",
+    "choices": [
+      "بصرى الشام",
+      "تدمر",
+      "أفاميا",
+      "الرصافة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النهر الأطول الذي يجري عبر الأراضي السورية ويُعدّ شرياناً مائياً رئيسياً؟",
+    "choices": [
+      "الفرات",
+      "العاصي",
+      "بردى",
+      "اليرموك"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النهر الذي يمرّ في مدينة حماة ويشتهر بنواعيرها الخشبية القديمة؟",
+    "choices": [
+      "نهر العاصي",
+      "نهر الفرات",
+      "نهر بردى",
+      "نهر الخابور"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة القديمة التي اكتُشف فيها أرشيف ماري المسماري على نهر الفرات؟",
+    "choices": [
+      "ماري",
+      "إيبلا",
+      "أوغاريت",
+      "قطنا"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الخليفة الأموي الذي اشتهر بإصلاحاته العادلة ويُلقّب بخامس الخلفاء الراشدين؟",
+    "choices": [
+      "عمر بن عبد العزيز",
+      "هشام بن عبد الملك",
+      "سليمان بن عبد الملك",
+      "يزيد بن معاوية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما السلالة التي حكمت من دمشق وامتد ملكها من الأندلس غرباً إلى حدود الصين شرقاً؟",
+    "choices": [
+      "الأمويون",
+      "العباسيون",
+      "الفاطميون",
+      "السلاجقة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الفاتح المسلم الذي قاد جيوش الشام في معركة اليرموك ولُقّب بسيف الله المسلول؟",
+    "choices": [
+      "خالد بن الوليد",
+      "أبو عبيدة بن الجراح",
+      "عمرو بن العاص",
+      "سعد بن أبي وقاص"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البرلمان أو الهيئة التشريعية التي وضعت دستور المملكة السورية عام 1920م؟",
+    "choices": [
+      "المؤتمر السوري العام",
+      "مجلس الشورى",
+      "الجمعية التأسيسية",
+      "مجلس النواب"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو القائد الذي تزعّم الثورة ضد الفرنسيين في منطقة الساحل السوري في عشرينيات القرن العشرين؟",
+    "choices": [
+      "صالح العلي",
+      "سلطان الأطرش",
+      "إبراهيم هنانو",
+      "يوسف العظمة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الزعيم الذي قاد المقاومة ضد الفرنسيين في منطقة حلب وريفها إبّان الانتداب؟",
+    "choices": [
+      "إبراهيم هنانو",
+      "صالح العلي",
+      "سلطان الأطرش",
+      "فوزي القاوقجي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الكتلة الوطنية التي قادت العمل السياسي السوري ضد الانتداب الفرنسي في الثلاثينيات؟",
+    "choices": [
+      "الكتلة الوطنية",
+      "الحزب الوطني",
+      "حزب الشعب",
+      "التجمع الوطني"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو السياسي السوري المسيحي الذي تولى رئاسة الوزراء ودافع عن القضية السورية في الأمم المتحدة؟",
+    "choices": [
+      "فارس الخوري",
+      "ميشيل عفلق",
+      "قسطنطين زريق",
+      "صبري العسلي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الانقلاب العسكري الذي يُعدّ الأول في تاريخ سوريا الحديث والمنطقة العربية عام 1949م؟",
+    "choices": [
+      "انقلاب حسني الزعيم",
+      "انقلاب الشيشكلي",
+      "انقلاب البعث",
+      "انقلاب الحناوي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعركة الشهيرة بين الحيثيين والمصريين قرب مدينة قادش على نهر العاصي في سوريا؟",
+    "choices": [
+      "معركة قادش",
+      "معركة مجدو",
+      "معركة أفاميا",
+      "معركة الرها"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما العاصمة السورية التي تُلقّب بـ«مدينة الياسمين»؟",
+    "choices": [
+      "دمشق",
+      "حلب",
+      "حمص",
+      "اللاذقية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة السورية التي تُعدّ ثاني كبرى المدن وتشتهر بسوقها المسقوف وقلعتها التاريخية؟",
+    "choices": [
+      "حلب",
+      "حمص",
+      "حماة",
+      "دير الزور"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الإمبراطورية التي ضمّت سوريا بعد فتوحات الإسكندر المقدوني وأسسها أحد قادته؟",
+    "choices": [
+      "الدولة السلوقية",
+      "الدولة البطلمية",
+      "الدولة الساسانية",
+      "الدولة البيزنطية"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة التي اتخذها السلوقيون عاصمة لهم في شمال سوريا وحملت اسم أنطاكية؟",
+    "choices": [
+      "أنطاكية",
+      "أفاميا",
+      "اللاذقية",
+      "حلب"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المطرب السوري الشهير الذي اشتهر بفن الموشحات والقدود الحلبية وأغنية «قدك المياس»؟",
+    "choices": [
+      "وديع الصافي",
+      "صباح فخري",
+      "محمد عبد الوهاب",
+      "فريد الأطرش"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "المدينة السورية التي تُعدّ مهد فن الموشحات والقدود وتُلقّب بعاصمة الطرب هي:",
+    "choices": [
+      "دمشق",
+      "حمص",
+      "حلب",
+      "اللاذقية"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "الموسيقي والملحّن السوري الشهير فريد الأطرش يعود في أصوله إلى أيّ طائفة وجبل في سوريا؟",
+    "choices": [
+      "جبل العرب (الدروز)",
+      "جبل الزاوية",
+      "جبل النصيرة",
+      "جبل قاسيون"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "المطربة والممثلة المصرية الراحلة أسمهان هي شقيقة أيّ فنان سوري شهير؟",
+    "choices": [
+      "محمد عبد الوهاب",
+      "فريد الأطرش",
+      "عبد الحليم حافظ",
+      "فهد بلان"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "المسلسل السوري الشهير الذي يصوّر الحياة الدمشقية في حارات الشام القديمة بزعامة «أبو عصام» هو:",
+    "choices": [
+      "باب الحارة",
+      "ضيعة ضايعة",
+      "الفصول الأربعة",
+      "أيام شامية"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "الفنان السوري الشهير صاحب برنامج المنوّعات الساخر «مرايا» الذي قدّمه لعقود هو:",
+    "choices": [
+      "دريد لحام",
+      "ياسر العظمة",
+      "أيمن زيدان",
+      "جمال سليمان"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الشخصية الكوميدية الشهيرة «غوار الطوشة» التي جسّدها الفنان دريد لحام كان يرافقها صديقه:",
+    "choices": [
+      "أبو عنتر",
+      "حسني البورظان",
+      "فطوم حيص بيص",
+      "ياسين بقوش"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الفنان السوري دريد لحام اشتُهر بشخصية كوميدية خالدة اسمها:",
+    "choices": [
+      "حسني البورظان",
+      "أبو صياح",
+      "غوار الطوشة",
+      "أبو عصام"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "الشاعر السوري الذي لُقّب بـ«شاعر الحب والمرأة» وكتب «قارئة الفنجان» هو:",
+    "choices": [
+      "بدر شاكر السياب",
+      "نزار قباني",
+      "عمر أبو ريشة",
+      "سليمان العيسى"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "قصيدة «قارئة الفنجان» التي غنّاها عبد الحليم حافظ هي من كلمات الشاعر السوري:",
+    "choices": [
+      "نزار قباني",
+      "سعيد عقل",
+      "نزار فرنسيس",
+      "أنسي الحاج"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الكاتب والروائي السوري صاحب رواية «الشمس في يوم غائم» و«حكاية بحّار» الذي يُعدّ من أبرز روائيي سوريا هو:",
+    "choices": [
+      "حنا مينه",
+      "عبد السلام العجيلي",
+      "زكريا تامر",
+      "غادة السمان"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الروائي السوري حنا مينه اشتُهر بكتابة الروايات التي تدور حول:",
+    "choices": [
+      "الصحراء والبادية",
+      "البحر والبحّارة",
+      "الجبال والثلوج",
+      "المدن الصناعية"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الكاتبة السورية صاحبة المجموعة القصصية «عيناك قدري» ورواية «بيروت 75» هي:",
+    "choices": [
+      "كوليت خوري",
+      "غادة السمان",
+      "أُلفت الإدلبي",
+      "سمر يزبك"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "القاص السوري الشهير صاحب مجموعة «النمور في اليوم العاشر» والمعروف بأدب السخرية والرمز هو:",
+    "choices": [
+      "زكريا تامر",
+      "سعد الله ونوس",
+      "ممدوح عدوان",
+      "حيدر حيدر"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الكاتب المسرحي السوري الشهير صاحب مسرحية «الفيل يا ملك الزمان» و«رأس المملوك جابر» هو:",
+    "choices": [
+      "سعد الله ونوس",
+      "ممدوح عدوان",
+      "وليد إخلاصي",
+      "فرحان بلبل"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "المخرج السوري الشهير الذي أخرج مسلسل «التغريبة الفلسطينية» و«الزير سالم» هو:",
+    "choices": [
+      "نجدت أنزور",
+      "حاتم علي",
+      "الليث حجو",
+      "باسل الخطيب"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الملحمة التاريخية «الزير سالم» التي عُرضت كمسلسل سوري شهير تتناول قصة:",
+    "choices": [
+      "عنترة بن شداد",
+      "حرب البسوس والمهلهل",
+      "الملك كليب",
+      "صلاح الدين الأيوبي"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "المسلسل التاريخي السوري الذي صوّر سيرة القائد «صلاح الدين الأيوبي» من بطولة جمال سليمان هو:",
+    "choices": [
+      "صلاح الدين الأيوبي",
+      "ملوك الطوائف",
+      "ربيع قرطبة",
+      "صقر قريش"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الفنان السوري الشهير الذي جسّد شخصية «أبو عصام» في مسلسل «باب الحارة» هو:",
+    "choices": [
+      "عباس النوري",
+      "سامي مغاوري",
+      "رشيد عساف",
+      "وائل شرف"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "اللباس النسائي التقليدي السوري المطرّز بخيوط ملوّنة والمنتشر خاصة في الريف يُسمى:",
+    "choices": [
+      "العباءة",
+      "الثوب المطرّز",
+      "الملاية",
+      "الزبون"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الرقصة الشعبية الجماعية الأشهر في سوريا التي تُؤدّى في الأفراح بصفّ متراص هي:",
+    "choices": [
+      "الدبكة",
+      "التنّورة",
+      "العرضة",
+      "السامري"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "الآلة الموسيقية الوترية التي تُعزف بالريشة وتُعدّ من أبرز رموز الموسيقى السورية والعربية هي:",
+    "choices": [
+      "العود",
+      "الناي",
+      "القانون",
+      "الربابة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "المطربة السورية الشهيرة ابنة الفنان مصطفى نصري وصاحبة أغنية «يا مجنون» هي:",
+    "choices": [
+      "ميادة الحناوي",
+      "أصالة نصري",
+      "نجوى كرم",
+      "أحلام"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "المدينة السورية المُدرجة على لائحة التراث العالمي لليونسكو والمعروفة بقلعتها الأثرية وأسواقها المسقوفة هي:",
+    "choices": [
+      "حلب",
+      "تدمر",
+      "حمص",
+      "حماة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "النواعير الخشبية الضخمة التي تُعدّ رمزاً تراثياً ومائياً تشتهر بها المدينة السورية:",
+    "choices": [
+      "دمشق",
+      "حماة",
+      "دير الزور",
+      "الرقة"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "المدينة الأثرية السورية التي اشتهرت بالملكة «زنوبيا» وآثارها الرومانية وأُدرجت ضمن التراث العالمي هي:",
+    "choices": [
+      "تدمر",
+      "بصرى",
+      "أوغاريت",
+      "ماري"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الملكة السورية الشهيرة التي حكمت مملكة تدمر وتحدّت الإمبراطورية الرومانية هي:",
+    "choices": [
+      "شجرة الدر",
+      "زنوبيا",
+      "بلقيس",
+      "كليوباترا"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "الموقع الأثري السوري الذي اكتُشفت فيه أقدم أبجدية في العالم على شكل مسماري هو:",
+    "choices": [
+      "إيبلا",
+      "أوغاريت (رأس شمرا)",
+      "ماري",
+      "تل حلف"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "الفنان التشكيلي السوري الرائد المعروف برسم البيئة الدمشقية والحارات الشعبية وأحد أعمدة الفن الحديث في سوريا هو:",
+    "choices": [
+      "فاتح المدرّس",
+      "لؤي كيالي",
+      "نذير نبعة",
+      "ممدوح قشلان"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "الفنان التشكيلي السوري الشهير المعروف بلوحاته عن الفقراء والباعة المتجوّلين وصاحب الأسلوب الحزين هو:",
+    "choices": [
+      "فاتح المدرّس",
+      "لؤي كيالي",
+      "إلياس الزيات",
+      "نصير شورى"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "الممثل السوري الشهير الذي اشتهر بأدواره في «الفصول الأربعة» و«التغريبة الفلسطينية» والمقيم لاحقاً خارج سوريا هو:",
+    "choices": [
+      "جمال سليمان",
+      "أيمن زيدان",
+      "سلوم حداد",
+      "بسام كوسا"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "المسلسل السوري الاجتماعي الشهير الذي صوّر حياة عائلتين دمشقيتين وأخرجه حاتم علي عام 1999 هو:",
+    "choices": [
+      "الفصول الأربعة",
+      "أحلام كبيرة",
+      "غزلان في غابة الذئاب",
+      "أسرار المدينة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الفنان السوري الراحل المعروف بشخصية «أبو عنتر» في الدراما الشامية القديمة هو:",
+    "choices": [
+      "ناجي جبر",
+      "رفيق سبيعي",
+      "عمر حجو",
+      "تيسير السعدي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "الأكلة السورية الشعبية الأشهر المكوّنة من حبّ الحمّص المطحون مع الطحينة وزيت الزيتون هي:",
+    "choices": [
+      "المتبّل",
+      "الحمّص بالطحينة",
+      "الفتّوش",
+      "التبّولة"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "الطبق السوري الحلبي الشهير المكوّن من كرات البرغل المحشوّة باللحم على شكل أقماع هو:",
+    "choices": [
+      "الكبة الحلبية",
+      "الشيش برك",
+      "المحشي",
+      "الكبة اليبرق"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الشاعر السوري صاحب الاسم المستعار «بدوي الجبل» واسمه الحقيقي محمد سليمان الأحمد هو من شعراء:",
+    "choices": [
+      "العصر العباسي",
+      "النهضة العربية الحديثة",
+      "العصر الأموي",
+      "ما قبل الإسلام"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "المطرب السوري الشهير المعروف بإحياء التراث الديني والابتهالات والمولد النبوي وصاحب «طلع البدر علينا» بأدائه المميز هو:",
+    "choices": [
+      "أبو الجود (نور الدين خورشيد)",
+      "حمزة شكور",
+      "توفيق المنجد",
+      "صبري مدلل"
+    ],
+    "correctIdx": 3,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "الفرقة السورية الشهيرة المختصة بالإنشاد الديني والموشحات الدمشقية بقيادة المنشد حمزة شكور هي:",
+    "choices": [
+      "فرقة الكندي",
+      "فرقة الإنشاد الدمشقي (المولوية)",
+      "فرقة وردة",
+      "فرقة العاشقين"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "السوق الدمشقي العريق المسقوف الذي يُعدّ من أشهر أسواق العالم العربي ويقع داخل مدينة دمشق القديمة هو:",
+    "choices": [
+      "سوق الحميدية",
+      "سوق المدينة",
+      "خان أسعد باشا",
+      "سوق الصاغة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "المخرج السوري المعروف بأفلام الأكشن التاريخية ومسلسلات مثل «الجوارح» و«الكواسر» هو:",
+    "choices": [
+      "نجدت أنزور",
+      "محمد عزيزية",
+      "سيف الدين سبيعي",
+      "هيثم حقي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "الفيلم السوري الذي أخرجه محمد ملص وعُدّ من أهم أفلام السينما السورية ويحمل اسم حيّ دمشقي هو:",
+    "choices": [
+      "أحلام المدينة",
+      "الليل",
+      "باب المقام",
+      "نجوم النهار"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "المؤسسة الحكومية المسؤولة عن إنتاج الأفلام السينمائية في سوريا منذ ستينيات القرن الماضي هي:",
+    "choices": [
+      "المؤسسة العامة للسينما",
+      "التلفزيون العربي السوري",
+      "وزارة الثقافة",
+      "المركز الثقافي العربي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الممثل السوري الكوميدي الراحل الذي اشتهر بشخصيته في «صح النوم» وأعمال دريد لحام ونهاد قلعي ولقّب بـ«ياسينو» هو:",
+    "choices": [
+      "ناجي جبر",
+      "ياسين بقوش",
+      "عبد اللطيف فتحي",
+      "محمود جبر"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "الكاتب والممثل السوري نهاد قلعي شارك دريد لحام في تأليف وبطولة أعمال خالدة، وقد جسّد شخصية:",
+    "choices": [
+      "أبو عنتر",
+      "حسني البورظان",
+      "ياسين",
+      "المعلم أبو صياح"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "الطبق الحلبي الشهير المكوّن من اللحم المشوي مع صلصة الطماطم والخبز وزيت الزيتون والمعروف بنكهته الحارة هو:",
+    "choices": [
+      "الكباب الحلبي",
+      "الفتّة",
+      "الصفيحة",
+      "المقلوبة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الشاعر السوري المعروف الذي كتب الكثير من أناشيد الأطفال والقصائد القومية ولُقّب بـ«شاعر الطفولة» هو:",
+    "choices": [
+      "سليمان العيسى",
+      "نزار قباني",
+      "ممدوح عدوان",
+      "نديم محمد"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "الممثل السوري القدير الذي اشتهر بأدوار الشخصيات التاريخية مثل «أبو ليلى المهلهل» في «الزير سالم» هو:",
+    "choices": [
+      "سلوم حداد",
+      "عابد فهد",
+      "بسام كوسا",
+      "فايز قزق"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "المسلسل السوري البدوي الشهير الذي تدور أحداثه في البادية ويتناول قصص العشائر والثأر وأخرجه حاتم علي بعنوان:",
+    "choices": [
+      "الفصول الأربعة",
+      "ليالي الصالحية",
+      "نهاية رجل شجاع",
+      "الفوارس / رأس الغول"
+    ],
+    "correctIdx": 3,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "النوع الغنائي التراثي السوري الذي يعتمد على إنشاد القصائد الصوفية والدينية في حلقات الذكر هو:",
+    "choices": [
+      "القدود الحلبية",
+      "الإنشاد الديني (الموشحات الصوفية)",
+      "العتابا",
+      "الميجانا"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "الفن الغنائي الشعبي السوري الذي يُؤدّى ارتجالاً بأبيات شعرية حزينة وغالباً ما يسبق «الميجانا» هو:",
+    "choices": [
+      "العتابا",
+      "المولية",
+      "الموّال البغدادي",
+      "الزجل"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنتخب الوطني السوري لكرة القدم للرجال؟",
+    "choices": [
+      "نسور قاسيون",
+      "أسود الأطلس",
+      "الفراعنة",
+      "الخيول البيضاء"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة سورية يقع نادي الكرامة الرياضي الشهير؟",
+    "choices": [
+      "حلب",
+      "حمص",
+      "اللاذقية",
+      "دمشق"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "إلى أي بطولة قارية وصل نادي الكرامة السوري نهائيها عام 2006؟",
+    "choices": [
+      "دوري أبطال آسيا",
+      "كأس الاتحاد الآسيوي",
+      "كأس الخليج للأندية",
+      "كأس العالم للأندية"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الاتحاد القاري الذي ينتمي إليه المنتخب السوري لكرة القدم؟",
+    "choices": [
+      "الاتحاد الإفريقي",
+      "الاتحاد الأوروبي",
+      "الاتحاد الآسيوي",
+      "اتحاد أمريكا الجنوبية"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم نادي الجيش الرياضي الذي يعد من أعرق أندية العاصمة دمشق؟",
+    "choices": [
+      "الجيش",
+      "الوحدة",
+      "المجد",
+      "الشرطة"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عاصمة عربية يقع نادي الوحدة السوري لكرة القدم؟",
+    "choices": [
+      "حلب",
+      "اللاذقية",
+      "دمشق",
+      "حماة"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من اللاعب السوري الذي فاز بجائزة أفضل لاعب في الدوري السعودي ولعب لنادي الأهلي السعودي؟",
+    "choices": [
+      "عمر السومة",
+      "تامر حاج محمد",
+      "محمود المواس",
+      "أحمد الصالح"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اللون الأساسي لقميص المنتخب السوري في مبارياته الرسمية تقليدياً؟",
+    "choices": [
+      "الأزرق",
+      "الأخضر",
+      "الأصفر",
+      "الأحمر"
+    ],
+    "correctIdx": 3,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "إلى أي دور تاريخي وصل المنتخب السوري في تصفيات كأس العالم 2018؟",
+    "choices": [
+      "الملحق العالمي",
+      "نصف نهائي كأس العالم",
+      "ربع نهائي كأس العالم",
+      "النهائي القاري"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من المهاجم السوري الذي سجل هدف التعادل الشهير أمام أستراليا في ملحق تصفيات كأس العالم 2018؟",
+    "choices": [
+      "فراس الخطيب",
+      "عمر خربين",
+      "عمر السومة",
+      "محمود المواس"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم نادي تشرين الرياضي ومدينته في سوريا؟",
+    "choices": [
+      "دمشق",
+      "حمص",
+      "اللاذقية",
+      "درعا"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد اللاعبين الأساسيين في فريق كرة القدم لكل منتخب بما فيها المنتخب السوري؟",
+    "choices": [
+      "تسعة",
+      "عشرة",
+      "أحد عشر",
+      "اثنا عشر"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي قارة تقام بطولة كأس آسيا التي يشارك فيها المنتخب السوري؟",
+    "choices": [
+      "أوروبا",
+      "آسيا",
+      "إفريقيا",
+      "أمريكا الجنوبية"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم نادي حطين الرياضي السوري نسبةً إلى معركة تاريخية؟",
+    "choices": [
+      "حطين",
+      "اليرموك",
+      "القادسية",
+      "عين جالوت"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الجائزة الأكبر التي يتنافس عليها أبطال الدوري السوري الممتاز لكرة القدم؟",
+    "choices": [
+      "لقب الدوري السوري الممتاز",
+      "كأس العالم",
+      "الدوري الإنجليزي",
+      "دوري أبطال أوروبا"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من اللاعب السوري الذي لعب لنادي الهلال السعودي وتُوّج بلقب أفضل لاعب في آسيا عام 2017؟",
+    "choices": [
+      "عمر السومة",
+      "عمر خربين",
+      "فراس الخطيب",
+      "تامر حاج محمد"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البطولة المحلية لكأس سوريا في كرة القدم؟",
+    "choices": [
+      "كأس الجمهورية",
+      "كأس الاتحاد",
+      "كأس السوبر العربي",
+      "كأس الملك"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نادٍ سوري يحمل اسماً عسكرياً ويتخذ من العاصمة دمشق مقراً له؟",
+    "choices": [
+      "الكرامة",
+      "تشرين",
+      "الجيش",
+      "الحرية"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "كم لاعباً يحق لفريق كرة القدم وضعه في مركز حراسة المرمى في وقت واحد؟",
+    "choices": [
+      "لاعب واحد",
+      "لاعبان",
+      "ثلاثة لاعبين",
+      "لا يوجد"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النادي السوري الذي يحمل اسم «الاتحاد» ويقع في مدينة حلب؟",
+    "choices": [
+      "الاتحاد",
+      "الكرامة",
+      "تشرين",
+      "الفتوة"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة سورية يقع نادي الفتوة الرياضي؟",
+    "choices": [
+      "دمشق",
+      "دير الزور",
+      "حمص",
+      "طرطوس"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من الحارس السوري الذي اشتهر بالتصدي للكرات في صفوف المنتخب الوطني والكرامة لسنوات طويلة؟",
+    "choices": [
+      "مصعب بلحوص",
+      "إبراهيم عالمة",
+      "عبدالباسط ساروت",
+      "محمد العمر"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما عدد الأهداف اللازمة لتسجيل «هاتريك» في مباراة كرة قدم يحققها لاعب سوري؟",
+    "choices": [
+      "هدفان",
+      "ثلاثة أهداف",
+      "أربعة أهداف",
+      "خمسة أهداف"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم نادي الوثبة الرياضي ومدينته في سوريا؟",
+    "choices": [
+      "حمص",
+      "حلب",
+      "حماة",
+      "دمشق"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مدينة سورية تُعرف بأنها معقل ناديي الاتحاد والحرية في كرة القدم؟",
+    "choices": [
+      "دمشق",
+      "حمص",
+      "حلب",
+      "اللاذقية"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي بطولة قارية يشارك أبطال الدوري السوري ممثلين عن بلادهم على مستوى الأندية؟",
+    "choices": [
+      "كأس الاتحاد الآسيوي",
+      "دوري أبطال أوروبا",
+      "كأس ليبرتادوريس",
+      "كأس الكاف"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم نادي الحرية الرياضي ومدينته في سوريا؟",
+    "choices": [
+      "حلب",
+      "دمشق",
+      "حمص",
+      "اللاذقية"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم مدة الشوط الواحد في مباراة كرة القدم الرسمية للمنتخب السوري؟",
+    "choices": [
+      "ثلاثون دقيقة",
+      "خمس وأربعون دقيقة",
+      "ستون دقيقة",
+      "تسعون دقيقة"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النادي السوري الذي يقع في مدينة طرطوس على الساحل؟",
+    "choices": [
+      "الساحل",
+      "الجبلة",
+      "الوحدة",
+      "النواعير"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة سورية يقع نادي الكرامة الذي يلعب على ملعب خالد بن الوليد؟",
+    "choices": [
+      "دمشق",
+      "حمص",
+      "حلب",
+      "درعا"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الملعب الرئيس في العاصمة دمشق الذي يحتضن مباريات المنتخب السوري؟",
+    "choices": [
+      "ملعب العباسيين",
+      "ملعب باجدا",
+      "ملعب الفيحاء",
+      "ملعب حمص البلدي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم مرة يفوز فيها فريق كرة القدم بثلاث نقاط في مباراة واحدة من الدوري السوري؟",
+    "choices": [
+      "عند التعادل",
+      "عند الفوز",
+      "عند الخسارة",
+      "عند التأجيل"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي ناديين سوريين يعدان الأكثر تتويجاً بلقب الدوري السوري الممتاز تاريخياً؟",
+    "choices": [
+      "الجيش والكرامة",
+      "تشرين والفتوة",
+      "الحرية والوثبة",
+      "النواعير والساحل"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما لون البطاقة التي يُطرد بها اللاعب من مباراة كرة القدم في الدوري السوري؟",
+    "choices": [
+      "الصفراء",
+      "الحمراء",
+      "الزرقاء",
+      "الخضراء"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة سورية يقع نادي النواعير الرياضي؟",
+    "choices": [
+      "حماة",
+      "حمص",
+      "حلب",
+      "دمشق"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المسابقة التي تجمع بطل الدوري السوري وبطل كأس الجمهورية في مباراة واحدة؟",
+    "choices": [
+      "كأس السوبر السوري",
+      "كأس العالم",
+      "الدوري الممتاز",
+      "كأس آسيا"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مركز يلعب فيه «حارس المرمى» في فريق كرة القدم السوري؟",
+    "choices": [
+      "خط الهجوم",
+      "خط الوسط",
+      "حماية المرمى",
+      "الجناح الأيمن"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من المدرب السوري الشهير الذي قاد عدة أندية والمنتخب الوطني ولُقّب بأحد أبرز مدربي سوريا؟",
+    "choices": [
+      "فجر إبراهيم",
+      "عمر السومة",
+      "فراس الخطيب",
+      "جهاد الحسين"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما عدد البدلاء المسموح بإشراكهم تقليدياً في مباريات الدوري السوري وفق قوانين اللعبة الحديثة؟",
+    "choices": [
+      "بديل واحد",
+      "ثلاثة بدلاء",
+      "خمسة بدلاء",
+      "سبعة بدلاء"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من اللاعب السوري الذي لعب في الدوري الكويتي وكان من قادة المنتخب في خط الدفاع؟",
+    "choices": [
+      "أحمد الصالح",
+      "عمر السومة",
+      "محمود المواس",
+      "عمر خربين"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الكأس القارية التي تتنافس عليها المنتخبات الآسيوية ومنها سوريا كل أربع سنوات؟",
+    "choices": [
+      "كأس آسيا",
+      "كأس إفريقيا",
+      "كأس أوروبا",
+      "كأس الكونكاكاف"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عقد وصل نادي الكرامة السوري إلى نهائي دوري أبطال آسيا؟",
+    "choices": [
+      "التسعينيات",
+      "العقد الأول من الألفية الثالثة",
+      "ثمانينيات القرن الماضي",
+      "عقد العشرينيات"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرقم الذي يرتديه عادةً المهاجم الأساسي والهداف في فرق كرة القدم ومنها الأندية السورية؟",
+    "choices": [
+      "الرقم 1",
+      "الرقم 9",
+      "الرقم 12",
+      "الرقم 16"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي نادٍ سوري يحمل اسم «المجد» ويقع في العاصمة دمشق؟",
+    "choices": [
+      "المجد",
+      "الوحدة",
+      "الجيش",
+      "الشرطة"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم نادي الجبلة الرياضي السوري نسبة إلى مدينته الساحلية؟",
+    "choices": [
+      "الجبلة",
+      "الساحل",
+      "النواعير",
+      "الوثبة"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم مرة فاز فيها المنتخب السوري ببطولة كأس العالم لكرة القدم حتى الآن؟",
+    "choices": [
+      "مرة واحدة",
+      "مرتان",
+      "ثلاث مرات",
+      "لم يفز بها قط"
+    ],
+    "correctIdx": 3,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من الجهة التي تشرف على تنظيم كرة القدم وتدير شؤون المنتخبات والأندية في سوريا؟",
+    "choices": [
+      "الاتحاد السوري لكرة القدم",
+      "وزارة الرياضة العالمية",
+      "الاتحاد الأوروبي",
+      "الرابطة العربية للأندية"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Syria",
+    "difficulty": "easy",
+    "locale": "ar"
+  }
 ]

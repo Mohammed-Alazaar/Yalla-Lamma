@@ -1,36 +1,4090 @@
 [
-  { "text": "ما المدينة المقدّسة التي تُعدّ عاصمة فلسطين؟", "choices": ["القدس", "رام الله", "غزة", "الخليل"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
-  { "text": "ما المعلم الإسلامي في القدس صاحب القبة الذهبية؟", "choices": ["قبة الصخرة", "كنيسة القيامة", "المسجد الإبراهيمي", "كنيسة المهد"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما أكبر مدينة في قطاع غزة من حيث السكان؟", "choices": ["غزة", "رفح", "خان يونس", "دير البلح"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما الحرفة اليدوية الفلسطينية الشهيرة بالخيوط الملونة على الثوب؟", "choices": ["التطريز", "الفخار", "النحت", "صناعة الزجاج"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما الشجرة الرمز المرتبطة بفلسطين وزراعتها؟", "choices": ["الزيتون", "النخيل", "الأرز", "الصنوبر"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
-  { "text": "ما البحر الذي يطل عليه قطاع غزة؟", "choices": ["البحر الأبيض المتوسط", "البحر الميت", "البحر الأحمر", "بحيرة طبريا"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
-
-  { "text": "في أي عام وقعت النكبة الفلسطينية؟", "choices": ["1948", "1936", "1967", "1917"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
-  { "text": "في أي حرب احتُلت الضفة الغربية وغزة والقدس الشرقية؟", "choices": ["حرب 1967 (النكسة)", "حرب 1948", "حرب 1973", "حرب 1956"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما الوعد البريطاني عام 1917 الذي مهّد لإقامة وطن قومي يهودي في فلسطين؟", "choices": ["وعد بلفور", "اتفاقية سايكس بيكو", "صك الانتداب", "قرار التقسيم"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "في أي عام اندلعت الانتفاضة الفلسطينية الأولى؟", "choices": ["1987", "1967", "2000", "1948"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "hard", "locale": "ar" },
-  { "text": "من الزعيم الفلسطيني الملقّب بـ«أبو عمار»؟", "choices": ["ياسر عرفات", "أحمد الشقيري", "خليل الوزير", "جورج حبش"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما المدينة الفلسطينية الساحلية الملقّبة بـ«عروس فلسطين»؟", "choices": ["يافا", "نابلس", "الخليل", "بيت لحم"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "hard", "locale": "ar" },
-
-  { "text": "في أي عام شارك المنتخب الفلسطيني لأول مرة في كأس آسيا؟", "choices": ["2015", "2007", "2019", "2011"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "hard", "locale": "ar" },
-  { "text": "إلى أي اتحاد قاري ينتمي المنتخب الفلسطيني لكرة القدم؟", "choices": ["الاتحاد الآسيوي", "الاتحاد الأفريقي", "الاتحاد الأوروبي", "الكونكاكاف"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
-  { "text": "في أي عام انضمّت فلسطين رسمياً إلى الفيفا؟", "choices": ["1998", "1948", "2011", "1988"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "hard", "locale": "ar" },
-  { "text": "ما البطولة القارية التي تأهّلت لها فلسطين أعوام 2015 و2019 و2023؟", "choices": ["كأس آسيا", "كأس أمم أفريقيا", "كوبا أمريكا", "كأس العالم"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما لقب المنتخب الفلسطيني لكرة القدم؟", "choices": ["الفدائي", "محاربو الصحراء", "الفراعنة", "الأرز"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما الرياضة الأكثر شعبية في فلسطين؟", "choices": ["كرة القدم", "كرة السلة", "التنس", "الكريكيت"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
-
-  { "text": "من الشاعر الفلسطيني صاحب قصيدة «سجّل أنا عربي»؟", "choices": ["محمود درويش", "سميح القاسم", "توفيق زيّاد", "معين بسيسو"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
-  { "text": "من الروائي الفلسطيني صاحب رواية «رجال في الشمس»؟", "choices": ["غسان كنفاني", "إميل حبيبي", "جبرا إبراهيم جبرا", "سحر خليفة"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "من رسّام الكاريكاتير الفلسطيني صاحب شخصية «حنظلة»؟", "choices": ["ناجي العلي", "عماد حجاج", "بهاء البخاري", "خليل أبو عرفة"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما الرقصة الشعبية الجماعية الفلسطينية؟", "choices": ["الدبكة", "التنورة", "العرضة", "السامري"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
-  { "text": "من الفنانة الفلسطينية المعروفة بأغانيها الوطنية والتراثية؟", "choices": ["ريم بنا", "فيروز", "أصالة", "نجوى كرم"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "hard", "locale": "ar" },
-  { "text": "ما لون الكوفية المرتبطة برمزية فلسطين؟", "choices": ["أبيض وأسود", "أحمر وأبيض", "أخضر", "أزرق"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-
-  { "text": "ما أخفض نقطة على سطح اليابسة في العالم وتقع قرب فلسطين؟", "choices": ["البحر الميت", "وادي عربة", "بحيرة طبريا", "نهر الأردن"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما المسطّح المائي العذب في شمال فلسطين التاريخية؟", "choices": ["بحيرة طبريا", "البحر الميت", "البحر المتوسط", "قناة السويس"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "ما الثمرة التي تشتهر فلسطين بزراعتها وعصر زيتها؟", "choices": ["الزيتون", "التفاح", "الموز", "المانجو"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
-  { "text": "ما النهر الذي يشكّل حدّاً شرقياً لفلسطين؟", "choices": ["نهر الأردن", "النيل", "الفرات", "الليطاني"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "لماذا تطفو الأجسام بسهولة في البحر الميت؟", "choices": ["بسبب ملوحته العالية", "بسبب برودته", "بسبب عمقه", "بسبب تياّراته"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
-  { "text": "في أي قارة تقع فلسطين؟", "choices": ["آسيا", "أفريقيا", "أوروبا", "أستراليا"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "easy", "locale": "ar" }
+  {
+    "text": "ما المدينة المقدّسة التي تُعدّ عاصمة فلسطين؟",
+    "choices": [
+      "القدس",
+      "رام الله",
+      "غزة",
+      "الخليل"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعلم الإسلامي في القدس صاحب القبة الذهبية؟",
+    "choices": [
+      "قبة الصخرة",
+      "كنيسة القيامة",
+      "المسجد الإبراهيمي",
+      "كنيسة المهد"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أكبر مدينة في قطاع غزة من حيث السكان؟",
+    "choices": [
+      "غزة",
+      "رفح",
+      "خان يونس",
+      "دير البلح"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الحرفة اليدوية الفلسطينية الشهيرة بالخيوط الملونة على الثوب؟",
+    "choices": [
+      "التطريز",
+      "الفخار",
+      "النحت",
+      "صناعة الزجاج"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الشجرة الرمز المرتبطة بفلسطين وزراعتها؟",
+    "choices": [
+      "الزيتون",
+      "النخيل",
+      "الأرز",
+      "الصنوبر"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما البحر الذي يطل عليه قطاع غزة؟",
+    "choices": [
+      "البحر الأبيض المتوسط",
+      "البحر الميت",
+      "البحر الأحمر",
+      "بحيرة طبريا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام وقعت النكبة الفلسطينية؟",
+    "choices": [
+      "1948",
+      "1936",
+      "1967",
+      "1917"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي حرب احتُلت الضفة الغربية وغزة والقدس الشرقية؟",
+    "choices": [
+      "حرب 1967 (النكسة)",
+      "حرب 1948",
+      "حرب 1973",
+      "حرب 1956"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الوعد البريطاني عام 1917 الذي مهّد لإقامة وطن قومي يهودي في فلسطين؟",
+    "choices": [
+      "وعد بلفور",
+      "اتفاقية سايكس بيكو",
+      "صك الانتداب",
+      "قرار التقسيم"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام اندلعت الانتفاضة الفلسطينية الأولى؟",
+    "choices": [
+      "1987",
+      "1967",
+      "2000",
+      "1948"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من الزعيم الفلسطيني الملقّب بـ«أبو عمار»؟",
+    "choices": [
+      "ياسر عرفات",
+      "أحمد الشقيري",
+      "خليل الوزير",
+      "جورج حبش"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الفلسطينية الساحلية الملقّبة بـ«عروس فلسطين»؟",
+    "choices": [
+      "يافا",
+      "نابلس",
+      "الخليل",
+      "بيت لحم"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام شارك المنتخب الفلسطيني لأول مرة في كأس آسيا؟",
+    "choices": [
+      "2015",
+      "2007",
+      "2019",
+      "2011"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "إلى أي اتحاد قاري ينتمي المنتخب الفلسطيني لكرة القدم؟",
+    "choices": [
+      "الاتحاد الآسيوي",
+      "الاتحاد الأفريقي",
+      "الاتحاد الأوروبي",
+      "الكونكاكاف"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام انضمّت فلسطين رسمياً إلى الفيفا؟",
+    "choices": [
+      "1998",
+      "1948",
+      "2011",
+      "1988"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما البطولة القارية التي تأهّلت لها فلسطين أعوام 2015 و2019 و2023؟",
+    "choices": [
+      "كأس آسيا",
+      "كأس أمم أفريقيا",
+      "كوبا أمريكا",
+      "كأس العالم"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما لقب المنتخب الفلسطيني لكرة القدم؟",
+    "choices": [
+      "الفدائي",
+      "محاربو الصحراء",
+      "الفراعنة",
+      "الأرز"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرياضة الأكثر شعبية في فلسطين؟",
+    "choices": [
+      "كرة القدم",
+      "كرة السلة",
+      "التنس",
+      "الكريكيت"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من الشاعر الفلسطيني صاحب قصيدة «سجّل أنا عربي»؟",
+    "choices": [
+      "محمود درويش",
+      "سميح القاسم",
+      "توفيق زيّاد",
+      "معين بسيسو"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من الروائي الفلسطيني صاحب رواية «رجال في الشمس»؟",
+    "choices": [
+      "غسان كنفاني",
+      "إميل حبيبي",
+      "جبرا إبراهيم جبرا",
+      "سحر خليفة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من رسّام الكاريكاتير الفلسطيني صاحب شخصية «حنظلة»؟",
+    "choices": [
+      "ناجي العلي",
+      "عماد حجاج",
+      "بهاء البخاري",
+      "خليل أبو عرفة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرقصة الشعبية الجماعية الفلسطينية؟",
+    "choices": [
+      "الدبكة",
+      "التنورة",
+      "العرضة",
+      "السامري"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من الفنانة الفلسطينية المعروفة بأغانيها الوطنية والتراثية؟",
+    "choices": [
+      "ريم بنا",
+      "فيروز",
+      "أصالة",
+      "نجوى كرم"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما لون الكوفية المرتبطة برمزية فلسطين؟",
+    "choices": [
+      "أبيض وأسود",
+      "أحمر وأبيض",
+      "أخضر",
+      "أزرق"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أخفض نقطة على سطح اليابسة في العالم وتقع قرب فلسطين؟",
+    "choices": [
+      "البحر الميت",
+      "وادي عربة",
+      "بحيرة طبريا",
+      "نهر الأردن"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المسطّح المائي العذب في شمال فلسطين التاريخية؟",
+    "choices": [
+      "بحيرة طبريا",
+      "البحر الميت",
+      "البحر المتوسط",
+      "قناة السويس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الثمرة التي تشتهر فلسطين بزراعتها وعصر زيتها؟",
+    "choices": [
+      "الزيتون",
+      "التفاح",
+      "الموز",
+      "المانجو"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النهر الذي يشكّل حدّاً شرقياً لفلسطين؟",
+    "choices": [
+      "نهر الأردن",
+      "النيل",
+      "الفرات",
+      "الليطاني"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "لماذا تطفو الأجسام بسهولة في البحر الميت؟",
+    "choices": [
+      "بسبب ملوحته العالية",
+      "بسبب برودته",
+      "بسبب عمقه",
+      "بسبب تياّراته"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي قارة تقع فلسطين؟",
+    "choices": [
+      "آسيا",
+      "أفريقيا",
+      "أوروبا",
+      "أستراليا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي مدينة القدس بالنسبة لدولة فلسطين؟",
+    "choices": [
+      "العاصمة",
+      "ميناء بحري فقط",
+      "مدينة صناعية",
+      "قرية صغيرة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي بحر تطل عليه قطاع غزة في فلسطين؟",
+    "choices": [
+      "البحر الأبيض المتوسط",
+      "البحر الأحمر",
+      "الخليج العربي",
+      "بحر قزوين"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية المعروفة بأنها مهد ميلاد السيد المسيح عيسى عليه السلام؟",
+    "choices": [
+      "بيت لحم",
+      "نابلس",
+      "الخليل",
+      "جنين"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هو أخفض نقطة على سطح اليابسة والذي تقع فلسطين على جزء من ضفته؟",
+    "choices": [
+      "البحر الميت",
+      "بحيرة طبريا",
+      "نهر الأردن",
+      "البحر المتوسط"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم لوناً يتكوّن منه علم دولة فلسطين؟",
+    "choices": [
+      "أربعة",
+      "ثلاثة",
+      "لونان",
+      "خمسة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما هي الألوان الموجودة في علم دولة فلسطين؟",
+    "choices": [
+      "الأسود والأبيض والأخضر والأحمر",
+      "الأزرق والأبيض",
+      "الأصفر والأخضر",
+      "الأحمر والأبيض فقط"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما شكل الجزء الأحمر في علم دولة فلسطين؟",
+    "choices": [
+      "مثلث",
+      "دائرة",
+      "نجمة",
+      "هلال"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية التي يقع فيها المسجد الإبراهيمي؟",
+    "choices": [
+      "الخليل",
+      "رام الله",
+      "طولكرم",
+      "أريحا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أقدم مدينة مأهولة في فلسطين والمعروفة بمناخها الدافئ شتاءً؟",
+    "choices": [
+      "أريحا",
+      "حيفا",
+      "صفد",
+      "الناصرة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النهر الذي يشكّل الحدود الشرقية لفلسطين؟",
+    "choices": [
+      "نهر الأردن",
+      "نهر النيل",
+      "نهر الفرات",
+      "نهر العاصي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الفلسطينية الشهيرة بصناعة الصابون النابلسي وحلوى الكنافة؟",
+    "choices": [
+      "نابلس",
+      "غزة",
+      "الخليل",
+      "بيت لحم"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المسجد الذي يقع في مدينة القدس ويُعدّ من أقدس المواقع الإسلامية؟",
+    "choices": [
+      "المسجد الأقصى",
+      "المسجد الأموي",
+      "مسجد القرويين",
+      "المسجد النبوي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم قبة المسجد الذهبية الشهيرة في مدينة القدس؟",
+    "choices": [
+      "قبة الصخرة",
+      "قبة النسر",
+      "قبة السلسلة",
+      "قبة المعراج"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مدينة فلسطينية تُعدّ المقر الإداري الرئيسي للسلطة الفلسطينية؟",
+    "choices": [
+      "رام الله",
+      "نابلس",
+      "الخليل",
+      "غزة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الزهرة التي تُعتبر رمزاً وطنياً فلسطينياً وتُعرف بلونها الأحمر؟",
+    "choices": [
+      "شقائق النعمان",
+      "التوليب",
+      "الياسمين",
+      "عباد الشمس"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الثوب التقليدي المطرّز الذي يُعدّ رمزاً للهوية الفلسطينية وترتديه النساء؟",
+    "choices": [
+      "الثوب الفلسطيني المطرّز",
+      "الكيمونو",
+      "الساري",
+      "الكلت"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم غطاء الرأس التقليدي ذي النقش الأسود والأبيض المرتبط بالهوية الفلسطينية؟",
+    "choices": [
+      "الكوفية",
+      "العمامة",
+      "الطربوش",
+      "القبعة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الطبق الفلسطيني الشهير المكوّن من خبز الطابون والبصل والسمّاق ولحم الدجاج؟",
+    "choices": [
+      "المسخّن",
+      "الكبسة",
+      "المنسف",
+      "الملوخية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الحلوى الفلسطينية الشهيرة التي تشتهر بها مدينة نابلس وتُصنع من العجين والجبن؟",
+    "choices": [
+      "الكنافة",
+      "البقلاوة",
+      "المعمول",
+      "القطايف"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم القطاع الساحلي الفلسطيني الواقع في الجنوب الغربي والمطل على البحر المتوسط؟",
+    "choices": [
+      "قطاع غزة",
+      "الضفة الغربية",
+      "مرتفعات الجولان",
+      "سهل الحولة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنطقة الفلسطينية الواقعة غرب نهر الأردن وتضم مدن رام الله ونابلس والخليل؟",
+    "choices": [
+      "الضفة الغربية",
+      "قطاع غزة",
+      "النقب",
+      "الجليل"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما العملة المتداولة بشكل رئيسي في الأسواق الفلسطينية؟",
+    "choices": [
+      "الشيكل",
+      "الدينار الفلسطيني",
+      "الجنيه الفلسطيني",
+      "الريال"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي عملة عربية تُستخدم أيضاً في التداول بالضفة الغربية إلى جانب الشيكل؟",
+    "choices": [
+      "الدينار الأردني",
+      "الجنيه المصري",
+      "الريال السعودي",
+      "الدرهم الإماراتي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية الساحلية التاريخية المعروفة بثمار البرتقال؟",
+    "choices": [
+      "يافا",
+      "صفد",
+      "بيسان",
+      "الرملة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الساحلية الفلسطينية التي تقع عند سفح جبل الكرمل؟",
+    "choices": [
+      "حيفا",
+      "عكا",
+      "غزة",
+      "أسدود"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية الساحلية القديمة المعروفة بأسوارها وقلعتها التاريخية؟",
+    "choices": [
+      "عكا",
+      "طبريا",
+      "صفد",
+      "الناصرة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الشجرة التي تُعتبر رمزاً للصمود والتجذّر في الأرض الفلسطينية؟",
+    "choices": [
+      "الزيتون",
+      "النخيل",
+      "الأرز",
+      "السنديان"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الصحراء أو المنطقة الجنوبية الواسعة من فلسطين التاريخية؟",
+    "choices": [
+      "النقب",
+      "الجليل",
+      "المثلث",
+      "الساحل"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنطقة الشمالية من فلسطين التاريخية التي تشتهر بتلالها الخضراء؟",
+    "choices": [
+      "الجليل",
+      "النقب",
+      "غور الأردن",
+      "الكرمل"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما البحيرة العذبة الواقعة في شمال فلسطين التاريخية وتُعرف ببحر الجليل؟",
+    "choices": [
+      "بحيرة طبريا",
+      "البحر الميت",
+      "بحيرة الحولة",
+      "البحيرة المرّة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الكنيسة الشهيرة في بيت لحم التي تُعدّ من أقدم الكنائس في العالم؟",
+    "choices": [
+      "كنيسة المهد",
+      "كنيسة القيامة",
+      "كنيسة البشارة",
+      "كنيسة الجثمانية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الكنيسة الواقعة في مدينة القدس والمرتبطة بمكان صلب المسيح عليه السلام في المعتقد المسيحي؟",
+    "choices": [
+      "كنيسة القيامة",
+      "كنيسة المهد",
+      "كنيسة البشارة",
+      "كنيسة المغطس"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المشروب الساخن الشعبي الذي يُقدَّم غالباً مع نبتة المرمية في فلسطين؟",
+    "choices": [
+      "الشاي",
+      "القهوة العربية",
+      "الكركديه",
+      "النعناع المغلي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفطيرة الفلسطينية الشعبية المحشوّة بالزعتر أو السبانخ أو اللحم؟",
+    "choices": [
+      "الفطاير",
+      "السمبوسك",
+      "المحمّرة",
+      "المقلوبة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الطبق الفلسطيني الذي يُقلب رأساً على عقب عند تقديمه ويتكوّن من الأرز والخضار واللحم؟",
+    "choices": [
+      "المقلوبة",
+      "المسخّن",
+      "المنسف",
+      "الكبسة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية الواقعة شمال الضفة الغربية والمعروفة زراعياً؟",
+    "choices": [
+      "جنين",
+      "الخليل",
+      "أريحا",
+      "بيت لحم"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الجبل المطل على مدينة نابلس والمذكور في التراث الديني؟",
+    "choices": [
+      "جبل جرزيم",
+      "جبل الكرمل",
+      "جبل الطور",
+      "جبل قاسيون"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العملة الورقية التاريخية التي كانت متداولة في فلسطين قبل عام ١٩٤٨؟",
+    "choices": [
+      "الجنيه الفلسطيني",
+      "الليرة العثمانية",
+      "الدينار",
+      "الدرهم"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النشيد الذي يُعتبر النشيد الوطني لدولة فلسطين؟",
+    "choices": [
+      "فدائي",
+      "موطني",
+      "بلادي",
+      "الحرية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الطبق الفلسطيني المكوّن من الحمّص المهروس مع الطحينة وزيت الزيتون؟",
+    "choices": [
+      "الحمّص",
+      "المتبّل",
+      "الفول المدمّس",
+      "البابا غنوج"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحي القديم داخل أسوار مدينة القدس الذي يضم المسجد الأقصى وكنيسة القيامة؟",
+    "choices": [
+      "البلدة القديمة",
+      "المدينة الجديدة",
+      "الحي الصناعي",
+      "الضاحية"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم باب من أبواب البلدة القديمة في القدس ويُعرف أيضاً بباب العامود؟",
+    "choices": [
+      "باب العامود",
+      "باب النصر",
+      "باب الفتوح",
+      "باب زويلة"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الفاكهة التي تشتهر بزراعتها مدينة الخليل في فلسطين؟",
+    "choices": [
+      "العنب",
+      "الموز",
+      "التفاح",
+      "المانجو"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الثمرة التي تشتهر بزراعتها منطقة أريحا الدافئة في فلسطين؟",
+    "choices": [
+      "النخيل (التمر)",
+      "التفاح",
+      "الكرز",
+      "الكستناء"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية الواقعة في أقصى شمال قطاع غزة؟",
+    "choices": [
+      "بيت حانون",
+      "رفح",
+      "خان يونس",
+      "دير البلح"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية الواقعة في أقصى جنوب قطاع غزة على الحدود مع مصر؟",
+    "choices": [
+      "رفح",
+      "غزة",
+      "بيت لاهيا",
+      "جباليا"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية الكبرى في جنوب قطاع غزة بين مدينة غزة ورفح؟",
+    "choices": [
+      "خان يونس",
+      "نابلس",
+      "الخليل",
+      "طوباس"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنطقة المناخية التي تنتمي إليها فلسطين بشكل عام؟",
+    "choices": [
+      "مناخ البحر المتوسط",
+      "المناخ الاستوائي",
+      "المناخ القطبي",
+      "المناخ الموسمي"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السهل الساحلي الخصب الممتد على ساحل فلسطين المطل على البحر المتوسط؟",
+    "choices": [
+      "السهل الساحلي",
+      "سهل البقاع",
+      "سهل مرج بن عامر",
+      "الغور"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السهل الزراعي الخصب الواقع في شمال فلسطين بين الجليل والمناطق المجاورة؟",
+    "choices": [
+      "مرج بن عامر",
+      "سهل تهامة",
+      "سهل البطحاء",
+      "سهل عكار"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الحرفة اليدوية التي تشتهر بها مدينة الخليل في فلسطين؟",
+    "choices": [
+      "صناعة الزجاج والخزف",
+      "صناعة السجاد الحريري",
+      "صناعة الساعات",
+      "صناعة الورق"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما العاصمة المعلنة لدولة فلسطين وفق إعلان الاستقلال الفلسطيني؟",
+    "choices": [
+      "القدس",
+      "رام الله",
+      "غزة",
+      "نابلس"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الرقصة الشعبية التراثية التي تُعدّ رمزاً للفرح والهوية الفلسطينية؟",
+    "choices": [
+      "الدبكة",
+      "التنورة",
+      "العرضة النجدية",
+      "السامري"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البحر المغلق الواقع شرق فلسطين والذي يُعدّ أخفض بقعة على سطح الأرض؟",
+    "choices": [
+      "البحر الميت",
+      "البحر الأحمر",
+      "بحيرة طبريا",
+      "البحر المتوسط"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النهر الرئيسي الذي يمرّ على الحدود الشرقية لفلسطين؟",
+    "choices": [
+      "نهر الأردن",
+      "نهر الليطاني",
+      "نهر العاصي",
+      "نهر اليرموك"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "على أيّ بحر تطلّ السواحل الغربية لفلسطين؟",
+    "choices": [
+      "البحر الأبيض المتوسط",
+      "البحر الأحمر",
+      "المحيط الأطلسي",
+      "الخليج العربي"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما البحيرة العذبة الواقعة في شمال فلسطين والمعروفة أيضاً ببحر الجليل؟",
+    "choices": [
+      "بحيرة طبريا",
+      "البحيرة المالحة",
+      "بحيرة الحولة",
+      "البحر الميت"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أعلى قمة جبلية في الضفة الغربية الفلسطينية؟",
+    "choices": [
+      "جبل النبي يونس (تل عاصور)",
+      "جبل الطور",
+      "جبل عيبال",
+      "جبل جرزيم"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السهل الساحلي الخصب الممتد على طول الساحل الفلسطيني المتوسطي؟",
+    "choices": [
+      "السهل الساحلي",
+      "سهل البقاع",
+      "سهل مرج ابن عامر",
+      "غور الأردن"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنطقة المنخفضة المنبسطة الواقعة على طول نهر الأردن في فلسطين؟",
+    "choices": [
+      "غور الأردن",
+      "مرج ابن عامر",
+      "سهل عكا",
+      "وادي عربة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أيّ نوع من المناخ يسود معظم مناطق فلسطين؟",
+    "choices": [
+      "المناخ المتوسطي",
+      "المناخ الاستوائي",
+      "المناخ القاري",
+      "المناخ المداري الرطب"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أيّ فصل تسقط معظم الأمطار في فلسطين؟",
+    "choices": [
+      "الشتاء",
+      "الصيف",
+      "الخريف فقط",
+      "الربيع فقط"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الشجرة التي تُعدّ رمزاً لفلسطين وتنتشر زراعتها في معظم أراضيها؟",
+    "choices": [
+      "شجرة الزيتون",
+      "شجرة النخيل",
+      "شجرة الصنوبر",
+      "شجرة الكينا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنتج الزراعي الذي تشتهر به مدينة أريحا بشكل خاص؟",
+    "choices": [
+      "التمور والموز",
+      "التفاح",
+      "الزيتون",
+      "العنب"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الجبل المقدّس الواقع جنوب مدينة نابلس والمذكور في التراث السامري؟",
+    "choices": [
+      "جبل جرزيم",
+      "جبل عيبال",
+      "جبل الطور",
+      "جبل كرمل"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أيّ مدينة فلسطينية تشتهر بصناعة الصابون من زيت الزيتون منذ القدم؟",
+    "choices": [
+      "نابلس",
+      "غزة",
+      "يافا",
+      "حيفا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعدن الطبيعي الذي يُستخرج بكميات من مياه البحر الميت؟",
+    "choices": [
+      "البوتاس",
+      "الذهب",
+      "الفضة",
+      "النحاس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما السبب الرئيسي لارتفاع نسبة الملوحة الشديدة في البحر الميت؟",
+    "choices": [
+      "شدة التبخر وعدم وجود منفذ مائي",
+      "قربه من المحيط",
+      "برودة مياهه",
+      "غزارة الأنهار المتدفقة منه"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الساحلية الفلسطينية التي اشتهرت تاريخياً بزراعة البرتقال وتصديره؟",
+    "choices": [
+      "يافا",
+      "نابلس",
+      "الخليل",
+      "بيت لحم"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما السهل الخصب الواقع في شمال فلسطين بين جبال الجليل والكرمل؟",
+    "choices": [
+      "مرج ابن عامر",
+      "غور الأردن",
+      "السهل الساحلي",
+      "وادي عربة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أيّ سلسلة جبلية تمتدّ على طول وسط الضفة الغربية الفلسطينية؟",
+    "choices": [
+      "جبال نابلس والخليل",
+      "جبال لبنان",
+      "جبال طوروس",
+      "جبال زاغروس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الجبل المطلّ على مدينة الناصرة شمال فلسطين؟",
+    "choices": [
+      "جبل الطور (طابور)",
+      "جبل عيبال",
+      "جبل جرزيم",
+      "جبل النبي صموئيل"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الزهرة البرية الحمراء التي تُعدّ رمزاً للأرض الفلسطينية وتتفتح في الربيع؟",
+    "choices": [
+      "شقائق النعمان",
+      "عباد الشمس",
+      "الياسمين",
+      "النرجس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المحمية الطبيعية الواقعة في وادي القلط قرب أريحا؟",
+    "choices": [
+      "محمية وادي القلط",
+      "محمية الأزرق",
+      "محمية ضانا",
+      "محمية جبل موسى"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "بأيّ مقدار تقريباً ينخفض سطح البحر الميت عن سطح البحر المتوسط؟",
+    "choices": [
+      "نحو 430 متراً",
+      "نحو 100 متر",
+      "نحو 700 متر",
+      "نحو 50 متراً"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنطقة الصحراوية الجافة الواقعة جنوب فلسطين؟",
+    "choices": [
+      "صحراء النقب",
+      "صحراء سيناء",
+      "الربع الخالي",
+      "صحراء وادي رم"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الفاكهة التي تشتهر بزراعتها مدينة الخليل الفلسطينية؟",
+    "choices": [
+      "العنب",
+      "الموز",
+      "البرتقال",
+      "التمر"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البحيرة التي كانت تقع شمال فلسطين وجُفّفت في خمسينيات القرن العشرين؟",
+    "choices": [
+      "بحيرة الحولة",
+      "بحيرة طبريا",
+      "البحر الميت",
+      "بحيرة المنزلة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المورد المائي الجوفي الرئيسي المشترك تحت أراضي فلسطين؟",
+    "choices": [
+      "الحوض الجبلي للمياه الجوفية",
+      "نهر النيل",
+      "نبع زمزم",
+      "بحيرة فيكتوريا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أيّ مدينة فلسطينية ساحلية تقع في أقصى جنوب الساحل وتُطلّ على البحر المتوسط؟",
+    "choices": [
+      "غزة",
+      "نابلس",
+      "جنين",
+      "طولكرم"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الوادي الذي يمتدّ من البحر الميت جنوباً نحو خليج العقبة؟",
+    "choices": [
+      "وادي عربة",
+      "وادي القلط",
+      "وادي الفارعة",
+      "وادي الحمّة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع التربة الخصبة الحمراء المنتشرة في السهل الساحلي الفلسطيني والمناسبة للحمضيات؟",
+    "choices": [
+      "التربة الحمراء (الحمراء الرملية)",
+      "التربة الجبسية",
+      "التربة الملحية",
+      "التربة الصحراوية"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الظاهرة المناخية التي تتسبّب بموجات حارّة جافة محمّلة بالغبار في فلسطين خاصة في الربيع؟",
+    "choices": [
+      "رياح الخماسين",
+      "الرياح الموسمية",
+      "الإعصار المداري",
+      "النينيو"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الينبوع الشهير في مدينة أريحا والمرتبط بقصة النبي أليشع؟",
+    "choices": [
+      "عين السلطان",
+      "عين فارة",
+      "رأس العين",
+      "عين كارم"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أيّ المدن الفلسطينية يُعدّ مناخها بارداً نسبياً في الشتاء بسبب ارتفاعها عن سطح البحر؟",
+    "choices": [
+      "القدس",
+      "أريحا",
+      "غزة",
+      "يافا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الوادي الذي يصبّ في نهر الأردن قادماً من منطقة نابلس؟",
+    "choices": [
+      "وادي الفارعة",
+      "وادي عربة",
+      "وادي رم",
+      "وادي الحسا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الموسم الذي يتميّز بالجفاف وارتفاع الحرارة في فلسطين؟",
+    "choices": [
+      "الصيف",
+      "الشتاء",
+      "نهاية الخريف",
+      "بداية الربيع"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المحصول البقولي المشهور بزراعته في فلسطين والمستخدم في صناعة الفلافل والحمص؟",
+    "choices": [
+      "الحمّص",
+      "الأرز",
+      "الذرة",
+      "القمح فقط"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الجبل الواقع مقابل جبل جرزيم في مدينة نابلس؟",
+    "choices": [
+      "جبل عيبال",
+      "جبل الطور",
+      "جبل كرمل",
+      "جبل النبي صموئيل"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أيّ مورد طبيعي بحري اكتُشف قبالة سواحل غزة في البحر المتوسط؟",
+    "choices": [
+      "الغاز الطبيعي",
+      "الفحم الحجري",
+      "اليورانيوم",
+      "الماس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحقل الغازي البحري المكتشف قبالة ساحل قطاع غزة؟",
+    "choices": [
+      "غزة مارين (Gaza Marine)",
+      "ليفياثان",
+      "ظهر",
+      "تمار"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم جبل الكرمل الذي يمتدّ قرب مدينة حيفا الفلسطينية؟",
+    "choices": [
+      "جبل الكرمل",
+      "جبل عيبال",
+      "جبل جرزيم",
+      "جبل الطور"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعدن المعروف الذي تُنتجه مصانع البحر الميت إلى جانب البوتاس ويُستخدم في الزراعة؟",
+    "choices": [
+      "الأملاح المعدنية (والبروم)",
+      "الرصاص",
+      "القصدير",
+      "الزنك فقط"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أكبر تجمّع مائي عذب طبيعي في فلسطين التاريخية؟",
+    "choices": [
+      "بحيرة طبريا",
+      "البحر الميت",
+      "بحيرة الحولة",
+      "بركة السلطان"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أيّ نوع من الأشجار الحرجية الدائمة الخضرة ينتشر في جبال فلسطين الوسطى؟",
+    "choices": [
+      "السنديان (البلوط)",
+      "النخيل",
+      "المانجو",
+      "الكاكاو"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الفلسطينية التي تشتهر بمزارع الورد والأزهار والمشمش في منطقتها؟",
+    "choices": [
+      "جنين",
+      "غزة",
+      "الخليل",
+      "أريحا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السهل الساحلي الواقع في أقصى شمال فلسطين قرب مدينة عكا؟",
+    "choices": [
+      "سهل عكا",
+      "سهل غزة",
+      "مرج ابن عامر",
+      "غور بيسان"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أيّ ظاهرة بيئية تهدّد البحر الميت في العقود الأخيرة؟",
+    "choices": [
+      "انحسار مساحته وانخفاض منسوبه",
+      "ارتفاع منسوبه السريع",
+      "تجمّد مياهه",
+      "تحوّله إلى مياه عذبة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المحصول الحقلي الأساسي الذي يُزرع في السهول الفلسطينية ويُستخدم لصناعة الخبز؟",
+    "choices": [
+      "القمح",
+      "قصب السكر",
+      "الكاكاو",
+      "الأرز"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الوادي العميق الذي يقع بين أريحا والقدس وتجري فيه مياه عذبة؟",
+    "choices": [
+      "وادي القلط",
+      "وادي عربة",
+      "وادي الفارعة",
+      "وادي رم"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما نوع المناخ السائد في منطقة غور الأردن وأريحا؟",
+    "choices": [
+      "حار جاف (شبه صحراوي)",
+      "بارد ثلجي",
+      "معتدل ممطر دائماً",
+      "استوائي رطب"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعلِّم الجغرافي الذي يفصل بين الضفة الغربية والأردن؟",
+    "choices": [
+      "نهر الأردن",
+      "نهر الليطاني",
+      "البحر المتوسط",
+      "قناة السويس"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الفاكهة الصيفية التي تشتهر بزراعتها مدينة جنين وقراها؟",
+    "choices": [
+      "البطيخ والشمام",
+      "الموز",
+      "الأناناس",
+      "المانجو"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الاسم الذي يُطلق على المرتفعات الجبلية الممتدّة في وسط فلسطين من الشمال إلى الجنوب؟",
+    "choices": [
+      "المرتفعات الوسطى (جبال نابلس والقدس والخليل)",
+      "هضبة الجولان",
+      "جبال الكرك",
+      "جبال عجلون"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنتج الطبيعي المستخرج من البحر الميت والمستخدم في مستحضرات التجميل والعلاج؟",
+    "choices": [
+      "الطين والأملاح المعدنية",
+      "البترول",
+      "الفحم",
+      "الكبريت الخام فقط"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أيّ مدينة فلسطينية تُعدّ من أكثر المناطق ارتفاعاً وبرودة شتاءً وقد تتساقط عليها الثلوج؟",
+    "choices": [
+      "الخليل",
+      "غزة",
+      "أريحا",
+      "يافا"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النبات العطري البري المنتشر في جبال فلسطين والمستخدم في الطعام الشعبي (الزعتر)؟",
+    "choices": [
+      "الزعتر البري",
+      "القرفة",
+      "الزنجبيل",
+      "الكركم"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المصدر الرئيسي للمياه السطحية المتجدّدة في فلسطين إلى جانب الأمطار والينابيع؟",
+    "choices": [
+      "نهر الأردن وروافده",
+      "نهر الفرات",
+      "نهر النيل",
+      "نهر دجلة"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام أُعلن قيام دولة فلسطين في الجزائر على يد ياسر عرفات؟",
+    "choices": [
+      "1967",
+      "1974",
+      "1988",
+      "1993"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو القائد المسلم الذي حرّر القدس من الصليبيين عام 1187م؟",
+    "choices": [
+      "نور الدين زنكي",
+      "صلاح الدين الأيوبي",
+      "قطز",
+      "بيبرس"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المعركة التي انتصر فيها صلاح الدين على الصليبيين قرب طبريا عام 1187م؟",
+    "choices": [
+      "معركة حطين",
+      "معركة عين جالوت",
+      "معركة اليرموك",
+      "معركة أجنادين"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة فلسطينية وُلد السيد المسيح عيسى عليه السلام وفق التقاليد المسيحية؟",
+    "choices": [
+      "الناصرة",
+      "بيت لحم",
+      "القدس",
+      "أريحا"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الوثيقة البريطانية الصادرة عام 1917 التي أيّدت إقامة وطن قومي لليهود في فلسطين؟",
+    "choices": [
+      "وعد بلفور",
+      "اتفاقية سايكس بيكو",
+      "صك الانتداب",
+      "الكتاب الأبيض"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من كان المسؤول البريطاني الذي صدر الوعد باسمه عام 1917 لدعم وطن قومي لليهود؟",
+    "choices": [
+      "وينستون تشرشل",
+      "آرثر بلفور",
+      "هربرت صموئيل",
+      "لويد جورج"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الاسم الذي يُطلق على نكبة عام 1948 المرتبطة بتهجير الفلسطينيين؟",
+    "choices": [
+      "النكسة",
+      "النكبة",
+      "الانتفاضة",
+      "الهبّة"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحرب عام 1967 التي احتلت فيها إسرائيل الضفة الغربية وقطاع غزة؟",
+    "choices": [
+      "حرب النكبة",
+      "حرب الأيام الستة",
+      "حرب أكتوبر",
+      "حرب لبنان"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الاسم الفلسطيني الشائع لهزيمة عام 1967؟",
+    "choices": [
+      "النكبة",
+      "النكسة",
+      "الكارثة",
+      "الهجرة"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من كان أول رئيس لدولة فلسطين والسلطة الفلسطينية؟",
+    "choices": [
+      "محمود عباس",
+      "ياسر عرفات",
+      "أحمد الشقيري",
+      "فاروق القدومي"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام تأسست منظمة التحرير الفلسطينية؟",
+    "choices": [
+      "1948",
+      "1959",
+      "1964",
+      "1969"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو أول رئيس لمنظمة التحرير الفلسطينية عند تأسيسها؟",
+    "choices": [
+      "ياسر عرفات",
+      "أحمد الشقيري",
+      "جورج حبش",
+      "نايف حواتمة"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الانتفاضة الفلسطينية التي اندلعت عام 1987؟",
+    "choices": [
+      "انتفاضة الأقصى",
+      "انتفاضة الحجارة",
+      "هبّة القدس",
+      "ثورة البراق"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الاتفاق الذي وُقّع عام 1993 بين منظمة التحرير وإسرائيل؟",
+    "choices": [
+      "اتفاق أوسلو",
+      "اتفاق كامب ديفيد",
+      "اتفاق واي ريفر",
+      "اتفاق طابا"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة عُقدت المفاوضات السرية التي أفضت إلى اتفاق السلام عام 1993؟",
+    "choices": [
+      "مدريد",
+      "أوسلو",
+      "واشنطن",
+      "جنيف"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من القائد الفلسطيني الذي وقّع اتفاق أوسلو نيابة عن منظمة التحرير عام 1993؟",
+    "choices": [
+      "محمود عباس",
+      "ياسر عرفات",
+      "صائب عريقات",
+      "أحمد قريع"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الانتفاضة الفلسطينية الثانية التي اندلعت عام 2000؟",
+    "choices": [
+      "انتفاضة الحجارة",
+      "انتفاضة الأقصى",
+      "هبّة الكرامة",
+      "انتفاضة الاستقلال"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام اندلعت الثورة الفلسطينية الكبرى ضد الانتداب البريطاني؟",
+    "choices": [
+      "1929",
+      "1936",
+      "1939",
+      "1947"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو مفتي القدس الذي قاد الحركة الوطنية الفلسطينية في فترة الانتداب؟",
+    "choices": [
+      "موسى كاظم الحسيني",
+      "الحاج أمين الحسيني",
+      "راغب النشاشيبي",
+      "عبد القادر الحسيني"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم القائد الفلسطيني الذي استُشهد في معركة القسطل عام 1948؟",
+    "choices": [
+      "عبد القادر الحسيني",
+      "عز الدين القسام",
+      "حسن سلامة",
+      "فوزي القاوقجي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم القرار الأممي الصادر عام 1947 الذي نصّ على تقسيم فلسطين؟",
+    "choices": [
+      "القرار 181",
+      "القرار 194",
+      "القرار 242",
+      "القرار 338"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما رقم قرار الأمم المتحدة الذي أكّد حق اللاجئين الفلسطينيين في العودة عام 1948؟",
+    "choices": [
+      "القرار 181",
+      "القرار 194",
+      "القرار 242",
+      "القرار 338"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المسجد الذي يُعدّ أولى القبلتين وثالث الحرمين الشريفين في فلسطين؟",
+    "choices": [
+      "المسجد الأقصى",
+      "قبة الصخرة",
+      "مسجد عمر",
+      "المسجد الإبراهيمي"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المعلم الإسلامي ذي القبة الذهبية في القدس الذي بناه الخليفة عبد الملك بن مروان؟",
+    "choices": [
+      "المسجد الأقصى",
+      "قبة الصخرة",
+      "المسجد الإبراهيمي",
+      "الحرم القدسي"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي خليفة أموي أمر ببناء قبة الصخرة في القدس؟",
+    "choices": [
+      "معاوية بن أبي سفيان",
+      "عبد الملك بن مروان",
+      "الوليد بن عبد الملك",
+      "عمر بن عبد العزيز"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "على يد أي خليفة فُتحت القدس سلمياً عام 638م؟",
+    "choices": [
+      "أبو بكر الصديق",
+      "عمر بن الخطاب",
+      "عثمان بن عفان",
+      "علي بن أبي طالب"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الوثيقة التي أعطاها الخليفة عمر بن الخطاب لأهل القدس عند فتحها؟",
+    "choices": [
+      "العهدة العمرية",
+      "صحيفة المدينة",
+      "العهد الأشتري",
+      "وثيقة الأمان"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية التي تُعدّ من أقدم المدن المأهولة في العالم؟",
+    "choices": [
+      "نابلس",
+      "أريحا",
+      "الخليل",
+      "غزة"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية التي يقع فيها الحرم الإبراهيمي الذي يضم قبر النبي إبراهيم؟",
+    "choices": [
+      "نابلس",
+      "الخليل",
+      "بيت لحم",
+      "القدس"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم العاصمة التي أعلنتها دولة فلسطين عاصمةً لها؟",
+    "choices": [
+      "رام الله",
+      "غزة",
+      "القدس",
+      "نابلس"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحركة الفلسطينية التي أسّسها ياسر عرفات ورفاقه عام 1959؟",
+    "choices": [
+      "حماس",
+      "فتح",
+      "الجبهة الشعبية",
+      "الجهاد الإسلامي"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام تأسست حركة المقاومة الإسلامية «حماس»؟",
+    "choices": [
+      "1979",
+      "1987",
+      "1993",
+      "2000"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو مؤسس حركة حماس الذي اغتيل عام 2004؟",
+    "choices": [
+      "خالد مشعل",
+      "الشيخ أحمد ياسين",
+      "عبد العزيز الرنتيسي",
+      "إسماعيل هنية"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو مؤسس الجبهة الشعبية لتحرير فلسطين؟",
+    "choices": [
+      "ياسر عرفات",
+      "جورج حبش",
+      "الشيخ أحمد ياسين",
+      "نايف حواتمة"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام تولّى محمود عباس رئاسة السلطة الفلسطينية بعد وفاة عرفات؟",
+    "choices": [
+      "2004",
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام توفي الرئيس ياسر عرفات؟",
+    "choices": [
+      "2002",
+      "2004",
+      "2006",
+      "2008"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم القرار الأممي الصادر عام 1967 الذي دعا إلى انسحاب إسرائيل من الأراضي المحتلة؟",
+    "choices": [
+      "القرار 181",
+      "القرار 194",
+      "القرار 242",
+      "القرار 338"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام حصلت فلسطين على صفة «دولة مراقب غير عضو» في الأمم المتحدة؟",
+    "choices": [
+      "2011",
+      "2012",
+      "2014",
+      "2017"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الشعب القديم الذي يُعدّ من أوائل سكان فلسطين وبنى مدنها قبل آلاف السنين؟",
+    "choices": [
+      "الكنعانيون",
+      "الرومان",
+      "البيزنطيون",
+      "العثمانيون"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الإمبراطورية التي حكمت فلسطين نحو أربعة قرون قبل الانتداب البريطاني؟",
+    "choices": [
+      "الإمبراطورية الرومانية",
+      "الدولة العثمانية",
+      "الإمبراطورية البيزنطية",
+      "الدولة الفاطمية"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الانتداب الذي خضعت له فلسطين بعد الحرب العالمية الأولى؟",
+    "choices": [
+      "الانتداب الفرنسي",
+      "الانتداب البريطاني",
+      "الانتداب الإيطالي",
+      "الانتداب الأمريكي"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام انتهى الانتداب البريطاني على فلسطين؟",
+    "choices": [
+      "1945",
+      "1948",
+      "1956",
+      "1967"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المعركة التي هزم فيها المماليك المغول عام 1260م في فلسطين؟",
+    "choices": [
+      "معركة حطين",
+      "معركة عين جالوت",
+      "معركة اليرموك",
+      "معركة أجنادين"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من القائد المملوكي الذي قاد جيش المسلمين في معركة عين جالوت عام 1260م؟",
+    "choices": [
+      "صلاح الدين",
+      "سيف الدين قطز",
+      "الظاهر بيبرس",
+      "نور الدين زنكي"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الثورة الفلسطينية عام 1929 التي اندلعت حول حائط البراق في القدس؟",
+    "choices": [
+      "ثورة البراق",
+      "ثورة القسام",
+      "الثورة الكبرى",
+      "انتفاضة الحجارة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية الساحلية التي تُعرف بقطاعها المحاصر؟",
+    "choices": [
+      "يافا",
+      "حيفا",
+      "غزة",
+      "عكا"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية الساحلية المعروفة بزراعة البرتقال قبل النكبة؟",
+    "choices": [
+      "يافا",
+      "نابلس",
+      "الخليل",
+      "أريحا"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النهر الذي يشكّل الحدود الشرقية لفلسطين التاريخية؟",
+    "choices": [
+      "نهر الليطاني",
+      "نهر الأردن",
+      "نهر اليرموك",
+      "نهر العوجا"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البحر المالح الواقع في أخفض نقطة على سطح الأرض في فلسطين؟",
+    "choices": [
+      "البحر المتوسط",
+      "البحر الميت",
+      "بحيرة طبريا",
+      "البحر الأحمر"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية التي تُعرف باسم «جبل النار»؟",
+    "choices": [
+      "الخليل",
+      "نابلس",
+      "جنين",
+      "طولكرم"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المؤتمر الدولي الذي عُقد عام 1991 وافتتح مسار التسوية في الشرق الأوسط؟",
+    "choices": [
+      "مؤتمر مدريد",
+      "مؤتمر كامب ديفيد",
+      "مؤتمر أنابوليس",
+      "مؤتمر طابا"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم القائد الذي خلف ياسر عرفات في رئاسة منظمة التحرير الفلسطينية؟",
+    "choices": [
+      "أحمد قريع",
+      "محمود عباس",
+      "صائب عريقات",
+      "فاروق القدومي"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام سيطرت حركة حماس على قطاع غزة بعد الانقسام الفلسطيني؟",
+    "choices": [
+      "2005",
+      "2006",
+      "2007",
+      "2009"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المجزرة التي وقعت في قرية دير ياسين قرب القدس عام 1948؟",
+    "choices": [
+      "مجزرة دير ياسين",
+      "مجزرة كفر قاسم",
+      "مجزرة صبرا وشاتيلا",
+      "مجزرة الطنطورة"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الكاتب الفلسطيني صاحب رواية «رجال في الشمس»؟",
+    "choices": [
+      "غسان كنفاني",
+      "إميل حبيبي",
+      "جبرا إبراهيم جبرا",
+      "توفيق زياد"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الشاعر الفلسطيني الذي لُقِّب بـ«شاعر المقاومة» وكتب «سجِّل أنا عربي»؟",
+    "choices": [
+      "سميح القاسم",
+      "محمود درويش",
+      "معين بسيسو",
+      "راشد حسين"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الثوب الفلسطيني التقليدي المطرَّز الذي ترتديه النساء؟",
+    "choices": [
+      "العباءة",
+      "القفطان",
+      "الثوب المطرَّز",
+      "الجلابية"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الرقصة الشعبية الفلسطينية الجماعية الأشهر؟",
+    "choices": [
+      "الدبكة",
+      "التنورة",
+      "العرضة",
+      "السامري"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم رواية إميل حبيبي الساخرة الشهيرة عن «المتشائل»؟",
+    "choices": [
+      "الوقائع الغريبة في اختفاء سعيد أبي النحس المتشائل",
+      "سداسية الأيام الستة",
+      "لكع بن لكع",
+      "سرايا بنت الغول"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المطربة الفلسطينية الراحلة المعروفة بإحيائها التراث الغنائي وأغنية «أثر الفراشة»؟",
+    "choices": [
+      "ريم بنا",
+      "أمل مرقص",
+      "دلال أبو آمنة",
+      "سناء موسى"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو المخرج الفلسطيني الذي أخرج فيلم «الجنة الآن» (Paradise Now)؟",
+    "choices": [
+      "إيليا سليمان",
+      "هاني أبو أسعد",
+      "ميشيل خليفي",
+      "رشيد مشهراوي"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي فيلم فلسطيني رُشِّح لجائزة الأوسكار لأفضل فيلم أجنبي عام 2006؟",
+    "choices": [
+      "عمر",
+      "الجنة الآن",
+      "عيد ميلاد ليلى",
+      "ملح هذا البحر"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الأكلة الفلسطينية الشعبية الشهيرة المصنوعة من البصل والدجاج والخبز والسماق؟",
+    "choices": [
+      "المسخن",
+      "المقلوبة",
+      "المنسف",
+      "الكبة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الطبق الفلسطيني الذي يُقلَب فوق صحن التقديم ويتكوّن من الأرز والخضار واللحم؟",
+    "choices": [
+      "المقلوبة",
+      "المسخن",
+      "المجدّرة",
+      "الفريكة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الشاعر الفلسطيني صاحب قصيدة «أناديكم» التي غنّاها أحمد قعبور؟",
+    "choices": [
+      "توفيق زياد",
+      "محمود درويش",
+      "سميح القاسم",
+      "فدوى طوقان"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هي الشاعرة الفلسطينية المعروفة بـ«شاعرة فلسطين» وأخت الشاعر إبراهيم طوقان؟",
+    "choices": [
+      "فدوى طوقان",
+      "سلمى الخضراء الجيوسي",
+      "ليلى علوش",
+      "ريم قسيس"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المخرج الفلسطيني صاحب الأسلوب الكوميدي الصامت في فيلم «يد إلهية» (Divine Intervention)؟",
+    "choices": [
+      "إيليا سليمان",
+      "هاني أبو أسعد",
+      "آن ماري جاسر",
+      "مي المصري"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الفنان التشكيلي الفلسطيني الشهير الذي اشتهر برمز «حنظلة»؟",
+    "choices": [
+      "إسماعيل شموط",
+      "ناجي العلي",
+      "سليمان منصور",
+      "تمام الأكحل"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "شخصية «حنظلة» الكرتونية لناجي العلي تُصوَّر دائماً وهي:",
+    "choices": [
+      "تبتسم للقارئ",
+      "تدير ظهرها للقارئ ويداها خلف ظهرها",
+      "تركض هاربة",
+      "ترفع علم فلسطين"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الرسام الفلسطيني صاحب لوحة «جمل المحامل» الشهيرة؟",
+    "choices": [
+      "سليمان منصور",
+      "إسماعيل شموط",
+      "فلاديمير تماري",
+      "نبيل عناني"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الآلة الموسيقية الوترية التي تُعدّ ركيزة في الموسيقى العربية والفلسطينية وتُعزف بريشة؟",
+    "choices": [
+      "العود",
+      "الربابة",
+      "القانون",
+      "الناي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الكوفية الفلسطينية المطرّزة بالأبيض والأسود التي أصبحت رمزاً وطنياً؟",
+    "choices": [
+      "الحطّة (الكوفية)",
+      "الشماغ الأحمر",
+      "العمامة",
+      "الطربوش"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الروائي الفلسطيني صاحب رواية «البحث عن وليد مسعود»؟",
+    "choices": [
+      "جبرا إبراهيم جبرا",
+      "غسان كنفاني",
+      "يحيى يخلف",
+      "سحر خليفة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم رواية الكاتبة الفلسطينية عدنية شبلي التي رُشّحت لجائزة الكتاب الوطني الأمريكي عام 2020؟",
+    "choices": [
+      "تفصيل ثانوي",
+      "مساس",
+      "الكلّ يقول أحبّك",
+      "رهائن"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الفنان الفلسطيني الذي اشتهر بأغنية «يا ظريف الطول» ضمن التراث الشعبي؟",
+    "choices": [
+      "إنها أغنية تراثية فلكلورية",
+      "فيروز",
+      "محمد عبده",
+      "وديع الصافي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المطرب الفلسطيني الذي فاز بلقب «عرب آيدول» (Arab Idol) عام 2013؟",
+    "choices": [
+      "محمد عساف",
+      "يعقوب شاهين",
+      "حمزة نمرة",
+      "نسمة محجوب"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المطرب الفلسطيني من بيت لحم الذي فاز بلقب «عرب آيدول» عام 2017؟",
+    "choices": [
+      "يعقوب شاهين",
+      "محمد عساف",
+      "أمير دندن",
+      "قمر بدوي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "بأي أغنية ارتبط اسم محمد عساف وأصبحت أيقونة وطنية؟",
+    "choices": [
+      "علِّي الكوفية",
+      "يا حلالي يا مالي",
+      "دمي فلسطيني",
+      "زهرة المدائن"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الحلوى الفلسطينية الشهيرة المنسوبة لمدينة نابلس والمصنوعة من العجين والجبن والقطر؟",
+    "choices": [
+      "الكنافة النابلسية",
+      "البقلاوة",
+      "القطايف",
+      "المعمول"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المدينة الفلسطينية التي تشتهر بصناعة الصابون من زيت الزيتون؟",
+    "choices": [
+      "نابلس",
+      "الخليل",
+      "غزة",
+      "أريحا"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المخرجة الفلسطينية صاحبة فيلم «ملح هذا البحر» (Salt of This Sea)؟",
+    "choices": [
+      "آن ماري جاسر",
+      "مي المصري",
+      "نجوى نجار",
+      "شيرين دعيبس"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الكاتب الفلسطيني الأمريكي صاحب كتاب «الاستشراق» الذي أثّر في الفكر الثقافي العالمي؟",
+    "choices": [
+      "إدوارد سعيد",
+      "هشام شرابي",
+      "وليد الخالدي",
+      "رشيد الخالدي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الآلة الإيقاعية الفخارية المغطّاة بجلد التي تُستخدم في الموسيقى الفلسطينية الشعبية؟",
+    "choices": [
+      "الدربكة (الطبلة)",
+      "الدف",
+      "الصنوج",
+      "الرق"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم آلة النفخ الخشبية المزدوجة المستخدمة في عزف الدبكة الفلسطينية؟",
+    "choices": [
+      "اليرغول (المجوز)",
+      "الناي",
+      "المزمار التركي",
+      "القربة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الشاعر الفلسطيني صاحب قصيدة «موطني» التي صارت نشيداً قومياً عربياً؟",
+    "choices": [
+      "إبراهيم طوقان",
+      "محمد فليفل",
+      "عبد الكريم الكرمي (أبو سلمى)",
+      "هارون هاشم رشيد"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الغرز التطريزي الأساسي المستخدم في الثوب الفلسطيني المطرّز؟",
+    "choices": [
+      "غرزة الفلاحي (الصليب)",
+      "الكروشيه",
+      "غرزة السلسلة فقط",
+      "التطريز الآلي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الكاتب الفلسطيني صاحب رواية «عائد إلى حيفا»؟",
+    "choices": [
+      "غسان كنفاني",
+      "إميل حبيبي",
+      "يحيى يخلف",
+      "محمود شقير"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفيلم الوثائقي الفلسطيني المشترك الذي رُشّح للأوسكار عام 2025 عن قرية مسافر يطا؟",
+    "choices": [
+      "لا أرض أخرى",
+      "المطلوبون الـ18",
+      "خمس كاميرات محطّمة",
+      "غزة تنادي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفيلم الوثائقي الفلسطيني الذي رُشّح للأوسكار عام 2013 ووثّق المقاومة الشعبية في بلعين؟",
+    "choices": [
+      "خمس كاميرات محطّمة",
+      "المطلوبون الـ18",
+      "عمر",
+      "الجنة الآن"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المغني الفلسطيني المعروف بأغاني الراب وفرقة «دام» (DAM) من اللد؟",
+    "choices": [
+      "تامر النفار",
+      "المسيح (MC Gaza)",
+      "شادية منصور",
+      "سعيد مرة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم مغنية الراب الفلسطينية البريطانية الملقّبة بـ«السيدة الأولى للراب العربي»؟",
+    "choices": [
+      "شادية منصور",
+      "ريم بنا",
+      "دلال أبو آمنة",
+      "لينا مخول"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفنانة الفلسطينية من الناصرة التي شاركت في «ذا فويس» واشتهرت بأغانٍ تراثية؟",
+    "choices": [
+      "دلال أبو آمنة",
+      "لينا مخول",
+      "أمل مرقص",
+      "ميرا عوض"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المدينة الفلسطينية التي تُعرف بـ«مدينة الأقمار» وارتبطت بقصيدة فيروز «زهرة المدائن»؟",
+    "choices": [
+      "القدس",
+      "حيفا",
+      "يافا",
+      "نابلس"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفنان الفلسطيني صاحب اللوحات الواقعية الشهيرة عن النكبة مثل «إلى أين»؟",
+    "choices": [
+      "إسماعيل شموط",
+      "سليمان منصور",
+      "ناجي العلي",
+      "نبيل عناني"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفنانة التشكيلية الفلسطينية زوجة الرسام إسماعيل شموط؟",
+    "choices": [
+      "تمام الأكحل",
+      "ليلى الشوا",
+      "منى حاطوم",
+      "سامية حلبي"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفنانة الفلسطينية العالمية المولودة في بيروت والمعروفة بأعمال الفن المفاهيمي والتجهيز؟",
+    "choices": [
+      "منى حاطوم",
+      "سامية حلبي",
+      "ليلى الشوا",
+      "إميلي جاسر"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النوع الغنائي الشعبي الفلسطيني المرتبط بأهازيج الزفاف والذي تؤديه النساء بالتصفيق؟",
+    "choices": [
+      "الزغاريد والأهازيج",
+      "المولد",
+      "القدود",
+      "الموال"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الفرقة الفلسطينية الشهيرة للفنون الشعبية المتخصصة بالدبكة والمعروفة اختصاراً بـ«الفرقة»؟",
+    "choices": [
+      "فرقة الفنون الشعبية الفلسطينية",
+      "فرقة العاشقين",
+      "فرقة وطن",
+      "فرقة سرية رام الله"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو الكاتب الفلسطيني صاحب الثلاثية الروائية «زمن الخيول البيضاء»؟",
+    "choices": [
+      "إبراهيم نصر الله",
+      "يحيى يخلف",
+      "ربعي المدهون",
+      "أنور حامد"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم رواية ربعي المدهون التي فازت بالجائزة العالمية للرواية العربية (البوكر) عام 2016؟",
+    "choices": [
+      "مصائر: كونشيرتو الهولوكوست والنكبة",
+      "السيدة من تل أبيب",
+      "حياة معلّقة",
+      "مصابيح أورشليم"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم طبق الكسكسي الفلسطيني المصنوع من حبيبات البرغل أو الطحين والدجاج والحمص؟",
+    "choices": [
+      "المفتول",
+      "الفريكة",
+      "المجدّرة",
+      "الرشتة"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المسلسل التلفزيوني الفلسطيني الكوميدي الساخر الشهير الذي يتناول قضايا المجتمع تحت الاحتلال؟",
+    "choices": [
+      "وطن ع وتر",
+      "باب الحارة",
+      "الاجتياح",
+      "التغريبة الفلسطينية"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المسلسل الدرامي الذي وثّق قصة اللجوء الفلسطيني منذ النكبة وكتبه وليد سيف؟",
+    "choices": [
+      "التغريبة الفلسطينية",
+      "الاجتياح",
+      "وطن ع وتر",
+      "الشتات"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنتخب الوطني الذي يمثل فلسطين في كرة القدم؟",
+    "choices": [
+      "منتخب فلسطين لكرة القدم",
+      "منتخب الكنعانيين",
+      "منتخب القدس",
+      "منتخب الأقصى"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "تحت أي اتحاد قاري ينضوي منتخب فلسطين لكرة القدم؟",
+    "choices": [
+      "الاتحاد الآسيوي لكرة القدم",
+      "الاتحاد الإفريقي لكرة القدم",
+      "الاتحاد الأوروبي لكرة القدم",
+      "اتحاد أمريكا الجنوبية"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اللون الغالب على القميص الأساسي لمنتخب فلسطين لكرة القدم؟",
+    "choices": [
+      "الأحمر",
+      "الأزرق",
+      "الأصفر",
+      "البرتقالي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام انضم الاتحاد الفلسطيني لكرة القدم رسمياً إلى الفيفا؟",
+    "choices": [
+      "1998",
+      "1990",
+      "2002",
+      "1984"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البطولة القارية الكبرى التي شارك فيها منتخب فلسطين للمرة الأولى عام 2015؟",
+    "choices": [
+      "كأس آسيا",
+      "كأس العالم",
+      "كأس الأمم الإفريقية",
+      "كأس الكونفدرالات"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البطولة التي توّج بها منتخب فلسطين عام 2014 وأهّلته لكأس آسيا؟",
+    "choices": [
+      "كأس التحدي الآسيوي",
+      "كأس آسيا",
+      "كأس الخليج",
+      "كأس العرب"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أين أُقيمت بطولة كأس التحدي الآسيوي 2014 التي فاز بها منتخب فلسطين؟",
+    "choices": [
+      "جزر المالديف",
+      "قطر",
+      "ماليزيا",
+      "نيبال"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الملعب الرئيسي الذي يستضيف مباريات منتخب فلسطين في الضفة الغربية؟",
+    "choices": [
+      "ملعب فيصل الحسيني الدولي",
+      "ملعب اليرموك",
+      "ملعب الأقصى",
+      "ملعب القدس الدولي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة فلسطينية يقع ملعب فيصل الحسيني الدولي؟",
+    "choices": [
+      "الرام",
+      "رام الله",
+      "نابلس",
+      "الخليل"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الدوري المحلي الأعلى لكرة القدم في الضفة الغربية؟",
+    "choices": [
+      "دوري المحترفين الفلسطيني",
+      "الدوري الممتاز المصري",
+      "دوري نجوم قطر",
+      "الدوري السعودي للمحترفين"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي ناد فلسطيني يحمل اسم مدينة الخليل ويُعد من أعرق الأندية؟",
+    "choices": [
+      "شباب الخليل",
+      "أهلي الخليل",
+      "نادي الخليل الرياضي",
+      "وفاق الخليل"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النادي الفلسطيني الذي يحمل اسم مخيم بلاطة قرب نابلس؟",
+    "choices": [
+      "نادي بلاطة",
+      "نادي العين",
+      "نادي الوحدات",
+      "نادي الأمعري"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي ناد فلسطيني من مدينة طولكرم اشتهر في دوري المحترفين؟",
+    "choices": [
+      "مركز طولكرم",
+      "شباب طولكرم",
+      "أهلي طولكرم",
+      "اتحاد طولكرم"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي دولة من أمريكا اللاتينية يوجد نادٍ عريق يحمل اسم «بالستينو» المرتبط بالجالية الفلسطينية؟",
+    "choices": [
+      "تشيلي",
+      "الأرجنتين",
+      "البرازيل",
+      "الأوروغواي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النادي التشيلي المرتبط بالجالية الفلسطينية والذي يرفع علم فلسطين؟",
+    "choices": [
+      "بالستينو",
+      "كولو كولو",
+      "يونيفرسيداد",
+      "أودينسي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي رقم يُعرف به نادي بالستينو التشيلي ويرتبط برمزية حدود فلسطين التاريخية؟",
+    "choices": [
+      "رقم 1 على شكل خريطة فلسطين",
+      "رقم 7",
+      "رقم 10",
+      "رقم 48"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الهداف التاريخي البارز لمنتخب فلسطين الذي لعب طويلاً مهاجماً؟",
+    "choices": [
+      "أشرف نعمان",
+      "عبد اللطيف البهداري",
+      "عدي الدباغ",
+      "سامح مراعبة"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي لاعب فلسطيني شغل منصب قائد المنتخب وكان مدافعاً صلباً لسنوات؟",
+    "choices": [
+      "عبد اللطيف البهداري",
+      "فهد عتال",
+      "موسى البطاط",
+      "ميلاد الترماناوي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم حارس المرمى الفلسطيني الشهير الذي دافع عن عرين المنتخب في كأس آسيا؟",
+    "choices": [
+      "رامي حمادة",
+      "توفيق علي",
+      "محمد بسيم",
+      "عماد التمر"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي قارة تقع معظم منافسات منتخب فلسطين الرسمية بحكم انتمائه القاري؟",
+    "choices": [
+      "آسيا",
+      "إفريقيا",
+      "أوروبا",
+      "أمريكا الجنوبية"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد اللاعبين الأساسيين لكل فريق في مباراة كرة القدم التي يخوضها منتخب فلسطين؟",
+    "choices": [
+      "11 لاعباً",
+      "9 لاعبين",
+      "13 لاعباً",
+      "10 لاعبين"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البطولة الإقليمية التي تجمع المنتخبات العربية وشارك فيها منتخب فلسطين عدة مرات؟",
+    "choices": [
+      "كأس العرب",
+      "كأس آسيا",
+      "كأس أوروبا",
+      "كأس الكونكاكاف"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مدينة فلسطينية يُنسب إليها نادي «هلال القدس» الرياضي؟",
+    "choices": [
+      "القدس",
+      "غزة",
+      "أريحا",
+      "جنين"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النادي الفلسطيني الذي يحمل اسم مدينة نابلس ويلقب بالاتحاد؟",
+    "choices": [
+      "اتحاد نابلس",
+      "أهلي نابلس",
+      "شباب نابلس",
+      "هلال نابلس"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام شارك منتخب فلسطين لأول مرة في نهائيات كأس آسيا؟",
+    "choices": [
+      "2015",
+      "2011",
+      "2019",
+      "2007"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي دولة أُقيمت نهائيات كأس آسيا 2015 التي شارك فيها منتخب فلسطين أول مرة؟",
+    "choices": [
+      "أستراليا",
+      "قطر",
+      "الإمارات",
+      "لبنان"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي بطولة عالمية كبرى لم يتأهل إليها منتخب فلسطين حتى الآن في تاريخه؟",
+    "choices": [
+      "كأس العالم",
+      "كأس التحدي الآسيوي",
+      "كأس آسيا",
+      "كأس العرب"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم الجهة الرسمية التي تشرف على كرة القدم في فلسطين؟",
+    "choices": [
+      "الاتحاد الفلسطيني لكرة القدم",
+      "رابطة الأندية الفلسطينية",
+      "اللجنة الأولمبية الفلسطينية",
+      "وزارة الرياضة الفلسطينية"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من هو رئيس الاتحاد الفلسطيني لكرة القدم الذي اشتهر دولياً بمطالبه أمام الفيفا؟",
+    "choices": [
+      "جبريل الرجوب",
+      "موسى الحسيني",
+      "سليمان حماد",
+      "رامي حمدالله"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما ألوان العلم الذي يرفعه مشجعو منتخب فلسطين والمكوّن من أربعة ألوان؟",
+    "choices": [
+      "الأحمر والأبيض والأسود والأخضر",
+      "الأزرق والأبيض",
+      "الأصفر والأخضر",
+      "الأحمر والأصفر"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النادي الغزّي الذي يحمل اسم «خدمات» أحد مخيمات قطاع غزة؟",
+    "choices": [
+      "خدمات رفح",
+      "أهلي غزة",
+      "شباب جباليا",
+      "اتحاد الشجاعية"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي ناد من قطاع غزة يحمل اسم «شباب رفح» وينافس في الدوري؟",
+    "choices": [
+      "شباب رفح",
+      "هلال غزة",
+      "خدمات النصيرات",
+      "أهلي بيت لاهيا"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المركز الذي يلعب فيه حارس المرمى في تشكيلة منتخب فلسطين؟",
+    "choices": [
+      "حراسة المرمى",
+      "الوسط المهاجم",
+      "الجناح الأيمن",
+      "قلب الدفاع"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "كم مدة الشوط الواحد في مباراة كرة القدم النظامية التي يخوضها المنتخب الفلسطيني؟",
+    "choices": [
+      "45 دقيقة",
+      "30 دقيقة",
+      "60 دقيقة",
+      "40 دقيقة"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم أكبر بطولة كأس محلية للأندية في فلسطين؟",
+    "choices": [
+      "كأس فلسطين",
+      "كأس القدس",
+      "كأس النكبة",
+      "كأس الاستقلال"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مدينة فلسطينية تُعرف بأنها معقل نادي «مركز بلاطة» ومنطقة كروية نشطة؟",
+    "choices": [
+      "نابلس",
+      "غزة",
+      "الخليل",
+      "طولكرم"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المنتخب الذي يمثل فلسطين في فئة السيدات لكرة القدم؟",
+    "choices": [
+      "منتخب فلسطين للسيدات",
+      "منتخب القدس للبنات",
+      "فريق الفدائيات المستقل",
+      "نادي فلسطين النسوي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي عملية يحصل فيها الفريق على ركلة من نقطة الجزاء عند ارتكاب خطأ داخل المنطقة؟",
+    "choices": [
+      "ركلة الجزاء",
+      "ركلة الزاوية",
+      "ركلة المرمى",
+      "الرمية الجانبية"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اللون الثاني الذي يظهر غالباً في القميص الاحتياطي لمنتخب فلسطين؟",
+    "choices": [
+      "الأبيض",
+      "الوردي",
+      "البنفسجي",
+      "الذهبي"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البطولة الودية التي تجمع منتخبات غرب آسيا وشارك فيها منتخب فلسطين؟",
+    "choices": [
+      "بطولة اتحاد غرب آسيا",
+      "بطولة شرق آسيا",
+      "كأس وسط أوروبا",
+      "كأس البلطيق"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد اللاعبين الذين يُسمح لهم بالتبديل عادة في مباريات منتخب فلسطين الرسمية الحديثة؟",
+    "choices": [
+      "خمسة لاعبين",
+      "ثلاثة لاعبون",
+      "سبعة لاعبين",
+      "لاعبان فقط"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مدرب أجنبي شهير قاد منتخب فلسطين خلال مشاركته في كأس آسيا 2019؟",
+    "choices": [
+      "نور الدين ولد علي",
+      "حمزة الدردور",
+      "ماركوس باكر",
+      "سامي الجابر"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما جنسية المدرب نور الدين ولد علي الذي أشرف على منتخب فلسطين؟",
+    "choices": [
+      "جزائري",
+      "مغربي",
+      "تونسي",
+      "مصري"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي دولة أُقيمت نهائيات كأس آسيا 2019 التي شارك فيها منتخب فلسطين؟",
+    "choices": [
+      "الإمارات العربية المتحدة",
+      "قطر",
+      "أستراليا",
+      "الأردن"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اللقب الإعلامي الذي يُطلق على لاعبي منتخب فلسطين الذكور؟",
+    "choices": [
+      "الفدائي",
+      "الأخضر",
+      "الفراعنة",
+      "الأسود"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "أي ناد فلسطيني توّج بطلاً لدوري المحترفين في الضفة عدة مرات ويعد من الفرق القوية؟",
+    "choices": [
+      "شباب الخليل",
+      "نادي السلام",
+      "شباب يطا",
+      "أهلي بيت لحم"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم البطاقة التي يرفعها الحكم لطرد لاعب من المباراة في مباريات منتخب فلسطين؟",
+    "choices": [
+      "البطاقة الحمراء",
+      "البطاقة الصفراء",
+      "البطاقة الخضراء",
+      "البطاقة الزرقاء"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "أي مدينة فلسطينية ساحلية كانت تاريخياً مركزاً مهماً لكرة القدم قبل عام 1948؟",
+    "choices": [
+      "يافا",
+      "نابلس",
+      "الخليل",
+      "أريحا"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الهدف الأساسي للاعبي منتخب فلسطين في مباراة كرة القدم؟",
+    "choices": [
+      "تسجيل أهداف أكثر من الخصم",
+      "الحفاظ على الكرة فقط",
+      "إطالة زمن المباراة",
+      "تبديل اللاعبين باستمرار"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم المخيم الفلسطيني في الأردن الذي يحمل ناديه الشهير «الوحدات» رمزية فلسطينية كبيرة؟",
+    "choices": [
+      "مخيم الوحدات",
+      "مخيم بلاطة",
+      "مخيم جنين",
+      "مخيم النصيرات"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم النادي الفلسطيني الذي يمثل مدينة رام الله ويلقب أحياناً بأبناء البيرة؟",
+    "choices": [
+      "شباب البيرة",
+      "هلال رام الله",
+      "اتحاد رام الله",
+      "أهلي البيرة"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "country": "Palestine",
+    "difficulty": "hard",
+    "locale": "ar"
+  }
 ]
