@@ -112,7 +112,7 @@ describe("toPublicRoomState redaction", () => {
   });
 
   test("never leaks server-only secrets", () => {
-    const pub = toPublicRoomState(room("reveal")) as Record<string, unknown>;
+    const pub = toPublicRoomState(room("reveal")) as unknown as Record<string, unknown>;
     expect(pub.hostToken).toBeUndefined();
     expect(pub.sessions).toBeUndefined();
     expect(JSON.stringify(pub)).not.toContain("SECRET-TOKEN");

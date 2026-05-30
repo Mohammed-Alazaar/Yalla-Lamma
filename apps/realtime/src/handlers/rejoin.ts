@@ -7,6 +7,7 @@ import { store, withRoomLock } from "../store";
 import { broadcastState, emitError } from "../lib/respond";
 import { parsePayload } from "../lib/validate";
 import type { AppServer, AppSocket } from "../lib/types";
+import { clearGraceTimer, resumeFromPause, scheduleNext } from "../game/flow";
 
 /** Host reconnect (RECON-4): validate token, restore seat, resume if paused. */
 export async function handleHostRejoin(
@@ -25,12 +26,9 @@ export async function handleHostRejoin(
     if (room.hostToken !== data.hostToken) {
       return { ok: false, code: ERROR_CODES.NOT_HOST, message: "Invalid host token" } as const;
     }
+    resumeFromPause(room, Date.now());
     room.hostSocketId = socket.id;
     room.hostDisconnectedAt = null;
-    if (room.phase === "paused" && room.prevPhase) {
-      room.phase = room.prevPhase;
-      room.prevPhase = null;
-    }
     await store.save(room);
     return { ok: true, room } as const;
   });
@@ -42,7 +40,9 @@ export async function handleHostRejoin(
   socket.data.roomCode = data.code;
   socket.data.role = "host";
   await socket.join(data.code);
+  clearGraceTimer(data.code);
   broadcastState(io, result.room);
+  scheduleNext(io, result.room); // re-arm the auto-advance timer if mid-game
 }
 
 /** Player reconnect (RECON-2): restore seat + score by sessionId. */

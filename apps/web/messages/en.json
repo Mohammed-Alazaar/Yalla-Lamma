@@ -42,6 +42,9 @@
     "waiting": "Waiting for players to join…",
     "players": "{count, plural, =0 {No players yet} =1 {1 player} other {# players}}",
     "vip": "VIP",
+    "lock": "Lock room",
+    "unlock": "Unlock room",
+    "kick": "Remove {name}",
     "status": {
       "idle": "Not connected",
       "connecting": "Connecting…",
@@ -52,6 +55,7 @@
   "play": {
     "connecting": "Connecting…",
     "waiting": "Waiting for the host to start…",
+    "removed": "You were removed from the room.",
     "vip": "You're the VIP",
     "othersHere": "{count, plural, =1 {1 other player here} other {# other players here}}",
     "status": {
@@ -95,7 +99,11 @@
     "winner": "{name} wins!",
     "itsATie": "It's a tie!",
     "finalScores": "Final scores",
-    "playAgain": "Play Again"
+    "playAgain": "Play Again",
+    "paused": {
+      "title": "Game paused",
+      "subtitle": "The host got disconnected. Waiting for them to come back…"
+    }
   },
   "footer": {
     "tagline": "Yalla, lamma — let's gather and play.",

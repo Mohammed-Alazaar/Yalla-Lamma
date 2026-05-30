@@ -9,6 +9,7 @@ import {
   handleVipStart,
 } from "./vip";
 import { handlePlayerAnswer } from "./answer";
+import { handleHostKick, handleHostLock } from "./moderation";
 import { handleDisconnect } from "./disconnect";
 
 /** Wire all event handlers for a freshly connected socket. */
@@ -40,8 +41,13 @@ export function registerHandlers(io: AppServer, socket: AppSocket): void {
   socket.on("player:answer", (payload) => {
     void handlePlayerAnswer(io, socket, payload);
   });
+  socket.on("host:kick", (payload) => {
+    void handleHostKick(io, socket, payload);
+  });
+  socket.on("host:lock", (payload) => {
+    void handleHostLock(io, socket, payload);
+  });
   socket.on("disconnect", () => {
     void handleDisconnect(io, socket);
   });
-  // host:kick — Phase 6.
 }

@@ -14,10 +14,12 @@ interface GameState {
   room: PublicRoomState | null;
   selfPlayerId: string | null; // set for player clients
   lastError: SocketError | null;
+  kicked: boolean; // this player was removed by the host (PRD ROOM-7)
   setStatus: (status: ConnectionStatus) => void;
   setRoom: (room: PublicRoomState) => void;
   setSelfPlayerId: (id: string | null) => void;
   setError: (error: SocketError | null) => void;
+  setKicked: (kicked: boolean) => void;
   reset: () => void;
 }
 
@@ -26,9 +28,11 @@ export const useGameStore = create<GameState>((set) => ({
   room: null,
   selfPlayerId: null,
   lastError: null,
+  kicked: false,
   setStatus: (status) => set({ status }),
   setRoom: (room) => set({ room }),
   setSelfPlayerId: (selfPlayerId) => set({ selfPlayerId }),
   setError: (lastError) => set({ lastError }),
-  reset: () => set({ room: null, selfPlayerId: null, lastError: null }),
+  setKicked: (kicked) => set({ kicked }),
+  reset: () => set({ room: null, selfPlayerId: null, lastError: null, kicked: false }),
 }));

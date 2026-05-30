@@ -9,6 +9,7 @@ import { HostQuestion } from "./host-question";
 import { HostReveal } from "./host-reveal";
 import { HostLeaderboard } from "./host-leaderboard";
 import { HostFinal } from "./host-final";
+import { PausedScreen } from "./paused-screen";
 
 export function HostScreen({ code, origin }: { code: string; origin: string }) {
   const room = useGameStore((s) => s.room);
@@ -35,8 +36,10 @@ export function HostScreen({ code, origin }: { code: string; origin: string }) {
       return <HostLeaderboard room={room} />;
     case "final":
       return <HostFinal room={room} />;
+    case "paused":
+      return <PausedScreen />;
     default:
-      // lobby / paused / not-yet-connected
+      // lobby / not-yet-connected
       return <HostLobby room={room ?? null} code={code} origin={origin} />;
   }
 }

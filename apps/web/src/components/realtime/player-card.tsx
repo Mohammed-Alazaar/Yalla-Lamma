@@ -2,16 +2,32 @@ import { useTranslations } from "next-intl";
 import type { PublicPlayer } from "@yalla/shared";
 import { cn } from "@/lib/utils";
 
-export function PlayerCard({ player }: { player: PublicPlayer }) {
+export function PlayerCard({
+  player,
+  onKick,
+}: {
+  player: PublicPlayer;
+  onKick?: (playerId: string) => void;
+}) {
   const t = useTranslations("host");
   return (
     <div
       className={cn(
-        "flex min-w-32 flex-col items-center gap-2 rounded-xl border-2 bg-card p-4 transition-opacity",
+        "relative flex min-w-32 flex-col items-center gap-2 rounded-xl border-2 bg-card p-4 transition-opacity",
         !player.connected && "opacity-40",
       )}
       style={{ borderColor: player.color }}
     >
+      {onKick && (
+        <button
+          type="button"
+          onClick={() => onKick(player.id)}
+          aria-label={t("kick", { name: player.name })}
+          className="absolute end-1 top-1 flex size-6 items-center justify-center rounded-full bg-muted text-muted-foreground transition-colors hover:bg-destructive hover:text-white"
+        >
+          ×
+        </button>
+      )}
       <span
         className="flex size-12 items-center justify-center rounded-full text-xl font-bold text-white"
         style={{ backgroundColor: player.color }}

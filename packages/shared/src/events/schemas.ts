@@ -70,6 +70,7 @@ export const playerAnswerSchema = z.object({
   choice: choiceSchema,
 });
 export const hostKickSchema = z.object({ playerId: z.string().min(1) });
+export const hostLockSchema = z.object({ locked: z.boolean() });
 
 export type HostCreatePayload = z.infer<typeof hostCreateSchema>;
 export type HostRejoinPayload = z.infer<typeof hostRejoinSchema>;
@@ -78,6 +79,7 @@ export type PlayerRejoinPayload = z.infer<typeof playerRejoinSchema>;
 export type VipConfigurePayload = z.infer<typeof vipConfigureSchema>;
 export type PlayerAnswerPayload = z.infer<typeof playerAnswerSchema>;
 export type HostKickPayload = z.infer<typeof hostKickSchema>;
+export type HostLockPayload = z.infer<typeof hostLockSchema>;
 
 // ─── Error codes (server → client `error` event) ─────────────────────────────
 

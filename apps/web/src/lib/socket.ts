@@ -38,6 +38,7 @@ export function bindSocket(): AppClientSocket {
   s.on("state", (state) => store.setRoom(state));
   s.on("error", (err) => store.setError(err));
   s.on("player:session", ({ playerId }) => store.setSelfPlayerId(playerId));
+  s.on("kicked", () => store.setKicked(true));
 
   store.setStatus(s.connected ? "connected" : "connecting");
   return s;

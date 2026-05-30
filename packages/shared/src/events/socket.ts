@@ -3,6 +3,7 @@ import type { ErrorCode } from "./schemas";
 import type {
   HostCreatePayload,
   HostKickPayload,
+  HostLockPayload,
   HostRejoinPayload,
   PlayerAnswerPayload,
   PlayerJoinPayload,
@@ -46,6 +47,7 @@ export interface ClientToServerEvents {
   "vip:playAgain": () => void;
   "player:answer": (payload: PlayerAnswerPayload) => void;
   "host:kick": (payload: HostKickPayload) => void;
+  "host:lock": (payload: HostLockPayload) => void;
 }
 
 /** Per-socket data attached server-side after auth/join. */

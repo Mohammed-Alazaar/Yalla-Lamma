@@ -3,6 +3,7 @@
 import { QRCodeSVG } from "qrcode.react";
 import { useLocale, useTranslations } from "next-intl";
 import type { PublicRoomState } from "@yalla/shared";
+import { emitWhenReady } from "@/lib/socket";
 import { PlayerCard } from "./player-card";
 
 export function HostLobby({
@@ -40,16 +41,29 @@ export function HostLobby({
       </div>
 
       <section className="flex-1">
-        <h2 className="mb-4 text-center text-lg font-semibold">
-          {t("players", { count: players.length })}
-        </h2>
+        <div className="mb-4 flex items-center justify-center gap-4">
+          <h2 className="text-lg font-semibold">{t("players", { count: players.length })}</h2>
+          {players.length > 0 && (
+            <button
+              type="button"
+              onClick={() => emitWhenReady("host:lock", { locked: !room?.locked })}
+              aria-pressed={room?.locked ?? false}
+              className="rounded-full border px-3 py-1 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent"
+            >
+              {room?.locked ? t("unlock") : t("lock")}
+            </button>
+          )}
+        </div>
         {players.length === 0 ? (
           <p className="text-center text-muted-foreground">{t("waiting")}</p>
         ) : (
           <ul className="flex flex-wrap justify-center gap-4">
             {players.map((p) => (
               <li key={p.id}>
-                <PlayerCard player={p} />
+                <PlayerCard
+                  player={p}
+                  onKick={(id) => emitWhenReady("host:kick", { playerId: id })}
+                />
               </li>
             ))}
           </ul>
