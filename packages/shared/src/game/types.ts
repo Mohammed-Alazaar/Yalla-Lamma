@@ -10,9 +10,10 @@ export type GameId = "trivia" | "quip";
 
 export type Phase =
   | "lobby"
-  | "question" // question shown, timer running
-  | "reveal" // correct answer revealed
-  | "leaderboard" // between-question scores
+  | "question" // trivia: question shown, timer running
+  | "reveal" // trivia: correct answer revealed
+  | "leaderboard" // trivia: between-question scores
+  | "playing" // quip: in-game (fine sub-phase lives in room.quip.phase)
   | "final" // winner screen
   | "paused"; // host disconnected
 

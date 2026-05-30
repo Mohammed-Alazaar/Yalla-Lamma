@@ -8,6 +8,7 @@ import { broadcastState, emitError } from "../lib/respond";
 import { parsePayload } from "../lib/validate";
 import type { AppServer, AppSocket } from "../lib/types";
 import { clearGraceTimer, resumeFromPause, scheduleNext } from "../game/flow";
+import { scheduleNextQuip } from "../games/quip/flow";
 
 /** Host reconnect (RECON-4): validate token, restore seat, resume if paused. */
 export async function handleHostRejoin(
@@ -42,7 +43,9 @@ export async function handleHostRejoin(
   await socket.join(data.code);
   clearGraceTimer(data.code);
   broadcastState(io, result.room);
-  scheduleNext(io, result.room); // re-arm the auto-advance timer if mid-game
+  // Re-arm the right game's auto-advance timer if mid-game.
+  if (result.room.gameId === "quip") scheduleNextQuip(io, result.room);
+  else scheduleNext(io, result.room);
 }
 
 /** Player reconnect (RECON-2): restore seat + score by sessionId. */

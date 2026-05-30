@@ -14,6 +14,7 @@ import { PlayerLeaderboard } from "./player-leaderboard";
 import { PlayerFinal } from "./player-final";
 import { PausedScreen } from "./paused-screen";
 import { ErrorToaster } from "./error-toaster";
+import { PlayerQuip } from "./quip/player-quip";
 
 const noopSubscribe = () => () => {};
 
@@ -80,6 +81,9 @@ export function PlayerScreen({ code }: { code: string }) {
       break;
     case "leaderboard":
       view = <PlayerLeaderboard room={room} self={self} />;
+      break;
+    case "playing":
+      view = <PlayerQuip room={room} self={self} />;
       break;
     case "final":
       view = <PlayerFinal room={room} self={self} />;

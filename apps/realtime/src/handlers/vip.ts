@@ -1,6 +1,7 @@
 import {
   ERROR_CODES,
   MIN_PLAYERS_TO_START,
+  QUIP_MIN_PLAYERS,
   selectQuestions,
   vipConfigureQuipSchema,
   vipConfigureSchema,
@@ -12,6 +13,8 @@ import { parsePayload } from "../lib/validate";
 import type { AppServer, AppSocket } from "../lib/types";
 import { startGame, resetForReplay } from "../game/engine";
 import { advancePhase, clearRoomTimer, scheduleNext } from "../game/flow";
+import { initQuip } from "../games/quip/engine";
+import { advanceQuip, scheduleNextQuip } from "../games/quip/flow";
 
 /** VIP updates game settings in the lobby (PRD LOB-3). */
 export async function handleVipConfigure(
@@ -172,9 +175,9 @@ export async function handleVipStart(io: AppServer, socket: AppSocket): Promise<
     return;
   }
 
-  // Loading the question pool is async I/O; keep it inside the lock so the
-  // lobby→question transition stays atomic for this room.
-  const { loadQuestionPool } = await import("@yalla/db");
+  // Loading the prompt/question pool is async I/O; keep it inside the lock so
+  // the lobby→game transition stays atomic for this room.
+  const db = await import("@yalla/db");
 
   const result = await withRoomLock(code, async () => {
     const room = await store.get(code);
@@ -187,19 +190,43 @@ export async function handleVipStart(io: AppServer, socket: AppSocket): Promise<
     if (room.phase !== "lobby") {
       return { ok: false, code: ERROR_CODES.WRONG_PHASE, message: "Game already started" } as const;
     }
-    if (Object.keys(room.players).length < MIN_PLAYERS_TO_START) {
+    const playerCount = Object.keys(room.players).length;
+
+    // ── QuipParty ──────────────────────────────────────────────────────────
+    if (room.gameId === "quip") {
+      if (playerCount < QUIP_MIN_PLAYERS) {
+        return {
+          ok: false,
+          code: ERROR_CODES.NOT_ENOUGH_PLAYERS,
+          message: `QuipParty needs at least ${QUIP_MIN_PLAYERS} players`,
+        } as const;
+      }
+      const pool = await db.loadPromptPool(room.settings.locale, room.quipSettings.familyFriendly);
+      const reserved = db.selectPrompts(pool, room.quipSettings.totalRounds * playerCount);
+      if (reserved.length < playerCount) {
+        return { ok: false, code: ERROR_CODES.INTERNAL, message: "Not enough prompts available" } as const;
+      }
+      // Cap rounds if the pool can't fill them all without repeats.
+      const maxRounds = Math.max(1, Math.floor(reserved.length / playerCount));
+      const settings = {
+        ...room.quipSettings,
+        totalRounds: Math.min(room.quipSettings.totalRounds, maxRounds),
+      };
+      initQuip(room, settings, reserved, Date.now());
+      room.lastActivityAt = Date.now();
+      await store.save(room);
+      return { ok: true, room, game: "quip" } as const;
+    }
+
+    // ── Trivia ─────────────────────────────────────────────────────────────
+    if (playerCount < MIN_PLAYERS_TO_START) {
       return {
         ok: false,
         code: ERROR_CODES.NOT_ENOUGH_PLAYERS,
         message: `Need at least ${MIN_PLAYERS_TO_START} players to start`,
       } as const;
     }
-    if (room.gameId === "quip") {
-      // QuipParty start is wired in a later phase; trivia path below for now.
-      return { ok: false, code: ERROR_CODES.INTERNAL, message: "QuipParty isn't available yet" } as const;
-    }
-
-    const pool = await loadQuestionPool(
+    const pool = await db.loadQuestionPool(
       room.settings.locale,
       room.settings.country,
       room.settings.category,
@@ -214,7 +241,7 @@ export async function handleVipStart(io: AppServer, socket: AppSocket): Promise<
     room.phaseSeq += 1;
     room.lastActivityAt = Date.now();
     await store.save(room);
-    return { ok: true, room } as const;
+    return { ok: true, room, game: "trivia" } as const;
   });
 
   if (!result.ok) {
@@ -222,7 +249,8 @@ export async function handleVipStart(io: AppServer, socket: AppSocket): Promise<
     return;
   }
   broadcastState(io, result.room);
-  scheduleNext(io, result.room);
+  if (result.game === "quip") scheduleNextQuip(io, result.room);
+  else scheduleNext(io, result.room);
 }
 
 /** VIP manually advances reveal/leaderboard/question (PRD GAME-6). */
@@ -232,7 +260,9 @@ export async function handleVipNext(io: AppServer, socket: AppSocket): Promise<v
     emitError(socket, ERROR_CODES.NOT_VIP, "Only the VIP can advance the game");
     return;
   }
-  await advancePhase(io, code, {
+  const room = await store.get(code);
+  const advance = room?.gameId === "quip" ? advanceQuip : advancePhase;
+  await advance(io, code, {
     requireVip: socket.data.playerId,
     onError: (errCode, message) => emitError(socket, errCode, message),
   });

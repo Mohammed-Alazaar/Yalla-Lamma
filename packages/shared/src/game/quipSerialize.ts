@@ -43,6 +43,8 @@ export function toPublicQuipState(room: RoomState): PublicQuipState | null {
   }
 
   const votedPlayerIds = m ? Object.keys(m.votes) : [];
+  const promptTexts: Record<string, string> = {};
+  for (const p of q.prompts) promptTexts[p.id] = p.text;
 
   return {
     phase: q.phase,
@@ -51,6 +53,7 @@ export function toPublicQuipState(room: RoomState): PublicQuipState | null {
     phaseEndsAt: q.phaseEndsAt,
     isFinalRound: q.round >= q.totalRounds,
     assignments: q.assignments,
+    promptTexts,
     writingDone,
     matchup,
     matchupIndex: q.currentMatchup,

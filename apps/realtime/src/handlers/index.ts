@@ -13,6 +13,7 @@ import {
 } from "./vip";
 import { handlePlayerAnswer } from "./answer";
 import { handleHostKick, handleHostLock } from "./moderation";
+import { handleHostSkipAnswer, handleQuipSubmitAnswer, handleQuipVote } from "./quip";
 import { handleDisconnect } from "./disconnect";
 
 /** Wire all event handlers for a freshly connected socket. */
@@ -52,6 +53,15 @@ export function registerHandlers(io: AppServer, socket: AppSocket): void {
   });
   socket.on("player:answer", (payload) => {
     void handlePlayerAnswer(io, socket, payload);
+  });
+  socket.on("quip:submitAnswer", (payload) => {
+    void handleQuipSubmitAnswer(io, socket, payload);
+  });
+  socket.on("quip:vote", (payload) => {
+    void handleQuipVote(io, socket, payload);
+  });
+  socket.on("host:skipAnswer", (payload) => {
+    void handleHostSkipAnswer(io, socket, payload);
   });
   socket.on("host:kick", (payload) => {
     void handleHostKick(io, socket, payload);

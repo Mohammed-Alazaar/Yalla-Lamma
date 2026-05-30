@@ -39,3 +39,15 @@ export function useCountdown(startedAt: number | null, timeLimitSec: number): Co
     expired: remainingMs <= 0,
   };
 }
+
+/** Seconds remaining until an absolute `endsAt` epoch-ms (for quip phases). */
+export function useSecondsLeft(endsAt: number | null): number {
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    if (endsAt == null) return;
+    const id = setInterval(() => setNow(Date.now()), 250);
+    return () => clearInterval(id);
+  }, [endsAt]);
+  if (endsAt == null) return 0;
+  return Math.max(0, Math.ceil((endsAt - now) / 1000));
+}

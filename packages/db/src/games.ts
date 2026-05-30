@@ -1,6 +1,7 @@
 import { getPrisma, hasDatabase } from "./client";
 
 export interface CompletedGameInput {
+  gameId?: string; // "trivia" | "quip" (defaults to trivia)
   roomCode: string;
   playerCount: number;
   questionIds: string[];

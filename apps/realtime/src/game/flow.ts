@@ -15,37 +15,12 @@ import {
 import { store, withRoomLock } from "../store";
 import { broadcastState } from "../lib/respond";
 import { captureError, captureEvent } from "../lib/observability";
+import { clearGraceTimer, clearRoomTimer, setGraceTimer, setRoomTimer } from "../lib/room-timers";
 import type { AppServer } from "../lib/types";
 import { advanceQuestion, revealAnswer, showLeaderboard, standings } from "./engine";
 
-const roomTimers = new Map<string, ReturnType<typeof setTimeout>>();
-const graceTimers = new Map<string, ReturnType<typeof setTimeout>>();
-
-/** Cancel any pending auto-advance timer for a room. */
-export function clearRoomTimer(code: string): void {
-  const handle = roomTimers.get(code);
-  if (handle) {
-    clearTimeout(handle);
-    roomTimers.delete(code);
-  }
-}
-
-/** Cancel the host-disconnect grace timer for a room. */
-export function clearGraceTimer(code: string): void {
-  const handle = graceTimers.get(code);
-  if (handle) {
-    clearTimeout(handle);
-    graceTimers.delete(code);
-  }
-}
-
-/** Cancel every pending timer (used by tests for clean teardown). */
-export function clearAllRoomTimers(): void {
-  for (const handle of roomTimers.values()) clearTimeout(handle);
-  for (const handle of graceTimers.values()) clearTimeout(handle);
-  roomTimers.clear();
-  graceTimers.clear();
-}
+// Re-exported so existing imports (`from "../game/flow"`) keep working.
+export { clearRoomTimer, clearGraceTimer, clearAllRoomTimers } from "../lib/room-timers";
 
 /** Duration the current phase auto-advances after, or null if it doesn't. */
 function autoAdvanceDelay(room: RoomState): number | null {
@@ -73,15 +48,15 @@ function autoAdvanceDelay(room: RoomState): number | null {
  * early all-answered end or a manual vip:next) no-ops when it fires.
  */
 export function scheduleNext(io: AppServer, room: RoomState): void {
-  clearRoomTimer(room.code);
   const delay = autoAdvanceDelay(room);
-  if (delay === null) return;
+  if (delay === null) {
+    clearRoomTimer(room.code);
+    return;
+  }
   const expectedSeq = room.phaseSeq;
-  const handle = setTimeout(() => {
+  setRoomTimer(room.code, delay, () => {
     void advancePhase(io, room.code, { expectedSeq });
-  }, delay);
-  handle.unref?.();
-  roomTimers.set(room.code, handle);
+  });
 }
 
 interface AdvanceOptions {
@@ -168,6 +143,7 @@ export async function pauseForHostDisconnect(
       room.phase = "paused";
     }
     room.phaseSeq += 1; // invalidate any pending auto-advance timer
+    if (room.quip) room.quip.seq += 1; // invalidate quip timer too
     clearRoomTimer(code);
     await store.save(room);
     broadcastState(io, room);
@@ -178,10 +154,7 @@ export async function pauseForHostDisconnect(
 }
 
 function scheduleGrace(io: AppServer, code: string): void {
-  clearGraceTimer(code);
-  const handle = setTimeout(() => void endAbandonedRoom(io, code), RECONNECT_GRACE_MS);
-  handle.unref?.();
-  graceTimers.set(code, handle);
+  setGraceTimer(code, RECONNECT_GRACE_MS, () => void endAbandonedRoom(io, code));
 }
 
 /**
@@ -229,8 +202,13 @@ export function resumeFromPause(room: RoomState, now: number): void {
   room.phase = resumed;
   room.prevPhase = null;
   if (resumed === "question") {
-    // Shift the start forward so the remaining time is preserved.
+    // Shift the start forward so the remaining trivia time is preserved.
     room.currentQuestionStartedAt += pausedMs;
+  }
+  if (resumed === "playing" && room.quip) {
+    // Preserve the remaining quip phase time.
+    room.quip.phaseEndsAt += pausedMs;
+    room.quip.seq += 1;
   }
   room.phaseSeq += 1;
 }

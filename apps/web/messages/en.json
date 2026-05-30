@@ -153,6 +153,41 @@
     "INVALID_PAYLOAD": "Something went wrong. Please try again.",
     "INTERNAL": "Something went wrong. Please try again."
   },
+  "quip": {
+    "round": "Round {round} of {total}",
+    "matchup": "Matchup {index} of {total}",
+    "writing": {
+      "title": "Everyone's writing their answers…",
+      "prompt": "Prompt {index} of {total}",
+      "placeholder": "Be funny…",
+      "counter": "{count}/{max}",
+      "submit": "Submit",
+      "locked": "Locked in!",
+      "waiting": "Waiting for the others…"
+    },
+    "voting": {
+      "pick": "Vote for the funnier answer",
+      "skip": "Skip this matchup",
+      "yours": "This one's yours!",
+      "sitTight": "You can't vote on your own matchup — sit tight!",
+      "locked": "Vote locked in!",
+      "waiting": "Waiting for the others…"
+    },
+    "reveal": {
+      "votes": "{count, plural, =1 {1 vote} other {# votes}}",
+      "quiplash": "QUIPLASH!",
+      "skipped": "Matchup skipped",
+      "youWon": "Your answer won!",
+      "youLost": "Your answer lost",
+      "votesIn": "The votes are in!",
+      "yourRank": "You're #{rank}"
+    },
+    "rejected": {
+      "empty": "Please write something.",
+      "tooLong": "Too long — keep it short!",
+      "profanity": "Let's keep it clean — try again."
+    }
+  },
   "footer": {
     "tagline": "Yalla, lamma — let's gather and play.",
     "language": "Language"
