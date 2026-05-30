@@ -30,10 +30,11 @@ async function main(): Promise<void> {
   }
   console.log(`Seeded ${total} questions in total.`);
 
-  // QuipParty prompts (PB-1).
+  // QuipParty prompts (PB-1, PB-5).
   await prisma.prompt.deleteMany({});
-  const prompts = await importPromptsFromFile(resolve(dir, "prompts.en.json"));
-  console.log(`Seeded ${prompts} prompts.`);
+  const enP = await importPromptsFromFile(resolve(dir, "prompts.en.json"), "en");
+  const arP = await importPromptsFromFile(resolve(dir, "prompts.ar.json"), "ar");
+  console.log(`Seeded ${enP} English + ${arP} Arabic prompts.`);
 }
 
 main()

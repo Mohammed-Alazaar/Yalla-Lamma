@@ -1,18 +1,27 @@
 import type { QuipPrompt } from "@yalla/shared";
 import { getPrisma, hasDatabase } from "./client";
 import seedPromptsEn from "../data/prompts.en.json" with { type: "json" };
+import seedPromptsAr from "../data/prompts.ar.json" with { type: "json" };
 
-type SeedPrompt = { text: string; familyFriendly: boolean; category?: string; locale?: string };
+type SeedPrompt = { text: string; familyFriendly: boolean; category?: string };
 
 /** Bundled prompts (used when no DATABASE_URL is configured — dev/tests). */
 function bundledPrompts(): QuipPrompt[] {
-  return (seedPromptsEn as SeedPrompt[]).map((p, i) => ({
+  const en = (seedPromptsEn as SeedPrompt[]).map((p, i) => ({
     id: `prompt-en-${i}`,
-    locale: p.locale ?? "en",
+    locale: "en",
     text: p.text,
     familyFriendly: p.familyFriendly,
     category: p.category,
   }));
+  const ar = (seedPromptsAr as SeedPrompt[]).map((p, i) => ({
+    id: `prompt-ar-${i}`,
+    locale: "ar",
+    text: p.text,
+    familyFriendly: p.familyFriendly,
+    category: p.category,
+  }));
+  return [...en, ...ar];
 }
 
 /**

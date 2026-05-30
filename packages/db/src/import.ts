@@ -121,7 +121,7 @@ interface PromptRow {
 }
 
 /** Bulk-import QuipParty prompts from a JSON or CSV file (PB-3). Returns count. */
-export async function importPromptsFromFile(file: string): Promise<number> {
+export async function importPromptsFromFile(file: string, defaultLocale = "en"): Promise<number> {
   const raw = readFileSync(file, "utf8");
   let rows: PromptRow[];
   if (file.endsWith(".csv")) {
@@ -137,7 +137,7 @@ export async function importPromptsFromFile(file: string): Promise<number> {
         text: f[ti] ?? "",
         familyFriendly: (f[fi] ?? "true").toLowerCase() !== "false",
         category: ci >= 0 && f[ci] ? f[ci]! : null,
-        locale: f[li] || "en",
+        locale: f[li] || defaultLocale,
       };
     });
   } else {
@@ -145,7 +145,7 @@ export async function importPromptsFromFile(file: string): Promise<number> {
       text: String(r.text ?? "").trim(),
       familyFriendly: r.familyFriendly !== false,
       category: r.category ?? null,
-      locale: r.locale ?? "en",
+      locale: r.locale ?? defaultLocale,
     }));
   }
 
