@@ -15,3 +15,7 @@ allowBuilds:
   # Prisma CLI schema/migration engine binaries.
   '@prisma/engines': true
   prisma: true
+  # Transitive of posthog-js — postinstall only prints a funding banner.
+  core-js: false
+  # Transitive of @sentry/node — ships prebuilt; no codegen needed at install.
+  protobufjs: false

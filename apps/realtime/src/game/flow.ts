@@ -13,6 +13,7 @@ import {
 } from "@yalla/shared";
 import { store, withRoomLock } from "../store";
 import { broadcastState } from "../lib/respond";
+import { captureError, captureEvent } from "../lib/observability";
 import type { AppServer } from "../lib/types";
 import { advanceQuestion, revealAnswer, showLeaderboard, standings } from "./engine";
 
@@ -231,9 +232,15 @@ export function resumeFromPause(room: RoomState, now: number): void {
 
 /** Fire-and-forget CompletedGame write (no-op without a database configured). */
 async function persistCompletedGame(room: RoomState): Promise<void> {
+  const winner = standings(room)[0];
+  captureEvent(room.code, "game_completed", {
+    playerCount: Object.keys(room.players).length,
+    questionCount: room.questions.length,
+    category: room.settings.category,
+    locale: room.settings.locale,
+  });
   try {
     const { recordCompletedGame } = await import("@yalla/db");
-    const winner = standings(room)[0];
     await recordCompletedGame({
       roomCode: room.code,
       playerCount: Object.keys(room.players).length,
@@ -244,6 +251,7 @@ async function persistCompletedGame(room: RoomState): Promise<void> {
       locale: room.settings.locale,
     });
   } catch (err) {
+    captureError(err);
     console.error(`[flow] failed to persist completed game ${room.code}:`, err);
   }
 }

@@ -11,6 +11,7 @@ import { PlayerReveal } from "./player-reveal";
 import { PlayerLeaderboard } from "./player-leaderboard";
 import { PlayerFinal } from "./player-final";
 import { PausedScreen } from "./paused-screen";
+import { ErrorToaster } from "./error-toaster";
 
 export function PlayerScreen({ code }: { code: string }) {
   const room = useGameStore((s) => s.room);
@@ -49,18 +50,31 @@ export function PlayerScreen({ code }: { code: string }) {
 
   const self = room.players.find((p) => p.id === selfId) ?? null;
 
+  let view: React.ReactNode;
   switch (room.phase) {
     case "question":
-      return <PlayerQuestion key={room.question?.id ?? "q"} room={room} self={self} />;
+      view = <PlayerQuestion key={room.question?.id ?? "q"} room={room} self={self} />;
+      break;
     case "reveal":
-      return <PlayerReveal room={room} self={self} />;
+      view = <PlayerReveal room={room} self={self} />;
+      break;
     case "leaderboard":
-      return <PlayerLeaderboard room={room} self={self} />;
+      view = <PlayerLeaderboard room={room} self={self} />;
+      break;
     case "final":
-      return <PlayerFinal room={room} self={self} />;
+      view = <PlayerFinal room={room} self={self} />;
+      break;
     case "paused":
-      return <PausedScreen />;
+      view = <PausedScreen />;
+      break;
     default:
-      return <PlayerLobby room={room} self={self} />;
+      view = <PlayerLobby room={room} self={self} />;
   }
+
+  return (
+    <>
+      {view}
+      <ErrorToaster />
+    </>
+  );
 }

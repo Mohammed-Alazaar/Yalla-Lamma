@@ -10,6 +10,7 @@ import { HostReveal } from "./host-reveal";
 import { HostLeaderboard } from "./host-leaderboard";
 import { HostFinal } from "./host-final";
 import { PausedScreen } from "./paused-screen";
+import { ErrorToaster } from "./error-toaster";
 
 export function HostScreen({ code, origin }: { code: string; origin: string }) {
   const room = useGameStore((s) => s.room);
@@ -27,19 +28,32 @@ export function HostScreen({ code, origin }: { code: string; origin: string }) {
     };
   }, [code]);
 
+  let view: React.ReactNode;
   switch (room?.phase) {
     case "question":
-      return <HostQuestion room={room} />;
+      view = <HostQuestion room={room} />;
+      break;
     case "reveal":
-      return <HostReveal room={room} />;
+      view = <HostReveal room={room} />;
+      break;
     case "leaderboard":
-      return <HostLeaderboard room={room} />;
+      view = <HostLeaderboard room={room} />;
+      break;
     case "final":
-      return <HostFinal room={room} />;
+      view = <HostFinal room={room} />;
+      break;
     case "paused":
-      return <PausedScreen />;
+      view = <PausedScreen />;
+      break;
     default:
       // lobby / not-yet-connected
-      return <HostLobby room={room ?? null} code={code} origin={origin} />;
+      view = <HostLobby room={room ?? null} code={code} origin={origin} />;
   }
+
+  return (
+    <>
+      {view}
+      <ErrorToaster />
+    </>
+  );
 }

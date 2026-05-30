@@ -105,6 +105,20 @@
       "subtitle": "The host got disconnected. Waiting for them to come back…"
     }
   },
+  "errors": {
+    "NOT_ENOUGH_PLAYERS": "Need at least 2 players to start.",
+    "NOT_VIP": "Only the VIP can do that.",
+    "NOT_HOST": "Only the host can do that.",
+    "WRONG_PHASE": "That action isn't available right now.",
+    "ROOM_NOT_FOUND": "The room was closed.",
+    "SESSION_INVALID": "Your session expired — rejoin the room.",
+    "ROOM_LOCKED": "The room is locked.",
+    "ROOM_FULL": "The room is full.",
+    "NAME_TAKEN": "That name is already taken.",
+    "NAME_REJECTED": "Please choose a different name.",
+    "INVALID_PAYLOAD": "Something went wrong. Please try again.",
+    "INTERNAL": "Something went wrong. Please try again."
+  },
   "footer": {
     "tagline": "Yalla, lamma — let's gather and play.",
     "language": "Language"

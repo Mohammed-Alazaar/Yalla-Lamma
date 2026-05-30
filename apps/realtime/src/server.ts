@@ -4,9 +4,15 @@ import { createAdapter } from "@socket.io/redis-adapter";
 import { env } from "./env";
 import { store, RedisStore, usingRedis } from "./store";
 import { registerHandlers } from "./handlers";
+import {
+  captureError,
+  initObservability,
+  shutdownObservability,
+} from "./lib/observability";
 import type { AppServer } from "./lib/types";
 
 async function main(): Promise<void> {
+  await initObservability();
   await store.connect();
 
   const httpServer = createServer((req, res) => {
@@ -34,6 +40,19 @@ async function main(): Promise<void> {
     registerHandlers(io, socket);
   });
 
+  const shutdown = (signal: string) => {
+    // eslint-disable-next-line no-console
+    console.log(`[realtime] ${signal} — shutting down`);
+    void (async () => {
+      await io.close();
+      await shutdownObservability();
+      process.exit(0);
+    })();
+  };
+  process.on("SIGTERM", () => shutdown("SIGTERM"));
+  process.on("SIGINT", () => shutdown("SIGINT"));
+  process.on("unhandledRejection", (reason) => captureError(reason));
+
   httpServer.listen(env.port, () => {
     // eslint-disable-next-line no-console
     console.log(
@@ -43,6 +62,7 @@ async function main(): Promise<void> {
 }
 
 main().catch((err) => {
+  captureError(err);
   // eslint-disable-next-line no-console
   console.error("[realtime] fatal:", err);
   process.exit(1);
