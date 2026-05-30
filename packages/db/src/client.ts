@@ -1,5 +1,4 @@
-import { PrismaPg } from "@prisma/adapter-pg";
-import { PrismaClient } from "../prisma/generated/client";
+import type { PrismaClient } from "../prisma/generated/client";
 
 let client: PrismaClient | null = null;
 
@@ -10,17 +9,26 @@ export function hasDatabase(): boolean {
 
 /**
  * Lazily create the singleton Prisma client backed by the pg driver adapter
- * (Prisma 7). Use the Neon POOLED connection string in production.
+ * (Prisma 7). The generated client and adapter are imported dynamically so
+ * consumers that never touch the database (local dev / tests using the bundled
+ * question JSON) don't pull the heavy generated client into their module graph.
+ * Use the Neon POOLED connection string in production.
  */
-export function getPrisma(connectionString = process.env.DATABASE_URL): PrismaClient {
+export async function getPrisma(
+  connectionString = process.env.DATABASE_URL,
+): Promise<PrismaClient> {
   if (!connectionString) {
     throw new Error("DATABASE_URL is required to use the database");
   }
   if (!client) {
+    const [{ PrismaPg }, { PrismaClient }] = await Promise.all([
+      import("@prisma/adapter-pg"),
+      import("../prisma/generated/client"),
+    ]);
     const adapter = new PrismaPg({ connectionString });
     client = new PrismaClient({ adapter });
   }
   return client;
 }
 
-export { PrismaClient };
+export type { PrismaClient };

@@ -2,7 +2,13 @@ import type { AppServer, AppSocket } from "../lib/types";
 import { handleHostCreate } from "./host";
 import { handlePlayerJoin } from "./player";
 import { handleHostRejoin, handlePlayerRejoin } from "./rejoin";
-import { handleVipConfigure } from "./vip";
+import {
+  handleVipConfigure,
+  handleVipNext,
+  handleVipPlayAgain,
+  handleVipStart,
+} from "./vip";
+import { handlePlayerAnswer } from "./answer";
 import { handleDisconnect } from "./disconnect";
 
 /** Wire all event handlers for a freshly connected socket. */
@@ -22,8 +28,20 @@ export function registerHandlers(io: AppServer, socket: AppSocket): void {
   socket.on("vip:configure", (payload) => {
     void handleVipConfigure(io, socket, payload);
   });
+  socket.on("vip:start", () => {
+    void handleVipStart(io, socket);
+  });
+  socket.on("vip:next", () => {
+    void handleVipNext(io, socket);
+  });
+  socket.on("vip:playAgain", () => {
+    void handleVipPlayAgain(io, socket);
+  });
+  socket.on("player:answer", (payload) => {
+    void handlePlayerAnswer(io, socket, payload);
+  });
   socket.on("disconnect", () => {
     void handleDisconnect(io, socket);
   });
-  // vip:start, vip:next, vip:playAgain, player:answer, host:kick — Phases 5 & 6.
+  // host:kick — Phase 6.
 }

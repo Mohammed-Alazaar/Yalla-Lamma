@@ -103,7 +103,8 @@ export async function importFromFile(file: string): Promise<number> {
     console.warn(`Skipping ${skipped} invalid row(s).`);
   }
 
-  const result = await getPrisma().question.createMany({ data: valid });
+  const prisma = await getPrisma();
+  const result = await prisma.question.createMany({ data: valid });
   return result.count;
 }
 

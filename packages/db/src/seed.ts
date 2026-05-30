@@ -9,7 +9,7 @@ config({ quiet: true });
 /** Seed the question bank from the bundled English set (PRD QB-1: 200+ questions). */
 async function main(): Promise<void> {
   const dataFile = resolve(import.meta.dirname, "../data/questions.en.json");
-  const prisma = getPrisma();
+  const prisma = await getPrisma();
 
   // Idempotent: clear the English bank before re-seeding.
   const deleted = await prisma.question.deleteMany({ where: { locale: "en" } });

@@ -13,6 +13,9 @@ importers:
       '@socket.io/redis-adapter':
         specifier: ^8.3.0
         version: 8.3.0(socket.io-adapter@2.5.7)
+      '@yalla/db':
+        specifier: workspace:*
+        version: link:../../packages/db
       '@yalla/shared':
         specifier: workspace:*
         version: link:../../packages/shared

@@ -21,7 +21,8 @@ export async function loadQuestionPool(
   category: string,
 ): Promise<Question[]> {
   if (hasDatabase()) {
-    const rows = await getPrisma().question.findMany({
+    const prisma = await getPrisma();
+    const rows = await prisma.question.findMany({
       where: { locale, category },
     });
     return rows.map((r) => ({
