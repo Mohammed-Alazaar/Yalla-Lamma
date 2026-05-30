@@ -151,6 +151,12 @@ importers:
         specifier: ^1.60.0
         version: 1.60.0
 
+  load:
+    dependencies:
+      socket.io-client:
+        specifier: ^4.8.3
+        version: 4.8.3
+
   packages/db:
     dependencies:
       '@prisma/adapter-pg':
