@@ -1,4 +1,5 @@
 import {
+  containsProfanity,
   ERROR_CODES,
   MAX_PLAYERS,
   newId,
@@ -24,6 +25,11 @@ export async function handlePlayerJoin(
 ): Promise<void> {
   const data = parsePayload(socket, playerJoinSchema, payload);
   if (!data) return;
+
+  if (containsProfanity(data.name)) {
+    emitError(socket, ERROR_CODES.NAME_REJECTED, "Please choose a different name");
+    return;
+  }
 
   const result = await withRoomLock(data.code, async (): Promise<JoinResult> => {
     const room = await store.get(data.code);

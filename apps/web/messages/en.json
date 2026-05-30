@@ -38,6 +38,7 @@
   },
   "host": {
     "roomCode": "Room code",
+    "scanToJoin": "Scan to join, or go to the URL and enter the code",
     "waiting": "Waiting for players to join…",
     "players": "{count, plural, =0 {No players yet} =1 {1 player} other {# players}}",
     "vip": "VIP",
@@ -49,6 +50,7 @@
     }
   },
   "play": {
+    "connecting": "Connecting…",
     "waiting": "Waiting for the host to start…",
     "vip": "You're the VIP",
     "othersHere": "{count, plural, =1 {1 other player here} other {# other players here}}",
@@ -57,6 +59,21 @@
       "connecting": "Connecting…",
       "connected": "Connected",
       "disconnected": "Disconnected — reconnecting…"
+    }
+  },
+  "vipControls": {
+    "questions": "Questions",
+    "category": "Category",
+    "time": "Time per question",
+    "seconds": "{count}s",
+    "start": "Start Game",
+    "needMore": "Need at least {min} players to start",
+    "categories": {
+      "general": "General",
+      "science": "Science",
+      "history": "History",
+      "popCulture": "Pop Culture",
+      "sports": "Sports"
     }
   },
   "footer": {
