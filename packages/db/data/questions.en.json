@@ -1,0 +1,3096 @@
+[
+  {
+    "text": "How many days are there in a standard, non-leap year?",
+    "choices": [
+      "360",
+      "364",
+      "365",
+      "366"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What color do you get when you mix the primary colors blue and yellow?",
+    "choices": [
+      "Green",
+      "Purple",
+      "Orange",
+      "Brown"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which planet is closest to the Sun in our solar system?",
+    "choices": [
+      "Venus",
+      "Earth",
+      "Mercury",
+      "Mars"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "How many legs does a spider have?",
+    "choices": [
+      "Six",
+      "Eight",
+      "Ten",
+      "Twelve"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the largest ocean on Earth?",
+    "choices": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "correctIdx": 3,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which animal is famously known as 'man's best friend'?",
+    "choices": [
+      "Cat",
+      "Dog",
+      "Horse",
+      "Rabbit"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "How many sides does a triangle have?",
+    "choices": [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What gas do humans need to breathe in to survive?",
+    "choices": [
+      "Carbon dioxide",
+      "Nitrogen",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the capital city of France?",
+    "choices": [
+      "Rome",
+      "Madrid",
+      "Berlin",
+      "Paris"
+    ],
+    "correctIdx": 3,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which of these is a fruit?",
+    "choices": [
+      "Carrot",
+      "Banana",
+      "Potato",
+      "Onion"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "How many colors are traditionally listed in a rainbow?",
+    "choices": [
+      "Five",
+      "Six",
+      "Seven",
+      "Eight"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What do bees produce that humans commonly eat?",
+    "choices": [
+      "Honey",
+      "Milk",
+      "Butter",
+      "Syrup"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which season comes immediately after winter?",
+    "choices": [
+      "Summer",
+      "Autumn",
+      "Spring",
+      "Monsoon"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the tallest land animal in the world?",
+    "choices": [
+      "Elephant",
+      "Giraffe",
+      "Horse",
+      "Camel"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "How many minutes are there in one hour?",
+    "choices": [
+      "30",
+      "45",
+      "60",
+      "100"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is frozen water called?",
+    "choices": [
+      "Steam",
+      "Ice",
+      "Mist",
+      "Snowflake juice"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which gas makes up the largest proportion of Earth's atmosphere by volume?",
+    "choices": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In what year did the Berlin Wall fall, marking a major moment in the end of the Cold War?",
+    "choices": [
+      "1987",
+      "1989",
+      "1991",
+      "1985"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "What is the largest internal organ in the human body?",
+    "choices": [
+      "Liver",
+      "Brain",
+      "Lungs",
+      "Heart"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which painter created the work commonly known as 'The Starry Night'?",
+    "choices": [
+      "Claude Monet",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Salvador Dalí"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "What is the chemical symbol for the element gold?",
+    "choices": [
+      "Gd",
+      "Go",
+      "Ag",
+      "Au"
+    ],
+    "correctIdx": 3,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "According to traditional measurements, which river is generally regarded as the longest in the world?",
+    "choices": [
+      "Nile",
+      "Mississippi",
+      "Yangtze",
+      "Danube"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "How many bones are in the adult human body?",
+    "choices": [
+      "186",
+      "212",
+      "206",
+      "198"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which ancient civilization built the city of Machu Picchu?",
+    "choices": [
+      "The Aztecs",
+      "The Maya",
+      "The Inca",
+      "The Olmec"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "What is the capital city of Australia?",
+    "choices": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Brisbane"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In Greek mythology, who is the king of the gods and ruler of Mount Olympus?",
+    "choices": [
+      "Zeus",
+      "Poseidon",
+      "Hades",
+      "Apollo"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which planet in our solar system is the largest by diameter?",
+    "choices": [
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Who wrote the play 'Romeo and Juliet'?",
+    "choices": [
+      "Christopher Marlowe",
+      "Geoffrey Chaucer",
+      "William Shakespeare",
+      "Ben Jonson"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "What is the hardest naturally occurring substance on Earth?",
+    "choices": [
+      "Quartz",
+      "Titanium",
+      "Granite",
+      "Diamond"
+    ],
+    "correctIdx": 3,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which country gave the Statue of Liberty to the United States as a gift?",
+    "choices": [
+      "Spain",
+      "France",
+      "England",
+      "Italy"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "What is the smallest prime number?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which sea separates Europe from Africa at its narrowest point near Gibraltar?",
+    "choices": [
+      "The Red Sea",
+      "The Mediterranean Sea",
+      "The Black Sea",
+      "The Caspian Sea"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The SI base unit for luminous intensity is the candela. Which of the following is also one of the seven SI base units?",
+    "choices": [
+      "Newton",
+      "Mole",
+      "Joule",
+      "Pascal"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which element has the highest melting point of any pure metal, at roughly 3,422 degrees Celsius?",
+    "choices": [
+      "Osmium",
+      "Tantalum",
+      "Tungsten",
+      "Rhenium"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In Greek mythology, who was the mother of the twins Apollo and Artemis?",
+    "choices": [
+      "Leto",
+      "Maia",
+      "Metis",
+      "Semele"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Treaty of Tordesillas (1494), which divided newly discovered lands outside Europe, was signed primarily between which two countries?",
+    "choices": [
+      "England and France",
+      "Spain and Portugal",
+      "Portugal and the Netherlands",
+      "Spain and Italy"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which novel by Gabriel Garcia Marquez opens with the line about Colonel Aureliano Buendia facing a firing squad and remembering the day his father took him to discover ice?",
+    "choices": [
+      "Love in the Time of Cholera",
+      "The Autumn of the Patriarch",
+      "One Hundred Years of Solitude",
+      "Chronicle of a Death Foretold"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "What is the longest river in Asia by length?",
+    "choices": [
+      "Yellow River",
+      "Mekong",
+      "Yangtze",
+      "Ob"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In music theory, an interval spanning seven semitones is known as a perfect what?",
+    "choices": [
+      "Perfect fourth",
+      "Perfect fifth",
+      "Perfect octave",
+      "Perfect third"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The painting 'The Garden of Earthly Delights', a famous triptych, was created by which artist?",
+    "choices": [
+      "Pieter Bruegel the Elder",
+      "Jan van Eyck",
+      "Hieronymus Bosch",
+      "Albrecht Durer"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which mathematician is credited with proving Fermat's Last Theorem in 1994?",
+    "choices": [
+      "Andrew Wiles",
+      "Grigori Perelman",
+      "Terence Tao",
+      "John Nash"
+    ],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The ancient city of Carthage was located in present-day which modern country?",
+    "choices": [
+      "Libya",
+      "Algeria",
+      "Tunisia",
+      "Egypt"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In the human body, which bone is also commonly known as the collarbone?",
+    "choices": [
+      "Scapula",
+      "Sternum",
+      "Clavicle",
+      "Patella"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which composer wrote the opera 'The Magic Flute', first performed in 1791?",
+    "choices": [
+      "Joseph Haydn",
+      "Wolfgang Amadeus Mozart",
+      "Christoph Willibald Gluck",
+      "Ludwig van Beethoven"
+    ],
+    "correctIdx": 1,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "What is the name of the smallest planet in our solar system by diameter?",
+    "choices": [
+      "Mars",
+      "Venus",
+      "Mercury",
+      "Pluto"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Rosetta Stone, key to deciphering Egyptian hieroglyphs, contains text written in three scripts. Which classical language is one of them?",
+    "choices": [
+      "Latin",
+      "Aramaic",
+      "Ancient Greek",
+      "Phoenician"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In economics, the concept of 'comparative advantage' as a basis for trade is most associated with which classical economist?",
+    "choices": [
+      "Adam Smith",
+      "John Maynard Keynes",
+      "David Ricardo",
+      "Thomas Malthus"
+    ],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "What gas do humans need to breathe in to stay alive?",
+    "choices": [
+      "Oxygen",
+      "Helium",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the closest star to Earth?",
+    "choices": [
+      "The Moon",
+      "Mars",
+      "The Sun",
+      "Jupiter"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "How many legs does an insect have?",
+    "choices": [
+      "Four",
+      "Eight",
+      "Ten",
+      "Six"
+    ],
+    "correctIdx": 3,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the chemical formula for water?",
+    "choices": [
+      "H2O",
+      "CO2",
+      "O2",
+      "NaCl"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which planet is known as the Red Planet?",
+    "choices": [
+      "Venus",
+      "Mars",
+      "Saturn",
+      "Mercury"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What part of a plant absorbs water from the soil?",
+    "choices": [
+      "The leaves",
+      "The flower",
+      "The roots",
+      "The petals"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "At what temperature in degrees Celsius does water freeze?",
+    "choices": [
+      "10 degrees",
+      "0 degrees",
+      "32 degrees",
+      "100 degrees"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What force pulls objects toward the ground on Earth?",
+    "choices": [
+      "Magnetism",
+      "Friction",
+      "Gravity",
+      "Electricity"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which organ pumps blood around the human body?",
+    "choices": [
+      "The heart",
+      "The lungs",
+      "The liver",
+      "The brain"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What do bees collect from flowers to make honey?",
+    "choices": [
+      "Water",
+      "Pollen",
+      "Sap",
+      "Nectar"
+    ],
+    "correctIdx": 3,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the largest planet in our solar system?",
+    "choices": [
+      "Saturn",
+      "Jupiter",
+      "Earth",
+      "Neptune"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which gas do plants absorb from the air for photosynthesis?",
+    "choices": [
+      "Oxygen",
+      "Helium",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the hardest natural substance on Earth?",
+    "choices": [
+      "Diamond",
+      "Gold",
+      "Iron",
+      "Granite"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "How many bones does a typical adult human have?",
+    "choices": [
+      "106",
+      "150",
+      "300",
+      "206"
+    ],
+    "correctIdx": 3,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What do we call animals that eat only plants?",
+    "choices": [
+      "Carnivores",
+      "Herbivores",
+      "Omnivores",
+      "Predators"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the center of an atom called?",
+    "choices": [
+      "The electron",
+      "The proton",
+      "The nucleus",
+      "The shell"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the most abundant gas in Earth's atmosphere?",
+    "choices": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Argon"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which subatomic particle carries a negative electric charge?",
+    "choices": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Positron"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "What is the powerhouse of the cell, responsible for producing most of its ATP energy?",
+    "choices": [
+      "Ribosome",
+      "Nucleus",
+      "Mitochondrion",
+      "Golgi apparatus"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "At what temperature in degrees Celsius does water boil at standard sea-level atmospheric pressure?",
+    "choices": [
+      "90",
+      "100",
+      "110",
+      "120"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which scientist proposed the three laws of motion and the law of universal gravitation?",
+    "choices": [
+      "Galileo Galilei",
+      "Albert Einstein",
+      "Isaac Newton",
+      "Nikola Tesla"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which blood cells are primarily responsible for fighting infection in the human body?",
+    "choices": [
+      "Red blood cells",
+      "Platelets",
+      "White blood cells",
+      "Hemoglobin molecules"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "What process do plants use to convert sunlight, water, and carbon dioxide into glucose and oxygen?",
+    "choices": [
+      "Respiration",
+      "Photosynthesis",
+      "Fermentation",
+      "Transpiration"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which planet in our solar system has the most extensive and visible ring system?",
+    "choices": [
+      "Jupiter",
+      "Uranus",
+      "Neptune",
+      "Saturn"
+    ],
+    "correctIdx": 3,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "What is the pH value of a neutral solution at 25 degrees Celsius?",
+    "choices": [
+      "0",
+      "7",
+      "10",
+      "14"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which gas do humans primarily exhale as a waste product of cellular respiration?",
+    "choices": [
+      "Oxygen",
+      "Hydrogen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "What unit is used to measure electrical resistance?",
+    "choices": [
+      "Watt",
+      "Volt",
+      "Ampere",
+      "Ohm"
+    ],
+    "correctIdx": 3,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which type of rock is formed from cooled and solidified magma or lava?",
+    "choices": [
+      "Sedimentary",
+      "Metamorphic",
+      "Igneous",
+      "Limestone"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "How many chromosomes are found in a typical human body cell?",
+    "choices": [
+      "23",
+      "44",
+      "46",
+      "48"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which scientist developed the theory of evolution by natural selection, published in 'On the Origin of Species'?",
+    "choices": [
+      "Gregor Mendel",
+      "Charles Darwin",
+      "Louis Pasteur",
+      "Carl Linnaeus"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "What is the speed of light in a vacuum, approximately?",
+    "choices": [
+      "300,000 kilometers per second",
+      "300,000 meters per second",
+      "3,000 kilometers per second",
+      "30,000 kilometers per second"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In quantum chromodynamics, what property of the strong force causes quarks to become more strongly bound as they are pulled farther apart, preventing isolated quarks from being observed?",
+    "choices": [
+      "Asymptotic freedom",
+      "Color confinement",
+      "Chiral symmetry breaking",
+      "Gauge invariance"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which enzyme is responsible for unwinding the DNA double helix at the replication fork during DNA replication?",
+    "choices": [
+      "DNA ligase",
+      "Primase",
+      "Helicase",
+      "Topoisomerase"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "What is the name of the boundary surrounding a rotating black hole, within which spacetime is dragged so strongly that no object can remain stationary relative to distant observers, yet from which escape is still possible?",
+    "choices": [
+      "Ergosphere",
+      "Photon sphere",
+      "Cauchy horizon",
+      "Event horizon"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In organic chemistry, the Diels-Alder reaction is a classic example of which type of cycloaddition, classified by the number of pi electrons involved?",
+    "choices": [
+      "[2+2] cycloaddition",
+      "[3+2] cycloaddition",
+      "[4+2] cycloaddition",
+      "[4+4] cycloaddition"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which physicist first proposed the exclusion principle stating that no two identical fermions can occupy the same quantum state simultaneously?",
+    "choices": [
+      "Werner Heisenberg",
+      "Wolfgang Pauli",
+      "Paul Dirac",
+      "Erwin Schrodinger"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Krebs cycle (citric acid cycle) begins with the condensation of acetyl-CoA and oxaloacetate to form which six-carbon molecule?",
+    "choices": [
+      "Succinate",
+      "Malate",
+      "Alpha-ketoglutarate",
+      "Citrate"
+    ],
+    "correctIdx": 3,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "What is the approximate temperature of the cosmic microwave background radiation, measured in kelvins?",
+    "choices": [
+      "2.7 K",
+      "27 K",
+      "0.27 K",
+      "270 K"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In geology, which type of plate boundary is associated with the formation of mid-ocean ridges and the creation of new oceanic crust?",
+    "choices": [
+      "Convergent boundary",
+      "Transform boundary",
+      "Divergent boundary",
+      "Subduction zone"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which fundamental constant relates the energy of a photon to its frequency in the equation E = hf?",
+    "choices": [
+      "Boltzmann constant",
+      "Planck constant",
+      "Avogadro constant",
+      "Rydberg constant"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In thermodynamics, which law implies that it is impossible to reach absolute zero temperature in a finite number of steps?",
+    "choices": [
+      "Zeroth law",
+      "First law",
+      "Second law",
+      "Third law"
+    ],
+    "correctIdx": 3,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Technetium holds the distinction of being the first chemical element to be created by which method, rather than being found in nature?",
+    "choices": [
+      "Artificial production in a laboratory",
+      "Isolation by electrolysis",
+      "Detection through stellar spectroscopy",
+      "Separation by fractional distillation"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In neuroscience, the myelin sheath that insulates axons in the central nervous system is produced by which type of glial cell?",
+    "choices": [
+      "Schwann cells",
+      "Astrocytes",
+      "Microglia",
+      "Oligodendrocytes"
+    ],
+    "correctIdx": 3,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "What phenomenon describes the apparent change in wavelength of light from an object moving away from an observer, shifting it toward longer wavelengths?",
+    "choices": [
+      "Redshift",
+      "Gravitational lensing",
+      "Cherenkov radiation",
+      "Compton scattering"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which mathematician and physicist formulated the heat equation and introduced the series expansion used to represent periodic functions as sums of sines and cosines?",
+    "choices": [
+      "Pierre-Simon Laplace",
+      "Joseph Fourier",
+      "Leonhard Euler",
+      "Carl Friedrich Gauss"
+    ],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In immunology, which class of antibody is the first to be produced in response to an initial exposure to an antigen?",
+    "choices": [
+      "IgG",
+      "IgA",
+      "IgM",
+      "IgE"
+    ],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Chandrasekhar limit defines the maximum mass of a stable white dwarf, approximately equal to how many solar masses?",
+    "choices": [
+      "1.4 solar masses",
+      "3.0 solar masses",
+      "0.6 solar masses",
+      "2.2 solar masses"
+    ],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In which year did World War II end?",
+    "choices": [
+      "1945",
+      "1939",
+      "1918",
+      "1950"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Who was the first President of the United States?",
+    "choices": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "George Washington",
+      "Benjamin Franklin"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "The ancient pyramids of Giza were built in which country?",
+    "choices": [
+      "Greece",
+      "Egypt",
+      "Mexico",
+      "Iraq"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Who was the famous queen of ancient Egypt who allied with Julius Caesar and Mark Antony?",
+    "choices": [
+      "Nefertiti",
+      "Hatshepsut",
+      "Cleopatra",
+      "Boudica"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "The Titanic sank after colliding with what in 1912?",
+    "choices": [
+      "A reef",
+      "Another ship",
+      "A whale",
+      "An iceberg"
+    ],
+    "correctIdx": 3,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which wall, dividing a German city, fell in 1989?",
+    "choices": [
+      "The Great Wall",
+      "The Berlin Wall",
+      "Hadrian's Wall",
+      "The Western Wall"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Who was the British Prime Minister during most of World War II?",
+    "choices": [
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Tony Blair",
+      "Margaret Thatcher"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In 1492, Christopher Columbus sailed across which ocean to reach the Americas?",
+    "choices": [
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Atlantic Ocean"
+    ],
+    "correctIdx": 3,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "The American Declaration of Independence was signed in which year?",
+    "choices": [
+      "1812",
+      "1776",
+      "1620",
+      "1865"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which empire was ruled by Julius Caesar and Augustus?",
+    "choices": [
+      "The Ottoman Empire",
+      "The British Empire",
+      "The Roman Empire",
+      "The Mongol Empire"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Adolf Hitler was the leader of which country during World War II?",
+    "choices": [
+      "Italy",
+      "Japan",
+      "Germany",
+      "Russia"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Who delivered the famous 'I Have a Dream' speech in 1963?",
+    "choices": [
+      "Malcolm X",
+      "Martin Luther King Jr.",
+      "Nelson Mandela",
+      "Barack Obama"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "The first man to walk on the Moon, in 1969, was named what?",
+    "choices": [
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "John Glenn",
+      "Neil Armstrong"
+    ],
+    "correctIdx": 3,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which ship carried the Pilgrims to America in 1620?",
+    "choices": [
+      "The Mayflower",
+      "The Santa Maria",
+      "The Beagle",
+      "The Endeavour"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "The Great Wall is a famous historical structure located in which country?",
+    "choices": [
+      "India",
+      "Japan",
+      "China",
+      "Mongolia"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which French military leader crowned himself Emperor in 1804 and was later exiled?",
+    "choices": [
+      "Charles de Gaulle",
+      "Louis XIV",
+      "Napoleon Bonaparte",
+      "Joan of Arc"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which empire was ruled by Suleiman the Magnificent during its peak in the 16th century?",
+    "choices": [
+      "The Mughal Empire",
+      "The Ottoman Empire",
+      "The Safavid Empire",
+      "The Byzantine Empire"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The Treaty of Tordesillas in 1494 divided newly discovered lands between which two nations?",
+    "choices": [
+      "England and France",
+      "Spain and Portugal",
+      "Netherlands and Spain",
+      "Portugal and France"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Who was the first Roman emperor, founding the Roman Empire after the fall of the Republic?",
+    "choices": [
+      "Julius Caesar",
+      "Nero",
+      "Augustus",
+      "Tiberius"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The Magna Carta, sealed in 1215, was forced upon which English king by his rebellious barons?",
+    "choices": [
+      "King John",
+      "King Henry II",
+      "King Richard I",
+      "King Edward I"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which ancient civilization built the city of Machu Picchu in the Andes mountains?",
+    "choices": [
+      "The Aztecs",
+      "The Maya",
+      "The Inca",
+      "The Olmec"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The Hundred Years' War was a prolonged conflict fought mainly between England and which other kingdom?",
+    "choices": [
+      "Spain",
+      "France",
+      "Scotland",
+      "The Holy Roman Empire"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Who led the Soviet Union during most of World War II?",
+    "choices": [
+      "Vladimir Lenin",
+      "Nikita Khrushchev",
+      "Leon Trotsky",
+      "Joseph Stalin"
+    ],
+    "correctIdx": 3,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The Rosetta Stone, key to deciphering Egyptian hieroglyphs, was discovered during a military campaign led by which figure?",
+    "choices": [
+      "Napoleon Bonaparte",
+      "Lord Nelson",
+      "Julius Caesar",
+      "Alexander the Great"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In which year did the Berlin Wall fall, signaling the end of the Cold War division of Germany?",
+    "choices": [
+      "1985",
+      "1991",
+      "1989",
+      "1987"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which Chinese dynasty was responsible for connecting and expanding much of the Great Wall and unifying China around 221 BC?",
+    "choices": [
+      "The Han Dynasty",
+      "The Tang Dynasty",
+      "The Ming Dynasty",
+      "The Qin Dynasty"
+    ],
+    "correctIdx": 3,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The assassination of Archduke Franz Ferdinand in 1914 is widely regarded as the immediate trigger for which conflict?",
+    "choices": [
+      "World War I",
+      "The Crimean War",
+      "The Franco-Prussian War",
+      "World War II"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Mansa Musa, famed for his enormous wealth and pilgrimage to Mecca, ruled which medieval African empire?",
+    "choices": [
+      "The Kingdom of Aksum",
+      "The Mali Empire",
+      "The Kingdom of Kush",
+      "The Songhai Empire"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The Bolshevik Revolution of 1917 overthrew the provisional government in which country?",
+    "choices": [
+      "Germany",
+      "Austria-Hungary",
+      "Russia",
+      "Italy"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which queen of England was known as the 'Virgin Queen' and ruled during a golden age of English literature and exploration?",
+    "choices": [
+      "Mary I",
+      "Victoria",
+      "Anne",
+      "Elizabeth I"
+    ],
+    "correctIdx": 3,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The Battle of Hastings in 1066 resulted in the Norman conquest of England under which leader?",
+    "choices": [
+      "William the Conqueror",
+      "Harold Godwinson",
+      "Canute the Great",
+      "Richard the Lionheart"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The Renaissance, a period of cultural and artistic rebirth, is generally considered to have begun in which country?",
+    "choices": [
+      "France",
+      "England",
+      "Italy",
+      "Germany"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The Treaty of Tordesillas of 1494, which divided newly discovered lands outside Europe between two empires, drew its demarcation line a set distance west of which islands?",
+    "choices": [
+      "The Canary Islands",
+      "The Azores",
+      "The Cape Verde Islands",
+      "The Madeira Islands"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which Byzantine emperor commissioned the legal compilation later known as the Corpus Juris Civilis in the 6th century?",
+    "choices": [
+      "Heraclius",
+      "Justinian I",
+      "Constantine V",
+      "Basil II"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Battle of Cajamarca in 1532, in which a small Spanish force captured the Inca ruler, resulted in the seizure of which emperor?",
+    "choices": [
+      "Huayna Capac",
+      "Manco Inca Yupanqui",
+      "Atahualpa",
+      "Tupac Amaru"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Defenestration of Prague in 1618, which helped trigger the Thirty Years' War, involved throwing imperial officials from a window of which building?",
+    "choices": [
+      "Prague Castle",
+      "The Old Town Hall",
+      "The Charles Bridge tower",
+      "The Powder Tower"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Hammurabi, famous for his law code, was a king of which ancient kingdom?",
+    "choices": [
+      "Assyria",
+      "Babylon",
+      "Akkad",
+      "Elam"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The 1817 work 'On the Principles of Political Economy and Taxation,' which developed the theory of comparative advantage, was written by which economist?",
+    "choices": [
+      "Adam Smith",
+      "Thomas Malthus",
+      "David Ricardo",
+      "John Stuart Mill"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which treaty, signed in 1648, is generally regarded as ending the Thirty Years' War and establishing the modern concept of state sovereignty?",
+    "choices": [
+      "The Peace of Augsburg",
+      "The Peace of Westphalia",
+      "The Treaty of Utrecht",
+      "The Treaty of the Pyrenees"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Meiji Restoration, which ended the rule of the shogunate and restored imperial power in Japan, occurred in which year?",
+    "choices": [
+      "1853",
+      "1868",
+      "1889",
+      "1905"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Edict of Nantes, issued in 1598 to grant religious toleration to French Protestants, was promulgated by which king?",
+    "choices": [
+      "Henry III",
+      "Charles IX",
+      "Henry IV",
+      "Louis XIII"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The ancient city of Carthage, destroyed at the end of the Third Punic War in 146 BC, was located near which modern city?",
+    "choices": [
+      "Tunis",
+      "Tripoli",
+      "Algiers",
+      "Alexandria"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Who was the first Mughal emperor, founding the dynasty after his victory at the First Battle of Panipat in 1526?",
+    "choices": [
+      "Akbar",
+      "Humayun",
+      "Babur",
+      "Shah Jahan"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Council of Nicaea, convened in AD 325 to address the Arian controversy, was called by which Roman emperor?",
+    "choices": [
+      "Diocletian",
+      "Constantine I",
+      "Theodosius I",
+      "Licinius"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Tanzimat reforms, a period of modernization and reorganization beginning in 1839, were enacted within which empire?",
+    "choices": [
+      "The Austro-Hungarian Empire",
+      "The Russian Empire",
+      "The Ottoman Empire",
+      "The Qing Empire"
+    ],
+    "correctIdx": 2,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Simon Bolivar's decisive victory at the Battle of Boyaca in 1819 secured the independence of which territory?",
+    "choices": [
+      "Peru",
+      "New Granada",
+      "Venezuela",
+      "Bolivia"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Rosetta Stone, key to deciphering Egyptian hieroglyphs, was inscribed with a decree issued during the reign of which ruler?",
+    "choices": [
+      "Ptolemy V",
+      "Cleopatra VII",
+      "Ramesses II",
+      "Ptolemy I"
+    ],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Golden Bull of 1356, which codified the procedure for electing the Holy Roman Emperor, was promulgated by which emperor?",
+    "choices": [
+      "Frederick II",
+      "Charles IV",
+      "Sigismund",
+      "Maximilian I"
+    ],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In the movie 'The Lion King', what kind of animal is the character Simba?",
+    "choices": [
+      "Tiger",
+      "Lion",
+      "Leopard",
+      "Cheetah"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which British band released the album 'Abbey Road' and included members John, Paul, George, and Ringo?",
+    "choices": [
+      "The Rolling Stones",
+      "The Who",
+      "The Beatles",
+      "Queen"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the name of the young wizard who attends Hogwarts School of Witchcraft and Wizardry in J.K. Rowling's book series?",
+    "choices": [
+      "Harry Potter",
+      "Frodo Baggins",
+      "Percy Jackson",
+      "Bilbo Baggins"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In the film 'Titanic', which actor played the character Jack Dawson?",
+    "choices": [
+      "Brad Pitt",
+      "Matt Damon",
+      "Leonardo DiCaprio",
+      "Tom Cruise"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which pop star is widely known as the 'King of Pop'?",
+    "choices": [
+      "Elvis Presley",
+      "Prince",
+      "Michael Jackson",
+      "Frank Sinatra"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In the 'Star Wars' films, what is the name of Luke Skywalker's father?",
+    "choices": [
+      "Obi-Wan Kenobi",
+      "Darth Vader",
+      "Han Solo",
+      "Emperor Palpatine"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which animated franchise features toys that come to life, including a cowboy named Woody and a space ranger named Buzz Lightyear?",
+    "choices": [
+      "Shrek",
+      "Toy Story",
+      "Cars",
+      "Finding Nemo"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the name of the fictional boy wizard's rival school house at Hogwarts that Draco Malfoy belongs to?",
+    "choices": [
+      "Gryffindor",
+      "Hufflepuff",
+      "Ravenclaw",
+      "Slytherin"
+    ],
+    "correctIdx": 3,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which superhero is also known by the secret identity Peter Parker?",
+    "choices": [
+      "Spider-Man",
+      "Batman",
+      "Superman",
+      "Iron Man"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In the TV show 'Friends', what is the name of the coffee shop where the main characters often hang out?",
+    "choices": [
+      "The Coffee Bean",
+      "Central Perk",
+      "Cafe Nervosa",
+      "Java Joe's"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which singer released the hit 1980s song 'Like a Virgin' and is often called the 'Queen of Pop'?",
+    "choices": [
+      "Whitney Houston",
+      "Cyndi Lauper",
+      "Madonna",
+      "Janet Jackson"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In the Disney film 'Frozen', what is the name of Elsa's younger sister?",
+    "choices": [
+      "Anna",
+      "Aurora",
+      "Ariel",
+      "Belle"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which movie features a great white shark terrorizing a beach town and the famous line 'You're gonna need a bigger boat'?",
+    "choices": [
+      "Jaws",
+      "The Meg",
+      "Deep Blue Sea",
+      "Free Willy"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What is the name of the famous boy band that included Justin Timberlake and released the song 'Bye Bye Bye'?",
+    "choices": [
+      "Backstreet Boys",
+      "NSYNC",
+      "Boyz II Men",
+      "98 Degrees"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In the 'Harry Potter' films, what is the name of Harry's pet owl?",
+    "choices": [
+      "Errol",
+      "Hedwig",
+      "Scabbers",
+      "Crookshanks"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which actor played the title character in the original 1990s film 'Mrs. Doubtfire'?",
+    "choices": [
+      "Eddie Murphy",
+      "Jim Carrey",
+      "Robin Williams",
+      "Steve Martin"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In the 1994 film 'Pulp Fiction', what is the name of the character played by John Travolta?",
+    "choices": [
+      "Vincent Vega",
+      "Jules Winnfield",
+      "Butch Coolidge",
+      "Marsellus Wallace"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which British band released the 1975 song 'Bohemian Rhapsody'?",
+    "choices": [
+      "Led Zeppelin",
+      "The Rolling Stones",
+      "Queen",
+      "Pink Floyd"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In the 'Harry Potter' book series by J.K. Rowling, what position does Harry play on his Quidditch team?",
+    "choices": [
+      "Keeper",
+      "Beater",
+      "Chaser",
+      "Seeker"
+    ],
+    "correctIdx": 3,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which artist released the best-selling album 'Thriller' in 1982?",
+    "choices": [
+      "Prince",
+      "Michael Jackson",
+      "Lionel Richie",
+      "Stevie Wonder"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In the TV series 'Friends', what is the profession of the character Ross Geller?",
+    "choices": [
+      "Chef",
+      "Paleontologist",
+      "Actor",
+      "Masseur"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Who directed the 1975 thriller film 'Jaws'?",
+    "choices": [
+      "George Lucas",
+      "Francis Ford Coppola",
+      "Steven Spielberg",
+      "Martin Scorsese"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In the animated film 'The Lion King' (1994), what is the name of Simba's villainous uncle?",
+    "choices": [
+      "Scar",
+      "Mufasa",
+      "Rafiki",
+      "Zazu"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which singer is known by the nickname 'The Material Girl' after her 1984 hit single?",
+    "choices": [
+      "Cyndi Lauper",
+      "Whitney Houston",
+      "Madonna",
+      "Tina Turner"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In the 'Star Wars' original trilogy, what is the name of Han Solo's spaceship?",
+    "choices": [
+      "X-wing Starfighter",
+      "Millennium Falcon",
+      "TIE Fighter",
+      "Slave I"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which author wrote the fantasy novel series 'A Song of Ice and Fire', adapted into the TV show 'Game of Thrones'?",
+    "choices": [
+      "J.R.R. Tolkien",
+      "Brandon Sanderson",
+      "Terry Pratchett",
+      "George R.R. Martin"
+    ],
+    "correctIdx": 3,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In the film 'The Matrix' (1999), what color pill does Neo take to learn the truth about reality?",
+    "choices": [
+      "Red",
+      "Blue",
+      "Green",
+      "White"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which 1990s sitcom featured characters named Jerry, George, Elaine, and Kramer?",
+    "choices": [
+      "Frasier",
+      "Cheers",
+      "Seinfeld",
+      "Will & Grace"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Who painted the famous artwork known as the 'Mona Lisa'?",
+    "choices": [
+      "Michelangelo",
+      "Raphael",
+      "Donatello",
+      "Leonardo da Vinci"
+    ],
+    "correctIdx": 3,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In the animated TV series 'The Simpsons', what is the name of the town where the Simpson family lives?",
+    "choices": [
+      "Springfield",
+      "Shelbyville",
+      "Quahog",
+      "Langley Falls"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which band released the 1969 album 'Abbey Road', featuring the four members crossing a street on its cover?",
+    "choices": [
+      "The Who",
+      "The Beatles",
+      "The Kinks",
+      "The Beach Boys"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In the movie 'Titanic' (1997), what is the first name of the character played by Leonardo DiCaprio?",
+    "choices": [
+      "Rose",
+      "Cal",
+      "Jack",
+      "Fabrizio"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In Stanley Kubrick's 1968 film '2001: A Space Odyssey', what is the name of the sentient computer that controls the Discovery One spacecraft?",
+    "choices": [
+      "HAL 9000",
+      "SAL 9000",
+      "MU-TH-UR 6000",
+      "Colossus"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which English novelist wrote under the pen name 'Currer Bell' when first publishing 'Jane Eyre' in 1847?",
+    "choices": [
+      "Emily Bronte",
+      "Charlotte Bronte",
+      "Anne Bronte",
+      "George Eliot"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The Beatles' 1966 album 'Revolver' opens with which song, notable for its count-in and the line 'Let me tell you how it will be'?",
+    "choices": [
+      "Eleanor Rigby",
+      "Tomorrow Never Knows",
+      "Taxman",
+      "Got to Get You into My Life"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In the original 1977 'Star Wars' film, what is the name of the planet on which Princess Leia is held and which is destroyed by the Death Star?",
+    "choices": [
+      "Dantooine",
+      "Yavin 4",
+      "Scarif",
+      "Alderaan"
+    ],
+    "correctIdx": 3,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which artist holds the record for the most Grammy Awards won by any individual, with 31 competitive wins during his lifetime?",
+    "choices": [
+      "Georg Solti",
+      "Quincy Jones",
+      "Stevie Wonder",
+      "Pierre Boulez"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In Francis Ford Coppola's 'The Godfather' (1972), what is the name of the Hollywood producer who wakes to find his prized racehorse's severed head in his bed?",
+    "choices": [
+      "Moe Greene",
+      "Jack Woltz",
+      "Virgil Sollozzo",
+      "Carlo Rizzi"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which 1980s music video, directed by John Landis, ran nearly 14 minutes and famously featured a transformation into a werewolf and a zombie dance sequence?",
+    "choices": [
+      "Beat It",
+      "Take On Me",
+      "Thriller",
+      "Billie Jean"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In J.R.R. Tolkien's 'The Lord of the Rings', what is the Elvish name of the sword reforged for Aragorn from the shards of Narsil?",
+    "choices": [
+      "Glamdring",
+      "Sting",
+      "Orcrist",
+      "Anduril"
+    ],
+    "correctIdx": 3,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which Alfred Hitchcock film, released in 1958, follows a retired detective with acrophobia who becomes obsessed with a woman named Madeleine?",
+    "choices": [
+      "Vertigo",
+      "Rear Window",
+      "Spellbound",
+      "Notorious"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Pink Floyd's 1973 album 'The Dark Side of the Moon' famously ends with a fading heartbeat. What is the final track on the album?",
+    "choices": [
+      "Time",
+      "Eclipse",
+      "Brain Damage",
+      "Money"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In the sitcom 'Seinfeld', what is the name of Cosmo Kramer's frequently mentioned friend who is never shown on screen?",
+    "choices": [
+      "Newman",
+      "Lomez",
+      "Bob Sacamano",
+      "Art Vandelay"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which Italian composer wrote the operas 'La Boheme', 'Tosca', and 'Madama Butterfly'?",
+    "choices": [
+      "Giuseppe Verdi",
+      "Gioachino Rossini",
+      "Gaetano Donizetti",
+      "Giacomo Puccini"
+    ],
+    "correctIdx": 3,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In the 'Harry Potter' novels, what is the name of the Hufflepuff student who is killed at the end of 'Harry Potter and the Goblet of Fire'?",
+    "choices": [
+      "Cedric Diggory",
+      "Ernie Macmillan",
+      "Justin Finch-Fletchley",
+      "Zacharias Smith"
+    ],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which 1994 film, directed by Quentin Tarantino, features a glowing briefcase whose contents are never revealed to the audience?",
+    "choices": [
+      "Reservoir Dogs",
+      "Pulp Fiction",
+      "Jackie Brown",
+      "True Romance"
+    ],
+    "correctIdx": 1,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "The fictional band Spinal Tap is famous for amplifiers that, unlike normal ones, go up to which number 'for that extra push over the cliff'?",
+    "choices": [
+      "Twelve",
+      "Thirteen",
+      "Eleven",
+      "Fifteen"
+    ],
+    "correctIdx": 2,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which actress originated the role of Blanche DuBois in the 1947 Broadway production of 'A Streetcar Named Desire' and later won the Academy Award for Best Actress for playing a stubborn Southern woman in 'Driving Miss Daisy' (1989)?",
+    "choices": [
+      "Vivien Leigh",
+      "Bette Davis",
+      "Katharine Hepburn",
+      "Jessica Tandy"
+    ],
+    "correctIdx": 3,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In soccer (association football), how many players from one team are on the field at the start of a match?",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which sport is played at the Wimbledon Championships?",
+    "choices": [
+      "Tennis",
+      "Golf",
+      "Cricket",
+      "Rugby"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In basketball, how many points is a standard field goal made from inside the three-point line worth?",
+    "choices": [
+      "1 point",
+      "2 points",
+      "3 points",
+      "4 points"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "How often are the Summer Olympic Games traditionally held?",
+    "choices": [
+      "Every year",
+      "Every 2 years",
+      "Every 4 years",
+      "Every 8 years"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In golf, what term describes completing a hole in one stroke under par?",
+    "choices": [
+      "Eagle",
+      "Bogey",
+      "Birdie",
+      "Albatross"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which piece of equipment is used to hit the ball in the sport of baseball?",
+    "choices": [
+      "A racket",
+      "A bat",
+      "A club",
+      "A paddle"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In a standard game of bowling, how many pins are set up at the start of each frame?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "What color jersey is traditionally worn by the overall leader of the Tour de France?",
+    "choices": [
+      "Green",
+      "Yellow",
+      "Red",
+      "Blue"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In swimming, which stroke involves both arms moving in a circular motion together while the swimmer is on their stomach?",
+    "choices": [
+      "Backstroke",
+      "Freestyle",
+      "Butterfly",
+      "Sidestroke"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "How many holes are played in a standard full round of golf?",
+    "choices": [
+      "9",
+      "12",
+      "18",
+      "24"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In American football, how many points is a touchdown worth (before the extra point attempt)?",
+    "choices": [
+      "3 points",
+      "6 points",
+      "7 points",
+      "2 points"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which sport features terms such as 'love', 'deuce', and 'ace'?",
+    "choices": [
+      "Cricket",
+      "Badminton",
+      "Tennis",
+      "Squash"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In ice hockey, what is the rubber disc that players hit into the goal called?",
+    "choices": [
+      "A ball",
+      "A puck",
+      "A shuttle",
+      "A bird"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In basketball, how many points is a successful free throw worth?",
+    "choices": [
+      "1 point",
+      "2 points",
+      "3 points",
+      "4 points"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In boxing, what is it called when a fighter is knocked down and cannot get up before the count of ten?",
+    "choices": [
+      "A technical foul",
+      "A knockout",
+      "A submission",
+      "A forfeit"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "Which sport uses a shuttlecock instead of a ball?",
+    "choices": [
+      "Table tennis",
+      "Squash",
+      "Badminton",
+      "Racquetball"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "en"
+  },
+  {
+    "text": "In tennis, what is the term for a score of 40-40 in a game?",
+    "choices": [
+      "Advantage",
+      "Deuce",
+      "Break point",
+      "Love all"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "How many players from one team are on a basketball court at the same time in a standard FIBA or NBA game?",
+    "choices": [
+      "Four",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which country has hosted the Summer Olympic Games the most times?",
+    "choices": [
+      "France",
+      "United Kingdom",
+      "United States",
+      "Greece"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In golf, what name is given to a score of two strokes under par on a single hole?",
+    "choices": [
+      "Birdie",
+      "Bogey",
+      "Eagle",
+      "Albatross"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The Tour de France is primarily a competition in which sport?",
+    "choices": [
+      "Long-distance running",
+      "Road cycling",
+      "Motor racing",
+      "Cross-country skiing"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "How long is a standard marathon race?",
+    "choices": [
+      "26.2 miles",
+      "21.1 miles",
+      "31.0 miles",
+      "13.1 miles"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In which sport would you perform a slam dunk?",
+    "choices": [
+      "Volleyball",
+      "Basketball",
+      "Handball",
+      "Water polo"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which boxer was famously known as 'The Greatest' and lit the Olympic flame at the 1996 Atlanta Games?",
+    "choices": [
+      "Joe Frazier",
+      "Mike Tyson",
+      "Muhammad Ali",
+      "Sugar Ray Robinson"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In football (soccer), how many points is a team awarded for a win in a standard league group stage?",
+    "choices": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which Grand Slam tennis tournament is played on clay courts?",
+    "choices": [
+      "Wimbledon",
+      "US Open",
+      "Australian Open",
+      "French Open"
+    ],
+    "correctIdx": 3,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In American football, how many points is a touchdown worth before any extra-point attempt?",
+    "choices": [
+      "Three",
+      "Six",
+      "Seven",
+      "Two"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which sport is governed internationally by the body known as FINA (now World Aquatics)?",
+    "choices": [
+      "Swimming",
+      "Sailing",
+      "Rowing",
+      "Surfing"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In cricket, how many runs are scored when a batsman hits the ball over the boundary without it bouncing?",
+    "choices": [
+      "Four",
+      "Five",
+      "Six",
+      "Two"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "The Stanley Cup is the championship trophy of which professional sports league?",
+    "choices": [
+      "Major League Baseball",
+      "National Hockey League",
+      "National Basketball Association",
+      "Major League Soccer"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In Formula 1 racing, what colour flag is waved to signal the end of a race?",
+    "choices": [
+      "Red flag",
+      "Yellow flag",
+      "Chequered flag",
+      "Blue flag"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "Which jump in athletics requires the athlete to clear a horizontal bar using a long flexible pole?",
+    "choices": [
+      "High jump",
+      "Triple jump",
+      "Long jump",
+      "Pole vault"
+    ],
+    "correctIdx": 3,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "en"
+  },
+  {
+    "text": "In the 1954 FIFA World Cup final, often called the 'Miracle of Bern,' which country came from 2-0 down to defeat Hungary's 'Golden Team' 3-2?",
+    "choices": [
+      "Austria",
+      "West Germany",
+      "Uruguay",
+      "Brazil"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which jockey rode Secretariat to the 1973 Triple Crown, including the record-shattering 31-length Belmont Stakes victory?",
+    "choices": [
+      "Ron Turcotte",
+      "Willie Shoemaker",
+      "Eddie Arcaro",
+      "Steve Cauthen"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In Formula One, who was the first driver to win the World Drivers' Championship five times?",
+    "choices": [
+      "Alberto Ascari",
+      "Juan Manuel Fangio",
+      "Jim Clark",
+      "Jack Brabham"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "At the 1968 Mexico City Olympics, which long jumper set a world record of 8.90 metres that stood for nearly 23 years?",
+    "choices": [
+      "Ralph Boston",
+      "Bob Beamon",
+      "Carl Lewis",
+      "Lynn Davies"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which cricketer holds the record for the highest individual score in Test cricket, an unbeaten 400 made in 2004?",
+    "choices": [
+      "Matthew Hayden",
+      "Don Bradman",
+      "Brian Lara",
+      "Garfield Sobers"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In rugby union, which nation won the very first Rugby World Cup, held in 1987?",
+    "choices": [
+      "Australia",
+      "France",
+      "South Africa",
+      "New Zealand"
+    ],
+    "correctIdx": 3,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which boxer defeated George Foreman to regain the heavyweight title in the 1974 'Rumble in the Jungle' in Kinshasa, Zaire?",
+    "choices": [
+      "Muhammad Ali",
+      "Joe Frazier",
+      "Ken Norton",
+      "Larry Holmes"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In golf, which player completed the career Grand Slam at the youngest age, achieving it at 24 with his 2000 Open Championship win?",
+    "choices": [
+      "Jack Nicklaus",
+      "Gary Player",
+      "Ben Hogan",
+      "Tiger Woods"
+    ],
+    "correctIdx": 3,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which Italian cyclist won both the Giro d'Italia and the Tour de France in the same year twice, in 1949 and 1952?",
+    "choices": [
+      "Gino Bartali",
+      "Fausto Coppi",
+      "Felice Gimondi",
+      "Eddy Merckx"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In the NBA, who holds the single-game scoring record of 100 points, set in 1962?",
+    "choices": [
+      "Wilt Chamberlain",
+      "Elgin Baylor",
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which tennis player completed the calendar-year Grand Slam in the men's singles in 1969, the second time he had done so?",
+    "choices": [
+      "Ken Rosewall",
+      "Rod Laver",
+      "Roy Emerson",
+      "John Newcombe"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "At which Winter Olympics did the United States ice hockey team's 'Miracle on Ice' upset of the Soviet Union take place?",
+    "choices": [
+      "1976 Innsbruck",
+      "1980 Lake Placid",
+      "1984 Sarajevo",
+      "1972 Sapporo"
+    ],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In swimming, which American won a record eight gold medals at a single Olympic Games in 2008?",
+    "choices": [
+      "Mark Spitz",
+      "Matt Biondi",
+      "Michael Phelps",
+      "Ryan Lochte"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which driver won the Indianapolis 500 a record-tying four times across the 1980s and 1990s, with wins in 1979, 1984, 1989, and 1991?",
+    "choices": [
+      "A. J. Foyt",
+      "Al Unser Sr.",
+      "Rick Mears",
+      "Mario Andretti"
+    ],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "In Test cricket, which bowler was the first to take 800 wickets in his career?",
+    "choices": [
+      "Shane Warne",
+      "Anil Kumble",
+      "Glenn McGrath",
+      "Muttiah Muralitharan"
+    ],
+    "correctIdx": 3,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  },
+  {
+    "text": "Which footballer scored the 'Hand of God' goal and a second, later voted 'Goal of the Century,' in the same 1986 World Cup quarter-final against England?",
+    "choices": [
+      "Diego Maradona",
+      "Jorge Valdano",
+      "Mario Kempes",
+      "Daniel Passarella"
+    ],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "en"
+  }
+]

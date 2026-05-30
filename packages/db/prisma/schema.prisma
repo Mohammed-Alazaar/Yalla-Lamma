@@ -1,0 +1,37 @@
+// Prisma 7: engine-free TypeScript client + driver adapter (@prisma/adapter-pg).
+// The datasource URL is supplied via prisma.config.ts (CLI) and the adapter (runtime).
+
+generator client {
+  provider = "prisma-client"
+  output   = "./generated"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+/// Trivia question bank (PRD §7.2 / QB-2).
+model Question {
+  id         String   @id @default(cuid())
+  locale     String // "en", "ar", ...
+  text       String
+  choices    String[] // length 4
+  correctIdx Int // 0..3
+  category   String
+  difficulty String // "easy" | "medium" | "hard"
+  createdAt  DateTime @default(now())
+
+  @@index([locale, category, difficulty])
+}
+
+/// Completed-game stats (PRD §7.2).
+model CompletedGame {
+  id          String   @id @default(cuid())
+  roomCode    String
+  playerCount Int
+  questionIds String[]
+  winnerName  String
+  startedAt   DateTime
+  endedAt     DateTime
+  locale      String
+}

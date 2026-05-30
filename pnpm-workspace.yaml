@@ -12,3 +12,6 @@ allowBuilds:
   msw: false
   # esbuild downloads its platform binary; required by tsx (realtime dev/runtime).
   esbuild: true
+  # Prisma CLI schema/migration engine binaries.
+  '@prisma/engines': true
+  prisma: true

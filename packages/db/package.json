@@ -8,11 +8,26 @@
   },
   "scripts": {
     "generate": "prisma generate",
+    "validate": "prisma validate",
     "migrate": "prisma migrate dev",
     "migrate:deploy": "prisma migrate deploy",
     "seed": "tsx src/seed.ts",
-    "import": "tsx src/import-csv.ts",
+    "import": "tsx src/import.ts",
     "studio": "prisma studio",
     "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "@yalla/shared": "workspace:*",
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/pg": "^8.11.10",
+    "prisma": "^7.8.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5"
   }
 }
