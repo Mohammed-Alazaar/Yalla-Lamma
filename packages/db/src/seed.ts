@@ -6,17 +6,20 @@ import { importFromFile } from "./import";
 config({ path: resolve(process.cwd(), "../../.env"), quiet: true });
 config({ quiet: true });
 
-/** Seed the question bank from the bundled English set (PRD QB-1: 200+ questions). */
+/** Seed the question bank from the bundled English + Arabic sets (PRD QB-1). */
 async function main(): Promise<void> {
-  const dataFile = resolve(import.meta.dirname, "../data/questions.en.json");
+  const enFile = resolve(import.meta.dirname, "../data/questions.en.json");
+  const arFile = resolve(import.meta.dirname, "../data/questions.ar.json");
   const prisma = await getPrisma();
 
-  // Idempotent: clear the English bank before re-seeding.
-  const deleted = await prisma.question.deleteMany({ where: { locale: "en" } });
-  if (deleted.count > 0) console.log(`Cleared ${deleted.count} existing en questions.`);
+  // Idempotent: clear the en/ar banks before re-seeding.
+  const deleted = await prisma.question.deleteMany({ where: { locale: { in: ["en", "ar"] } } });
+  if (deleted.count > 0) console.log(`Cleared ${deleted.count} existing questions.`);
 
-  const imported = await importFromFile(dataFile);
-  console.log(`Seeded ${imported} English questions.`);
+  const en = await importFromFile(enFile);
+  console.log(`Seeded ${en} English questions.`);
+  const ar = await importFromFile(arFile);
+  console.log(`Seeded ${ar} Arabic questions.`);
 }
 
 main()

@@ -1,0 +1,606 @@
+[
+  {
+    "text": "ما عاصمة المملكة المغربية؟",
+    "choices": ["الرباط", "الدار البيضاء", "مراكش", "فاس"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أكبر دولة عربية من حيث المساحة؟",
+    "choices": ["الجزائر", "السعودية", "السودان", "مصر"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد الدول الأعضاء في جامعة الدول العربية؟",
+    "choices": ["20", "21", "22", "24"],
+    "correctIdx": 2,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما العملة الرسمية في المملكة العربية السعودية؟",
+    "choices": ["الريال", "الدينار", "الدرهم", "الجنيه"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي دولة عربية تقع مدينة البتراء الأثرية؟",
+    "choices": ["الأردن", "لبنان", "سوريا", "فلسطين"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أطول نهر يمرّ بمصر؟",
+    "choices": ["النيل", "الفرات", "دجلة", "نهر الأردن"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما عاصمة دولة قطر؟",
+    "choices": ["الدوحة", "المنامة", "أبوظبي", "الكويت"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما البحر الذي يفصل بين شبه الجزيرة العربية وقارة أفريقيا؟",
+    "choices": ["البحر الأحمر", "البحر المتوسط", "الخليج العربي", "بحر العرب"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أصغر دولة عربية من حيث المساحة؟",
+    "choices": ["البحرين", "قطر", "الكويت", "لبنان"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما عاصمة سلطنة عُمان؟",
+    "choices": ["مسقط", "صلالة", "صنعاء", "الدوحة"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة يقع برج خليفة، أطول مبنى في العالم؟",
+    "choices": ["دبي", "الرياض", "الدوحة", "أبوظبي"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الطبق الشعبي المصنوع من الحمّص المطحون والطحينة؟",
+    "choices": ["الحمّص بالطحينة", "الكبسة", "المنسف", "الكشري"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما عاصمة المملكة الأردنية الهاشمية؟",
+    "choices": ["عمّان", "إربد", "الزرقاء", "العقبة"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الطبق الوطني الأردني المكوّن من اللحم واللبن والأرز؟",
+    "choices": ["المنسف", "الكبسة", "المقلوبة", "المجبوس"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اللغة الرسمية المشتركة بين جميع الدول العربية؟",
+    "choices": ["العربية", "الإنجليزية", "الفرنسية", "الأمازيغية"],
+    "correctIdx": 0,
+    "category": "General",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+
+  {
+    "text": "من العالم المسلم مؤلف كتاب «القانون في الطب»؟",
+    "choices": ["ابن سينا", "ابن رشد", "الرازي", "الفارابي"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من يُعدّ مؤسس علم الجبر؟",
+    "choices": ["الخوارزمي", "ابن الهيثم", "جابر بن حيان", "البيروني"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد كواكب المجموعة الشمسية؟",
+    "choices": ["7", "8", "9", "10"],
+    "correctIdx": 1,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أكبر عضو في جسم الإنسان؟",
+    "choices": ["الجلد", "الكبد", "الرئتان", "القلب"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الكوكب المعروف بالكوكب الأحمر؟",
+    "choices": ["المريخ", "الزهرة", "المشتري", "عطارد"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد عظام جسم الإنسان البالغ؟",
+    "choices": ["186", "196", "206", "216"],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من العالم العربي الملقّب بأبي البصريات ومؤلف «كتاب المناظر»؟",
+    "choices": ["ابن الهيثم", "ابن النفيس", "الكندي", "ثابت بن قرّة"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الغاز الذي تمتصّه النباتات في عملية البناء الضوئي؟",
+    "choices": ["ثاني أكسيد الكربون", "الأكسجين", "النيتروجين", "الهيدروجين"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أقرب كوكب إلى الشمس؟",
+    "choices": ["عطارد", "الزهرة", "الأرض", "المريخ"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعدن الوحيد الذي يكون سائلاً في درجة حرارة الغرفة؟",
+    "choices": ["الزئبق", "الرصاص", "الحديد", "الألمنيوم"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من العالم العربي الذي وصف الدورة الدموية الصغرى (الرئوية)؟",
+    "choices": ["ابن النفيس", "ابن سينا", "الرازي", "الزهراوي"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أكبر كوكب في المجموعة الشمسية؟",
+    "choices": ["المشتري", "زحل", "الأرض", "نبتون"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد قلوب الأخطبوط؟",
+    "choices": ["قلب واحد", "قلبان", "ثلاثة قلوب", "أربعة قلوب"],
+    "correctIdx": 2,
+    "category": "Science",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما أسرع حيوان برّي في العالم؟",
+    "choices": ["الفهد", "الأسد", "الحصان", "الغزال"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من العالم المسلم الملقّب بأبي الكيمياء؟",
+    "choices": ["جابر بن حيان", "الخوارزمي", "ابن سينا", "البيروني"],
+    "correctIdx": 0,
+    "category": "Science",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+
+  {
+    "text": "من القائد الذي حرّر القدس بعد معركة حطّين عام 1187م؟",
+    "choices": ["صلاح الدين الأيوبي", "طارق بن زياد", "خالد بن الوليد", "قطز"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما العاصمة الأولى للدولة الأموية؟",
+    "choices": ["دمشق", "بغداد", "الكوفة", "القاهرة"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما عاصمة الدولة العباسية؟",
+    "choices": ["بغداد", "دمشق", "سامرّاء", "البصرة"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من القائد الذي فتح الأندلس عام 711م؟",
+    "choices": ["طارق بن زياد", "موسى بن نصير", "عقبة بن نافع", "عمرو بن العاص"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من أول الخلفاء الراشدين؟",
+    "choices": ["أبو بكر الصدّيق", "عمر بن الخطّاب", "عثمان بن عفّان", "علي بن أبي طالب"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام نالت الجزائر استقلالها؟",
+    "choices": ["1956", "1962", "1958", "1965"],
+    "correctIdx": 1,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من القائد الذي فتح مصر في عهد عمر بن الخطّاب؟",
+    "choices": ["عمرو بن العاص", "سعد بن أبي وقّاص", "خالد بن الوليد", "المثنّى بن حارثة"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي عام تأسّست جامعة الدول العربية؟",
+    "choices": ["1945", "1948", "1950", "1939"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المعركة التي انتصر فيها المسلمون على الروم في بلاد الشام عام 636م؟",
+    "choices": ["اليرموك", "القادسية", "بدر", "نهاوند"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "أي خليفة عباسي ارتبط عصره بازدهار العلوم وقصص ألف ليلة وليلة؟",
+    "choices": ["هارون الرشيد", "المأمون", "المنصور", "المعتصم"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الحضارة التي بنت أهرامات الجيزة؟",
+    "choices": ["المصرية القديمة", "البابلية", "الفينيقية", "الآشورية"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من بنى مدينة بغداد عاصمةً للدولة العباسية؟",
+    "choices": ["أبو جعفر المنصور", "هارون الرشيد", "المأمون", "أبو العباس السفّاح"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم السدّ الكبير الذي بُني جنوب مصر وافتُتح عام 1971؟",
+    "choices": ["السدّ العالي", "سدّ مأرب", "سدّ الفرات", "سدّ النهضة"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من القائد المسلم الذي هزم المغول في معركة عين جالوت عام 1260م؟",
+    "choices": ["سيف الدين قطز", "صلاح الدين", "نور الدين زنكي", "المعتصم"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي مدينة وُلد النبي محمد ﷺ؟",
+    "choices": ["مكة المكرّمة", "المدينة المنوّرة", "الطائف", "القدس"],
+    "correctIdx": 0,
+    "category": "History",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+
+  {
+    "text": "من المطربة المصرية الملقّبة بـ«كوكب الشرق»؟",
+    "choices": ["أم كلثوم", "فيروز", "وردة الجزائرية", "أسمهان"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من المطرب المصري الملقّب بـ«العندليب الأسمر»؟",
+    "choices": ["عبد الحليم حافظ", "محمد عبد الوهاب", "فريد الأطرش", "محمد فوزي"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من الأديب العربي الحائز على جائزة نوبل في الأدب عام 1988؟",
+    "choices": ["نجيب محفوظ", "طه حسين", "توفيق الحكيم", "يوسف إدريس"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من المطربة اللبنانية الملقّبة بـ«سفيرة لبنان إلى النجوم»؟",
+    "choices": ["فيروز", "صباح", "ماجدة الرومي", "نجوى كرم"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الآلة الموسيقية الوترية الأشهر في الموسيقى العربية الكلاسيكية؟",
+    "choices": ["العود", "الكمان", "القانون", "الناي"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من الشاعر المصري الملقّب بـ«أمير الشعراء»؟",
+    "choices": ["أحمد شوقي", "حافظ إبراهيم", "نزار قباني", "المتنبّي"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرقصة الشعبية الجماعية الأشهر في بلاد الشام؟",
+    "choices": ["الدبكة", "التنّورة", "العرضة", "اليولة"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من المطرب العراقي الملقّب بـ«قيصر الأغنية العربية»؟",
+    "choices": ["كاظم الساهر", "ماجد المهندس", "سيف نبيل", "رابح صقر"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من ترجم كتاب «كليلة ودمنة» إلى العربية؟",
+    "choices": ["ابن المقفّع", "الجاحظ", "ابن خلدون", "المتنبّي"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من الشاعر الجاهلي صاحب المعلّقة التي تبدأ بـ«قِفا نبكِ من ذكرى حبيبٍ ومنزلِ»؟",
+    "choices": ["امرؤ القيس", "عنترة بن شدّاد", "زهير بن أبي سلمى", "طرفة بن العبد"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من المخرج السوري الذي أخرج فيلم «الرسالة»؟",
+    "choices": ["مصطفى العقّاد", "يوسف شاهين", "محمد خان", "نادين لبكي"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما اسم برنامج الأطفال التعليمي العربي الشهير المقتبس من «Sesame Street»؟",
+    "choices": ["افتح يا سمسم", "المناهل", "بكّار", "سلامتك"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من الشاعر الفلسطيني صاحب قصيدة «سجّل أنا عربي»؟",
+    "choices": ["محمود درويش", "سميح القاسم", "توفيق زيّاد", "فدوى طوقان"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من الكاتب صاحب الرباعية الروائية «مدن الملح»؟",
+    "choices": ["عبد الرحمن منيف", "غسان كنفاني", "الطيّب صالح", "حنّا مينه"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "من كتب رواية «موسم الهجرة إلى الشمال»؟",
+    "choices": ["الطيّب صالح", "نجيب محفوظ", "غسان كنفاني", "جبرا إبراهيم جبرا"],
+    "correctIdx": 0,
+    "category": "Pop Culture",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+
+  {
+    "text": "ما أول منتخب عربي يتأهّل لكأس العالم (عام 1934)؟",
+    "choices": ["مصر", "المغرب", "تونس", "السعودية"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي دولة عربية أُقيمت بطولة كأس العالم 2022؟",
+    "choices": ["قطر", "الإمارات", "السعودية", "مصر"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنتخب العربي الذي بلغ نصف نهائي كأس العالم 2022؟",
+    "choices": ["المغرب", "تونس", "السعودية", "مصر"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنتخب العربي الأكثر تتويجاً بكأس أمم أفريقيا؟",
+    "choices": ["مصر", "الجزائر", "المغرب", "تونس"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "من اللاعب المصري نجم نادي ليفربول الإنجليزي؟",
+    "choices": ["محمد صلاح", "محمد الننّي", "تريزيغيه", "عمرو وردة"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النادي المصري الملقّب بـ«القلعة الحمراء»؟",
+    "choices": ["الأهلي", "الزمالك", "بيراميدز", "المصري"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "من اللاعب الجزائري الذي توّج بدوري أبطال أوروبا مع مانشستر سيتي عام 2023؟",
+    "choices": ["رياض محرز", "إسلام سليماني", "يوسف بلايلي", "سفيان فيغولي"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم عدد لاعبي فريق كرة القدم داخل الملعب؟",
+    "choices": ["10", "11", "12", "9"],
+    "correctIdx": 1,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النادي السعودي الذي انضمّ إليه كريستيانو رونالدو عام 2023؟",
+    "choices": ["النصر", "الهلال", "الاتحاد", "الأهلي"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنتخب العربي الذي فاجأ الأرجنتين وهزمها في كأس العالم 2022؟",
+    "choices": ["السعودية", "تونس", "المغرب", "قطر"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "كم مرة فاز المنتخب المصري بكأس أمم أفريقيا؟",
+    "choices": ["5", "6", "7", "8"],
+    "correctIdx": 2,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما النادي السعودي الأكثر تتويجاً بدوري أبطال آسيا؟",
+    "choices": ["الهلال", "النصر", "الاتحاد", "الشباب"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "hard",
+    "locale": "ar"
+  },
+  {
+    "text": "ما المنتخب الذي توّج بطلاً لكأس العالم 2022 في قطر؟",
+    "choices": ["الأرجنتين", "فرنسا", "البرازيل", "ألمانيا"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "ar"
+  },
+  {
+    "text": "في أي دولة عربية أُقيمت بطولة كأس العرب «فيفا» عام 2021؟",
+    "choices": ["قطر", "الإمارات", "مصر", "لبنان"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "medium",
+    "locale": "ar"
+  },
+  {
+    "text": "ما الرياضة الأكثر شعبية في الوطن العربي؟",
+    "choices": ["كرة القدم", "كرة السلة", "التنس", "الكريكيت"],
+    "correctIdx": 0,
+    "category": "Sports",
+    "difficulty": "easy",
+    "locale": "ar"
+  }
+]

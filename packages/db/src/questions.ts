@@ -1,15 +1,14 @@
 import type { Question } from "@yalla/shared";
 import { getPrisma, hasDatabase } from "./client";
-import seedQuestions from "../data/questions.en.json" with { type: "json" };
+import seedEn from "../data/questions.en.json" with { type: "json" };
+import seedAr from "../data/questions.ar.json" with { type: "json" };
 
 type SeedQuestion = Omit<Question, "id">;
 
 /** Bundled questions (used when no DATABASE_URL is configured — local dev/tests). */
 function bundledQuestions(): Question[] {
-  return (seedQuestions as SeedQuestion[]).map((q, i) => ({
-    id: `seed-${q.locale}-${i}`,
-    ...q,
-  }));
+  const all = [...(seedEn as SeedQuestion[]), ...(seedAr as SeedQuestion[])];
+  return all.map((q, i) => ({ id: `seed-${q.locale}-${i}`, ...q }));
 }
 
 /**
