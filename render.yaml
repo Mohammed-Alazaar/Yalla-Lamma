@@ -1,0 +1,36 @@
+# Render Blueprint for the realtime Socket.IO server (PRD §13 / free web service).
+# Render free keeps a web service awake while WebSocket clients are connected.
+# Create the Blueprint from this file, then set the `sync: false` secrets in the
+# dashboard. The web app deploys separately on Vercel (see README).
+services:
+  - type: web
+    name: yalla-lamma-realtime
+    runtime: node
+    plan: free
+    region: oregon
+    rootDir: .
+    # corepack activates the pinned pnpm; db:generate is needed because the
+    # realtime server lazily imports the Prisma client when DATABASE_URL is set.
+    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm --filter @yalla/db generate
+    startCommand: pnpm --filter @yalla/realtime start
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22.16.0"
+      - key: PORT
+        value: "8080"
+      # Comma-separated Vercel origin(s), e.g. https://yalla-lamma.vercel.app
+      - key: ALLOWED_ORIGINS
+        sync: false
+      # Upstash Redis (rediss://). Omit to run on the in-memory store (single node).
+      - key: REDIS_URL
+        sync: false
+      # Neon POOLED connection string. Omit to serve questions from bundled JSON.
+      - key: DATABASE_URL
+        sync: false
+      # Optional observability.
+      - key: SENTRY_DSN
+        sync: false
+      - key: POSTHOG_KEY
+        sync: false
