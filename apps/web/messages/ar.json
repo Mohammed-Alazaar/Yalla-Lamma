@@ -76,6 +76,27 @@
       "sports": "رياضة"
     }
   },
+  "game": {
+    "questionProgress": "السؤال {index} من {total}",
+    "doublePoints": "نقاط مضاعفة!",
+    "answeredCount": "أجاب {answered} من {total}",
+    "correctCount": "أجاب {correct} من {total} إجابة صحيحة",
+    "tapToAnswer": "اختر إجابتك",
+    "answerLabel": "الإجابة {letter}",
+    "lockedIn": "تم التثبيت!",
+    "answeredWaiting": "في انتظار البقية…",
+    "correct": "إجابة صحيحة!",
+    "wrong": "إجابة خاطئة",
+    "noAnswer": "لا توجد إجابة",
+    "points": "+{points}",
+    "score": "{points} نقطة",
+    "yourRank": "ترتيبك #{rank}",
+    "leaderboard": "لوحة المتصدّرين",
+    "winner": "{name} هو الفائز!",
+    "itsATie": "تعادل!",
+    "finalScores": "النتائج النهائية",
+    "playAgain": "العب مرة أخرى"
+  },
   "footer": {
     "tagline": "يلا لمّة — نجتمع ونلعب.",
     "language": "اللغة"

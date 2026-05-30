@@ -6,6 +6,10 @@ import { useGameStore } from "@/lib/game-store";
 import { bindSocket } from "@/lib/socket";
 import { loadPlayerSession } from "@/lib/session-storage";
 import { PlayerLobby } from "./player-lobby";
+import { PlayerQuestion } from "./player-question";
+import { PlayerReveal } from "./player-reveal";
+import { PlayerLeaderboard } from "./player-leaderboard";
+import { PlayerFinal } from "./player-final";
 
 export function PlayerScreen({ code }: { code: string }) {
   const room = useGameStore((s) => s.room);
@@ -25,8 +29,6 @@ export function PlayerScreen({ code }: { code: string }) {
     };
   }, [code]);
 
-  const self = room?.players.find((p) => p.id === selfId) ?? null;
-
   if (!room) {
     return (
       <main className="flex min-h-dvh items-center justify-center px-6">
@@ -35,6 +37,18 @@ export function PlayerScreen({ code }: { code: string }) {
     );
   }
 
-  // Phase 3 implements the lobby; gameplay views land in Phase 5.
-  return <PlayerLobby room={room} self={self} />;
+  const self = room.players.find((p) => p.id === selfId) ?? null;
+
+  switch (room.phase) {
+    case "question":
+      return <PlayerQuestion key={room.question?.id ?? "q"} room={room} self={self} />;
+    case "reveal":
+      return <PlayerReveal room={room} self={self} />;
+    case "leaderboard":
+      return <PlayerLeaderboard room={room} self={self} />;
+    case "final":
+      return <PlayerFinal room={room} self={self} />;
+    default:
+      return <PlayerLobby room={room} self={self} />;
+  }
 }

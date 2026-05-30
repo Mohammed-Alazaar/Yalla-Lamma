@@ -5,14 +5,12 @@ import { useGameStore } from "@/lib/game-store";
 import { bindSocket } from "@/lib/socket";
 import { loadHostToken } from "@/lib/session-storage";
 import { HostLobby } from "./host-lobby";
+import { HostQuestion } from "./host-question";
+import { HostReveal } from "./host-reveal";
+import { HostLeaderboard } from "./host-leaderboard";
+import { HostFinal } from "./host-final";
 
-export function HostScreen({
-  code,
-  origin,
-}: {
-  code: string;
-  origin: string;
-}) {
+export function HostScreen({ code, origin }: { code: string; origin: string }) {
   const room = useGameStore((s) => s.room);
 
   useEffect(() => {
@@ -28,6 +26,17 @@ export function HostScreen({
     };
   }, [code]);
 
-  // Phase 3 implements the lobby; question/reveal/leaderboard/final views land in Phase 5.
-  return <HostLobby room={room} code={code} origin={origin} />;
+  switch (room?.phase) {
+    case "question":
+      return <HostQuestion room={room} />;
+    case "reveal":
+      return <HostReveal room={room} />;
+    case "leaderboard":
+      return <HostLeaderboard room={room} />;
+    case "final":
+      return <HostFinal room={room} />;
+    default:
+      // lobby / paused / not-yet-connected
+      return <HostLobby room={room ?? null} code={code} origin={origin} />;
+  }
 }

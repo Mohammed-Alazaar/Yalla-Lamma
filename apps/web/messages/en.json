@@ -76,6 +76,27 @@
       "sports": "Sports"
     }
   },
+  "game": {
+    "questionProgress": "Question {index} of {total}",
+    "doublePoints": "Double points!",
+    "answeredCount": "{answered} of {total} answered",
+    "correctCount": "{correct} of {total} got it right",
+    "tapToAnswer": "Tap your answer",
+    "answerLabel": "Answer {letter}",
+    "lockedIn": "Locked in!",
+    "answeredWaiting": "Waiting for the others…",
+    "correct": "Correct!",
+    "wrong": "Wrong",
+    "noAnswer": "No answer",
+    "points": "+{points}",
+    "score": "{points} pts",
+    "yourRank": "You're #{rank}",
+    "leaderboard": "Leaderboard",
+    "winner": "{name} wins!",
+    "itsATie": "It's a tie!",
+    "finalScores": "Final scores",
+    "playAgain": "Play Again"
+  },
   "footer": {
     "tagline": "Yalla, lamma — let's gather and play.",
     "language": "Language"
