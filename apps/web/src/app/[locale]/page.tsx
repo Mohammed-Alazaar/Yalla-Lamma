@@ -1,7 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import type { Locale } from "@yalla/shared";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/footer";
+import { CreateRoomButton } from "@/components/create-room-button";
 
 export default async function LandingPage({
   params,
@@ -31,9 +33,7 @@ export default async function LandingPage({
             {t("subtitle")}
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
-            <Button asChild size="lg" className="min-h-12 text-base">
-              <Link href="/host">{t("createRoom")}</Link>
-            </Button>
+            <CreateRoomButton locale={locale as Locale} label={t("createRoom")} />
             <Button asChild size="lg" variant="secondary" className="min-h-12 text-base">
               <Link href="/join">{t("joinRoom")}</Link>
             </Button>

@@ -10,3 +10,5 @@ allowBuilds:
   unrs-resolver: true
   # Transitive dev/test dep pulled in via shadcn; not used at runtime.
   msw: false
+  # esbuild downloads its platform binary; required by tsx (realtime dev/runtime).
+  esbuild: true

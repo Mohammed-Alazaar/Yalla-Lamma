@@ -1,0 +1,29 @@
+{
+  "name": "@yalla/realtime",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
+    "@yalla/shared": "workspace:*",
+    "dotenv": "^16.4.5",
+    "redis": "^6.0.0",
+    "socket.io": "^4.8.3",
+    "tsx": "^4.19.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "socket.io-client": "^4.8.3",
+    "typescript": "^5",
+    "vitest": "^4.1.7"
+  }
+}

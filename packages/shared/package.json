@@ -12,5 +12,11 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "lint": "eslint ."
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.7"
   }
 }
