@@ -9,6 +9,22 @@ async function joinRoom(page: Page, code: string, name: string): Promise<void> {
   await page.waitForURL(`**/play/${code}`);
 }
 
+test("a player can join straight from the room link (the QR target)", async ({ browser }) => {
+  const host = await browser.newPage();
+  await host.goto("/en");
+  await host.getByRole("button", { name: /create room/i }).click();
+  await host.waitForURL(/\/en\/host\/[A-Z]{4}/);
+  const code = host.url().match(/host\/([A-Z]{4})/)![1]!;
+
+  // Simulate scanning the QR code: navigate straight to the room URL.
+  const player = await (await browser.newContext()).newPage();
+  await player.goto(`/en/play/${code}`);
+  await player.getByPlaceholder(/sam/i).fill("Lina");
+  await player.getByRole("button", { name: /^join$/i }).click();
+
+  await expect(host.getByText("Lina")).toBeVisible();
+});
+
 test("two players play a full game to the winner screen", async ({ browser }) => {
   // ── Host creates a room ──────────────────────────────────────────────────
   const host = await browser.newPage();
