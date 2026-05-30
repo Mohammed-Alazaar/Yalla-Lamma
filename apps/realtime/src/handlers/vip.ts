@@ -2,6 +2,7 @@ import {
   ERROR_CODES,
   MIN_PLAYERS_TO_START,
   selectQuestions,
+  vipConfigureQuipSchema,
   vipConfigureSchema,
   vipSelectGameSchema,
 } from "@yalla/shared";
@@ -53,6 +54,38 @@ export async function handleVipConfigure(
   broadcastState(io, result.room);
 }
 
+/** VIP returns to the game-picker from the lobby (SEL-5). */
+export async function handleVipChangeGame(io: AppServer, socket: AppSocket): Promise<void> {
+  const code = socket.data.roomCode;
+  if (!code || socket.data.role !== "player") {
+    emitError(socket, ERROR_CODES.NOT_VIP, "Only the VIP can change the game");
+    return;
+  }
+
+  const result = await withRoomLock(code, async () => {
+    const room = await store.get(code);
+    if (!room) {
+      return { ok: false, code: ERROR_CODES.ROOM_NOT_FOUND, message: "Room not found" } as const;
+    }
+    if (room.vipPlayerId !== socket.data.playerId) {
+      return { ok: false, code: ERROR_CODES.NOT_VIP, message: "Only the VIP can change the game" } as const;
+    }
+    if (room.phase !== "lobby") {
+      return { ok: false, code: ERROR_CODES.WRONG_PHASE, message: "Game already started" } as const;
+    }
+    room.gameId = null;
+    room.lastActivityAt = Date.now();
+    await store.save(room);
+    return { ok: true, room } as const;
+  });
+
+  if (!result.ok) {
+    emitError(socket, result.code, result.message);
+    return;
+  }
+  broadcastState(io, result.room);
+}
+
 /** VIP picks which game to play from the lobby (SEL-1/2). */
 export async function handleVipSelectGame(
   io: AppServer,
@@ -80,6 +113,45 @@ export async function handleVipSelectGame(
       return { ok: false, code: ERROR_CODES.WRONG_PHASE, message: "Game already started" } as const;
     }
     room.gameId = data.gameId;
+    room.lastActivityAt = Date.now();
+    await store.save(room);
+    return { ok: true, room } as const;
+  });
+
+  if (!result.ok) {
+    emitError(socket, result.code, result.message);
+    return;
+  }
+  broadcastState(io, result.room);
+}
+
+/** VIP configures QuipParty settings in the lobby (QSET-1..5). */
+export async function handleVipConfigureQuip(
+  io: AppServer,
+  socket: AppSocket,
+  payload: unknown,
+): Promise<void> {
+  const data = parsePayload(socket, vipConfigureQuipSchema, payload);
+  if (!data) return;
+
+  const code = socket.data.roomCode;
+  if (!code || socket.data.role !== "player") {
+    emitError(socket, ERROR_CODES.NOT_VIP, "Only the VIP can configure the game");
+    return;
+  }
+
+  const result = await withRoomLock(code, async () => {
+    const room = await store.get(code);
+    if (!room) {
+      return { ok: false, code: ERROR_CODES.ROOM_NOT_FOUND, message: "Room not found" } as const;
+    }
+    if (room.vipPlayerId !== socket.data.playerId) {
+      return { ok: false, code: ERROR_CODES.NOT_VIP, message: "Only the VIP can configure the game" } as const;
+    }
+    if (room.phase !== "lobby") {
+      return { ok: false, code: ERROR_CODES.WRONG_PHASE, message: "Game already started" } as const;
+    }
+    room.quipSettings = { ...data };
     room.lastActivityAt = Date.now();
     await store.save(room);
     return { ok: true, room } as const;
@@ -122,6 +194,10 @@ export async function handleVipStart(io: AppServer, socket: AppSocket): Promise<
         message: `Need at least ${MIN_PLAYERS_TO_START} players to start`,
       } as const;
     }
+    if (room.gameId === "quip") {
+      // QuipParty start is wired in a later phase; trivia path below for now.
+      return { ok: false, code: ERROR_CODES.INTERNAL, message: "QuipParty isn't available yet" } as const;
+    }
 
     const pool = await loadQuestionPool(
       room.settings.locale,
@@ -133,7 +209,7 @@ export async function handleVipStart(io: AppServer, socket: AppSocket): Promise<
       return { ok: false, code: ERROR_CODES.INTERNAL, message: "No questions available" } as const;
     }
 
-    room.gameId = "trivia"; // default/confirm the game on start
+    if (!room.gameId) room.gameId = "trivia"; // default when picker was skipped
     startGame(room, questions, Date.now());
     room.phaseSeq += 1;
     room.lastActivityAt = Date.now();

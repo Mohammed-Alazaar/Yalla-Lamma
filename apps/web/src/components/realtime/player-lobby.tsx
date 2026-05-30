@@ -15,6 +15,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { emitWhenReady } from "@/lib/socket";
+import { GamePicker } from "./game-picker";
+import { QuipSettingsPanel } from "./quip-settings";
 
 const CATEGORY_KEY: Record<string, string> = {
   General: "general",
@@ -128,6 +130,13 @@ function VipControls({ room }: { room: PublicRoomState }) {
           {t("needMore", { min: MIN_PLAYERS_TO_START })}
         </p>
       )}
+      <button
+        type="button"
+        onClick={() => emitWhenReady("vip:changeGame")}
+        className="text-sm text-muted-foreground underline-offset-2 hover:underline"
+      >
+        {t("changeGame")}
+      </button>
     </div>
   );
 }
@@ -142,6 +151,17 @@ export function PlayerLobby({
   const t = useTranslations("play");
   const isVip = self?.isVip ?? false;
   const others = room.players.filter((p) => p.id !== self?.id);
+
+  let body: React.ReactNode;
+  if (room.gameId === null) {
+    body = <GamePicker selected={room.gameId} interactive={isVip} />;
+  } else if (!isVip) {
+    body = <p className="text-center text-lg text-muted-foreground">{t("waiting")}</p>;
+  } else if (room.gameId === "quip") {
+    body = <QuipSettingsPanel room={room} />;
+  } else {
+    body = <VipControls room={room} />;
+  }
 
   return (
     <main
@@ -160,11 +180,7 @@ export function PlayerLobby({
         </div>
       )}
 
-      {isVip ? (
-        <VipControls room={room} />
-      ) : (
-        <p className="text-center text-lg text-muted-foreground">{t("waiting")}</p>
-      )}
+      {body}
 
       {others.length > 0 && (
         <p className="mt-auto text-sm text-muted-foreground">

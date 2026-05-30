@@ -1,4 +1,5 @@
 import {
+  DEFAULT_QUIP_SETTINGS,
   ERROR_CODES,
   generateRoomCode,
   hostCreateSchema,
@@ -36,6 +37,7 @@ export async function handleHostCreate(
       sessions: {},
       gameId: null,
       quip: null,
+      quipSettings: { ...DEFAULT_QUIP_SETTINGS },
       phase: "lobby",
       prevPhase: null,
       phaseSeq: 0,

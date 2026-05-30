@@ -1,7 +1,7 @@
 // Core game-state types. The server holds the full `RoomState`; clients only
 // ever receive a redacted `PublicRoomState` (see serialize.ts).
 
-import type { PublicQuipState, QuipState } from "./quip";
+import type { PublicQuipState, QuipSettings, QuipState } from "./quip";
 
 export type Locale = "en" | "ar";
 
@@ -67,6 +67,8 @@ export interface RoomState {
   gameId: GameId | null;
   /** QuipParty state when gameId === "quip" (null otherwise). */
   quip: QuipState | null;
+  /** VIP-chosen quip settings (lobby), copied into QuipState at start. */
+  quipSettings: QuipSettings;
   phase: Phase;
   prevPhase: Phase | null; // phase to resume after "paused"
   // Monotonic transition counter — guards stale auto-advance timers against
@@ -125,6 +127,8 @@ export interface PublicRoomState {
   locked: boolean;
   /** QuipParty public view when gameId === "quip". */
   quip: PublicQuipState | null;
+  /** VIP-chosen quip settings (shown in the lobby settings panel). */
+  quipSettings: QuipSettings;
   /** Current question (text/choices); null in lobby/final. */
   question: PublicQuestion | null;
   /** Authoritative question start (epoch ms) for client-side countdown. */

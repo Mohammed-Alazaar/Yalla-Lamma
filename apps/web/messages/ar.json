@@ -73,6 +73,7 @@
     "seconds": "{count} ثانية",
     "start": "ابدأ اللعبة",
     "needMore": "تحتاج إلى {min} لاعبين على الأقل للبدء",
+    "changeGame": "← غيّر اللعبة",
     "countries": {
       "general": "عام",
       "algeria": "الجزائر",
@@ -86,6 +87,31 @@
       "popCulture": "ثقافة شعبية",
       "sports": "رياضة"
     }
+  },
+  "games": {
+    "choose": "اختر لعبة",
+    "vipChoosing": "المضيف يختار لعبة…",
+    "trivia": {
+      "name": "تريفيا",
+      "players": "2–12 لاعباً",
+      "desc": "اختبر معلوماتك — الأسرع في الإجابة الصحيحة يفوز"
+    },
+    "quip": {
+      "name": "كويب",
+      "players": "3–12 لاعباً",
+      "desc": "اكتب أطرف إجابة — وأصدقاؤك يصوّتون"
+    }
+  },
+  "quipControls": {
+    "rounds": "الجولات",
+    "answerTime": "وقت الكتابة",
+    "voteTime": "وقت التصويت",
+    "seconds": "{count} ثانية",
+    "familyFriendly": "أسئلة مناسبة للعائلة",
+    "audienceVoting": "تصويت الجمهور",
+    "start": "ابدأ اللعبة",
+    "needMore": "تحتاج إلى {min} لاعبين على الأقل للبدء",
+    "changeGame": "← غيّر اللعبة"
   },
   "game": {
     "questionProgress": "السؤال {index} من {total}",

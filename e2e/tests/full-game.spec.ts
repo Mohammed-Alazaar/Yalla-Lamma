@@ -42,7 +42,8 @@ test("two players play a full game to the winner screen", async ({ browser }) =>
   await expect(host.getByText("Alice")).toBeVisible();
   await expect(host.getByText("Bob")).toBeVisible();
 
-  // ── VIP shortens the game to 5 questions and starts ──────────────────────
+  // ── VIP picks Trivia from the game-picker, shortens it, and starts ───────
+  await alice.getByRole("button", { name: /trivia/i }).click();
   await alice.getByRole("button", { name: "5", exact: true }).click();
   await alice.getByRole("button", { name: /start game/i }).click();
 

@@ -74,6 +74,7 @@ export function toPublicRoomState(room: RoomState): PublicRoomState {
     vipPlayerId: room.vipPlayerId,
     locked: room.locked,
     quip: toPublicQuipState(room),
+    quipSettings: room.quipSettings,
     question,
     questionStartedAt: room.phase === "question" ? room.currentQuestionStartedAt : null,
     answeredPlayerIds,

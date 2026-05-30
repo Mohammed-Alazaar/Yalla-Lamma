@@ -7,6 +7,12 @@ import {
   NUM_QUESTIONS_OPTIONS,
   TIME_LIMIT_OPTIONS,
 } from "../game/constants";
+import {
+  QUIP_ANSWER_MAX,
+  QUIP_ANSWER_TIME_OPTIONS,
+  QUIP_ROUNDS_OPTIONS,
+  QUIP_VOTE_TIME_OPTIONS,
+} from "../game/quip";
 
 // ─── Primitives ─────────────────────────────────────────────────────────────
 
@@ -77,6 +83,30 @@ export const hostKickSchema = z.object({ playerId: z.string().min(1) });
 export const hostLockSchema = z.object({ locked: z.boolean() });
 export const vipSelectGameSchema = z.object({ gameId: z.enum(["trivia", "quip"]) });
 
+const inOptions = (opts: readonly number[], msg: string) =>
+  z.number().int().refine((v) => opts.includes(v), msg);
+
+export const vipConfigureQuipSchema = z.object({
+  totalRounds: inOptions(QUIP_ROUNDS_OPTIONS, "Invalid round count"),
+  answerTimeSec: inOptions(QUIP_ANSWER_TIME_OPTIONS, "Invalid answer time"),
+  voteTimeSec: inOptions(QUIP_VOTE_TIME_OPTIONS, "Invalid vote time"),
+  familyFriendly: z.boolean(),
+  audienceVoting: z.boolean(),
+});
+
+/** A player's quip answer submission (ANS-2: 1..80 chars). */
+export const quipSubmitAnswerSchema = z.object({
+  promptId: z.string().min(1),
+  text: z.string().trim().min(1, "Empty answer").max(QUIP_ANSWER_MAX, "Answer too long"),
+});
+
+export const quipVoteSchema = z.object({
+  matchupIndex: z.number().int().min(0),
+  choice: z.union([z.literal(0), z.literal(1)]),
+});
+
+export const hostSkipAnswerSchema = z.object({ matchupIndex: z.number().int().min(0) });
+
 export type HostCreatePayload = z.infer<typeof hostCreateSchema>;
 export type HostRejoinPayload = z.infer<typeof hostRejoinSchema>;
 export type PlayerJoinPayload = z.infer<typeof playerJoinSchema>;
@@ -86,6 +116,10 @@ export type PlayerAnswerPayload = z.infer<typeof playerAnswerSchema>;
 export type HostKickPayload = z.infer<typeof hostKickSchema>;
 export type HostLockPayload = z.infer<typeof hostLockSchema>;
 export type VipSelectGamePayload = z.infer<typeof vipSelectGameSchema>;
+export type VipConfigureQuipPayload = z.infer<typeof vipConfigureQuipSchema>;
+export type QuipSubmitAnswerPayload = z.infer<typeof quipSubmitAnswerSchema>;
+export type QuipVotePayload = z.infer<typeof quipVoteSchema>;
+export type HostSkipAnswerPayload = z.infer<typeof hostSkipAnswerSchema>;
 
 // ─── Error codes (server → client `error` event) ─────────────────────────────
 

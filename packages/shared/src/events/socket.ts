@@ -5,10 +5,14 @@ import type {
   HostKickPayload,
   HostLockPayload,
   HostRejoinPayload,
+  HostSkipAnswerPayload,
   PlayerAnswerPayload,
   PlayerJoinPayload,
   PlayerRejoinPayload,
+  QuipSubmitAnswerPayload,
+  QuipVotePayload,
   VipConfigurePayload,
+  VipConfigureQuipPayload,
   VipSelectGamePayload,
 } from "./schemas";
 
@@ -27,6 +31,11 @@ export interface PlayerSessionPayload {
   playerId: string;
 }
 
+export interface QuipAnswerRejectedPayload {
+  promptId: string;
+  reason: "profanity" | "tooLong" | "empty";
+}
+
 /** Events the server emits to clients (PRD §8.2). */
 export interface ServerToClientEvents {
   state: (state: PublicRoomState) => void;
@@ -34,6 +43,7 @@ export interface ServerToClientEvents {
   kicked: () => void;
   "host:token": (payload: HostTokenPayload) => void;
   "player:session": (payload: PlayerSessionPayload) => void;
+  "quip:answerRejected": (payload: QuipAnswerRejectedPayload) => void;
 }
 
 /** Events clients emit to the server (PRD §8.1). */
@@ -44,12 +54,17 @@ export interface ClientToServerEvents {
   "player:rejoin": (payload: PlayerRejoinPayload) => void;
   "vip:selectGame": (payload: VipSelectGamePayload) => void;
   "vip:configure": (payload: VipConfigurePayload) => void;
+  "vip:configureQuip": (payload: VipConfigureQuipPayload) => void;
   "vip:start": () => void;
   "vip:next": () => void;
   "vip:playAgain": () => void;
+  "vip:changeGame": () => void;
   "player:answer": (payload: PlayerAnswerPayload) => void;
+  "quip:submitAnswer": (payload: QuipSubmitAnswerPayload) => void;
+  "quip:vote": (payload: QuipVotePayload) => void;
   "host:kick": (payload: HostKickPayload) => void;
   "host:lock": (payload: HostLockPayload) => void;
+  "host:skipAnswer": (payload: HostSkipAnswerPayload) => void;
 }
 
 /** Per-socket data attached server-side after auth/join. */

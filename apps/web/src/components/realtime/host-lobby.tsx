@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import type { PublicRoomState } from "@yalla/shared";
 import { emitWhenReady } from "@/lib/socket";
 import { PlayerCard } from "./player-card";
+import { GamePicker } from "./game-picker";
 
 export function HostLobby({
   room,
@@ -39,6 +40,12 @@ export function HostLobby({
           </div>
         )}
       </div>
+
+      {room?.gameId == null && (
+        <div className="flex justify-center">
+          <GamePicker selected={null} interactive={false} />
+        </div>
+      )}
 
       <section className="flex-1">
         <div className="mb-4 flex items-center justify-center gap-4">

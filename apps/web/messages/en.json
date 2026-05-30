@@ -73,6 +73,7 @@
     "seconds": "{count}s",
     "start": "Start Game",
     "needMore": "Need at least {min} players to start",
+    "changeGame": "← Change game",
     "countries": {
       "general": "General",
       "algeria": "Algeria",
@@ -86,6 +87,31 @@
       "popCulture": "Pop Culture",
       "sports": "Sports"
     }
+  },
+  "games": {
+    "choose": "Choose a game",
+    "vipChoosing": "The VIP is choosing a game…",
+    "trivia": {
+      "name": "Trivia",
+      "players": "2–12 players",
+      "desc": "Test your knowledge — fastest correct answers win"
+    },
+    "quip": {
+      "name": "Quip",
+      "players": "3–12 players",
+      "desc": "Write the funniest answer — your friends vote"
+    }
+  },
+  "quipControls": {
+    "rounds": "Rounds",
+    "answerTime": "Answer time",
+    "voteTime": "Voting time",
+    "seconds": "{count}s",
+    "familyFriendly": "Family-friendly prompts",
+    "audienceVoting": "Audience voting",
+    "start": "Start Game",
+    "needMore": "Need at least {min} players to start",
+    "changeGame": "← Change game"
   },
   "game": {
     "questionProgress": "Question {index} of {total}",

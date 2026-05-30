@@ -3,7 +3,9 @@ import { handleHostCreate } from "./host";
 import { handlePlayerJoin } from "./player";
 import { handleHostRejoin, handlePlayerRejoin } from "./rejoin";
 import {
+  handleVipChangeGame,
   handleVipConfigure,
+  handleVipConfigureQuip,
   handleVipNext,
   handleVipPlayAgain,
   handleVipSelectGame,
@@ -33,6 +35,9 @@ export function registerHandlers(io: AppServer, socket: AppSocket): void {
   socket.on("vip:configure", (payload) => {
     void handleVipConfigure(io, socket, payload);
   });
+  socket.on("vip:configureQuip", (payload) => {
+    void handleVipConfigureQuip(io, socket, payload);
+  });
   socket.on("vip:start", () => {
     void handleVipStart(io, socket);
   });
@@ -41,6 +46,9 @@ export function registerHandlers(io: AppServer, socket: AppSocket): void {
   });
   socket.on("vip:playAgain", () => {
     void handleVipPlayAgain(io, socket);
+  });
+  socket.on("vip:changeGame", () => {
+    void handleVipChangeGame(io, socket);
   });
   socket.on("player:answer", (payload) => {
     void handlePlayerAnswer(io, socket, payload);

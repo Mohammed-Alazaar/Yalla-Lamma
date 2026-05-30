@@ -87,6 +87,7 @@ describe("toPublicRoomState redaction", () => {
       sessions: { "sess-secret": "p1" },
       gameId: "trivia",
       quip: null,
+      quipSettings: { totalRounds: 3, answerTimeSec: 90, voteTimeSec: 20, familyFriendly: true, audienceVoting: true },
       phase,
       prevPhase: null,
       phaseSeq: 1,

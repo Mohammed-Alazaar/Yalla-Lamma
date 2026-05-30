@@ -41,6 +41,22 @@ export interface QuipSettings {
   audienceVoting: boolean;
 }
 
+/** VIP-configurable option lists + defaults (QSET-1..5). */
+export const QUIP_ROUNDS_OPTIONS = [2, 3] as const;
+export const QUIP_ANSWER_TIME_OPTIONS = [60, 90, 120] as const;
+export const QUIP_VOTE_TIME_OPTIONS = [15, 20, 30] as const;
+/** Answer length bounds (ANS-2). */
+export const QUIP_ANSWER_MIN = 1;
+export const QUIP_ANSWER_MAX = 80;
+
+export const DEFAULT_QUIP_SETTINGS: QuipSettings = {
+  totalRounds: 3,
+  answerTimeSec: 90,
+  voteTimeSec: 20,
+  familyFriendly: true,
+  audienceVoting: true,
+};
+
 export interface QuipState {
   phase: QuipPhase;
   round: number; // 1-based
