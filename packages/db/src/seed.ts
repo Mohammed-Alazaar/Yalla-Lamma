@@ -1,7 +1,7 @@
 import { resolve } from "node:path";
 import { config } from "dotenv";
 import { getPrisma } from "./client";
-import { importFromFile } from "./import";
+import { importFromFile, importPromptsFromFile } from "./import";
 
 config({ path: resolve(process.cwd(), "../../.env"), quiet: true });
 config({ quiet: true });
@@ -29,6 +29,11 @@ async function main(): Promise<void> {
     total += n;
   }
   console.log(`Seeded ${total} questions in total.`);
+
+  // QuipParty prompts (PB-1).
+  await prisma.prompt.deleteMany({});
+  const prompts = await importPromptsFromFile(resolve(dir, "prompts.en.json"));
+  console.log(`Seeded ${prompts} prompts.`);
 }
 
 main()

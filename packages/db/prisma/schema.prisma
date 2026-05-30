@@ -26,9 +26,22 @@ model Question {
   @@index([locale, category, difficulty])
 }
 
+/// QuipParty prompt bank (PRD §7.2 / PB-2).
+model Prompt {
+  id             String   @id @default(cuid())
+  locale         String // "en", "ar", ...
+  text           String
+  familyFriendly Boolean  @default(true)
+  category       String?
+  createdAt      DateTime @default(now())
+
+  @@index([locale, familyFriendly])
+}
+
 /// Completed-game stats (PRD §7.2).
 model CompletedGame {
   id          String   @id @default(cuid())
+  gameId      String   @default("trivia") // "trivia" | "quip"
   roomCode    String
   playerCount Int
   questionIds String[]

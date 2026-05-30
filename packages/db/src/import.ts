@@ -113,6 +113,48 @@ export async function importFromFile(file: string): Promise<number> {
   return result.count;
 }
 
+interface PromptRow {
+  text: string;
+  familyFriendly: boolean;
+  category: string | null;
+  locale: string;
+}
+
+/** Bulk-import QuipParty prompts from a JSON or CSV file (PB-3). Returns count. */
+export async function importPromptsFromFile(file: string): Promise<number> {
+  const raw = readFileSync(file, "utf8");
+  let rows: PromptRow[];
+  if (file.endsWith(".csv")) {
+    const lines = raw.split(/\r?\n/).filter((l) => l.trim().length > 0);
+    const header = splitCsvLine(lines[0]!);
+    const ti = header.indexOf("text");
+    const fi = header.indexOf("familyFriendly");
+    const ci = header.indexOf("category");
+    const li = header.indexOf("locale");
+    rows = lines.slice(1).map((line) => {
+      const f = splitCsvLine(line);
+      return {
+        text: f[ti] ?? "",
+        familyFriendly: (f[fi] ?? "true").toLowerCase() !== "false",
+        category: ci >= 0 && f[ci] ? f[ci]! : null,
+        locale: f[li] || "en",
+      };
+    });
+  } else {
+    rows = (JSON.parse(raw) as Partial<PromptRow>[]).map((r) => ({
+      text: String(r.text ?? "").trim(),
+      familyFriendly: r.familyFriendly !== false,
+      category: r.category ?? null,
+      locale: r.locale ?? "en",
+    }));
+  }
+
+  const valid = rows.filter((r) => r.text.length > 0);
+  const prisma = await getPrisma();
+  const result = await prisma.prompt.createMany({ data: valid });
+  return result.count;
+}
+
 const invokedDirectly =
   process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
 
