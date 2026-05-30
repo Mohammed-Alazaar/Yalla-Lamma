@@ -34,6 +34,8 @@ export async function handleHostCreate(
       vipPlayerId: null,
       players: {},
       sessions: {},
+      gameId: null,
+      quip: null,
       phase: "lobby",
       prevPhase: null,
       phaseSeq: 0,

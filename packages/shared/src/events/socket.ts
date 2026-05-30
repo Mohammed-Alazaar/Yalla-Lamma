@@ -9,6 +9,7 @@ import type {
   PlayerJoinPayload,
   PlayerRejoinPayload,
   VipConfigurePayload,
+  VipSelectGamePayload,
 } from "./schemas";
 
 export interface SocketError {
@@ -41,6 +42,7 @@ export interface ClientToServerEvents {
   "host:rejoin": (payload: HostRejoinPayload) => void;
   "player:join": (payload: PlayerJoinPayload) => void;
   "player:rejoin": (payload: PlayerRejoinPayload) => void;
+  "vip:selectGame": (payload: VipSelectGamePayload) => void;
   "vip:configure": (payload: VipConfigurePayload) => void;
   "vip:start": () => void;
   "vip:next": () => void;

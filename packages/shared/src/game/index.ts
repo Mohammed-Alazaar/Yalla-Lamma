@@ -6,3 +6,5 @@ export * from "./players";
 export * from "./profanity";
 export * from "./select";
 export * from "./scoring";
+export * from "./quip";
+export * from "./quipSerialize";

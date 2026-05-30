@@ -49,6 +49,8 @@ function makeRoom(overrides: Partial<RoomState> = {}): RoomState {
     vipPlayerId: "p1",
     players: { p1: makePlayer("p1"), p2: makePlayer("p2") },
     sessions: {},
+    gameId: "trivia",
+    quip: null,
     phase: "lobby",
     prevPhase: null,
     phaseSeq: 0,

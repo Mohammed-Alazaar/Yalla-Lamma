@@ -85,6 +85,8 @@ describe("toPublicRoomState redaction", () => {
         p1: { id: "p1", name: "Al", color: "#EF4444", score: 0, connected: true, joinedAt: 1 },
       },
       sessions: { "sess-secret": "p1" },
+      gameId: "trivia",
+      quip: null,
       phase,
       prevPhase: null,
       phaseSeq: 1,

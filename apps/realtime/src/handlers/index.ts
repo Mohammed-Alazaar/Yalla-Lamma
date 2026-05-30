@@ -6,6 +6,7 @@ import {
   handleVipConfigure,
   handleVipNext,
   handleVipPlayAgain,
+  handleVipSelectGame,
   handleVipStart,
 } from "./vip";
 import { handlePlayerAnswer } from "./answer";
@@ -25,6 +26,9 @@ export function registerHandlers(io: AppServer, socket: AppSocket): void {
   });
   socket.on("player:rejoin", (payload) => {
     void handlePlayerRejoin(io, socket, payload);
+  });
+  socket.on("vip:selectGame", (payload) => {
+    void handleVipSelectGame(io, socket, payload);
   });
   socket.on("vip:configure", (payload) => {
     void handleVipConfigure(io, socket, payload);

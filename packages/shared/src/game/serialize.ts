@@ -5,6 +5,7 @@ import type {
   PublicRoomState,
   RoomState,
 } from "./types";
+import { toPublicQuipState } from "./quipSerialize";
 
 const ANSWER_REVEALED_PHASES = new Set(["reveal", "leaderboard", "final"]);
 
@@ -66,11 +67,13 @@ export function toPublicRoomState(room: RoomState): PublicRoomState {
   return {
     code: room.code,
     phase: room.phase,
+    gameId: room.gameId,
     settings: room.settings,
     players,
     hostConnected: room.hostSocketId !== null,
     vipPlayerId: room.vipPlayerId,
     locked: room.locked,
+    quip: toPublicQuipState(room),
     question,
     questionStartedAt: room.phase === "question" ? room.currentQuestionStartedAt : null,
     answeredPlayerIds,
