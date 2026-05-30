@@ -92,7 +92,7 @@ test("full game: start → answer → reveal → leaderboard → final → play 
   // Shortest valid game (numQuestions ∈ {5,10,15,20}); driven by vip:next so we
   // never wait on the real auto-advance timers.
   const TOTAL = 5;
-  alice.emit("vip:configure", { category: "General", numQuestions: TOTAL, timeLimitSec: 10 });
+  alice.emit("vip:configure", { country: "General", category: "General", numQuestions: TOTAL, timeLimitSec: 10 });
   await hostState.waitFor((s) => s.settings.numQuestions === TOTAL);
 
   alice.emit("vip:start");

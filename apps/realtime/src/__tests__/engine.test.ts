@@ -22,6 +22,7 @@ function makeQuestion(id: string, correctIdx = 0): Question {
     choices: ["A", "B", "C", "D"],
     correctIdx,
     category: "General",
+    country: "General",
     difficulty: "easy",
     locale: "en",
   };
@@ -52,7 +53,7 @@ function makeRoom(overrides: Partial<RoomState> = {}): RoomState {
     prevPhase: null,
     phaseSeq: 0,
     locked: false,
-    settings: { locale: "en", category: "General", numQuestions: 2, timeLimitSec: 20 },
+    settings: { locale: "en", country: "General", category: "General", numQuestions: 2, timeLimitSec: 20 },
     questions: [],
     currentIndex: 0,
     currentQuestionStartedAt: 0,

@@ -1,6 +1,7 @@
 import { z } from "zod";
 import {
   CATEGORIES,
+  COUNTRIES,
   NAME_MAX_LENGTH,
   NAME_MIN_LENGTH,
   NUM_QUESTIONS_OPTIONS,
@@ -28,6 +29,8 @@ export const playerNameSchema = z
 export const choiceSchema = z.number().int().min(0).max(3);
 
 export const categorySchema = z.enum(CATEGORIES);
+
+export const countrySchema = z.enum(COUNTRIES);
 
 export const numQuestionsSchema = z
   .number()
@@ -61,6 +64,7 @@ export const playerRejoinSchema = z.object({
   sessionId: z.string().min(1),
 });
 export const vipConfigureSchema = z.object({
+  country: countrySchema,
   category: categorySchema,
   numQuestions: numQuestionsSchema,
   timeLimitSec: timeLimitSchema,

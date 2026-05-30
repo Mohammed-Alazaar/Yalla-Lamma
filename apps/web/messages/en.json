@@ -66,12 +66,19 @@
     }
   },
   "vipControls": {
+    "country": "Country",
     "questions": "Questions",
     "category": "Category",
     "time": "Time per question",
     "seconds": "{count}s",
     "start": "Start Game",
     "needMore": "Need at least {min} players to start",
+    "countries": {
+      "general": "General",
+      "algeria": "Algeria",
+      "palestine": "Palestine",
+      "syria": "Syria"
+    },
     "categories": {
       "general": "General",
       "science": "Science",

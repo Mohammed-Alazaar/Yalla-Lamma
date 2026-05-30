@@ -3,10 +3,12 @@
 import { useTranslations } from "next-intl";
 import {
   CATEGORIES,
+  COUNTRIES,
   MIN_PLAYERS_TO_START,
   NUM_QUESTIONS_OPTIONS,
   TIME_LIMIT_OPTIONS,
   type CategoryName,
+  type CountryName,
   type PublicPlayer,
   type PublicRoomState,
 } from "@yalla/shared";
@@ -20,6 +22,13 @@ const CATEGORY_KEY: Record<string, string> = {
   History: "history",
   "Pop Culture": "popCulture",
   Sports: "sports",
+};
+
+const COUNTRY_KEY: Record<string, string> = {
+  General: "general",
+  Algeria: "algeria",
+  Palestine: "palestine",
+  Syria: "syria",
 };
 
 function SettingGroup<T extends string | number>({
@@ -70,6 +79,7 @@ function VipControls({ room }: { room: PublicRoomState }) {
 
   function configure(patch: Partial<typeof settings>) {
     emitWhenReady("vip:configure", {
+      country: (patch.country ?? settings.country) as CountryName,
       category: (patch.category ?? settings.category) as CategoryName,
       numQuestions: patch.numQuestions ?? settings.numQuestions,
       timeLimitSec: patch.timeLimitSec ?? settings.timeLimitSec,
@@ -78,6 +88,13 @@ function VipControls({ room }: { room: PublicRoomState }) {
 
   return (
     <div className="flex w-full max-w-sm flex-col gap-6">
+      <SettingGroup
+        legend={t("country")}
+        options={COUNTRIES}
+        value={settings.country as CountryName}
+        onSelect={(country) => configure({ country })}
+        format={(c) => t(`countries.${COUNTRY_KEY[c] ?? "general"}`)}
+      />
       <SettingGroup
         legend={t("questions")}
         options={NUM_QUESTIONS_OPTIONS}

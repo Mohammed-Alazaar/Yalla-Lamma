@@ -40,6 +40,7 @@ export async function handleHostCreate(
       locked: false,
       settings: {
         locale: data.locale,
+        country: "General",
         category: "General",
         numQuestions: 10,
         timeLimitSec: 20,

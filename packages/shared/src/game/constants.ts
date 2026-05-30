@@ -45,6 +45,13 @@ export const CATEGORIES = [
   "Sports",
 ] as const;
 
+/**
+ * Question country/region (chosen before the category). "General" is the
+ * locale-specific generic bank; the others are country-specific banks (Arabic
+ * content, served in either UI language).
+ */
+export const COUNTRIES = ["General", "Algeria", "Palestine", "Syria"] as const;
+
 /** Between-question leaderboard duration (PRD GAME-6). */
 export const LEADERBOARD_MS = 5_000;
 /** Reveal duration before the leaderboard. */
@@ -65,3 +72,4 @@ export const FINAL_QUESTION_MULTIPLIER = 2;
 export const ANSWER_GRACE_MS = 750;
 
 export type CategoryName = (typeof CATEGORIES)[number];
+export type CountryName = (typeof COUNTRIES)[number];

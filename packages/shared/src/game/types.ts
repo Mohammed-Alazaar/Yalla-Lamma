@@ -26,12 +26,15 @@ export interface Question {
   choices: string[]; // length 4
   correctIdx: number; // 0..3 — NEVER sent to clients before reveal
   category: string;
+  /** "General" (generic) or a specific country bank. Defaults to "General". */
+  country: string;
   difficulty: string;
   locale: string;
 }
 
 export interface RoomSettings {
   locale: Locale;
+  country: string;
   category: string;
   numQuestions: number;
   timeLimitSec: number;

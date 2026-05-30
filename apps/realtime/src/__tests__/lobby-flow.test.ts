@@ -58,6 +58,7 @@ test("VIP can configure settings; broadcast reflects them", async () => {
 
   const { player } = await joinRoom(code, "Alice");
   player.emit("vip:configure", {
+    country: "Algeria",
     category: "Science",
     numQuestions: 15,
     timeLimitSec: 30,
@@ -65,6 +66,7 @@ test("VIP can configure settings; broadcast reflects them", async () => {
   await wait(150);
 
   const last = states.at(-1)!;
+  expect(last.settings.country).toBe("Algeria");
   expect(last.settings.category).toBe("Science");
   expect(last.settings.numQuestions).toBe(15);
   expect(last.settings.timeLimitSec).toBe(30);
@@ -81,6 +83,7 @@ test("non-VIP cannot configure", async () => {
   const err = await new Promise<{ code: string }>((resolve) => {
     bob.on("error", resolve);
     bob.emit("vip:configure", {
+      country: "General",
       category: "Sports",
       numQuestions: 5,
       timeLimitSec: 10,

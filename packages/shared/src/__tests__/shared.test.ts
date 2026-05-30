@@ -35,6 +35,7 @@ describe("selectQuestions", () => {
     choices: ["a", "b", "c", "d"],
     correctIdx: 0,
     category: "General",
+    country: "General",
     difficulty: "easy",
     locale: "en",
   }));
@@ -70,6 +71,7 @@ describe("toPublicRoomState redaction", () => {
       choices: ["Paris", "Lyon", "Nice", "Lille"],
       correctIdx: 0,
       category: "General",
+      country: "General",
       difficulty: "easy",
       locale: "en",
     };
@@ -87,7 +89,7 @@ describe("toPublicRoomState redaction", () => {
       prevPhase: null,
       phaseSeq: 1,
       locked: false,
-      settings: { locale: "en", category: "General", numQuestions: 1, timeLimitSec: 20 },
+      settings: { locale: "en", country: "General", category: "General", numQuestions: 1, timeLimitSec: 20 },
       questions: [question],
       currentIndex: 0,
       currentQuestionStartedAt: 1000,

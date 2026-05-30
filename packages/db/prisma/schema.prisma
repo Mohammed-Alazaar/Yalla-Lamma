@@ -18,9 +18,11 @@ model Question {
   choices    String[] // length 4
   correctIdx Int // 0..3
   category   String
+  country    String   @default("General") // "General" or a country bank
   difficulty String // "easy" | "medium" | "hard"
   createdAt  DateTime @default(now())
 
+  @@index([country, category, locale])
   @@index([locale, category, difficulty])
 }
 

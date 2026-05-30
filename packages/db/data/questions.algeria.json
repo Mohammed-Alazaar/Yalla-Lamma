@@ -1,0 +1,36 @@
+[
+  { "text": "ما عاصمة الجزائر؟", "choices": ["الجزائر العاصمة", "وهران", "قسنطينة", "عنابة"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
+  { "text": "ما العملة الرسمية في الجزائر؟", "choices": ["الدينار الجزائري", "الدرهم", "الريال", "الأوقية"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
+  { "text": "ما أكبر دولة أفريقية من حيث المساحة؟", "choices": ["الجزائر", "السودان", "ليبيا", "مصر"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما أشهر طبق جزائري يُحضّر من السميد؟", "choices": ["الكسكس", "المنسف", "الكبسة", "المقلوبة"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
+  { "text": "ما اللغة الرسمية في الجزائر إلى جانب العربية؟", "choices": ["الأمازيغية", "الفرنسية", "الإنجليزية", "الإيطالية"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "كم بلغ عدد ولايات الجزائر بعد تقسيم 2021؟", "choices": ["58", "48", "40", "52"], "correctIdx": 0, "category": "General", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
+
+  { "text": "في أي عام نالت الجزائر استقلالها عن فرنسا؟", "choices": ["1962", "1956", "1958", "1965"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
+  { "text": "كم سنة دام الاستعمار الفرنسي للجزائر تقريباً؟", "choices": ["132 سنة", "100 سنة", "50 سنة", "80 سنة"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "من القائد الذي قاد المقاومة الجزائرية ضد الفرنسيين في القرن التاسع عشر؟", "choices": ["الأمير عبد القادر", "أحمد بن بلة", "هواري بومدين", "مصالي الحاج"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "في أي عام اندلعت الثورة الجزائرية التحريرية؟", "choices": ["1954", "1945", "1962", "1930"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "من أول رئيس للجزائر بعد الاستقلال؟", "choices": ["أحمد بن بلة", "هواري بومدين", "الشاذلي بن جديد", "عبد العزيز بوتفليقة"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
+  { "text": "ما المدينة التي شهدت مجازر 8 ماي 1945؟", "choices": ["سطيف", "الجزائر العاصمة", "وهران", "قسنطينة"], "correctIdx": 0, "category": "History", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
+
+  { "text": "ما لقب المنتخب الجزائري لكرة القدم؟", "choices": ["محاربو الصحراء", "الفراعنة", "نسور قرطاج", "أسود الأطلس"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
+  { "text": "في أي عام فاز المنتخب الجزائري بكأس أمم أفريقيا للمرة الثانية؟", "choices": ["2019", "1990", "2004", "2014"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "من اللاعب الجزائري الفائز بدوري أبطال أوروبا مع مانشستر سيتي 2023؟", "choices": ["رياض محرز", "إسلام سليماني", "سفيان فيغولي", "يوسف بلايلي"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "أي منتخب كبير هزمته الجزائر في كأس العالم 1982؟", "choices": ["ألمانيا الغربية", "البرازيل", "إيطاليا", "فرنسا"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
+  { "text": "من توّج بطلاً لكأس العرب «فيفا» 2021؟", "choices": ["الجزائر", "تونس", "مصر", "قطر"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "كم عدد ألقاب الجزائر في كأس أمم أفريقيا؟", "choices": ["2", "1", "3", "4"], "correctIdx": 0, "category": "Sports", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
+
+  { "text": "ما النوع الموسيقي الجزائري الشهير عالمياً الذي نشأ في وهران؟", "choices": ["الراي", "المالوف", "المقام", "الموشحات"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
+  { "text": "من الفنان الجزائري الملقّب بـ«ملك الراي»؟", "choices": ["الشاب خالد", "رشيد طه", "الشاب مامي", "فضيل"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما أشهر أغنية للشاب خالد انتشرت عالمياً؟", "choices": ["ديدي", "يا رايح", "زينة", "لمّوني"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "من الكاتب الجزائري صاحب رواية «نجمة»؟", "choices": ["كاتب ياسين", "مولود فرعون", "محمد ديب", "رشيد بوجدرة"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
+  { "text": "من الروائية الجزائرية أول عربية تُنتخب عضواً في الأكاديمية الفرنسية؟", "choices": ["آسيا جبار", "أحلام مستغانمي", "زهور ونيسي", "فضيلة الفاروق"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
+  { "text": "من الكاتبة الجزائرية صاحبة رواية «ذاكرة الجسد»؟", "choices": ["أحلام مستغانمي", "آسيا جبار", "زهور ونيسي", "ربيعة جلطي"], "correctIdx": 0, "category": "Pop Culture", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+
+  { "text": "ما أعلى قمة جبلية في الجزائر، وتقع بجبال الهقار؟", "choices": ["جبل تاهات", "جبل توبقال", "جبل الشعانبي", "جبل جرجرة"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
+  { "text": "ما أطول نهر في الجزائر؟", "choices": ["نهر الشلف", "نهر سيق", "نهر مجردة", "نهر سبو"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "hard", "locale": "ar" },
+  { "text": "ما المورد الطاقي الذي تشتهر الجزائر بتصديره؟", "choices": ["الغاز الطبيعي", "الفحم", "اليورانيوم", "الذهب"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما أكبر صحراء حارّة في العالم وتغطي جنوب الجزائر؟", "choices": ["الصحراء الكبرى", "صحراء كالاهاري", "صحراء أتاكاما", "صحراء ثار"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "easy", "locale": "ar" },
+  { "text": "ما سلسلة الجبال التي تمتد عبر شمال الجزائر؟", "choices": ["أطلس التل", "جبال الألب", "جبال الهملايا", "جبال الأنديز"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "medium", "locale": "ar" },
+  { "text": "في أي قارة تقع الجزائر؟", "choices": ["أفريقيا", "آسيا", "أوروبا", "أمريكا الجنوبية"], "correctIdx": 0, "category": "Science", "country": "Algeria", "difficulty": "easy", "locale": "ar" }
+]

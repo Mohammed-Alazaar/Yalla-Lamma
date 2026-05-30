@@ -66,12 +66,19 @@
     }
   },
   "vipControls": {
+    "country": "الدولة",
     "questions": "الأسئلة",
     "category": "الفئة",
     "time": "الوقت لكل سؤال",
     "seconds": "{count} ثانية",
     "start": "ابدأ اللعبة",
     "needMore": "تحتاج إلى {min} لاعبين على الأقل للبدء",
+    "countries": {
+      "general": "عام",
+      "algeria": "الجزائر",
+      "palestine": "فلسطين",
+      "syria": "سوريا"
+    },
     "categories": {
       "general": "عام",
       "science": "علوم",

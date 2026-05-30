@@ -6,20 +6,29 @@ import { importFromFile } from "./import";
 config({ path: resolve(process.cwd(), "../../.env"), quiet: true });
 config({ quiet: true });
 
-/** Seed the question bank from the bundled English + Arabic sets (PRD QB-1). */
+/** Seed the question bank from the bundled generic + country sets (PRD QB-1). */
 async function main(): Promise<void> {
-  const enFile = resolve(import.meta.dirname, "../data/questions.en.json");
-  const arFile = resolve(import.meta.dirname, "../data/questions.ar.json");
+  const dir = resolve(import.meta.dirname, "../data");
+  const files = [
+    "questions.en.json",
+    "questions.ar.json",
+    "questions.algeria.json",
+    "questions.palestine.json",
+    "questions.syria.json",
+  ];
   const prisma = await getPrisma();
 
-  // Idempotent: clear the en/ar banks before re-seeding.
-  const deleted = await prisma.question.deleteMany({ where: { locale: { in: ["en", "ar"] } } });
+  // Idempotent: clear the bank before re-seeding.
+  const deleted = await prisma.question.deleteMany({});
   if (deleted.count > 0) console.log(`Cleared ${deleted.count} existing questions.`);
 
-  const en = await importFromFile(enFile);
-  console.log(`Seeded ${en} English questions.`);
-  const ar = await importFromFile(arFile);
-  console.log(`Seeded ${ar} Arabic questions.`);
+  let total = 0;
+  for (const file of files) {
+    const n = await importFromFile(resolve(dir, file));
+    console.log(`Seeded ${n} from ${file}.`);
+    total += n;
+  }
+  console.log(`Seeded ${total} questions in total.`);
 }
 
 main()

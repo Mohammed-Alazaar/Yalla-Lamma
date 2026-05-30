@@ -1,0 +1,36 @@
+[
+  { "text": "ما المدينة المقدّسة التي تُعدّ عاصمة فلسطين؟", "choices": ["القدس", "رام الله", "غزة", "الخليل"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
+  { "text": "ما المعلم الإسلامي في القدس صاحب القبة الذهبية؟", "choices": ["قبة الصخرة", "كنيسة القيامة", "المسجد الإبراهيمي", "كنيسة المهد"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما أكبر مدينة في قطاع غزة من حيث السكان؟", "choices": ["غزة", "رفح", "خان يونس", "دير البلح"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما الحرفة اليدوية الفلسطينية الشهيرة بالخيوط الملونة على الثوب؟", "choices": ["التطريز", "الفخار", "النحت", "صناعة الزجاج"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما الشجرة الرمز المرتبطة بفلسطين وزراعتها؟", "choices": ["الزيتون", "النخيل", "الأرز", "الصنوبر"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
+  { "text": "ما البحر الذي يطل عليه قطاع غزة؟", "choices": ["البحر الأبيض المتوسط", "البحر الميت", "البحر الأحمر", "بحيرة طبريا"], "correctIdx": 0, "category": "General", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
+
+  { "text": "في أي عام وقعت النكبة الفلسطينية؟", "choices": ["1948", "1936", "1967", "1917"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
+  { "text": "في أي حرب احتُلت الضفة الغربية وغزة والقدس الشرقية؟", "choices": ["حرب 1967 (النكسة)", "حرب 1948", "حرب 1973", "حرب 1956"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما الوعد البريطاني عام 1917 الذي مهّد لإقامة وطن قومي يهودي في فلسطين؟", "choices": ["وعد بلفور", "اتفاقية سايكس بيكو", "صك الانتداب", "قرار التقسيم"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "في أي عام اندلعت الانتفاضة الفلسطينية الأولى؟", "choices": ["1987", "1967", "2000", "1948"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "hard", "locale": "ar" },
+  { "text": "من الزعيم الفلسطيني الملقّب بـ«أبو عمار»؟", "choices": ["ياسر عرفات", "أحمد الشقيري", "خليل الوزير", "جورج حبش"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما المدينة الفلسطينية الساحلية الملقّبة بـ«عروس فلسطين»؟", "choices": ["يافا", "نابلس", "الخليل", "بيت لحم"], "correctIdx": 0, "category": "History", "country": "Palestine", "difficulty": "hard", "locale": "ar" },
+
+  { "text": "في أي عام شارك المنتخب الفلسطيني لأول مرة في كأس آسيا؟", "choices": ["2015", "2007", "2019", "2011"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "hard", "locale": "ar" },
+  { "text": "إلى أي اتحاد قاري ينتمي المنتخب الفلسطيني لكرة القدم؟", "choices": ["الاتحاد الآسيوي", "الاتحاد الأفريقي", "الاتحاد الأوروبي", "الكونكاكاف"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
+  { "text": "في أي عام انضمّت فلسطين رسمياً إلى الفيفا؟", "choices": ["1998", "1948", "2011", "1988"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "hard", "locale": "ar" },
+  { "text": "ما البطولة القارية التي تأهّلت لها فلسطين أعوام 2015 و2019 و2023؟", "choices": ["كأس آسيا", "كأس أمم أفريقيا", "كوبا أمريكا", "كأس العالم"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما لقب المنتخب الفلسطيني لكرة القدم؟", "choices": ["الفدائي", "محاربو الصحراء", "الفراعنة", "الأرز"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما الرياضة الأكثر شعبية في فلسطين؟", "choices": ["كرة القدم", "كرة السلة", "التنس", "الكريكيت"], "correctIdx": 0, "category": "Sports", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
+
+  { "text": "من الشاعر الفلسطيني صاحب قصيدة «سجّل أنا عربي»؟", "choices": ["محمود درويش", "سميح القاسم", "توفيق زيّاد", "معين بسيسو"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
+  { "text": "من الروائي الفلسطيني صاحب رواية «رجال في الشمس»؟", "choices": ["غسان كنفاني", "إميل حبيبي", "جبرا إبراهيم جبرا", "سحر خليفة"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "من رسّام الكاريكاتير الفلسطيني صاحب شخصية «حنظلة»؟", "choices": ["ناجي العلي", "عماد حجاج", "بهاء البخاري", "خليل أبو عرفة"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما الرقصة الشعبية الجماعية الفلسطينية؟", "choices": ["الدبكة", "التنورة", "العرضة", "السامري"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
+  { "text": "من الفنانة الفلسطينية المعروفة بأغانيها الوطنية والتراثية؟", "choices": ["ريم بنا", "فيروز", "أصالة", "نجوى كرم"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "hard", "locale": "ar" },
+  { "text": "ما لون الكوفية المرتبطة برمزية فلسطين؟", "choices": ["أبيض وأسود", "أحمر وأبيض", "أخضر", "أزرق"], "correctIdx": 0, "category": "Pop Culture", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+
+  { "text": "ما أخفض نقطة على سطح اليابسة في العالم وتقع قرب فلسطين؟", "choices": ["البحر الميت", "وادي عربة", "بحيرة طبريا", "نهر الأردن"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما المسطّح المائي العذب في شمال فلسطين التاريخية؟", "choices": ["بحيرة طبريا", "البحر الميت", "البحر المتوسط", "قناة السويس"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "ما الثمرة التي تشتهر فلسطين بزراعتها وعصر زيتها؟", "choices": ["الزيتون", "التفاح", "الموز", "المانجو"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "easy", "locale": "ar" },
+  { "text": "ما النهر الذي يشكّل حدّاً شرقياً لفلسطين؟", "choices": ["نهر الأردن", "النيل", "الفرات", "الليطاني"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "لماذا تطفو الأجسام بسهولة في البحر الميت؟", "choices": ["بسبب ملوحته العالية", "بسبب برودته", "بسبب عمقه", "بسبب تياّراته"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "medium", "locale": "ar" },
+  { "text": "في أي قارة تقع فلسطين؟", "choices": ["آسيا", "أفريقيا", "أوروبا", "أستراليا"], "correctIdx": 0, "category": "Science", "country": "Palestine", "difficulty": "easy", "locale": "ar" }
+]

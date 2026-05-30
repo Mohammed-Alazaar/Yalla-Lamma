@@ -37,6 +37,7 @@ export async function handleVipConfigure(
     if (room.phase !== "lobby") {
       return { ok: false, code: ERROR_CODES.WRONG_PHASE, message: "Game already started" } as const;
     }
+    room.settings.country = data.country;
     room.settings.category = data.category;
     room.settings.numQuestions = data.numQuestions;
     room.settings.timeLimitSec = data.timeLimitSec;
@@ -82,7 +83,11 @@ export async function handleVipStart(io: AppServer, socket: AppSocket): Promise<
       } as const;
     }
 
-    const pool = await loadQuestionPool(room.settings.locale, room.settings.category);
+    const pool = await loadQuestionPool(
+      room.settings.locale,
+      room.settings.country,
+      room.settings.category,
+    );
     const questions = selectQuestions(pool, room.settings.numQuestions);
     if (questions.length === 0) {
       return { ok: false, code: ERROR_CODES.INTERNAL, message: "No questions available" } as const;

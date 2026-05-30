@@ -12,6 +12,7 @@ interface ImportRow {
   choices: string[];
   correctIdx: number;
   category: string;
+  country: string;
   difficulty: string;
   locale: string;
 }
@@ -53,11 +54,12 @@ function parseCsv(content: string): ImportRow[] {
   if (lines.length < 2) return [];
   const header = splitCsvLine(lines[0]!);
   const col = (name: string) => header.indexOf(name);
-  const [ti, ci, ri, cati, di, li] = [
+  const [ti, ci, ri, cati, couni, di, li] = [
     col("text"),
     col("choices"),
     col("correctIdx"),
     col("category"),
+    col("country"),
     col("difficulty"),
     col("locale"),
   ];
@@ -68,6 +70,7 @@ function parseCsv(content: string): ImportRow[] {
       choices: (f[ci] ?? "").split("|").map((c) => c.trim()),
       correctIdx: Number(f[ri]),
       category: f[cati] ?? "",
+      country: (couni >= 0 ? f[couni] : "") || "General",
       difficulty: f[di] ?? "",
       locale: f[li] ?? "en",
     };
@@ -93,9 +96,11 @@ function isValid(r: ImportRow): boolean {
 /** Bulk-import questions from a JSON or CSV file (PRD QB-5). Returns inserted count. */
 export async function importFromFile(file: string): Promise<number> {
   const raw = readFileSync(file, "utf8");
-  const rows: ImportRow[] = file.endsWith(".csv")
+  const parsed: ImportRow[] = file.endsWith(".csv")
     ? parseCsv(raw)
     : (JSON.parse(raw) as ImportRow[]);
+  // Default the country for banks (en/ar) that predate the field.
+  const rows = parsed.map((r) => ({ ...r, country: r.country ?? "General" }));
 
   const valid = rows.filter(isValid);
   const skipped = rows.length - valid.length;
