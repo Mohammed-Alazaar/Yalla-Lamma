@@ -15,11 +15,12 @@ function voteCounts(m: QuipMatchup): [number, number] {
 }
 
 /**
- * Redacted quip view for clients. Author ids are exposed only so a phone can
- * tell if it authored the current matchup (and must abstain); vote counts and
- * points stay hidden until the reveal phase.
+ * Redacted quip view for one client. `viewerSide` tells only the viewing player
+ * whether (and which side) they authored the current matchup — authorship is
+ * never revealed to other voters (blind voting). Vote counts/points stay hidden
+ * until reveal, and assignments/prompt texts are exposed only during writing.
  */
-export function toPublicQuipState(room: RoomState): PublicQuipState | null {
+export function toPublicQuipState(room: RoomState, viewerId?: string): PublicQuipState | null {
   const q: QuipState | null = room.quip;
   if (!q) return null;
 
@@ -31,10 +32,12 @@ export function toPublicQuipState(room: RoomState): PublicQuipState | null {
   const m = q.matchups[q.currentMatchup];
   if ((q.phase === "voting" || q.phase === "reveal") && m) {
     const revealed = REVEAL_PHASES.has(q.phase);
+    const viewerSide: 0 | 1 | null =
+      viewerId === m.answers[0].authorId ? 0 : viewerId === m.answers[1].authorId ? 1 : null;
     matchup = {
       promptText: m.promptText,
       answers: [m.answers[0].text, m.answers[1].text],
-      authorIds: [m.answers[0].authorId, m.answers[1].authorId],
+      viewerSide,
       isSafety: [m.answers[0].isSafetyAnswer, m.answers[1].isSafetyAnswer],
       voteCounts: revealed ? voteCounts(m) : null,
       pointsEarned: revealed && m.pointsEarned ? m.pointsEarned : null,
@@ -43,8 +46,11 @@ export function toPublicQuipState(room: RoomState): PublicQuipState | null {
   }
 
   const votedPlayerIds = m ? Object.keys(m.votes) : [];
+  // Only expose assignments + prompt texts during writing; otherwise a voter
+  // could map promptText → promptId → the two assigned authors (blind voting).
+  const writing = q.phase === "writing";
   const promptTexts: Record<string, string> = {};
-  for (const p of q.prompts) promptTexts[p.id] = p.text;
+  if (writing) for (const p of q.prompts) promptTexts[p.id] = p.text;
 
   return {
     phase: q.phase,
@@ -52,7 +58,7 @@ export function toPublicQuipState(room: RoomState): PublicQuipState | null {
     totalRounds: q.totalRounds,
     phaseEndsAt: q.phaseEndsAt,
     isFinalRound: q.round >= q.totalRounds,
-    assignments: q.assignments,
+    assignments: writing ? q.assignments : {},
     promptTexts,
     writingDone,
     matchup,

@@ -112,6 +112,7 @@ export interface QuipState {
   totalRounds: number;
   settings: QuipSettings;
   reserved: QuipPrompt[]; // all prompts reserved for the game (sliced per round)
+  roundSize: number; // prompts per round (= player count at start); stable slicing
   prompts: QuipPrompt[]; // prompts drawn for the current round
   assignments: Record<string, string[]>; // playerId -> promptIds (this round)
   submitted: Record<string, QuipAnswer[]>; // playerId -> their answers
@@ -127,8 +128,11 @@ export interface PublicQuipMatchup {
   promptText: string;
   /** The two answer texts (left/right). Vote counts hidden until reveal. */
   answers: [string, string];
-  /** Author player ids — clients use this only to exclude authors from voting. */
-  authorIds: [string, string];
+  /**
+   * Which side the *viewing* player authored (0/1), or null. Computed per
+   * recipient so authorship isn't leaked to other voters (blind voting).
+   */
+  viewerSide: 0 | 1 | null;
   isSafety: [boolean, boolean];
   voteCounts: [number, number] | null; // null until reveal
   pointsEarned: [number, number] | null; // null until reveal

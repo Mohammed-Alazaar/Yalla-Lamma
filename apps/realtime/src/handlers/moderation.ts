@@ -32,6 +32,11 @@ export async function handleHostKick(
     if (room.hostSocketId !== socket.id) {
       return { ok: false, code: ERROR_CODES.NOT_HOST, message: "Only the host can remove players" } as const;
     }
+    // Lobby-only: removing a player mid-game would change the roster the round
+    // assignments/prompt blocks were built for.
+    if (room.phase !== "lobby") {
+      return { ok: false, code: ERROR_CODES.WRONG_PHASE, message: "Players can only be removed in the lobby" } as const;
+    }
     if (!room.players[data.playerId]) {
       return { ok: true, room, kickedId: null } as const; // already gone — no-op
     }

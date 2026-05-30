@@ -40,8 +40,10 @@ function safetyText(seed: number): string {
 export function startRound(room: RoomState, round: number, now: number): void {
   const q = quip(room);
   const ids = rosterIds(room);
-  const n = ids.length;
-  const slice = q.reserved.slice((round - 1) * n, round * n);
+  // Slice by the stable per-round size captured at init, so prompt blocks never
+  // overlap even if the roster changed (defensive; kicks are lobby-only).
+  const size = q.roundSize;
+  const slice = q.reserved.slice((round - 1) * size, round * size);
   const { assignments, prompts } = assignPrompts(ids, slice, round);
   q.round = round;
   q.prompts = prompts;
@@ -69,6 +71,7 @@ export function initQuip(
     totalRounds: settings.totalRounds,
     settings,
     reserved,
+    roundSize: Object.keys(room.players).length,
     prompts: [],
     assignments: {},
     submitted: {},

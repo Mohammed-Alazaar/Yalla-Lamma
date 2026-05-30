@@ -1,15 +1,28 @@
-# TriviaParty — Yalla-Lamma
+# Yalla-Lamma — a web-only party game platform
 
-A web-only, phones-as-controllers trivia party game (Jackbox/Kahoot style).
-One shared **host screen** (TV/laptop) plus **player phones** as controllers —
-no installs, no accounts, just a 4-letter room code. English UI today, with
-Arabic/RTL groundwork in place (يلا لمّة — "let's gather").
+Phones-as-controllers party games (Jackbox/Kahoot style). One shared **host
+screen** (TV/laptop) plus **player phones** as controllers — no installs, no
+accounts, just a 4-letter room code. English UI today, with Arabic/RTL
+groundwork in place (يلا لمّة — "let's gather").
+
+## Games
+
+The VIP picks a game from the lobby:
+
+- **Trivia** — fastest correct multiple-choice answers win. Country banks
+  (General + Algeria/Palestine/Syria) and 5 categories, English + Arabic.
+- **QuipParty** — everyone writes a funny answer to a prompt on their phone,
+  then votes head-to-head on the shared screen; vote share scores the authors.
+
+Both games share the same room/lobby/VIP/scoring/reconnection shell via a small
+game registry (`gameId` on the room; per-game logic under `apps/realtime/src/games/`).
 
 - **Server-authoritative**: phones send intents; the realtime server validates
-  every payload with Zod, scores answers, and broadcasts a redacted room state.
-- **i18n + RTL** from day one via next-intl (`/en`, `/ar`), logical CSS only.
+  every payload with Zod, scores, and broadcasts a redacted room state.
+- **i18n + RTL** from day one via next-intl (`/en`, `/ar`), logical CSS only;
+  free-text quip answers render with `dir="auto"`.
 - **Runs locally with zero infrastructure** — falls back to an in-memory room
-  store and a bundled question bank when Redis/Postgres aren't configured.
+  store and bundled question/prompt banks when Redis/Postgres aren't configured.
 
 ## Architecture
 

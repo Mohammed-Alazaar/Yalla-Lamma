@@ -125,15 +125,16 @@ export async function handleHostSkipAnswer(
     const room = await store.get(code);
     if (!room || room.gameId !== "quip" || !room.quip) return null;
     if (room.hostSocketId !== socket.id) return null;
+    // Only the matchup currently being voted on can be skipped — voiding an
+    // already-revealed matchup wouldn't reverse its awarded points.
+    if (room.phase !== "playing" || room.quip.phase !== "voting") return null;
+    if (data.matchupIndex !== room.quip.currentMatchup) return null;
     const m = room.quip.matchups[data.matchupIndex];
     if (!m) return null;
     m.voided = true;
     room.lastActivityAt = Date.now();
     await store.save(room);
-    // If the skipped matchup is the one being voted on, move it along now.
-    if (room.quip.phase === "voting" && data.matchupIndex === room.quip.currentMatchup) {
-      advanceSeq = room.quip.seq;
-    }
+    advanceSeq = room.quip.seq; // move past the skipped matchup now
     return room;
   });
 

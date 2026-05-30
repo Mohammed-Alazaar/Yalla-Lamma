@@ -73,6 +73,7 @@ export async function advanceQuip(
   await withRoomLock(code, async () => {
     const room = await store.get(code);
     if (!room || room.gameId !== "quip" || !room.quip) return;
+    if (room.phase !== "playing") return; // paused/final — don't advance the game
     const q = room.quip;
 
     if (opts.expectedSeq !== undefined && q.seq !== opts.expectedSeq) return; // stale

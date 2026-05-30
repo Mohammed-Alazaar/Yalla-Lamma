@@ -107,7 +107,7 @@ function PlayerQuipVoting({ q, self }: { q: PublicQuipState; self: PublicPlayer 
   const m = q.matchup;
 
   if (!m || !self) return null;
-  const isAuthor = m.authorIds.includes(self.id);
+  const isAuthor = m.viewerSide !== null;
   const hasVoted = voted || q.votedPlayerIds.includes(self.id);
 
   if (isAuthor) {
@@ -162,13 +162,10 @@ function PlayerQuipReveal({ room, q, self }: { room: PublicRoomState; q: PublicQ
   const myRank = self ? rankPlayers(room.players).find((p) => p.id === self.id)?.rank : undefined;
 
   let mine: { won: boolean; points: number } | null = null;
-  if (m && self && m.voteCounts && m.pointsEarned) {
-    const side: 0 | 1 | null =
-      m.authorIds[0] === self.id ? 0 : m.authorIds[1] === self.id ? 1 : null;
-    if (side !== null) {
-      const other = side === 0 ? 1 : 0;
-      mine = { won: m.voteCounts[side] >= m.voteCounts[other], points: m.pointsEarned[side] };
-    }
+  if (m && m.voteCounts && m.pointsEarned && m.viewerSide !== null) {
+    const side = m.viewerSide;
+    const other = side === 0 ? 1 : 0;
+    mine = { won: m.voteCounts[side] >= m.voteCounts[other], points: m.pointsEarned[side] };
   }
 
   return (

@@ -14,7 +14,7 @@ const ANSWER_REVEALED_PHASES = new Set(["reveal", "leaderboard", "final"]);
  * that is broadcast to clients. Strips secrets (hostToken, sessions) and never
  * exposes `correctIdx` or other players' choices before the reveal phase.
  */
-export function toPublicRoomState(room: RoomState): PublicRoomState {
+export function toPublicRoomState(room: RoomState, viewerId?: string): PublicRoomState {
   const revealed = ANSWER_REVEALED_PHASES.has(room.phase);
 
   const players: PublicPlayer[] = Object.values(room.players)
@@ -73,7 +73,7 @@ export function toPublicRoomState(room: RoomState): PublicRoomState {
     hostConnected: room.hostSocketId !== null,
     vipPlayerId: room.vipPlayerId,
     locked: room.locked,
-    quip: toPublicQuipState(room),
+    quip: toPublicQuipState(room, viewerId),
     quipSettings: room.quipSettings,
     question,
     questionStartedAt: room.phase === "question" ? room.currentQuestionStartedAt : null,
