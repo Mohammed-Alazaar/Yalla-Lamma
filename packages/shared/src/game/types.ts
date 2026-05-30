@@ -57,6 +57,9 @@ export interface RoomState {
   sessions: Record<string, string>; // server-only — sessionId -> playerId
   phase: Phase;
   prevPhase: Phase | null; // phase to resume after "paused"
+  // Monotonic transition counter — guards stale auto-advance timers against
+  // races (e.g. the question timer firing just as the last player answers).
+  phaseSeq: number;
   locked: boolean; // host locked the room (PRD ROOM-6)
   settings: RoomSettings;
   questions: Question[]; // pre-selected at game start

@@ -36,6 +36,7 @@ export async function handleHostCreate(
       sessions: {},
       phase: "lobby",
       prevPhase: null,
+      phaseSeq: 0,
       locked: false,
       settings: {
         locale: data.locale,
