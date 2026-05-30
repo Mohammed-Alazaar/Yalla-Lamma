@@ -1,6 +1,7 @@
 packages:
   - "apps/*"
   - "packages/*"
+  - "e2e"
 
 # Build-script approvals (pnpm blocks dependency install scripts by default).
 allowBuilds:
