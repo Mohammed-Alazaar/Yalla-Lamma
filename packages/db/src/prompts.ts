@@ -24,11 +24,16 @@ export async function loadPromptPool(
   locale: string,
   familyFriendlyOnly: boolean,
 ): Promise<QuipPrompt[]> {
+  const ff = (p: { familyFriendly: boolean }) => !familyFriendlyOnly || p.familyFriendly;
+
   if (hasDatabase()) {
     const prisma = await getPrisma();
-    const rows = await prisma.prompt.findMany({
-      where: { locale, ...(familyFriendlyOnly ? { familyFriendly: true } : {}) },
-    });
+    const fetch = (loc: string) =>
+      prisma.prompt.findMany({ where: { locale: loc, ...(familyFriendlyOnly ? { familyFriendly: true } : {}) } });
+    let rows = await fetch(locale);
+    // Arabic (and other locales) have no prompts yet — fall back to English so
+    // QuipParty is still playable (PB-5: localized prompts are a v2 content drop).
+    if (rows.length === 0 && locale !== "en") rows = await fetch("en");
     return rows.map((r) => ({
       id: r.id,
       locale: r.locale,
@@ -37,9 +42,11 @@ export async function loadPromptPool(
       category: r.category ?? undefined,
     }));
   }
-  return bundledPrompts().filter(
-    (p) => p.locale === locale && (!familyFriendlyOnly || p.familyFriendly),
-  );
+
+  const all = bundledPrompts();
+  let pool = all.filter((p) => p.locale === locale && ff(p));
+  if (pool.length === 0 && locale !== "en") pool = all.filter((p) => p.locale === "en" && ff(p));
+  return pool;
 }
 
 /** Pick `count` random, non-repeating prompts (PB-4). */

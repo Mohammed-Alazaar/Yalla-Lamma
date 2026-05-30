@@ -35,9 +35,10 @@ export async function loadQuestionPool(
 
   if (hasDatabase()) {
     const prisma = await getPrisma();
-    const rows = await prisma.question.findMany({
-      where: { category, country, ...(isGeneral ? { locale } : {}) },
-    });
+    const fetch = (loc: string) =>
+      prisma.question.findMany({ where: { category, country, ...(isGeneral ? { locale: loc } : {}) } });
+    let rows = await fetch(locale);
+    if (rows.length === 0 && isGeneral && locale !== "en") rows = await fetch("en");
     return rows.map((r) => ({
       id: r.id,
       locale: r.locale,
@@ -50,10 +51,11 @@ export async function loadQuestionPool(
     }));
   }
 
-  return bundledQuestions().filter(
-    (q) =>
-      q.category === category &&
-      q.country === country &&
-      (!isGeneral || q.locale === locale),
-  );
+  const all = bundledQuestions();
+  const match = (loc: string) =>
+    all.filter((q) => q.category === category && q.country === country && (!isGeneral || q.locale === loc));
+  let pool = match(locale);
+  // Fall back to English if a locale has no questions for this bank.
+  if (pool.length === 0 && isGeneral && locale !== "en") pool = match("en");
+  return pool;
 }
