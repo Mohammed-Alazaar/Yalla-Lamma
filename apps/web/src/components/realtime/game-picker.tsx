@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 const GAMES: { id: GameId; accent: string }[] = [
   { id: "trivia", accent: "#3B82F6" },
   { id: "quip", accent: "#EC4899" },
+  { id: "fib", accent: "#10B981" },
 ];
 
 /**

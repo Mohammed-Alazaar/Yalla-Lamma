@@ -17,6 +17,7 @@ import { cn } from "@/lib/utils";
 import { emitWhenReady } from "@/lib/socket";
 import { GamePicker } from "./game-picker";
 import { QuipSettingsPanel } from "./quip-settings";
+import { FibSettingsPanel } from "./fib-settings";
 
 const CATEGORY_KEY: Record<string, string> = {
   General: "general",
@@ -159,6 +160,8 @@ export function PlayerLobby({
     body = <p className="text-center text-lg text-muted-foreground">{t("waiting")}</p>;
   } else if (room.gameId === "quip") {
     body = <QuipSettingsPanel room={room} />;
+  } else if (room.gameId === "fib") {
+    body = <FibSettingsPanel room={room} />;
   } else {
     body = <VipControls room={room} />;
   }

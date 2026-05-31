@@ -15,6 +15,7 @@ import { PlayerFinal } from "./player-final";
 import { PausedScreen } from "./paused-screen";
 import { ErrorToaster } from "./error-toaster";
 import { PlayerQuip } from "./quip/player-quip";
+import { PlayerFib } from "./fib/player-fib";
 
 const noopSubscribe = () => () => {};
 
@@ -83,7 +84,12 @@ export function PlayerScreen({ code }: { code: string }) {
       view = <PlayerLeaderboard room={room} self={self} />;
       break;
     case "playing":
-      view = <PlayerQuip room={room} self={self} />;
+      view =
+        room.gameId === "fib" ? (
+          <PlayerFib room={room} self={self} />
+        ) : (
+          <PlayerQuip room={room} self={self} />
+        );
       break;
     case "final":
       view = <PlayerFinal room={room} self={self} />;

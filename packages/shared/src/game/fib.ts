@@ -3,6 +3,8 @@
 // lies. Server holds `FibState` under `RoomState.fib`; clients get the redacted
 // `PublicFibState` (per-viewer: own-lie marker + own reveal result).
 
+import type { CategoryName } from "./constants";
+
 export type FibPhase =
   | "writing" // players writing lies
   | "spotting" // players picking the truth
@@ -44,7 +46,7 @@ export interface FibQuestionState {
 
 export interface FibSettings {
   totalQuestions: number;
-  category: string;
+  category: CategoryName;
   lieTimeSec: number;
   spotTimeSec: number;
   familyFriendly: boolean;
@@ -118,6 +120,7 @@ export interface PublicFibState {
   totalQuestions: number;
   phaseEndsAt: number;
   isFinalQuestion: boolean;
+  factId: string; // echoed back on fib:submitLie to guard against stale submits
   promptText: string; // with the blank marker
   truthText: string | null; // null until reveal
   options: PublicFibOption[]; // empty during writing

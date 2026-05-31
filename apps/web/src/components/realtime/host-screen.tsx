@@ -12,6 +12,7 @@ import { HostFinal } from "./host-final";
 import { PausedScreen } from "./paused-screen";
 import { ErrorToaster } from "./error-toaster";
 import { HostQuip } from "./quip/host-quip";
+import { HostFib } from "./fib/host-fib";
 
 export function HostScreen({ code, origin }: { code: string; origin: string }) {
   const room = useGameStore((s) => s.room);
@@ -41,7 +42,7 @@ export function HostScreen({ code, origin }: { code: string; origin: string }) {
       view = <HostLeaderboard room={room} />;
       break;
     case "playing":
-      view = <HostQuip room={room} />;
+      view = room.gameId === "fib" ? <HostFib room={room} /> : <HostQuip room={room} />;
       break;
     case "final":
       view = <HostFinal room={room} />;

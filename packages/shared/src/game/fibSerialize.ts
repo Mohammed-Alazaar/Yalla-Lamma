@@ -39,6 +39,7 @@ export function toPublicFibState(room: RoomState, viewerId?: string): PublicFibS
     totalQuestions: f.totalQuestions,
     phaseEndsAt: f.phaseEndsAt,
     isFinalQuestion: f.questionIndex >= f.totalQuestions - 1,
+    factId: cur.factId,
     promptText: cur.promptText,
     truthText: revealed ? cur.truthText : null,
     options,
