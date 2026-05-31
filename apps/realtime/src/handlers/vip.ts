@@ -1,8 +1,10 @@
 import {
   ERROR_CODES,
+  FIB_MIN_PLAYERS,
   MIN_PLAYERS_TO_START,
   QUIP_MIN_PLAYERS,
   selectQuestions,
+  vipConfigureFibSchema,
   vipConfigureQuipSchema,
   vipConfigureSchema,
   vipSelectGameSchema,
@@ -15,6 +17,8 @@ import { startGame, resetForReplay } from "../game/engine";
 import { advancePhase, clearRoomTimer, scheduleNext } from "../game/flow";
 import { initQuip } from "../games/quip/engine";
 import { advanceQuip, scheduleNextQuip } from "../games/quip/flow";
+import { initFib } from "../games/fib/engine";
+import { advanceFib, scheduleNextFib } from "../games/fib/flow";
 
 /** VIP updates game settings in the lobby (PRD LOB-3). */
 export async function handleVipConfigure(
@@ -167,6 +171,45 @@ export async function handleVipConfigureQuip(
   broadcastState(io, result.room);
 }
 
+/** VIP configures FibParty settings in the lobby (FSET-1..5). */
+export async function handleVipConfigureFib(
+  io: AppServer,
+  socket: AppSocket,
+  payload: unknown,
+): Promise<void> {
+  const data = parsePayload(socket, vipConfigureFibSchema, payload);
+  if (!data) return;
+
+  const code = socket.data.roomCode;
+  if (!code || socket.data.role !== "player") {
+    emitError(socket, ERROR_CODES.NOT_VIP, "Only the VIP can configure the game");
+    return;
+  }
+
+  const result = await withRoomLock(code, async () => {
+    const room = await store.get(code);
+    if (!room) {
+      return { ok: false, code: ERROR_CODES.ROOM_NOT_FOUND, message: "Room not found" } as const;
+    }
+    if (room.vipPlayerId !== socket.data.playerId) {
+      return { ok: false, code: ERROR_CODES.NOT_VIP, message: "Only the VIP can configure the game" } as const;
+    }
+    if (room.phase !== "lobby") {
+      return { ok: false, code: ERROR_CODES.WRONG_PHASE, message: "Game already started" } as const;
+    }
+    room.fibSettings = { ...data };
+    room.lastActivityAt = Date.now();
+    await store.save(room);
+    return { ok: true, room } as const;
+  });
+
+  if (!result.ok) {
+    emitError(socket, result.code, result.message);
+    return;
+  }
+  broadcastState(io, result.room);
+}
+
 /** VIP starts the game (PRD LOB-4): select questions, open the first one. */
 export async function handleVipStart(io: AppServer, socket: AppSocket): Promise<void> {
   const code = socket.data.roomCode;
@@ -218,6 +261,30 @@ export async function handleVipStart(io: AppServer, socket: AppSocket): Promise<
       return { ok: true, room, game: "quip" } as const;
     }
 
+    // ── FibParty ───────────────────────────────────────────────────────────
+    if (room.gameId === "fib") {
+      if (playerCount < FIB_MIN_PLAYERS) {
+        return {
+          ok: false,
+          code: ERROR_CODES.NOT_ENOUGH_PLAYERS,
+          message: `FibParty needs at least ${FIB_MIN_PLAYERS} players`,
+        } as const;
+      }
+      const pool = await db.loadFactPool(
+        room.settings.locale,
+        room.fibSettings.category,
+        room.fibSettings.familyFriendly,
+      );
+      const facts = db.selectFacts(pool, room.fibSettings.totalQuestions);
+      if (facts.length === 0) {
+        return { ok: false, code: ERROR_CODES.INTERNAL, message: "No facts available" } as const;
+      }
+      initFib(room, { ...room.fibSettings }, facts, Date.now());
+      room.lastActivityAt = Date.now();
+      await store.save(room);
+      return { ok: true, room, game: "fib" } as const;
+    }
+
     // ── Trivia ─────────────────────────────────────────────────────────────
     if (playerCount < MIN_PLAYERS_TO_START) {
       return {
@@ -250,6 +317,7 @@ export async function handleVipStart(io: AppServer, socket: AppSocket): Promise<
   }
   broadcastState(io, result.room);
   if (result.game === "quip") scheduleNextQuip(io, result.room);
+  else if (result.game === "fib") scheduleNextFib(io, result.room);
   else scheduleNext(io, result.room);
 }
 
@@ -261,7 +329,8 @@ export async function handleVipNext(io: AppServer, socket: AppSocket): Promise<v
     return;
   }
   const room = await store.get(code);
-  const advance = room?.gameId === "quip" ? advanceQuip : advancePhase;
+  const advance =
+    room?.gameId === "quip" ? advanceQuip : room?.gameId === "fib" ? advanceFib : advancePhase;
   await advance(io, code, {
     requireVip: socket.data.playerId,
     onError: (errCode, message) => emitError(socket, errCode, message),

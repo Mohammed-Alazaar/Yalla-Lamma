@@ -5,6 +5,7 @@ import { handleHostRejoin, handlePlayerRejoin } from "./rejoin";
 import {
   handleVipChangeGame,
   handleVipConfigure,
+  handleVipConfigureFib,
   handleVipConfigureQuip,
   handleVipNext,
   handleVipPlayAgain,
@@ -14,6 +15,7 @@ import {
 import { handlePlayerAnswer } from "./answer";
 import { handleHostKick, handleHostLock } from "./moderation";
 import { handleHostSkipAnswer, handleQuipSubmitAnswer, handleQuipVote } from "./quip";
+import { handleFibPick, handleFibSubmitLie, handleHostSkipOption } from "./fib";
 import { handleDisconnect } from "./disconnect";
 
 /** Wire all event handlers for a freshly connected socket. */
@@ -39,6 +41,9 @@ export function registerHandlers(io: AppServer, socket: AppSocket): void {
   socket.on("vip:configureQuip", (payload) => {
     void handleVipConfigureQuip(io, socket, payload);
   });
+  socket.on("vip:configureFib", (payload) => {
+    void handleVipConfigureFib(io, socket, payload);
+  });
   socket.on("vip:start", () => {
     void handleVipStart(io, socket);
   });
@@ -62,6 +67,15 @@ export function registerHandlers(io: AppServer, socket: AppSocket): void {
   });
   socket.on("host:skipAnswer", (payload) => {
     void handleHostSkipAnswer(io, socket, payload);
+  });
+  socket.on("fib:submitLie", (payload) => {
+    void handleFibSubmitLie(io, socket, payload);
+  });
+  socket.on("fib:pick", (payload) => {
+    void handleFibPick(io, socket, payload);
+  });
+  socket.on("host:skipOption", (payload) => {
+    void handleHostSkipOption(io, socket, payload);
   });
   socket.on("host:kick", (payload) => {
     void handleHostKick(io, socket, payload);

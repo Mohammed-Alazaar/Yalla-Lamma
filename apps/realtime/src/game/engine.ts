@@ -131,7 +131,8 @@ export function resetForReplay(room: RoomState): void {
   room.currentIndex = 0;
   room.currentQuestionStartedAt = 0;
   room.answers = {};
-  room.quip = null; // clear quip state too; gameId is kept for "play again"
+  room.quip = null; // clear quip/fib state too; gameId is kept for "play again"
+  room.fib = null;
   for (const player of Object.values(room.players)) player.score = 0;
 }
 

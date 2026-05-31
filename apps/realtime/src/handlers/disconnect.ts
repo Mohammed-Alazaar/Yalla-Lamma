@@ -5,6 +5,11 @@ import { allConnectedAnswered } from "../game/engine";
 import { advancePhase, pauseForHostDisconnect } from "../game/flow";
 import { votingComplete, writingComplete } from "../games/quip/engine";
 import { advanceQuip } from "../games/quip/flow";
+import {
+  spottingComplete as fibSpottingComplete,
+  writingComplete as fibWritingComplete,
+} from "../games/fib/engine";
+import { advanceFib } from "../games/fib/flow";
 
 /**
  * Handle a dropped socket. Host drop → pause + grace countdown (RECON-4).
@@ -22,6 +27,7 @@ export async function handleDisconnect(io: AppServer, socket: AppSocket): Promis
 
   let triviaSeq: number | null = null;
   let quipSeq: number | null = null;
+  let fibSeq: number | null = null;
   await withRoomLock(code, async () => {
     const room = await store.get(code);
     if (!room) return;
@@ -37,6 +43,9 @@ export async function handleDisconnect(io: AppServer, socket: AppSocket): Promis
     if (room.gameId === "quip" && room.quip) {
       if (room.quip.phase === "writing" && writingComplete(room)) quipSeq = room.quip.seq;
       else if (room.quip.phase === "voting" && votingComplete(room)) quipSeq = room.quip.seq;
+    } else if (room.gameId === "fib" && room.fib) {
+      if (room.fib.phase === "writing" && fibWritingComplete(room)) fibSeq = room.fib.seq;
+      else if (room.fib.phase === "spotting" && fibSpottingComplete(room)) fibSeq = room.fib.seq;
     } else if (room.phase === "question" && allConnectedAnswered(room)) {
       triviaSeq = room.phaseSeq;
     }
@@ -44,4 +53,5 @@ export async function handleDisconnect(io: AppServer, socket: AppSocket): Promis
 
   if (triviaSeq !== null) await advancePhase(io, code, { expectedSeq: triviaSeq });
   if (quipSeq !== null) await advanceQuip(io, code, { expectedSeq: quipSeq });
+  if (fibSeq !== null) await advanceFib(io, code, { expectedSeq: fibSeq });
 }

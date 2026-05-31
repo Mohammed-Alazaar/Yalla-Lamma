@@ -144,6 +144,7 @@ export async function pauseForHostDisconnect(
     }
     room.phaseSeq += 1; // invalidate any pending auto-advance timer
     if (room.quip) room.quip.seq += 1; // invalidate quip timer too
+    if (room.fib) room.fib.seq += 1; // invalidate fib timer too
     clearRoomTimer(code);
     await store.save(room);
     broadcastState(io, room);
@@ -209,6 +210,11 @@ export function resumeFromPause(room: RoomState, now: number): void {
     // Preserve the remaining quip phase time.
     room.quip.phaseEndsAt += pausedMs;
     room.quip.seq += 1;
+  }
+  if (resumed === "playing" && room.fib) {
+    // Preserve the remaining fib phase time.
+    room.fib.phaseEndsAt += pausedMs;
+    room.fib.seq += 1;
   }
   room.phaseSeq += 1;
 }
