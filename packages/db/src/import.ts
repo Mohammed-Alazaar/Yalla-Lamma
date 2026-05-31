@@ -155,6 +155,58 @@ export async function importPromptsFromFile(file: string, defaultLocale = "en"):
   return result.count;
 }
 
+interface FactRow {
+  text: string;
+  truth: string;
+  decoys: string[];
+  category: string;
+  difficulty: string;
+  familyFriendly: boolean;
+  locale: string;
+}
+
+/** Bulk-import FibParty facts from a JSON or CSV file (FB-3). Returns count. */
+export async function importFactsFromFile(file: string, defaultLocale = "en"): Promise<number> {
+  const raw = readFileSync(file, "utf8");
+  let rows: FactRow[];
+  if (file.endsWith(".csv")) {
+    const lines = raw.split(/\r?\n/).filter((l) => l.trim().length > 0);
+    const header = splitCsvLine(lines[0]!);
+    const col = (n: string) => header.indexOf(n);
+    const [ti, tri, di, cati, dffi, ffi, li] = [
+      col("text"), col("truth"), col("decoys"), col("category"),
+      col("difficulty"), col("familyFriendly"), col("locale"),
+    ];
+    rows = lines.slice(1).map((line) => {
+      const f = splitCsvLine(line);
+      return {
+        text: f[ti] ?? "",
+        truth: f[tri] ?? "",
+        decoys: (f[di] ?? "").split("|").map((d) => d.trim()).filter(Boolean),
+        category: f[cati] ?? "General",
+        difficulty: f[dffi] ?? "medium",
+        familyFriendly: (ffi >= 0 ? (f[ffi] ?? "true") : "true").toLowerCase() !== "false",
+        locale: (li >= 0 ? f[li] : "") || defaultLocale,
+      };
+    });
+  } else {
+    rows = (JSON.parse(raw) as Partial<FactRow>[]).map((r) => ({
+      text: String(r.text ?? "").trim(),
+      truth: String(r.truth ?? "").trim(),
+      decoys: Array.isArray(r.decoys) ? r.decoys.map((d) => String(d).trim()).filter(Boolean) : [],
+      category: r.category ?? "General",
+      difficulty: r.difficulty ?? "medium",
+      familyFriendly: r.familyFriendly !== false,
+      locale: r.locale ?? defaultLocale,
+    }));
+  }
+
+  const valid = rows.filter((r) => r.text.includes("___") && r.truth.length > 0);
+  const prisma = await getPrisma();
+  const result = await prisma.fact.createMany({ data: valid });
+  return result.count;
+}
+
 const invokedDirectly =
   process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
 

@@ -38,6 +38,21 @@ model Prompt {
   @@index([locale, familyFriendly])
 }
 
+/// FibParty fact bank (PRD-game3 §7.2 / FB-2).
+model Fact {
+  id             String   @id @default(cuid())
+  locale         String // "en", "ar", ...
+  text           String // includes a "___" blank marker
+  truth          String
+  decoys         String[] // 1-3 official decoy lies for small games
+  category       String
+  difficulty     String
+  familyFriendly Boolean  @default(true)
+  createdAt      DateTime @default(now())
+
+  @@index([locale, category, familyFriendly])
+}
+
 /// Completed-game stats (PRD §7.2).
 model CompletedGame {
   id          String   @id @default(cuid())

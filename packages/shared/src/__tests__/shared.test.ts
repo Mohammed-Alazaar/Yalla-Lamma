@@ -88,6 +88,8 @@ describe("toPublicRoomState redaction", () => {
       gameId: "trivia",
       quip: null,
       quipSettings: { totalRounds: 3, answerTimeSec: 90, voteTimeSec: 20, familyFriendly: true, audienceVoting: true },
+      fib: null,
+      fibSettings: { totalQuestions: 8, category: "General", lieTimeSec: 45, spotTimeSec: 30, familyFriendly: true },
       phase,
       prevPhase: null,
       phaseSeq: 1,

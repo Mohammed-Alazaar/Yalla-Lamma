@@ -13,6 +13,11 @@ import {
   QUIP_ROUNDS_OPTIONS,
   QUIP_VOTE_TIME_OPTIONS,
 } from "../game/quip";
+import {
+  FIB_LIE_TIME_OPTIONS,
+  FIB_QUESTIONS_OPTIONS,
+  FIB_SPOT_TIME_OPTIONS,
+} from "../game/fib";
 
 // ─── Primitives ─────────────────────────────────────────────────────────────
 
@@ -81,7 +86,7 @@ export const playerAnswerSchema = z.object({
 });
 export const hostKickSchema = z.object({ playerId: z.string().min(1) });
 export const hostLockSchema = z.object({ locked: z.boolean() });
-export const vipSelectGameSchema = z.object({ gameId: z.enum(["trivia", "quip"]) });
+export const vipSelectGameSchema = z.object({ gameId: z.enum(["trivia", "quip", "fib"]) });
 
 const inOptions = (opts: readonly number[], msg: string) =>
   z.number().int().refine((v) => opts.includes(v), msg);
@@ -107,6 +112,17 @@ export const quipVoteSchema = z.object({
 
 export const hostSkipAnswerSchema = z.object({ matchupIndex: z.number().int().min(0) });
 
+export const vipConfigureFibSchema = z.object({
+  totalQuestions: inOptions(FIB_QUESTIONS_OPTIONS, "Invalid question count"),
+  category: categorySchema,
+  lieTimeSec: inOptions(FIB_LIE_TIME_OPTIONS, "Invalid lie time"),
+  spotTimeSec: inOptions(FIB_SPOT_TIME_OPTIONS, "Invalid spot time"),
+  familyFriendly: z.boolean(),
+});
+
+export const fibPickSchema = z.object({ optionId: z.string().min(1) });
+export const hostSkipOptionSchema = z.object({ optionId: z.string().min(1) });
+
 export type HostCreatePayload = z.infer<typeof hostCreateSchema>;
 export type HostRejoinPayload = z.infer<typeof hostRejoinSchema>;
 export type PlayerJoinPayload = z.infer<typeof playerJoinSchema>;
@@ -120,6 +136,9 @@ export type VipConfigureQuipPayload = z.infer<typeof vipConfigureQuipSchema>;
 export type QuipSubmitAnswerPayload = z.infer<typeof quipSubmitAnswerSchema>;
 export type QuipVotePayload = z.infer<typeof quipVoteSchema>;
 export type HostSkipAnswerPayload = z.infer<typeof hostSkipAnswerSchema>;
+export type VipConfigureFibPayload = z.infer<typeof vipConfigureFibSchema>;
+export type FibPickPayload = z.infer<typeof fibPickSchema>;
+export type HostSkipOptionPayload = z.infer<typeof hostSkipOptionSchema>;
 
 // ─── Error codes (server → client `error` event) ─────────────────────────────
 

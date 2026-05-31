@@ -6,12 +6,15 @@ import type {
   HostLockPayload,
   HostRejoinPayload,
   HostSkipAnswerPayload,
+  HostSkipOptionPayload,
+  FibPickPayload,
   PlayerAnswerPayload,
   PlayerJoinPayload,
   PlayerRejoinPayload,
   QuipSubmitAnswerPayload,
   QuipVotePayload,
   VipConfigurePayload,
+  VipConfigureFibPayload,
   VipConfigureQuipPayload,
   VipSelectGamePayload,
 } from "./schemas";
@@ -36,6 +39,11 @@ export interface QuipAnswerRejectedPayload {
   reason: "profanity" | "tooLong" | "empty";
 }
 
+export interface FibLieRejectedPayload {
+  factId: string;
+  reason: "profanity" | "tooLong" | "empty" | "tooCloseToTruth";
+}
+
 /** Events the server emits to clients (PRD §8.2). */
 export interface ServerToClientEvents {
   state: (state: PublicRoomState) => void;
@@ -44,6 +52,7 @@ export interface ServerToClientEvents {
   "host:token": (payload: HostTokenPayload) => void;
   "player:session": (payload: PlayerSessionPayload) => void;
   "quip:answerRejected": (payload: QuipAnswerRejectedPayload) => void;
+  "fib:lieRejected": (payload: FibLieRejectedPayload) => void;
 }
 
 /** Events clients emit to the server (PRD §8.1). */
@@ -55,6 +64,7 @@ export interface ClientToServerEvents {
   "vip:selectGame": (payload: VipSelectGamePayload) => void;
   "vip:configure": (payload: VipConfigurePayload) => void;
   "vip:configureQuip": (payload: VipConfigureQuipPayload) => void;
+  "vip:configureFib": (payload: VipConfigureFibPayload) => void;
   "vip:start": () => void;
   "vip:next": () => void;
   "vip:playAgain": () => void;
@@ -62,9 +72,12 @@ export interface ClientToServerEvents {
   "player:answer": (payload: PlayerAnswerPayload) => void;
   "quip:submitAnswer": (payload: QuipSubmitAnswerPayload) => void;
   "quip:vote": (payload: QuipVotePayload) => void;
+  "fib:submitLie": (payload: { factId: string; text: string }) => void;
+  "fib:pick": (payload: FibPickPayload) => void;
   "host:kick": (payload: HostKickPayload) => void;
   "host:lock": (payload: HostLockPayload) => void;
   "host:skipAnswer": (payload: HostSkipAnswerPayload) => void;
+  "host:skipOption": (payload: HostSkipOptionPayload) => void;
 }
 
 /** Per-socket data attached server-side after auth/join. */

@@ -1,4 +1,5 @@
 import {
+  DEFAULT_FIB_SETTINGS,
   DEFAULT_QUIP_SETTINGS,
   ERROR_CODES,
   generateRoomCode,
@@ -38,6 +39,8 @@ export async function handleHostCreate(
       gameId: null,
       quip: null,
       quipSettings: { ...DEFAULT_QUIP_SETTINGS },
+      fib: null,
+      fibSettings: { ...DEFAULT_FIB_SETTINGS },
       phase: "lobby",
       prevPhase: null,
       phaseSeq: 0,

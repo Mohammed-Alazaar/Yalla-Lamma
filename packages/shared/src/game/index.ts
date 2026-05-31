@@ -8,3 +8,5 @@ export * from "./select";
 export * from "./scoring";
 export * from "./quip";
 export * from "./quipSerialize";
+export * from "./fib";
+export * from "./fibSerialize";

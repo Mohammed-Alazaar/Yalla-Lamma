@@ -6,6 +6,7 @@ import type {
   RoomState,
 } from "./types";
 import { toPublicQuipState } from "./quipSerialize";
+import { toPublicFibState } from "./fibSerialize";
 
 const ANSWER_REVEALED_PHASES = new Set(["reveal", "leaderboard", "final"]);
 
@@ -75,6 +76,8 @@ export function toPublicRoomState(room: RoomState, viewerId?: string): PublicRoo
     locked: room.locked,
     quip: toPublicQuipState(room, viewerId),
     quipSettings: room.quipSettings,
+    fib: toPublicFibState(room, viewerId),
+    fibSettings: room.fibSettings,
     question,
     questionStartedAt: room.phase === "question" ? room.currentQuestionStartedAt : null,
     answeredPlayerIds,

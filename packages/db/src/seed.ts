@@ -1,7 +1,7 @@
 import { resolve } from "node:path";
 import { config } from "dotenv";
 import { getPrisma } from "./client";
-import { importFromFile, importPromptsFromFile } from "./import";
+import { importFromFile, importPromptsFromFile, importFactsFromFile } from "./import";
 
 config({ path: resolve(process.cwd(), "../../.env"), quiet: true });
 config({ quiet: true });
@@ -35,6 +35,11 @@ async function main(): Promise<void> {
   const enP = await importPromptsFromFile(resolve(dir, "prompts.en.json"), "en");
   const arP = await importPromptsFromFile(resolve(dir, "prompts.ar.json"), "ar");
   console.log(`Seeded ${enP} English + ${arP} Arabic prompts.`);
+
+  // FibParty facts (FB-1).
+  await prisma.fact.deleteMany({});
+  const enF = await importFactsFromFile(resolve(dir, "facts.en.json"), "en");
+  console.log(`Seeded ${enF} English facts.`);
 }
 
 main()

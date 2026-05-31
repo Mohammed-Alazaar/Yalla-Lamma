@@ -2,11 +2,12 @@
 // ever receive a redacted `PublicRoomState` (see serialize.ts).
 
 import type { PublicQuipState, QuipSettings, QuipState } from "./quip";
+import type { FibSettings, FibState, PublicFibState } from "./fib";
 
 export type Locale = "en" | "ar";
 
 /** Games available on the platform. `null` while the VIP is in the picker. */
-export type GameId = "trivia" | "quip";
+export type GameId = "trivia" | "quip" | "fib";
 
 export type Phase =
   | "lobby"
@@ -70,6 +71,10 @@ export interface RoomState {
   quip: QuipState | null;
   /** VIP-chosen quip settings (lobby), copied into QuipState at start. */
   quipSettings: QuipSettings;
+  /** FibParty state when gameId === "fib" (null otherwise). */
+  fib: FibState | null;
+  /** VIP-chosen fib settings (lobby), copied into FibState at start. */
+  fibSettings: FibSettings;
   phase: Phase;
   prevPhase: Phase | null; // phase to resume after "paused"
   // Monotonic transition counter — guards stale auto-advance timers against
@@ -130,6 +135,10 @@ export interface PublicRoomState {
   quip: PublicQuipState | null;
   /** VIP-chosen quip settings (shown in the lobby settings panel). */
   quipSettings: QuipSettings;
+  /** FibParty public view when gameId === "fib". */
+  fib: PublicFibState | null;
+  /** VIP-chosen fib settings (shown in the lobby settings panel). */
+  fibSettings: FibSettings;
   /** Current question (text/choices); null in lobby/final. */
   question: PublicQuestion | null;
   /** Authoritative question start (epoch ms) for client-side countdown. */

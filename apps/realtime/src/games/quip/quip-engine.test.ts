@@ -46,6 +46,8 @@ function makeRoom(n: number): RoomState {
     gameId: "quip",
     quip: null,
     quipSettings: SETTINGS,
+    fib: null,
+    fibSettings: { totalQuestions: 8, category: "General", lieTimeSec: 45, spotTimeSec: 30, familyFriendly: true },
     phase: "lobby",
     prevPhase: null,
     phaseSeq: 0,

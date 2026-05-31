@@ -52,6 +52,8 @@ function makeRoom(overrides: Partial<RoomState> = {}): RoomState {
     gameId: "trivia",
     quip: null,
     quipSettings: { totalRounds: 3, answerTimeSec: 90, voteTimeSec: 20, familyFriendly: true, audienceVoting: true },
+    fib: null,
+    fibSettings: { totalQuestions: 8, category: "General", lieTimeSec: 45, spotTimeSec: 30, familyFriendly: true },
     phase: "lobby",
     prevPhase: null,
     phaseSeq: 0,
