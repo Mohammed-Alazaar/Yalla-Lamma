@@ -34,23 +34,32 @@ export async function loadFactPool(
   familyFriendlyOnly: boolean,
 ): Promise<Fact[]> {
   if (hasDatabase()) {
-    const prisma = await getPrisma();
-    const fetch = (loc: string) =>
-      prisma.fact.findMany({
-        where: { locale: loc, category, ...(familyFriendlyOnly ? { familyFriendly: true } : {}) },
-      });
-    let rows = await fetch(locale);
-    if (rows.length === 0 && locale !== "en") rows = await fetch("en");
-    return rows.map((r) => ({
-      id: r.id,
-      locale: r.locale,
-      text: r.text,
-      truth: r.truth,
-      decoys: r.decoys,
-      category: r.category,
-      difficulty: r.difficulty,
-      familyFriendly: r.familyFriendly,
-    }));
+    try {
+      const prisma = await getPrisma();
+      const fetch = (loc: string) =>
+        prisma.fact.findMany({
+          where: { locale: loc, category, ...(familyFriendlyOnly ? { familyFriendly: true } : {}) },
+        });
+      let rows = await fetch(locale);
+      if (rows.length === 0 && locale !== "en") rows = await fetch("en");
+      // DB reachable but the Fact table is empty (not seeded yet) → fall through
+      // to the bundled facts so FibParty is playable immediately on deploy.
+      if (rows.length > 0) {
+        return rows.map((r) => ({
+          id: r.id,
+          locale: r.locale,
+          text: r.text,
+          truth: r.truth,
+          decoys: r.decoys,
+          category: r.category,
+          difficulty: r.difficulty,
+          familyFriendly: r.familyFriendly,
+        }));
+      }
+    } catch (err) {
+      // The Fact table may not be migrated yet — fall back to bundled facts.
+      console.error("[facts] DB read failed; using bundled facts:", err);
+    }
   }
 
   const all = bundledFacts();
