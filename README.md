@@ -13,14 +13,18 @@ The VIP picks a game from the lobby:
   (General + Algeria/Palestine/Syria) and 5 categories, English + Arabic.
 - **QuipParty** — everyone writes a funny answer to a prompt on their phone,
   then votes head-to-head on the shared screen; vote share scores the authors.
+- **FibParty** — everyone writes a believable lie to fill a fact's blank, then
+  spots the real truth among everyone's lies; you score for finding the truth
+  **and** for every player your lie fools (final question worth double).
 
-Both games share the same room/lobby/VIP/scoring/reconnection shell via a small
-game registry (`gameId` on the room; per-game logic under `apps/realtime/src/games/`).
+The three games share the same room/lobby/VIP/scoring/reconnection shell via a
+small game registry (`gameId` on the room; per-game logic under
+`apps/realtime/src/games/`).
 
 - **Server-authoritative**: phones send intents; the realtime server validates
   every payload with Zod, scores, and broadcasts a redacted room state.
 - **i18n + RTL** from day one via next-intl (`/en`, `/ar`), logical CSS only;
-  free-text quip answers render with `dir="auto"`.
+  free-text player answers (quip answers, fib lies) render with `dir="auto"`.
 - **Runs locally with zero infrastructure** — falls back to an in-memory room
   store and bundled question/prompt banks when Redis/Postgres aren't configured.
 
