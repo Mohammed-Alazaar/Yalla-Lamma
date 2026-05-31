@@ -101,11 +101,17 @@ function PlayerFibWriting({ q, self }: { q: PublicFibState; self: PublicPlayer |
 
 function PlayerFibSpotting({ q, self }: { q: PublicFibState; self: PublicPlayer | null }) {
   const t = useTranslations("fib");
-  const [picked, setPicked] = useState(false);
+  // Track the option we picked (not a bare boolean) so that if the host voids it,
+  // the lock self-heals from server state and we can re-pick. Derived in render —
+  // no effect needed.
+  const [pickedOptionId, setPickedOptionId] = useState<string | null>(null);
   const secs = useSecondsLeft(q.phaseEndsAt);
 
   if (!self) return null;
-  const hasPicked = picked || q.pickedPlayerIds.includes(self.id);
+  const serverPicked = q.pickedPlayerIds.includes(self.id);
+  const myPickLive =
+    pickedOptionId != null && q.options.some((o) => o.id === pickedOptionId && !o.voided);
+  const hasPicked = serverPicked || myPickLive;
 
   if (hasPicked) {
     return (
@@ -117,7 +123,7 @@ function PlayerFibSpotting({ q, self }: { q: PublicFibState; self: PublicPlayer 
   }
 
   function pick(optionId: string) {
-    setPicked(true);
+    setPickedOptionId(optionId);
     emitWhenReady("fib:pick", { optionId });
   }
 

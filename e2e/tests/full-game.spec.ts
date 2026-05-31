@@ -55,6 +55,53 @@ test("quip: three players write, vote, and reach the winner screen", async ({ br
   await expect(winner).toBeVisible();
 });
 
+test("fib: two players write lies, spot the truth, and reach the winner screen", async ({ browser }) => {
+  test.setTimeout(180_000);
+
+  const host = await browser.newPage();
+  await host.goto("/en");
+  await host.getByRole("button", { name: /create room/i }).click();
+  await host.waitForURL(/\/en\/host\/[A-Z]{4}/);
+  const code = host.url().match(/host\/([A-Z]{4})/)![1]!;
+
+  const ctxs = await Promise.all([0, 1].map(() => browser.newContext()));
+  const players = await Promise.all(ctxs.map((c) => c.newPage()));
+  await joinRoom(players[0]!, code, "Alice"); // VIP
+  await joinRoom(players[1]!, code, "Bob");
+  await expect(host.getByText("Bob")).toBeVisible();
+
+  // VIP: pick Fib → 5 questions → start.
+  const vip = players[0]!;
+  await vip.getByRole("button", { name: /fib/i }).click();
+  await vip.getByRole("button", { name: "5", exact: true }).click(); // 5 questions
+  await vip.getByRole("button", { name: /start game/i }).click();
+
+  // On each phone: write a lie when prompted, else pick an answer during
+  // spotting — robust across the writing/spotting/reveal/leaderboard cycle.
+  const winner = host.getByRole("heading", { name: /wins!|it's a tie!/i });
+  const deadline = Date.now() + 160_000;
+  while (Date.now() < deadline) {
+    if (await winner.isVisible().catch(() => false)) break;
+    for (let i = 0; i < players.length; i++) {
+      const p = players[i]!;
+      const lieBox = p.getByPlaceholder(/lie/i);
+      if (await lieBox.isVisible().catch(() => false)) {
+        await lieBox.fill(`fib ${i}-${Date.now()}`);
+        await p.getByRole("button", { name: /submit/i }).click().catch(() => {});
+        continue;
+      }
+      // Spotting: pick the first enabled option (a player can't pick their own lie).
+      const options = p.locator("main button:not([disabled])");
+      if ((await options.count().catch(() => 0)) > 0) {
+        await options.first().click({ timeout: 1500 }).catch(() => {});
+      }
+    }
+    await host.waitForTimeout(700);
+  }
+
+  await expect(winner).toBeVisible();
+});
+
 test("a player can join straight from the room link (the QR target)", async ({ browser }) => {
   const host = await browser.newPage();
   await host.goto("/en");

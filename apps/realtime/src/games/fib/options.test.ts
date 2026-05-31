@@ -38,6 +38,21 @@ describe("assembleOptions", () => {
     expect(decoyTexts).toEqual(["Fresh"]);
   });
 
+  test("an auto-filled submission becomes an authorless decoy (no fooling credit)", () => {
+    const opts = assembleOptions(
+      "Truth",
+      ["D1"],
+      { a: "Berlin", b: "Madrid" },
+      new Set(["b"]), // b was auto-filled on timeout
+    );
+    const berlin = opts.find((o) => o.text === "Berlin")!;
+    const madrid = opts.find((o) => o.text === "Madrid")!;
+    expect(berlin.source).toBe("player");
+    expect(berlin.authorIds).toEqual(["a"]);
+    expect(madrid.source).toBe("decoy"); // auto-filled → decoy, no author
+    expect(madrid.authorIds).toEqual([]);
+  });
+
   test("every option appears exactly once with a unique id (no drops/dupes)", () => {
     const opts = assembleOptions("Truth", ["D1", "D2"], { a: "A", b: "B", c: "C" });
     const ids = opts.map((o) => o.id);

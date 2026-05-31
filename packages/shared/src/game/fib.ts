@@ -38,6 +38,7 @@ export interface FibQuestionState {
   promptText: string; // contains the blank marker
   truthText: string;
   lies: Record<string, string>; // playerId -> their submitted lie (sanitized)
+  autoFilledIds: string[]; // players given a decoy on timeout — no fooling credit (FLIE-6)
   options: FibAnswerOption[]; // assembled, shuffled list
   picks: Record<string, string>; // playerId -> chosen option id
   pickStartedAt: number; // epoch ms — speed scoring

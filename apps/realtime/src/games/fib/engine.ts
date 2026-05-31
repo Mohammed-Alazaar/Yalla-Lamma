@@ -33,6 +33,7 @@ function makeQuestion(fact: Fact): FibQuestionState {
     promptText: fact.text,
     truthText: fact.truth,
     lies: {},
+    autoFilledIds: [],
     options: [],
     picks: {},
     pickStartedAt: 0,
@@ -91,7 +92,11 @@ export function writingComplete(room: RoomState): boolean {
   return connected.every((id) => room.fib!.current.lies[id] !== undefined);
 }
 
-/** Give a random unused decoy to any player who didn't submit a lie (FLIE-6). */
+/**
+ * Give a random unused decoy to any connected player who didn't submit a lie
+ * (FLIE-6). Recorded in autoFilledIds so the option is treated as a decoy (no
+ * fooling credit) — a no-show shouldn't earn points for text they never wrote.
+ */
 export function fillDecoyLies(room: RoomState): void {
   const f = fib(room);
   const fact = currentFact(room);
@@ -99,10 +104,14 @@ export function fillDecoyLies(room: RoomState): void {
   for (const lie of Object.values(f.current.lies)) used.add(normalizeAnswer(lie));
   const available = fact.decoys.filter((d) => !used.has(normalizeAnswer(d)));
   let di = 0;
-  for (const id of Object.keys(room.players)) {
-    if (f.current.lies[id] !== undefined) continue;
+  for (const player of Object.values(room.players)) {
+    if (!player.connected) continue; // a gone player adds nothing to the list
+    if (f.current.lies[player.id] !== undefined) continue;
     const decoy = available[di++];
-    if (decoy) f.current.lies[id] = decoy;
+    if (decoy) {
+      f.current.lies[player.id] = decoy;
+      f.current.autoFilledIds.push(player.id);
+    }
   }
 }
 
@@ -111,7 +120,12 @@ export function startSpotting(room: RoomState, now: number): void {
   const f = fib(room);
   fillDecoyLies(room);
   const fact = currentFact(room);
-  f.current.options = assembleOptions(fact.truth, fact.decoys, f.current.lies);
+  f.current.options = assembleOptions(
+    fact.truth,
+    fact.decoys,
+    f.current.lies,
+    new Set(f.current.autoFilledIds),
+  );
   f.current.picks = {};
   f.current.pickStartedAt = now;
   f.phase = "spotting";

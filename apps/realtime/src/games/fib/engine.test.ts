@@ -80,6 +80,7 @@ function makeRoom(playerIds: string[], settings = SETTINGS): RoomState {
         promptText: FACTS[0]!.text,
         truthText: FACTS[0]!.truth,
         lies: {},
+        autoFilledIds: [],
         options: [],
         picks: {},
         pickStartedAt: 0,
@@ -183,6 +184,25 @@ describe("fib engine — scoring", () => {
     // Both a and b are credited for c's single pick on their shared lie.
     expect(room.players.a!.score).toBe(FIB_FOOL_POINTS);
     expect(room.players.b!.score).toBe(FIB_FOOL_POINTS);
+  });
+
+  test("a no-show's auto-assigned decoy earns no fooling points (P1-1)", () => {
+    const room = makeRoom(["a", "b", "c"]);
+    recordLie(room, "a", "f1", "Mars");
+    recordLie(room, "b", "f1", "Venus");
+    // c never submits → fillDecoyLies assigns them a decoy as a decoy option.
+    startSpotting(room, 0);
+    expect(room.fib!.current.autoFilledIds).toContain("c");
+    const cText = room.fib!.current.lies.c!;
+    const cOption = room.fib!.current.options.find((o) => o.text === cText)!;
+    expect(cOption.source).toBe("decoy");
+    expect(cOption.authorIds).toEqual([]);
+    // a & b pick c's decoy; c should earn nothing for it.
+    recordPick(room, "a", cOption.id);
+    recordPick(room, "b", cOption.id);
+    recordPick(room, "c", optByText(room, "Jupiter"));
+    revealQuestion(room);
+    expect(room.players.c!.score).toBe(FIB_TRUTH_POINTS); // only their own truth find
   });
 
   test("the final question doubles both truth and fool points", () => {

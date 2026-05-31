@@ -3,8 +3,8 @@ import type { AppServer, AppSocket } from "./types";
 
 /** Broadcast the redacted room state to everyone in the room (PRD §5.4). */
 export function broadcastState(io: AppServer, room: RoomState): void {
-  // During quip voting/reveal and fib writing/spotting/reveal, authorship and the
-  // own-lie marker are per-viewer (blind voting), so send each socket its own
+  // During quip voting/reveal and fib spotting/reveal, authorship, the own-lie
+  // marker, and per-viewer results are blind, so send each socket its own
   // redacted view. Otherwise a single shared payload is fine.
   const perViewer =
     (room.gameId === "quip" &&
@@ -12,9 +12,7 @@ export function broadcastState(io: AppServer, room: RoomState): void {
       (room.quip.phase === "voting" || room.quip.phase === "reveal")) ||
     (room.gameId === "fib" &&
       room.fib != null &&
-      (room.fib.phase === "writing" ||
-        room.fib.phase === "spotting" ||
-        room.fib.phase === "reveal"));
+      (room.fib.phase === "spotting" || room.fib.phase === "reveal"));
 
   if (perViewer) {
     void io

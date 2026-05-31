@@ -139,6 +139,7 @@ export async function handleHostSkipOption(
     return;
   }
 
+  let earlyEndSeq: number | null = null;
   const ok = await withRoomLock(code, async () => {
     const room = await store.get(code);
     if (!room || room.gameId !== "fib" || !room.fib) return null;
@@ -149,15 +150,19 @@ export async function handleHostSkipOption(
     const opt = room.fib.current.options.find((o) => o.id === data.optionId);
     if (!opt || opt.source === "truth") return null;
     opt.voided = true;
-    // Drop any picks already cast on the voided option so they don't score.
+    // Drop any picks already cast on the voided option so they don't score;
+    // those players can re-pick (the client unlocks from server state).
     for (const [pid, optId] of Object.entries(room.fib.current.picks)) {
       if (optId === data.optionId) delete room.fib.current.picks[pid];
     }
     room.lastActivityAt = Date.now();
     await store.save(room);
+    // If no dropped pick re-opened the round, everyone may already be done.
+    if (spottingComplete(room)) earlyEndSeq = room.fib.seq;
     return room;
   });
 
   if (!ok) return;
   broadcastState(io, ok);
+  if (earlyEndSeq !== null) await advanceFib(io, code, { expectedSeq: earlyEndSeq });
 }
